@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Decision-Support Visualisation Service"
+    id="id-e426c30e421d4c38a21826f7b9c853f0"
+    documentation="The power of visualisation in a digital twin lies in its ability to transform data into understandable, interactive, and usable images that provide insight, detect problems, improve communication, and contribute to better decision-making and performance. Visualisation can be done in many ways: 2D (flat top view), 3D (to better visualise and analyse complex spatial data in a way that traditional 2D maps cannot). Glasses that project images overlapping with reality can also be used. Images can be static (current view of a situation) or very dynamic (interactive map where you can turn knobs to change indicators and immediately see the associated policy effects), contain many details and be realistic or not. The choice of visualisations depends on the nature of the data and the purpose of the digital twin. By combining different visualisation techniques, users can get a more complete picture of a system, understand processes, and make better decisions."/>

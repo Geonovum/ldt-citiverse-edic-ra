@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 6: Data Platform"
+    id="id-tool-data-plat"
+    documentation="Allows the municipalities to connect their digital twins with their databases and sensors, integrating data in standard formats and giving it context."/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R18 -  accessibility"
+    id="id-0402b3bed164459e938fc2575959b573"
+    documentation="All tools and sites of the EU LDT Toolbox should comply with accessibility guidelines for people with disabilities with a minimum of a WCAG 2.1 A level using WAI-Aria."/>

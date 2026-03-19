@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Real-time Urban Response"
+    id="id-dfafdfd804eb464bb047c7b5a7ea5840"
+    documentation="Some Digital Twins are capable of processing (measurement) data in real-time, monitoring (to see if policy also has the desired effect in the policy cycle), and optionally reacting to changes. This requires computational rules (algorithms) that can quickly analyse data and take action based on results. Measurements are stored, so that in the future they can be used to make a statement about a series from the past to possibly observe a trend in indicators."/>

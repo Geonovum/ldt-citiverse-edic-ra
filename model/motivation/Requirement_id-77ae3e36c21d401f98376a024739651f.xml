@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R14 - preferences"
+    id="id-77ae3e36c21d401f98376a024739651f"
+    documentation="All tools and sites of the EU LDT Toolbox should remember the user UI preferences and customizations."/>

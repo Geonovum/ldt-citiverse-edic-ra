@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Visualisatie service"
+    id="id-94636ae7d21a4620bfe52a9a85e705a0">
+  <properties
+      key="Name (en)"
+      value="Visualisation Service"/>
+</archimate:ApplicationService>

@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bouwblok"
+    id="id-a29f356d1ea2488b8985bf4d4dc38a5a"
+    documentation="Groepering van Archimate elementen die samen een logisch samenhangend geheel beschrijven. We onderscheiden vier soorten bouwblokken in de NLDT: Fundament, Data, Visualisatie, Rekenmodules.">
+  <properties
+      key="Name (en)"
+      value="Building Block"/>
+</archimate:Grouping>

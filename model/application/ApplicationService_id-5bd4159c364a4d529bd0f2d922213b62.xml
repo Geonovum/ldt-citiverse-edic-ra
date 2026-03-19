@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authenticatie service"
+    id="id-5bd4159c364a4d529bd0f2d922213b62">
+  <properties
+      key="Name (en)"
+      value="Authentication Service"/>
+</archimate:ApplicationService>

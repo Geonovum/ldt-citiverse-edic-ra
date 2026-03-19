@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Privacy-Preserving Synthetic Data"
+    id="id-31afbce1a34045e4a265f9f690f7637b"
+    documentation="Generates high-quality simulated data for testing scenarios without exposing sensitive real-world behavior"/>

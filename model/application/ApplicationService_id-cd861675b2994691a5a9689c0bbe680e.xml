@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Datamanagementservice"
+    id="id-cd861675b2994691a5a9689c0bbe680e">
+  <properties
+      key="Name (en)"
+      value="Datamanagementservice"/>
+</archimate:ApplicationService>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 10: Federated Learning"
+    id="id-tool-federated"
+    documentation="Allows the developers to train new models in a federated environment."/>

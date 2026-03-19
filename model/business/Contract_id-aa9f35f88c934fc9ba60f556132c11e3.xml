@@ -1,0 +1,11 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;Kader / Randvoorwaarde>"
+    id="id-aa9f35f88c934fc9ba60f556132c11e3"
+    documentation="Een contract (kader/randvoorwaarde) is een formele of informele specificatie van een overeenkomst die de rechten en plichten vastlegt die verbondenzijn aan een product. (novius definitie)">
+  <properties
+      key="Name (en)"
+      value="&lt;Constraint>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:Contract>

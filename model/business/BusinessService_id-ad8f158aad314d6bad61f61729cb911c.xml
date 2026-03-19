@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Urban Policy Layering"
+    id="id-ad8f158aad314d6bad61f61729cb911c"
+    documentation="To visualise the physical living environment, data is layered on top of each other in a graphical environment. The data from the layers come from various registers and often represent policy choices or legal standards, and the sliders are the different policy ambitions in relation to the standards for, for example, noise or public green spaces. The layers can be controlled with sliders, so that interests can be balanced and fairly proportional to each other.&#xD;&#xA;"/>

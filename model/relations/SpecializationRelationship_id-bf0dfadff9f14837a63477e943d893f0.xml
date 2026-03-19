@@ -1,0 +1,11 @@
+<archimate:SpecializationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-bf0dfadff9f14837a63477e943d893f0">
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-cap-tef.xml#id-cap-tef"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-cap-comp.xml#id-cap-comp"/>
+</archimate:SpecializationRelationship>

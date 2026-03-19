@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Processing Service"
+    id="id-8d1e478ead794bbb90046d7c19dbbf34">
+  <properties
+      key="Name (en)"
+      value="Processing Service"/>
+</archimate:ApplicationService>

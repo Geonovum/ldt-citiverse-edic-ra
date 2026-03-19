@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Orkestratie service"
+    id="id-78bbc4fa322944bc83c01c0313bb40d1">
+  <properties
+      key="Name (en)"
+      value="Orchestration Service"/>
+</archimate:ApplicationService>

@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verified Data Assurance"
+    id="id-55a137d56e7141f3beda462df10be1c4"
+    documentation="A Digital Twin stands (or falls) with the accurate representation (according to agreements and rules) of reality. All data and information that feed the digital twin are tested against agreed quality requirements. Errors are not to be avoided and user expectations are set accordingly. Trust is also obtained through formal agreements and frameworks. For example, the user must identify themselves in the system (Identity &amp; Access Management), confidential data is exchanged (data spaces), logging is performed, and APIs are managed (via gateway functionality)."/>

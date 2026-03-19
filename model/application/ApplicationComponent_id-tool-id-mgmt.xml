@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 5: Identity Management"
+    id="id-tool-id-mgmt"
+    documentation="Allows the municipalities to manage the roles and permissions that users and applications have within all the other tools of the toolbox."/>

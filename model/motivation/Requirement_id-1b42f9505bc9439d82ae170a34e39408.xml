@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R28 -  load balancing"
+    id="id-1b42f9505bc9439d82ae170a34e39408"
+    documentation="All tools and sites of the EU LDT Toolbox should support configuration for load balancing configuration between instances of services when overloaded."/>

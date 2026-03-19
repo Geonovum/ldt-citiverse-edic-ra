@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R25 -  monitoring"
+    id="id-8983e4a4a9504f9792401deb53d404db"
+    documentation="All tools and sites of the EU LDT Toolbox should support load balancing and monitoring using Istio."/>

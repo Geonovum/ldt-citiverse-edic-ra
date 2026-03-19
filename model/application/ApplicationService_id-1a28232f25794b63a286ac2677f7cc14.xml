@@ -1,0 +1,11 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;Applicatie dienst>"
+    id="id-1a28232f25794b63a286ac2677f7cc14"
+    documentation="Een applicatiedienst is een service die geboden wordt door een applicatiefunctie (of de invulling daarvan in de vorm van een applicatiecomponent). (novius definitie)">
+  <properties
+      key="Name (en)"
+      value="&lt;Application Service>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:ApplicationService>

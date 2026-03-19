@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R29 - resilience"
+    id="id-13c96f1cac584bdfaae1543a422b4fee"
+    documentation="All tools and sites of the EU LDT Toolbox HTTP connections should use resilience pipelines (Retry, Circuit Breaker, Timeout, Rate Limiter, and Fallback)."/>

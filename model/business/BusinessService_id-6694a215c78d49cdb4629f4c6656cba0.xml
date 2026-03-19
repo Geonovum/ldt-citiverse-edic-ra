@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Policy Audit &amp; Reproducibility"
+    id="id-6694a215c78d49cdb4629f4c6656cba0"
+    documentation="Every policy decision (at a specific time) that is made using a digital twin must be reproducible at a later time. So the state that the Digital Twin has at a certain moment must be recallable, including the value of the indicators on which the decision was made. The reproducibility of the circumstances in which a policy decision is made, by means of a Digital Twin, is very important:&#xD;&#xA;In a constitutional state, decisions are made based on a legal framework and linked indicators, and&#xD;&#xA;The Digital Twin is truly seen as a policy instrument and that it can be trusted and helps in efficiency."/>

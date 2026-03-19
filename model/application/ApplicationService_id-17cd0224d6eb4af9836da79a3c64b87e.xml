@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AR/VR Visualisatie service"
+    id="id-17cd0224d6eb4af9836da79a3c64b87e">
+  <properties
+      key="Name (en)"
+      value="AR/VR Visualisation Service"/>
+</archimate:ApplicationService>

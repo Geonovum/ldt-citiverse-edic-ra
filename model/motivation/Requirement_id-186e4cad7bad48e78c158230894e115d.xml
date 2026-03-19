@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R9 - EU Login"
+    id="id-186e4cad7bad48e78c158230894e115d"
+    documentation="All sites of the EU LDT Toolbox should centralize their authentication and authorisation on the EU Login."/>

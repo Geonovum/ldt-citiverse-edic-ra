@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R30 - scalability"
+    id="id-7a19d9640f284cf49bfc880fba1d7079"
+    documentation="All tools and sites of the EU LDT Toolbox should support horizontal and vertical scalability."/>

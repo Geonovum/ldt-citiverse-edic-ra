@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R12 - PII"
+    id="id-c834930338cc4dde887ba02d6305627e"
+    documentation="All tools and sites of the EU LDT Toolbox should support cryptographic mechanisms to anonymize data for concealing Personally Identifiable Information (PII)."/>

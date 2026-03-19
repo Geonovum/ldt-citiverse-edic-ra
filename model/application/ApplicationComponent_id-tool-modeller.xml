@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 9: Data Modeller"
+    id="id-tool-modeller"
+    documentation="Allows the developers to create synthetic data to simulate scenarios."/>

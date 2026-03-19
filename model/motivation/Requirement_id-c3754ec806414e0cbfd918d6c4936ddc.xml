@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R19 - GDPR-compliant"
+    id="id-c3754ec806414e0cbfd918d6c4936ddc"
+    documentation="All tools and sites of the EU LDT Toolbox should support integration with GDPR-compliant user behaviour tracking and analysis tools."/>

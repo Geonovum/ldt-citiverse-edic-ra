@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R22 - distributed infrastructure"
+    id="id-8df18c8e56244ef59441f3c905dc74c0"
+    documentation="All tools and sites of the EU LDT Toolbox must be deployable in a distributed infrastructure using Kubernetes."/>

@@ -1,0 +1,64 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Shared Infrastructure Content"
+    id="id-7312009ffed045168d03f6c2bf8c63a3"
+    documentation="Definition: Shared Infrastructure Content ABB is a Grouping setting infrastructure (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability.&#xA;&#xA;Source: Joinup&#xA;&#xA;Source reference: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/shared-infrastructure&#xA;&#xD;&#xA;Example: The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): ISO 19941 Cloud Computing Interoperability and Portability – This specification focuses on cloud computing interoperability and portability types, the relationship, and interactions between these two cross-cutting aspects of cloud computing and common terminology and concepts used to discuss interoperability and portability, particularly relating to cloud services.&#xD;&#xA;(https://www.iso.org/standard/66639.html)&#xD;&#xA;&#xA;Last modification: 2024-01-08&#xA;&#xA;Identifier: http://data.europa.eu/dr8/SharedInfrastructureContentGrouping&#xA;&#xA;LOST view: Technical view - infrastructure&#xA;&#xA;EIRA concept: eira:ArchitectureBuildingBlock&#xA;&#xA;ABB name: eira:SharedInfrastructureContentGrouping&#xA;&#xA;Interoperability Saliency: Shared Infrastructure Content ABB is a key interoperability enabler (*) for structural, behavioural and governance interoperability. This ABB is salient for infrastructure interoperability with public policy goals convergence value by enabling i) determines the tools and services that can be used by stakeholders ii) determines other digital services to interconnect services and data, and iii) establish security standards compliance to deliver such public services.&#xA;&#xA;Interoperability Dimension: Structural IoP&#xA;&#xA;Viewpoint: Highlevel viewpoint&#xA;&#xA;Additional identifier: http://data.europa.eu/dr8/SharedInfrastructureContentGrouping&#xA;&#xA;EIF Layer: TechnicalInfrastructure&#xA;&#xA;">
+  <properties
+      key="eira:PURI"
+      value="http://data.europa.eu/dr8/SharedInfrastructureContentGrouping"/>
+  <properties
+      key="dct:type"
+      value="eira:SharedInfrastructureContentGrouping"/>
+  <properties
+      key="dct:modified"
+      value="2024-01-28"/>
+  <properties
+      key="skos:definition"
+      value="Shared Infrastructure Content ABB is a Grouping setting infrastructure (re)usable resources, with convergence power, in relation to public policy goals attainment, enabling to reuse and share IT resources to support technical aspects for the infrastructure of interoperable Digital Public Services. It provides a unified IT environment encompassing hardware, software, and processes, promoting secure and efficient resource utilization across multiple stakeholders. This shared infrastructure ensures data integrity, operational efficiency, and effective collaboration while maintaining strict data and operational separation for confidentiality and reliability."/>
+  <properties
+      key="eira:definitionSource"
+      value="Joinup"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/shared-infrastructure"/>
+  <properties
+      key="eira:synonym"/>
+  <properties
+      key="skos:example"
+      value="The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): ISO 19941 Cloud Computing Interoperability and Portability – This specification focuses on cloud computing interoperability and portability types, the relationship, and interactions between these two cross-cutting aspects of cloud computing and common terminology and concepts used to discuss interoperability and portability, particularly relating to cloud services. (https://www.iso.org/standard/66639.html)"/>
+  <properties
+      key="eira:iopSaliency"
+      value="Shared Infrastructure Content ABB is a key interoperability enabler (*) for structural, behavioural and governance interoperability. This ABB is salient for infrastructure interoperability with public policy goals convergence value by enabling i) determines the tools and services that can be used by stakeholders ii) determines other digital services to interconnect services and data, and iii) establish security standards compliance to deliver such public services."/>
+  <properties
+      key="skos:note"/>
+  <properties
+      key="eira:concept"
+      value="eira:ArchitectureBuildingBlock"/>
+  <properties
+      key="eira:iopDimension"
+      value="Structural IoP"/>
+  <properties
+      key="eira:iopDimension"
+      value="Behavioral IoP"/>
+  <properties
+      key="eira:view"
+      value="Technical view - infrastructure"/>
+  <properties
+      key="eira:viewpoint"
+      value="Highlevel viewpoint"/>
+  <properties
+      key="eira:viewpoint"
+      value="Key Interoperability Enablers viewpoint"/>
+  <properties
+      key="eira:view"
+      value="EIRA Ontology view"/>
+  <properties
+      key="eira:viewpoint"
+      value="Interoperable European Solution viewpoint"/>
+  <properties
+      key="dct:identifier"
+      value="http://data.europa.eu/dr8/SharedInfrastructureContentGrouping"/>
+  <properties
+      key="eira:eifLayer"
+      value="TechnicalInfrastructure"/>
+</archimate:Grouping>

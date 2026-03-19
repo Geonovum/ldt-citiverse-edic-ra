@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R3 - substitutable"
+    id="id-e6ee999d29074706a351b116379b05af"
+    documentation="Any tools of the EU LDT Toolbox should be substantiable for a different non-toolbox tool with the same functionality if they use the same standards."/>

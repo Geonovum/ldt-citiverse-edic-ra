@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Informationservice"
+    id="id-05ce8529a6d94e53b1ff8d907f0a217d">
+  <properties
+      key="Name (en)"
+      value="Informationservice"/>
+</archimate:ApplicationService>

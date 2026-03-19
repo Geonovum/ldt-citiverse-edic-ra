@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R26 - logging"
+    id="id-43144c646a434aec8d1ec1206839d0d0"
+    documentation="All tools and sites of the EU LDT Toolbox should provide quarriable logs of the actions performed by their users (identity, action, timestamp)."/>

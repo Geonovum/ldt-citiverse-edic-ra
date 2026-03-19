@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R11 - sandboxed"
+    id="id-b9cdbd9f8d6d4c51a25257e66695178d"
+    documentation="All tools and sites of the EU LDT Toolbox that enable to execute 3rd-party code should do so in a sandboxed environment to avoid creating remote code execution vulnerabilities."/>

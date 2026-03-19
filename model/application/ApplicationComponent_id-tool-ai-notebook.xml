@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 8: AI Notebook"
+    id="id-tool-ai-notebook"
+    documentation="Allows the developers to develop new algorithms and models for their digital twins."/>

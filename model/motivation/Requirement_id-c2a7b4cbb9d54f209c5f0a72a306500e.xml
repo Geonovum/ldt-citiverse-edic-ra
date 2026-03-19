@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R10 -  secure communication protocols"
+    id="id-c2a7b4cbb9d54f209c5f0a72a306500e"
+    documentation="All tools and sites of the EU LDT Toolbox should communicate only using secure communication protocols (HTTPS and TLS/SSL)."/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R21 - containerized"
+    id="id-a6d649e4c2484551b32f1af6528cda8c"
+    documentation="All tools and sites of the EU LDT Toolbox must be containerized using Docker."/>

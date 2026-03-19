@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R27 -  fault tolerance"
+    id="id-192cc9a722764ecaa34b05ef972f6c75"
+    documentation="All tools and sites of the EU LDT Toolbox should support configuration for auto-restarting instances of services when failing to improve fault tolerance."/>

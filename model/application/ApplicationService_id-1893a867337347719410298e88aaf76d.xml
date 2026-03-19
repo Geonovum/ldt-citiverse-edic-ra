@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Catalogus service "
+    id="id-1893a867337347719410298e88aaf76d">
+  <properties
+      key="Name (en)"
+      value="Catalog Service"/>
+</archimate:ApplicationService>

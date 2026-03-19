@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R7 - standard authentication, authorisation"
+    id="id-85eadc699c7c420990c180013de0c1f6"
+    documentation="All tools and sites of the EU LDT Toolbox should use industry standard authentication and authorisation protocols (OAuth 2.0, SAML 2.0, WS-Federation, OpenID Connect, and JWT)."/>

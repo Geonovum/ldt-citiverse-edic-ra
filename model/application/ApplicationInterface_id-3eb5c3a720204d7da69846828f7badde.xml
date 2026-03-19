@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OGC API Connected Systems"
+    id="id-3eb5c3a720204d7da69846828f7badde">
+  <properties
+      key="Name (en)"
+      value="OGC API Features"/>
+</archimate:ApplicationInterface>

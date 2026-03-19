@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OGC Sensorthings API"
+    id="id-4ec7540f66464758abde2fc824d3f775">
+  <properties
+      key="Name (en)"
+      value="OGC Sensorthings API"/>
+</archimate:ApplicationInterface>

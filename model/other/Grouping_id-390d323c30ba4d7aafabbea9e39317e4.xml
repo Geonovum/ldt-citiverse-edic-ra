@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EDIC Deliverables"
+    id="id-390d323c30ba4d7aafabbea9e39317e4"
+    documentation="Potential deliverables for implementation in communities">
+  <properties
+      key="Name (en)"
+      value="Testbed solution building blocks"/>
+</archimate:Grouping>

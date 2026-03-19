@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 3: Participate"
+    id="id-tool-participate"
+    documentation="Allows the municipalities to provide mechanisms to engage with their citizens to provide feedback on different scenarios."/>

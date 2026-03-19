@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contextual Indicator Discovery"
+    id="id-e654e1f1464a4bbeb85f058571b6bc4d"
+    documentation="In a Digital Twin, various types of data are brought together to create as accurate a representation as possible of the policy choices. Digital Twins must speak the language and use images that policy makers recognize – including normalizing and standardizing the indicators used. A Digital Twin also provides contextual information that helps users understand what the data represents, where it comes from, how it was collected and how it should be interpreted. This is especially important because Digital Twins often contain complex and diverse data sources. It is essential for the successful use of Digital Twins in various domains."/>

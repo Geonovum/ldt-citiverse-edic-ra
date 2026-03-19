@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R35 - Swagger"
+    id="id-b9eecd03302f47ab8a718e4f151c5e73"
+    documentation="All tools and sites of the EU LDT Toolbox must have their REST APIs documented using the OpenAPI specification with Swagger."/>

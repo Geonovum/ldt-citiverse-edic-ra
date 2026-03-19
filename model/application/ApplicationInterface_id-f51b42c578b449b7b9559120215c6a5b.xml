@@ -1,0 +1,9 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IDS - Catalog Protocol"
+    id="id-f51b42c578b449b7b9559120215c6a5b"
+    documentation="https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/catalog/catalog.protocol">
+  <properties
+      key="Name (en)"
+      value="IDS - Catalog Protocol"/>
+</archimate:ApplicationInterface>

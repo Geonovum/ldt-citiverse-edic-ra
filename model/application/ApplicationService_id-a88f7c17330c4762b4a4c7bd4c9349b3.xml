@@ -1,0 +1,8 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AI Service"
+    id="id-a88f7c17330c4762b4a4c7bd4c9349b3">
+  <properties
+      key="Name (en)"
+      value="AI Service"/>
+</archimate:ApplicationService>

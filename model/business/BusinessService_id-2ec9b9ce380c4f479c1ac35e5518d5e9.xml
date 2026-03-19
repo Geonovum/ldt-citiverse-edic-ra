@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Policy Indicator Calculation Service"
+    id="id-2ec9b9ce380c4f479c1ac35e5518d5e9"
+    documentation="Digital Twins can use computational models (e.g., heat stress, waterlogging, noise zones). These computational models can analyse data using techniques and algorithms. This makes patterns and trends visible. These computational analyses can be used to gain insight into behavior and make predictions about future situations. The outcome of Computational Models translates into indicators. Indicators are the link between the Digital Twin and Policy. Calculating is therefore an essential part of both policy and a Digital Twin."/>

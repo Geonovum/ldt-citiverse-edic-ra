@@ -1,0 +1,11 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;Standaard Interface>"
+    id="id-e5869445e52f47a38aa8ffa7fbf02445"
+    documentation="Een applicatie-interface is het conceptwaarmee de omgeving toegang heeft tot de services van een applicatiecomponent. Dit kan een gebruikers interface zijn of een interface naar andere applicatiecomponenten.">
+  <properties
+      key="Name (en)"
+      value="&lt;Standard Interface>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:ApplicationInterface>

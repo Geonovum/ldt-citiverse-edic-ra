@@ -1,0 +1,11 @@
+<archimate:Product
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;Product>"
+    id="id-95e7e8b7b9254044a33ee5b910f8e0a5"
+    documentation="Een product is een samenhangende verzameling van serviceses/diensten of een fysiek product, mogelijk voorzien van een contract of een overeenkomst, die als geheel aan de organisatie wordt aangeboden en die wordt afgenomen door een klant. (novius definitie)">
+  <properties
+      key="Name (en)"
+      value="&lt;Product>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:Product>

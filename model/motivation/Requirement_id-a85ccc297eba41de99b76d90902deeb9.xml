@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R24 - health check endpoints"
+    id="id-a85ccc297eba41de99b76d90902deeb9"
+    documentation="All tools and sites of the EU LDT Toolbox should implement health check endpoints in a unified format and follow the recommended best practices."/>

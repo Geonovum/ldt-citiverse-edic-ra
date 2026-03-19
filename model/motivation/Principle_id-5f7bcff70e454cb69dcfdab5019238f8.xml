@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Federated"
+    id="id-5f7bcff70e454cb69dcfdab5019238f8"
+    documentation="Prioritize a loosely coupled architecture and standard data formats "/>

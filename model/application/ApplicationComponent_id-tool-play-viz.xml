@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 1: Play &amp; Visualize"
+    id="id-tool-play-viz"
+    documentation="Allows the municipalities to visualize and interact with their digital twins."/>

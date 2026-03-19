@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 4: City Innovation Planner"
+    id="id-tool-planner"
+    documentation="Allows the municipalities to monitor and manage their adoption of the different tools and use cases based on their goals and using standardized maturity frameworks."/>

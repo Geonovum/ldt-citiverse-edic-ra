@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R1 - infrastructure-agnostic"
+    id="id-2cf25d5d4ef64b6bb1ce1afa803b5922"
+    documentation="All tools and sites of the EU LDT Toolbox must be problem and infrastructure-agnostic so that they can be used uniformly by different cities."/>

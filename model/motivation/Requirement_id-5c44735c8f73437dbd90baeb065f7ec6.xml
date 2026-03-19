@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R8 - Identity Management"
+    id="id-5c44735c8f73437dbd90baeb065f7ec6"
+    documentation="All tools of the EU LDT Toolbox should centralize their authentication and authorisation on the EU LDT Identity Management."/>

@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="LDT Workflow Management Service"
+    id="id-86c0eefc11754f96b7b922234f29ef14"
+    documentation="Orchestration ensures that the different components or services within the Digital Twin work together to perform a specific task or workflow."/>

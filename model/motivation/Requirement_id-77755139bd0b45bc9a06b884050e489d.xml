@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R4 - standard data formats"
+    id="id-77755139bd0b45bc9a06b884050e489d"
+    documentation="All tools and sites of the EU LDT Toolbox should provide well-structured and well-documented APIs using standard data formats to facilitate the integration of non-toolbox applications and services."/>

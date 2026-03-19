@@ -1,0 +1,11 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;DT capability>"
+    id="id-88e009e11ef64d09b0666c76406fd80a"
+    documentation="De NLDT architectuur beschrijft de capabilities vanuit het oogpunt van een digitale tweeling. Wat moet een Digitale tweeling 'kunnen' om van waarde te zijn voor de organisaties die het instrument inzetten.&#xD;&#xA;">
+  <properties
+      key="Name (en)"
+      value="&lt;DT Capability>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:Capability>

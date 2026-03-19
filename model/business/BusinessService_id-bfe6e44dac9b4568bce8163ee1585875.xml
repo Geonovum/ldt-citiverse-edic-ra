@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="System Availability and assurance"
+    id="id-bfe6e44dac9b4568bce8163ee1585875"
+    documentation="Observability provides insight into whether the digital twin is functioning properly as a system by tracking whether data, models, and visualisations cooperate correctly and timely."/>

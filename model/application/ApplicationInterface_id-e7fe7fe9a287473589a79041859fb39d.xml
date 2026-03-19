@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OpenTelemetry"
+    id="id-e7fe7fe9a287473589a79041859fb39d">
+  <properties
+      key="Name (en)"
+      value="OpenTelemetry"/>
+</archimate:ApplicationInterface>

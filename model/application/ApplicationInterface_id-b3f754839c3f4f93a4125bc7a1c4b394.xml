@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OGC API Records"
+    id="id-b3f754839c3f4f93a4125bc7a1c4b394">
+  <properties
+      key="Name (en)"
+      value="OGC API Records"/>
+</archimate:ApplicationInterface>

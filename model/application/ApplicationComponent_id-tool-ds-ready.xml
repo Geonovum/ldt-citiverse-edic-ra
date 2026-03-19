@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 7: Data Space Ready"
+    id="id-tool-ds-ready"
+    documentation="Allows the municipalities to create and connect to data spaces to publish and consume data."/>

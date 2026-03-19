@@ -1,0 +1,11 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-dfbebbc5efa24fa593c6024c47562845">
+  <source
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-4e98a62f124d4320aab891133a506159.xml#id-4e98a62f124d4320aab891133a506159"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-cap-tef.xml#id-cap-tef"/>
+</archimate:CompositionRelationship>

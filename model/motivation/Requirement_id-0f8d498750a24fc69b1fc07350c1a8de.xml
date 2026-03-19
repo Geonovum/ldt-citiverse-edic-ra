@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R20 - deployable"
+    id="id-0f8d498750a24fc69b1fc07350c1a8de"
+    documentation="All tools and sites of the EU LDT Toolbox must be deployable on-premises and on cloud environments (Azure, GPC, AWS)."/>

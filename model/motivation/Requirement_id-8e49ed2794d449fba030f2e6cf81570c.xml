@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R17 - responsive design"
+    id="id-8e49ed2794d449fba030f2e6cf81570c"
+    documentation="All tools and sites of the EU LDT Toolbox should use responsive design and must be compatible at least with their respective users’ preferred devices (Smartphones, tablets, laptops/desktops) and major AR/VR/MR devices."/>

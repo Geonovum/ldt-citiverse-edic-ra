@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R31 - auto-scaling"
+    id="id-072191be8b884bfb927e9b1720b938ed"
+    documentation="All tools and sites of the EU LDT Toolbox must support configuration for auto-scaling depending on requests and resources."/>

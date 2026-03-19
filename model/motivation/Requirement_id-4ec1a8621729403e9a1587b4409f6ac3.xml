@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R5 - cross-platform"
+    id="id-4ec1a8621729403e9a1587b4409f6ac3"
+    documentation="All tools and sites of the EU LDT Toolbox must be cross-platform by providing provide web user interfaces."/>

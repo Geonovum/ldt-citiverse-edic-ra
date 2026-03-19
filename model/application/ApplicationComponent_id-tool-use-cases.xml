@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tool 2: Use Cases &amp; Scenarios"
+    id="id-tool-use-cases"
+    documentation="Allows municipalities to integrate data, models, and services to manage their use cases and create different simulation and forecast scenarios."/>

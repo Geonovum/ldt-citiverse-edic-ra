@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="R32 - backup"
+    id="id-99b0ced59e6c4a949765c1ce4e850f51"
+    documentation="All tools and sites of the EU LDT Toolbox must be able to create a backup copy of their data manually or automatically based on policy."/>

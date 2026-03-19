@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Real-time Urban Context Awareness"
+    id="id-0ba4607ed71c48bba2f5af62418621d8"
+    documentation="Serves as the &quot;single source of truth&quot; by centralising and standardising data from sensors and databases"/>

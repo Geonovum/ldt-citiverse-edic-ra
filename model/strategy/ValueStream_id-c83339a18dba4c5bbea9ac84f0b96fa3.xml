@@ -1,0 +1,11 @@
+<archimate:ValueStream
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="&lt;Waardestroom>"
+    id="id-c83339a18dba4c5bbea9ac84f0b96fa3"
+    documentation="Een use case wordt in dit referentiemodel als valuestream gevisualiseerd. Een Valuestream vertegenwoordigd waarde voor de organisatie met behulp van een aantal Capabilities die deze waarde bedienen.">
+  <properties
+      key="Name (en)"
+      value="&lt;Valuestream>"/>
+  <properties
+      key="Documentation (en)"/>
+</archimate:ValueStream>

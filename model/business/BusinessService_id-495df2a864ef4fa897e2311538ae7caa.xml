@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Collaborative Knowledge Training"
+    id="id-495df2a864ef4fa897e2311538ae7caa"
+    documentation="Enables distributed AI training where data remains local, preserving organizational privacy"/>

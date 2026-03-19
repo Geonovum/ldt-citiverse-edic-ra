@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OGC API Processes"
+    id="id-9a1d3b98746d4ca49d508ba5c40b0758">
+  <properties
+      key="Name (en)"
+      value="OGC API Processes"/>
+</archimate:ApplicationInterface>

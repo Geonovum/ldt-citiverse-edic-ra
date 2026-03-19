@@ -1,0 +1,11 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="rel-7">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-tool-ai-notebook.xml#id-tool-ai-notebook"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-a88f7c17330c4762b4a4c7bd4c9349b3.xml#id-a88f7c17330c4762b4a4c7bd4c9349b3"/>
+</archimate:RealizationRelationship>
