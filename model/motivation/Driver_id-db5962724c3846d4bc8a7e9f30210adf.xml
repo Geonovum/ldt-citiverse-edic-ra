@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Public report on the LDT Toolbox detailed specifications requirements"
+    id="id-db5962724c3846d4bc8a7e9f30210adf">
+  <properties
+      key="dct:modified"
+      value="20-3-2026"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://data.europa.eu/doi/10.2759/384198"/>
+</archimate:Driver>

@@ -45,4 +45,7 @@
   <properties
       key="dct:type"
       value="eira:DigitalTwinCapability"/>
+  <properties
+      key="rdfs:seeAlso"
+      value="https://cartool-ec.github.io/eGovERA_BA_RA/index.html?view=id-744ed49b626a4c3bb50e5f8fd3d8d638"/>
 </archimate:Capability>

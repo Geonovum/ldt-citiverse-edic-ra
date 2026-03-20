@@ -1092,12 +1092,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-fd517e14b7af4f929c1b6617c19ebaae"
+        id="id-eac28930a4274283aad14cf76795e66e"
         source="id-03ec7de0705140b592e85cc073a8acc3"
-        target="id-b41717a2679d45ea9e7068d34f807abb">
+        target="id-f607cd9e09cb4ef4bb2919f908686af5">
       <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-166d7091a24e40febefc3ee383dd84e0.xml#id-166d7091a24e40febefc3ee383dd84e0"/>
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-0491d29eb91e4435b0f290e19bae86c8.xml#id-0491d29eb91e4435b0f290e19bae86c8"/>
     </sourceConnections>
     <bounds
         x="60"
@@ -1106,20 +1106,43 @@
         height="132"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-b41717a2679d45ea9e7068d34f807abb"
-        targetConnections="id-fd517e14b7af4f929c1b6617c19ebaae"
-        font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI">
+        id="id-f607cd9e09cb4ef4bb2919f908686af5"
+        targetConnections="id-eac28930a4274283aad14cf76795e66e">
       <bounds
-          x="192"
+          x="168"
           y="48"
-          width="156"
-          height="61"/>
+          width="243"
+          height="55"/>
       <archimateElement
           xsi:type="archimate:Deliverable"
-          href="Deliverable_id-3a9e1a868eb048c09c236fc5935498cb.xml#id-3a9e1a868eb048c09c236fc5935498cb"/>
+          href="Deliverable_id-85a4b1beb9cb48aeb340870f17282f15.xml#id-85a4b1beb9cb48aeb340870f17282f15"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-390d323c30ba4d7aafabbea9e39317e4.xml#id-390d323c30ba4d7aafabbea9e39317e4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-1738648a833c4707b4c035f78effcaa1"
+      font="1|Segoe UI|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      textAlignment="1"
+      content="The Metamodel describes the Archimate elements and relationships that are used in the architecture viewpoints.&#xD;&#xA;The &lt;> notation borrows its meaning from UML and denotes abstract elements">
+    <bounds
+        x="1416"
+        y="348"
+        width="539"
+        height="146"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7df5f3e8090f480b960d1978c5f4adb2"
+      font="1|Segoe UI|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      textAlignment="1"
+      content="This part shows the alignment of the EDIC LDT architecture with eGovERA: https://cartool-ec.github.io/eGovERA_BA_RA/index.html">
+    <bounds
+        x="1440"
+        y="60"
+        width="539"
+        height="146"/>
   </children>
 </archimate:ArchimateDiagramModel>

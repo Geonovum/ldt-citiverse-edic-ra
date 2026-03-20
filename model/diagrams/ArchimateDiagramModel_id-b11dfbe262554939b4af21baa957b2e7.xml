@@ -554,6 +554,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-488919f76840479f8e06522041ff0f35.xml#id-488919f76840479f8e06522041ff0f35"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c194225564da405c8c1b48d57fbbc7f3"
+        source="id-2fcd6a4bf2984c60ba53eed3521b5b6e"
+        target="id-c1d2841522294108afe3c927ca58b6ea">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-f9165d7e271041ed8a9374bd73caba42.xml#id-f9165d7e271041ed8a9374bd73caba42"/>
+    </sourceConnections>
     <bounds
         x="-542"
         y="1716"
@@ -1047,6 +1056,19 @@
       <archimateElement
           xsi:type="archimate:Node"
           href="Node_id-806a3fc80fe64666a54defbe302553ae.xml#id-806a3fc80fe64666a54defbe302553ae"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c1d2841522294108afe3c927ca58b6ea"
+        targetConnections="id-c194225564da405c8c1b48d57fbbc7f3">
+      <bounds
+          x="3484"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Deliverable"
+          href="Deliverable_id-3a9e1a868eb048c09c236fc5935498cb.xml#id-3a9e1a868eb048c09c236fc5935498cb"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -3088,6 +3110,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-dfbebbc5efa24fa593c6024c47562845.xml#id-dfbebbc5efa24fa593c6024c47562845"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-eaca40ac508346e9a073300659342f3a"
+        source="id-319ecce7b97343369014b987353adcc3"
+        target="id-7f44df113458405abcd81f15f87f8e55">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-121711409d1849fa831808e6e28cdf91.xml#id-121711409d1849fa831808e6e28cdf91"/>
+    </sourceConnections>
     <bounds
         x="-526"
         y="36"
@@ -3522,6 +3553,19 @@
       <archimateElement
           xsi:type="archimate:Capability"
           href="Capability_id-cap-tef.xml#id-cap-tef"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7f44df113458405abcd81f15f87f8e55"
+        targetConnections="id-eaca40ac508346e9a073300659342f3a">
+      <bounds
+          x="3072"
+          y="76"
+          width="168"
+          height="72"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-2fb9566bdfdd48fb9105f4349af0e86d.xml#id-2fb9566bdfdd48fb9105f4349af0e86d"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

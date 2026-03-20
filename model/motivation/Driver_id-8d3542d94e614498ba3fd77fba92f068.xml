@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Harmonised Standards for the European AI Act"
+    id="id-8d3542d94e614498ba3fd77fba92f068">
+  <properties
+      key="dct:modified"
+      value="20-3-2026"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://publications.jrc.ec.europa.eu/repository/handle/JRC139430"/>
+</archimate:Driver>
