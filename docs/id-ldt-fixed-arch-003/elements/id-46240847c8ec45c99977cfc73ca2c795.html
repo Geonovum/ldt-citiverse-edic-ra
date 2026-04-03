@@ -48,7 +48,10 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">&gt; Connecting the digital twin to the real world by receiving measurements and (optionally) controlling systems or objects.
+
+The sense &amp; actuate function makes it possible to use information from the real world in the digital twin AND to perform actions in reality from the digital twin. Data such as temperature, movement, or status are measured and passed to the digital twin at fixed intervals or in real-time, so it can show an up-to-date image of the situation. Measured data is stored, making changes over time visible.
+In addition to measuring, a digital twin can also be used to control parts of the real world. Via digital signals, settings or statuses can be adjusted, such as switching a device on or off (e.g., a bridge or lock). Both measurements and control actions are recorded.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -59,6 +62,7 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">nLDT</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://geonovum.github.io/NLDT-Architectuur/en/</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -72,11 +76,11 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-d2e304fd69aa442798120fcfa0c89053">
-																	<td><a href="../views/id-d2e304fd69aa442798120fcfa0c89053.html" target="view" title="Capabilities model"> Capabilities model </a></td>
+								<tr id="used-in-views-id-76c566b2fa004be3b811b360cc1142c1">
+																	<td><a href="../views/id-76c566b2fa004be3b811b360cc1142c1.html" target="view" title="Consolidated LDT Architecture - level 2 (business &amp; application/solution)"> Consolidated LDT Architecture - level 2 (business &amp; application/solution) </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr><tr id="used-in-views-id-b11dfbe262554939b4af21baa957b2e7">
-																	<td><a href="../views/id-b11dfbe262554939b4af21baa957b2e7.html" target="view" title="Consolidated LDT Architecture - level 1"> Consolidated LDT Architecture - level 1 </a></td>
+																	<td><a href="../views/id-b11dfbe262554939b4af21baa957b2e7.html" target="view" title="Consolidated LDT Architecture - level 1 (strategy &amp; business)"> Consolidated LDT Architecture - level 1 (strategy &amp; business) </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -93,11 +97,17 @@
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-71adc754ee8d411a931e76dcdf20ed3c.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
-											<td><a href="../elements/id-cap-found.html" target="element"> LDT Foundation</a></td>
+											<td><a href="../elements/id-3ad008f714fd43679e4fbc76b6327d2d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
 											<td><a href="../elements/id-46240847c8ec45c99977cfc73ca2c795.html" target="element"> Sense &amp; Actuate</a></td>
+											<td><a href="../elements/id-994c2ec15d364f6b9d2b6b0c6707d3bf.html" target="element"> Digital Foundation / Integration</a></td>
 										</tr><tr>
+											<td><a href="../elements/id-b292d6fd15dd4487bb2359faca8c8f40.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-46240847c8ec45c99977cfc73ca2c795.html" target="element"> Sense &amp; Actuate</a></td>
+											<td><a href="../elements/id-9163afdd5ec24063a819f643aa3a3940.html" target="element"> Intervene</a></td>
+										</tr>
+									<tr>
 											<td><a href="../elements/id-f71fc5252dd848339855e9ecee0bab48.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
 											<td><a href="../elements/id-ed4b6bae6b2c4044a4b71cf6b0d8db22.html" target="element"> LDT Citiverse Subcapabilities</a></td>
@@ -106,11 +116,6 @@
 											<td><a href="../elements/id-ee2055af2805428faeb23a9ed6820c98.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
 											<td><a href="../elements/id-dfafdfd804eb464bb047c7b5a7ea5840.html" target="element"> Real-time Urban Response</a></td>
-											<td><a href="../elements/id-46240847c8ec45c99977cfc73ca2c795.html" target="element"> Sense &amp; Actuate</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-55ad233cfd0e4da0892cfaa5ff86596c.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
-											<td><a href="../elements/id-8d5c30932fe04efca55f49ccb191f7a8.html" target="element"> Integration</a></td>
 											<td><a href="../elements/id-46240847c8ec45c99977cfc73ca2c795.html" target="element"> Sense &amp; Actuate</a></td>
 										</tr>
 							</tbody>

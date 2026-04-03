@@ -48,7 +48,9 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">&gt; Coordinating the coherence and sequence in which functions (such as sensing, calculating, analysing, and visualising) are executed.
+
+Orchestration ensures that the different building blocks of the digital twin work together in the right order. It manages the process&#8212;for example, retrieving data, then calculating, then analysing, and finally visualising&#8212;without performing the calculations itself.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -59,6 +61,7 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">nLDT</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://geonovum.github.io/NLDT-Architectuur/en/</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -72,11 +75,11 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-b11dfbe262554939b4af21baa957b2e7">
-																	<td><a href="../views/id-b11dfbe262554939b4af21baa957b2e7.html" target="view" title="Consolidated LDT Architecture - level 1"> Consolidated LDT Architecture - level 1 </a></td>
+								<tr id="used-in-views-id-76c566b2fa004be3b811b360cc1142c1">
+																	<td><a href="../views/id-76c566b2fa004be3b811b360cc1142c1.html" target="view" title="Consolidated LDT Architecture - level 2 (business &amp; application/solution)"> Consolidated LDT Architecture - level 2 (business &amp; application/solution) </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-d2e304fd69aa442798120fcfa0c89053">
-																	<td><a href="../views/id-d2e304fd69aa442798120fcfa0c89053.html" target="view" title="Capabilities model"> Capabilities model </a></td>
+																</tr><tr id="used-in-views-id-b11dfbe262554939b4af21baa957b2e7">
+																	<td><a href="../views/id-b11dfbe262554939b4af21baa957b2e7.html" target="view" title="Consolidated LDT Architecture - level 1 (strategy &amp; business)"> Consolidated LDT Architecture - level 1 (strategy &amp; business) </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -93,24 +96,20 @@
 							</thead>
 							<tbody>
 									<tr>
+											<td><a href="../elements/id-decc36765f75484d9977a290717697c5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-110d530bc0a949f79224d44248f0abc7.html" target="element"> Orchestration</a></td>
+											<td><a href="../elements/id-76554d2c1648403b8e39fd8b14f566ee.html" target="element"> Generate Knowledge</a></td>
+										</tr>
+									<tr>
 											<td><a href="../elements/id-6ef8e51011074ed989c7fd2a800e1d4e.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
 											<td><a href="../elements/id-ed4b6bae6b2c4044a4b71cf6b0d8db22.html" target="element"> LDT Citiverse Subcapabilities</a></td>
 											<td><a href="../elements/id-110d530bc0a949f79224d44248f0abc7.html" target="element"> Orchestration</a></td>
 										</tr><tr>
-											<td><a href="../elements/id-c7038d4c3b0e416ca507670d3f4ac808.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
-											<td><a href="../elements/id-cap-comp.html" target="element"> LDT Computational Models</a></td>
-											<td><a href="../elements/id-110d530bc0a949f79224d44248f0abc7.html" target="element"> Orchestration</a></td>
-										</tr><tr>
 											<td><a href="../elements/id-c92b0bc66a9e4530824516919b809c06.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
 											<td><a href="../elements/id-86c0eefc11754f96b7b922234f29ef14.html" target="element"> LDT Workflow Management Service</a></td>
-											<td><a href="../elements/id-110d530bc0a949f79224d44248f0abc7.html" target="element"> Orchestration</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-d5341ab9172c4704803f24c505bc5c91.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
-											<td><a href="../elements/id-2406bdfbd447479b90e1ab429a2a3306.html" target="element"> Intelligence</a></td>
 											<td><a href="../elements/id-110d530bc0a949f79224d44248f0abc7.html" target="element"> Orchestration</a></td>
 										</tr>
 							</tbody>
