@@ -1,8 +1,15 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Explainability"
-    id="id-d5b1f619cde343a6b78ae48e40a2e5aa">
+    id="id-d5b1f619cde343a6b78ae48e40a2e5aa"
+    documentation="> Explainability provides insight into the meaning of results from the digital twin by clarifying outcomes, patterns, and assumptions understandably and within their context.&#xD;&#xA;&#xD;&#xA;The Explainability function supports users in understanding what outcomes mean, why certain patterns or effects are visible, and which assumptions play a role. Interpretation is particularly important because the user group of a digital twin is diverse, and not every user can independently interpret calculation results or analyses. Technically, this function relates to the 'explainability' of calculation models, the use of metadata and semantics, and AI models that provide summaries and explanations tailored to the user's role, knowledge, and context.">
   <properties
       key="Name (en)"
       value="Explainability"/>
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
 </archimate:Capability>

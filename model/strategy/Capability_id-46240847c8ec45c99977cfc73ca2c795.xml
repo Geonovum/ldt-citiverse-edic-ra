@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sense &amp; Actuate"
-    id="id-46240847c8ec45c99977cfc73ca2c795"/>
+    id="id-46240847c8ec45c99977cfc73ca2c795"
+    documentation="> Connecting the digital twin to the real world by receiving measurements and (optionally) controlling systems or objects.&#xD;&#xA;&#xD;&#xA;The sense &amp; actuate function makes it possible to use information from the real world in the digital twin AND to perform actions in reality from the digital twin. Data such as temperature, movement, or status are measured and passed to the digital twin at fixed intervals or in real-time, so it can show an up-to-date image of the situation. Measured data is stored, making changes over time visible.&#xD;&#xA;In addition to measuring, a digital twin can also be used to control parts of the real world. Via digital signals, settings or statuses can be adjusted, such as switching a device on or off (e.g., a bridge or lock). Both measurements and control actions are recorded.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

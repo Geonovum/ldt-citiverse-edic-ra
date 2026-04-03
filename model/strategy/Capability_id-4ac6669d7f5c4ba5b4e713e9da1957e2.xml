@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Manage"
-    id="id-4ac6669d7f5c4ba5b4e713e9da1957e2"/>
+    id="id-4ac6669d7f5c4ba5b4e713e9da1957e2"
+    documentation="> Actively adjusting, adding, or removing objects, properties, and designs within the digital twin.&#xD;&#xA;&#xD;&#xA;The manage function makes it possible to actively make changes to the data in the digital twin. Users can not only edit data but also modify or add objects and new elements. This could include moving objects, changing properties, or adjusting settings within the digital environment. Additionally, designs such as 2D or 3D models and (parametric) designs can be integrated into the digital twin. This allows for the exploration of how new plans or interventions fit within an existing situation. All modifications are recorded so that it remains visible what was adjusted, when it happened, and by whom. Managing thus supports the exploration, elaboration, and calculation of the effects of designs in a digital twin before changes are implemented in the real world.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

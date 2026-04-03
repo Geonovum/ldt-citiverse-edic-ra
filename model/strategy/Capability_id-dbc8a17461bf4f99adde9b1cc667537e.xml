@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Calculation"
-    id="id-dbc8a17461bf4f99adde9b1cc667537e"/>
+    id="id-dbc8a17461bf4f99adde9b1cc667537e"
+    documentation="> Applying calculation rules and models to data to generate results that provide insight into processes and effects.&#xD;&#xA;&#xD;&#xA;The calculation function uses models to provide insight into phenomena like heat stress or waterlogging. It converts raw data into indicators, which are essential for policy-based assessments. These models are transparent and documented so that the underlying assumptions are clear.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

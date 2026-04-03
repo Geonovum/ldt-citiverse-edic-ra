@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Reproduction"
-    id="id-1ddc4190882a4222b3f11f4458392e9b"/>
+    id="id-1ddc4190882a4222b3f11f4458392e9b"
+    documentation="> Being able to exactly recall previous states of the digital twin, including data, results, and the associated model settings.&#xD;&#xA;&#xD;&#xA;The reproduction function makes it possible to recall a previous situation in the digital twin exactly as it was at a certain moment. This means that not only the data itself, but also the associated indicators, computational model settings, and context remain available for later use. Reproduction is essential when it must be demonstrated why a certain outcome or decision was reached and under what circumstances. By making situations reproducible, the digital twin becomes reliable and explainable: analyses and decisions can be verified, discussed, and, if necessary, re-executed based on the same starting points.&#xD;&#xA;&#xD;&#xA;Time travel supports insight and context but does not guarantee full repeatability of a specific decision context. Reproduction is essential for accountability.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

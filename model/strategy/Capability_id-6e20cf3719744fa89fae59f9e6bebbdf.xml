@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Find and Bind"
-    id="id-6e20cf3719744fa89fae59f9e6bebbdf"/>
+    id="id-6e20cf3719744fa89fae59f9e6bebbdf"
+    documentation="> Being able to purposefully discover, filter, and retrieve relevant data, computational models, and visualisations within the digital twin.&#xD;&#xA;&#xD;&#xA;The find and bind function ensures that users can quickly and easily find the right data, computational models, and visualisations within the digital twin. Because a digital twin often consists of many different datasets, models, and visualisations, it is important that the digital twin is easily searchable.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

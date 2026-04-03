@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Prediction"
-    id="id-33d971c7083f48c7995d5660f5d49f86"/>
+    id="id-33d971c7083f48c7995d5660f5d49f86"
+    documentation="> Estimating likely future developments based on historical and current data and computational models.&#xD;&#xA;&#xD;&#xA;The prediction function makes it possible to make an informed statement about how a situation will likely develop. It uses current and historical data combined with models to calculate probable future states. This differs from simulation (which explores what-if variants) and time travel (which shows recorded scenarios).">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

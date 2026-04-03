@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Integration"
-    id="id-c2a7d1fc618b44e6ae26e66b28ce70ec"/>
+    id="id-c2a7d1fc618b44e6ae26e66b28ce70ec"
+    documentation="> Bringing together data from different sources, systems, and domains into one coherent and recognizable image of reality.&#xD;&#xA;&#xD;&#xA;The integration function ensures that data from various sources comes together as a coherent whole. Data from diverse systems and perspectives are linked and aligned so they form one clear image of an area or project. To integrate data, a coupling point (link) is always required, such as a location, a shared administrative key (e.g., a municipality code), or a geographic reference point. Combining this data reveals relationships that are not visible in isolated datasets, forming the basis for further analysis and decision-making.&#xD;&#xA;">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

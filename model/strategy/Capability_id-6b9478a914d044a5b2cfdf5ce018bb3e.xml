@@ -1,8 +1,15 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Observability"
-    id="id-6b9478a914d044a5b2cfdf5ce018bb3e">
+    id="id-6b9478a914d044a5b2cfdf5ce018bb3e"
+    documentation="> Observability provides insight into whether the digital twin is functioning properly as a system by tracking whether data, models, and visualisations cooperate correctly and timely.&#xD;&#xA;&#xD;&#xA;The Observability function ensures that the digital twin as a whole system continues to function properly. It provides insight into whether data, calculation models, and visualisations are working together correctly and on time. Monitoring or 'observability' makes it possible to see if data flows are running smoothly—for example, between measuring, calculating, and visualising. When components malfunction, data is missing, or results are unexpected, this can be signaled in time to prevent disruptions and safeguard reliability.">
   <properties
       key="Name (en)"
       value="Observability"/>
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
 </archimate:Capability>

@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="(User) Experience"
-    id="id-f758e83852144895a0c3e98e562ec34d"/>
+    id="id-f758e83852144895a0c3e98e562ec34d"
+    documentation="> Offering users an interactive and intuitive experience to actively explore and understand the digital twin.&#xD;&#xA;&#xD;&#xA;The Experience function is about how users experience and interact with the digital twin. The experience aspect makes it possible not just to view information, but to actively explore, experiment, and learn within a digital environment. Users can immerse themselves in a situation and experience how a system, area, or process functions. Experience goes further than visualisation; while visualisation makes information visible, experience revolves around interaction, engagement, and ease of use. This can be shaped in various ways: with XR (Extended Reality), an environment can be fully experienced virtually, such as walking through a future neighborhood. With AR (Augmented Reality), digital elements can be added to the real world, such as projecting a new building or a noise zone into the existing environment. Gamification can also contribute by allowing users to complete tasks or explore scenarios, receiving feedback in the form of scores or rewards.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

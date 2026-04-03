@@ -1,4 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Representation"
-    id="id-77158916781c4bacb8c8cdc5c2953ad9"/>
+    name="&lt;Representation>"
+    id="id-77158916781c4bacb8c8cdc5c2953ad9">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:ApplicationComponent>

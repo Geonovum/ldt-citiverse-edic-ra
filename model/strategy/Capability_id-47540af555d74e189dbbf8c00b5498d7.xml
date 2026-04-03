@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Trust"
-    id="id-47540af555d74e189dbbf8c00b5498d7"/>
+    id="id-47540af555d74e189dbbf8c00b5498d7"
+    documentation="> Trust ensures that data in the digital twin can be shared safely, reliably, and according to clear agreements.&#xD;&#xA;&#xD;&#xA;The trust function ensures that data within the digital twin can be shared in a safe, reliable, and responsible manner. Users must be able to trust that the information is correct, managed carefully, and only accessible to those with the right to see it. This trust arises because clear agreements have been made regarding the quality, origin, and use of data. By identifying users and applying access rights, it can be determined who is allowed to view or use specific data. Additionally, transparency contributes to trust; it is clear how data is processed and secured. Validation based on legal, ethical, or technical frameworks also gives substance to trust.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Orchestration"
-    id="id-110d530bc0a949f79224d44248f0abc7"/>
+    id="id-110d530bc0a949f79224d44248f0abc7"
+    documentation="> Coordinating the coherence and sequence in which functions (such as sensing, calculating, analysing, and visualising) are executed.&#xD;&#xA;&#xD;&#xA;Orchestration ensures that the different building blocks of the digital twin work together in the right order. It manages the process—for example, retrieving data, then calculating, then analysing, and finally visualising—without performing the calculations itself.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

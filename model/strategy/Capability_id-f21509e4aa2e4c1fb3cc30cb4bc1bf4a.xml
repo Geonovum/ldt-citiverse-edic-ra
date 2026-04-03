@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Identification &amp; Authorization"
-    id="id-f21509e4aa2e4c1fb3cc30cb4bc1bf4a"/>
+    id="id-f21509e4aa2e4c1fb3cc30cb4bc1bf4a"
+    documentation="> Identification establishes who the user is, so that access, rights, and responsibilities can be arranged safely.&#xD;&#xA;&#xD;&#xA;The Identification function ensures that users of a digital twin make themselves known before using certain functions. By establishing who someone is, it can be determined which data, models, and functions are available to that user. In some cases, limited anonymous exploration is possible, but for more extensive actions—such as analysing, editing, or actuating—identification is necessary. This makes it possible to assign user rights and trace activities back to a user or role. This function protects users according to privacy and security rules, creating a reliable and transparent environment.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

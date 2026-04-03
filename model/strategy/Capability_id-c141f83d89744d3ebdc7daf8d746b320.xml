@@ -1,4 +1,8 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Decide"
-    id="id-c141f83d89744d3ebdc7daf8d746b320"/>
+    id="id-c141f83d89744d3ebdc7daf8d746b320">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:Capability>

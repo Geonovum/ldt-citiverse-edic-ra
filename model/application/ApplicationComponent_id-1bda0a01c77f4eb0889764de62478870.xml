@@ -1,4 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Data"
-    id="id-1bda0a01c77f4eb0889764de62478870"/>
+    name="&lt;Data>"
+    id="id-1bda0a01c77f4eb0889764de62478870">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:ApplicationComponent>

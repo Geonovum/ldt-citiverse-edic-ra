@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Analytics"
-    id="id-ea6f8dc61e1c48b497fa5fc1076ad9d3"/>
+    id="id-ea6f8dc61e1c48b497fa5fc1076ad9d3"
+    documentation="> Interpreting data and results by recognizing and explaining patterns, trends, and deviations.&#xD;&#xA;&#xD;&#xA;The analytics function helps give meaning to the data available in the digital twin. While calculation provides figures, analysis focuses on understanding what those outcomes mean for a situation or process. By viewing information from different angles, trends and bottlenecks can be discovered. Results can be presented in graphs, dashboards, or summaries to support decision-making.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

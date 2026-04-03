@@ -1,8 +1,15 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Decide"
-    id="id-7cfd7bbde0944f198e59a5f185864b95">
+    id="id-7cfd7bbde0944f198e59a5f185864b95"
+    documentation="> Carefully weighing effects and interests and subsequently recording a choice based on the insights provided by the digital twin.&#xD;&#xA;&#xD;&#xA;This involves weighing different interests and impacts (e.g., livability vs. cost) and recording a choice. By linking decisions to the underlying data, it remains clear why a choice was made, allowing for later accountability or revision.">
   <properties
       key="Name (en)"
       value="Decide"/>
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
 </archimate:Capability>

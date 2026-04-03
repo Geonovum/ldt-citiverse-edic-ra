@@ -1,4 +1,8 @@
 <archimate:Node
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="UDT - Climate resilience"
-    id="id-c419d7d0770e4478bcf70f48a317d654"/>
+    name="Thematic UDT/LDT"
+    id="id-c419d7d0770e4478bcf70f48a317d654">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:Node>

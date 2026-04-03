@@ -2,5 +2,21 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EDIC Local Digital Twin - Reference Architecture"
     id="id-ldt-fixed-arch-003"
-    purpose="The EDIC Local Digital Twin - Reference Architecture describes the architectural choices for the LDT Citiverse EDIC.&#xD;&#xA;&#xD;&#xA;It consists of:&#xD;&#xA;- A metamodel, to focus the architectural patterns being used for the reference architecture.&#xD;&#xA;- Level 0, motivational and strategy layers viewpoint.&#xD;&#xA;- Level 1, Strategy, Business and Application layers viewpoint.&#xD;&#xA; &#xD;&#xA;At this moment (Q1/Q2 2026) this architecture is very much a draft and it is actively being worked on."
-    version="5.0.0"/>
+    purpose="The EDIC Local Digital Twin - Reference Architecture describes the architectural choices for the LDT Citiverse EDIC.&#xD;&#xA;&#xD;&#xA;It consists of:&#xD;&#xA;- A metamodel, to focus the architectural patterns being used for the reference architecture.&#xD;&#xA;- Level 0, motivational and strategy layers viewpoint.&#xD;&#xA;- Level 1, Strategy, Business layers viewpoint.&#xD;&#xA;- Level 2, Business to Application/Solution viewpoint.&#xD;&#xA;- Level 3, Conceptual Application and technology viewpoint.&#xD;&#xA;"
+    version="5.0.0">
+  <properties
+      key="dct:title"
+      value="EDIC Local Digital Twin - Reference Architecture"/>
+  <properties
+      key="dct:creator"
+      value="Niels Hoffmann"/>
+  <properties
+      key="dct:subject"
+      value="Local Digital Twin, Citiverse, EDIC"/>
+  <properties
+      key="dct:description"
+      value="reference architecture for the EDIC LDT Citiverse consortium"/>
+  <properties
+      key="adms:status"
+      value="underDevelopment"/>
+</archimate:ArchimateModel>

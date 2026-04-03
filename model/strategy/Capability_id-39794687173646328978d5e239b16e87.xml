@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Access"
-    id="id-39794687173646328978d5e239b16e87"/>
+    id="id-39794687173646328978d5e239b16e87"
+    documentation="> The controlled accessibility of data and computational models to other systems and applications via standardized interfaces.&#xD;&#xA;&#xD;&#xA;The access function ensures that data and computational models in the digital twin are available for use by other systems, applications, and users. This occurs via clear and standardized digital connections, the APIs. This allows data and model results to be requested and reused safely and in a controlled manner. By providing access to data and models, information and calculations do not have to be recreated every time. Instead, they are managed and kept up-to-date at the source, while various applications can utilize them. This promotes collaboration, consistency, and efficient use of information.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

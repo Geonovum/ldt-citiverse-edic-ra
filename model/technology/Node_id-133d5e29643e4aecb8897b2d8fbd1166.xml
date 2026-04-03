@@ -1,4 +1,8 @@
 <archimate:Node
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Geo base twin"
-    id="id-133d5e29643e4aecb8897b2d8fbd1166"/>
+    id="id-133d5e29643e4aecb8897b2d8fbd1166">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:Node>

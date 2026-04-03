@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Visualisation"
-    id="id-e18207e754184de6b4219ffd39cd0a8c"/>
+    id="id-e18207e754184de6b4219ffd39cd0a8c"
+    documentation="> Making data and results insightful via maps, graphs, dashboards, or 2D/3D images so information is quickly understood.&#xD;&#xA;&#xD;&#xA;The Visualisation function helps users interpret, recognize, and understand data in the digital twin more quickly by making it visible through clear imagery. Instead of searching through lists or tables, users can discover data by looking at maps, graphs, or other visual representations. Visualisations make it possible to organize and filter large amounts of data—for example, by zooming in on an area, choosing a time period, or toggling specific themes on or off. This immediately clarifies where certain information is located and which data belongs together. By presenting data visually in 2D, 3D, or interactive environments with a Level-of-Detail that meets requirements, the function helps users place relevant information in the right context. Images can be static or dynamic, highly realistic (in terms of colors and effects), or symbolic (using false colors). Furthermore, the use of AR/VR/XR can offer more insight and interaction with reality.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

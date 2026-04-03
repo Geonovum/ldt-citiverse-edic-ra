@@ -1,8 +1,15 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Describe"
-    id="id-2cea155f66df40debabbf51a19eff19d">
+    id="id-2cea155f66df40debabbf51a19eff19d"
+    documentation="> Describing the meaning, origin, timeliness, and use of data and models so they can be correctly understood and applied.&#xD;&#xA;&#xD;&#xA;The describe function ensures that data and computational models in the digital twin are clear and understandable. By providing data with descriptions (metadata), it is recorded what the data means, where it comes from, how current it is, and how it may be used. This makes it easier to find, correctly interpret, and reliably apply data, for both people and systems. This also helps ensure correct usage and prevents misinterpretation.">
   <properties
       key="Name (en)"
       value="Describe"/>
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
 </archimate:Capability>

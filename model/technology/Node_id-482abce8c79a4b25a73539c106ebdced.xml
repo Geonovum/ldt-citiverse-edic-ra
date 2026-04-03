@@ -1,4 +1,8 @@
 <archimate:Node
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="UDT - Digital Participation"
-    id="id-482abce8c79a4b25a73539c106ebdced"/>
+    name="Thematic UDT/LDT"
+    id="id-482abce8c79a4b25a73539c106ebdced">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:Node>

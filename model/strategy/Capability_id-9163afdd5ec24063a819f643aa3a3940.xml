@@ -1,4 +1,8 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Intervene"
-    id="id-9163afdd5ec24063a819f643aa3a3940"/>
+    id="id-9163afdd5ec24063a819f643aa3a3940">
+  <properties
+      key="eira:definitionSource"
+      value="DIN SPEC 91607:2024-11"/>
+</archimate:Capability>

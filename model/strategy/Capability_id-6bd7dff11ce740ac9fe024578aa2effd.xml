@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Simulation"
-    id="id-6bd7dff11ce740ac9fe024578aa2effd"/>
+    id="id-6bd7dff11ce740ac9fe024578aa2effd"
+    documentation="> Simulation explores possible &quot;what-happens-if&quot; situations by changing parameters and calculating the effects.&#xD;&#xA;&#xD;&#xA;Simulation allows users to investigate the impact of changing certain choices or circumstances. Users can adjust parameters to see effects on a system or area. Unlike prediction, it is not about what is most likely, but about exploring various options and risks to prepare for decision-making.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>

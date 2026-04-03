@@ -1,4 +1,12 @@
 <archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Time Travel"
-    id="id-dabb9909f7d64a97a7a8267f827f0143"/>
+    id="id-dabb9909f7d64a97a7a8267f827f0143"
+    documentation="> Time travel makes it possible to look back at past situations and look forward to recorded future scenarios and compare them with each other.&#xD;&#xA;&#xD;&#xA;The time travel function in a digital twin makes it possible to view a situation as it was, is, or will be represented at a specific point in time. This means you can go back to the past to see what a situation looked like, what data was available, and what choices were made. Time travel helps users understand situations in their context, see differences over time, and gain insight into how a situation is developing. It supports historical analyses without making new predictions itself. Time travel displays existing or recorded states in time, while simulation calculates new variants based on chosen assumptions and prediction is aimed at future situations.">
+  <properties
+      key="eira:definitionSource"
+      value="nLDT"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/"/>
+</archimate:Capability>
