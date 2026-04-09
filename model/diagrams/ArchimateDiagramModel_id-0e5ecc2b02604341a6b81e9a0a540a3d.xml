@@ -285,4 +285,26 @@
         xsi:type="archimate:Node"
         href="Node_id-482abce8c79a4b25a73539c106ebdced.xml#id-482abce8c79a4b25a73539c106ebdced"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7f23819b96344543aeed6ee3e4dc3c50"
+      textAlignment="1"
+      content="DSSC Builidng Blocks:&#xD;&#xA;- Data Interoperability&#xD;&#xA;- Data Sovereignty">
+    <bounds
+        x="840"
+        y="504"
+        width="313"
+        height="85"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8cfb13b1e28144fa99d71d2880053efc"
+      textAlignment="1"
+      content="DSSC Builidng Blocks:&#xD;&#xA;- Data value creation&#xD;&#xA;">
+    <bounds
+        x="840"
+        y="372"
+        width="313"
+        height="85"/>
+  </children>
 </archimate:ArchimateDiagramModel>

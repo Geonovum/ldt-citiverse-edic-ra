@@ -263,7 +263,7 @@
     <bounds
         x="636"
         y="480"
-        width="408"
+        width="481"
         height="408"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -308,7 +308,7 @@
             href="CompositionRelationship_id-a7b4b73f6bee493aa7ee4bf49533048d.xml#id-a7b4b73f6bee493aa7ee4bf49533048d"/>
       </sourceConnections>
       <bounds
-          x="24"
+          x="12"
           y="48"
           width="192"
           height="324"/>
@@ -377,8 +377,8 @@
         id="id-dd149695085440f48eb675c7824bab3e"
         font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI">
       <bounds
-          x="252"
-          y="216"
+          x="216"
+          y="204"
           width="120"
           height="56"/>
       <archimateElement
@@ -390,7 +390,7 @@
         id="id-e8aa4008837e426dabeaa9c31fdf18c2"
         font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI">
       <bounds
-          x="252"
+          x="288"
           y="144"
           width="120"
           height="55"/>
@@ -404,8 +404,8 @@
         targetConnections="id-e8cf4ae7a95e4c08a3ed5932a655751a"
         font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI">
       <bounds
-          x="252"
-          y="288"
+          x="348"
+          y="204"
           width="120"
           height="55"/>
       <archimateElement
