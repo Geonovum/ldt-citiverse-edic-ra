@@ -1,0 +1,8 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM 7 - Geospatial"
+    id="id-59c7ae3e5f2540c981818b732be9233f">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

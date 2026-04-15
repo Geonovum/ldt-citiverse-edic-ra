@@ -1,7 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Architectuurprincipe>"
-    id="id-fd966816606b4ca9aa316030101032a7">
+    id="id-fd966816606b4ca9aa316030101032a7"
+    documentation="A qualitative statement of intent that should be met by the&#xD;&#xA;architecture">
   <properties
       key="Name (en)"
       value="&lt;Principle>"/>

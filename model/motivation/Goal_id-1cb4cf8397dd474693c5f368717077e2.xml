@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Objective O1: Infrastructure Development"
     id="id-1cb4cf8397dd474693c5f368717077e2"
-    documentation="Objective O1: Infrastructure Development&#xD;&#xA;&#xD;&#xA;• A1.1: Design and implement the required digital infrastructure to support EDIC's activities and objectives sustainably.&#xD;&#xA;&#xD;&#xA;• A1.2: Integrate the European Local Digital Twin Toolbox into the infrastructure, ensuring easy implementation for cities to support LDT adoption"/>
+    documentation="Objective O1: Infrastructure Development&#xD;&#xA;&#xD;&#xA;• A1.1: Design and implement the required digital infrastructure to support EDIC's activities and objectives sustainably.&#xD;&#xA;&#xD;&#xA;• A1.2: Integrate the European Local Digital Twin Toolbox into the infrastructure, ensuring easy implementation for cities to support LDT adoption">
+  <properties
+      key="eira:definitionSource"
+      value="PROPOSAL_101225793-LDT CitiVERSE EDIC-DIGITAL-2024-BESTUSE-07-2.pdf"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="1.1 Objectives and activities"/>
+</archimate:Goal>

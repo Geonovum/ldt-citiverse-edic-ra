@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Predictive LDT "
+    id="id-317044f3075a408f9a05233e481336f6"
+    documentation="Contextual data, machine learning, partial automation, connected data and systems.">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+</archimate:Capability>

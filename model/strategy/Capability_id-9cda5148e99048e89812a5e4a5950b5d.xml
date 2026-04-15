@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Prescriptive LDT  "
+    id="id-9cda5148e99048e89812a5e4a5950b5d"
+    documentation="Real-time data from integrated systems, situational awareness, recommendations.">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+</archimate:Capability>

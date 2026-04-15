@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Autonomous LDT"
+    id="id-d0df721a35bd4fbc849045cae8e89686"
+    documentation="Continuous intelligence for decision-making, adaptive and generative AI, self-sustaining.">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+</archimate:Capability>

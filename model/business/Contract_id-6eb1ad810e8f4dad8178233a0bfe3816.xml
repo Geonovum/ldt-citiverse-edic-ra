@@ -1,0 +1,9 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM 8 - Local Digital Twin"
+    id="id-6eb1ad810e8f4dad8178233a0bfe3816"
+    documentation="Draft reqs for MIM8:&#xD;&#xA;C1: Share data&#xD;&#xA;R1: Data can be exchanged across silos/sectors&#xD;&#xA;R2: LDTs (also across sectors) can work together to inform a use case&#xD;&#xA;R3:&#xD;&#xA;&#xD;&#xA;C2: Share services&#xD;&#xA;R1: Services can be exchanged across silos/sectors&#xD;&#xA;R2: The LDT can be applied to other data ecosystems with minimal integration effort&#xD;&#xA;&#xD;&#xA;C3: Share components&#xD;&#xA;R1: Common components can serve multiple local digital twin instantiation&#xD;&#xA;R2: The LDT is able to integrate new components across any of the layers, possibly from other LDTs from different sectors&#xD;&#xA;R3: The components from Layers (2), 3, 4 and 5 can be applied to other data ecosystems from different silos/sectors">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

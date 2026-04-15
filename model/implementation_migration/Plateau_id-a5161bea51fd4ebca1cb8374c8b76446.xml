@@ -1,4 +1,5 @@
 <archimate:Plateau
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;LDT Implementations>"
-    id="id-a5161bea51fd4ebca1cb8374c8b76446"/>
+    id="id-a5161bea51fd4ebca1cb8374c8b76446"
+    documentation="A plateau represents a relatively stable state of the architecture that exists during a limited period of time."/>

@@ -1,0 +1,8 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM 5 - Interoperable AI"
+    id="id-ebfcdb8eea4f40d1892ab2b804f819de">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Diagnostic LDT "
+    id="id-aeda45c873584057bb0913d29b7c90c6"
+    documentation="Operational data and sensor data. Dashboard with operational insights.">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+</archimate:Capability>

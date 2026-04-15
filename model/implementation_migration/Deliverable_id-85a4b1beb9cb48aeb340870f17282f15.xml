@@ -1,4 +1,5 @@
 <archimate:Deliverable
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;LDT Solutions>"
-    id="id-85a4b1beb9cb48aeb340870f17282f15"/>
+    id="id-85a4b1beb9cb48aeb340870f17282f15"
+    documentation="A deliverable represents a precisely defined result of a work package. Work packages produce deliverables."/>

@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NGSI-LD"
+    id="id-dccc1a3cf7f94f01b7c8d6b01e60d357">
+  <properties
+      key="Name (en)"
+      value="OGC Sensorthings API"/>
+</archimate:ApplicationInterface>

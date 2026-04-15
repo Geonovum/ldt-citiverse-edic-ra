@@ -1,0 +1,8 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM 4 - Personal Data"
+    id="id-80022fe573014a809669edf6d9db580d">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

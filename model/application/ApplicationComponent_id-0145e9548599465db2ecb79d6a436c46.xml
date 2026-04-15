@@ -1,7 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Applicatie Component>"
-    id="id-0145e9548599465db2ecb79d6a436c46">
+    id="id-0145e9548599465db2ecb79d6a436c46"
+    documentation="An encapsulation of application functionality aligned to&#xD;&#xA;implementation structure, which is modular and replaceable. It&#xD;&#xA;encapsulates its behavior and data, exposes services, and&#xD;&#xA;makes them available through interfaces">
   <properties
       key="Name (en)"
       value="&lt;Application Component>"/>

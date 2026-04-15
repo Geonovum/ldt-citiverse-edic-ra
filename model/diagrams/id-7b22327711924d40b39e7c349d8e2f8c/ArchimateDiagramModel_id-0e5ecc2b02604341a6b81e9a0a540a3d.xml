@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="LDT reference architecture - application &amp; technology"
+    name="4. LDT reference architecture - application &amp; technology"
     id="id-0e5ecc2b02604341a6b81e9a0a540a3d">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -286,25 +286,324 @@
         href="Node_id-482abce8c79a4b25a73539c106ebdced.xml#id-482abce8c79a4b25a73539c106ebdced"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-7f23819b96344543aeed6ee3e4dc3c50"
-      textAlignment="1"
-      content="DSSC Builidng Blocks:&#xD;&#xA;- Data Interoperability&#xD;&#xA;- Data Sovereignty">
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-6c1b5350382240fca50b3aed49a9a384"
+      name="Connectivity"
+      textAlignment="4"
+      fillColor="#fcba72"
+      textPosition="2"
+      borderType="1">
     <bounds
-        x="840"
-        y="504"
+        x="1044"
+        y="192"
         width="313"
-        height="85"/>
+        height="265"/>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-95b0fcbc385c408e8decc502a06857ef"
+        name="Data Management"
+        targetConnections="id-1b78064fd462402fbfed32e77232c3e1 id-f1eb5c27f7404d1ea6106880e52f82bd id-423120d4846f4793b6d9f74a71b38906"
+        fillColor="#a851ff"
+        textPosition="1"
+        borderType="1">
+      <sourceConnections
+          id="id-f647c7fbed7d42759160623bdd1dc2c2"
+          source="id-95b0fcbc385c408e8decc502a06857ef"
+          target="id-b2a0cd405b284444b3524b2807a7e49a"
+          type="1"/>
+      <bounds
+          x="72"
+          y="84"
+          width="133"
+          height="61"/>
+      <properties
+          key="eira:definitionSource"
+          value="LDT4SSCC"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-1887f333d42240c9a331a74d515cb914"
+        name="Data Aquisition"
+        targetConnections="id-82177adf78d34894a725a74358fed739"
+        fillColor="#00ce67"
+        textPosition="1"
+        borderType="1">
+      <sourceConnections
+          id="id-423120d4846f4793b6d9f74a71b38906"
+          source="id-1887f333d42240c9a331a74d515cb914"
+          target="id-95b0fcbc385c408e8decc502a06857ef"
+          type="1"/>
+      <sourceConnections
+          id="id-abe88ade59eb4131abe83ea0ff64a528"
+          source="id-1887f333d42240c9a331a74d515cb914"
+          target="id-f7aa861371354c9593c65cc44561b997">
+        <bendpoints
+            startX="-6"
+            startY="54"
+            endX="-78"
+            endY="-54"/>
+        <bendpoints
+            startX="54"
+            startY="54"
+            endX="-18"
+            endY="-54"/>
+      </sourceConnections>
+      <bounds
+          x="72"
+          y="168"
+          width="133"
+          height="61"/>
+      <properties
+          key="eira:definitionSource"
+          value="LDT4SSCC"/>
+    </children>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-ceff13f054d745b5a2cd5498053b08b4"
+      name="Services"
+      fillColor="#ff9393"
+      textPosition="1"
+      borderType="1">
+    <sourceConnections
+        id="id-1b78064fd462402fbfed32e77232c3e1"
+        source="id-ceff13f054d745b5a2cd5498053b08b4"
+        target="id-95b0fcbc385c408e8decc502a06857ef"
+        type="9">
+      <bendpoints
+          startX="-18"
+          startY="114"
+          endX="-150"
+          endY="-6"/>
+    </sourceConnections>
+    <bounds
+        x="984"
+        y="156"
+        width="133"
+        height="61"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-b2a0cd405b284444b3524b2807a7e49a"
+      name="Visualisation"
+      targetConnections="id-f647c7fbed7d42759160623bdd1dc2c2 id-552d9b2f203645d9abdde93d2c3a11dc"
+      fillColor="#00cccc"
+      textPosition="1"
+      borderType="1">
+    <bounds
+        x="1140"
+        y="156"
+        width="133"
+        height="61"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-a21bdc9eee94403496abab2f431b3155"
+      name="Raw data sources"
+      fillColor="#759fa2"
+      textPosition="1"
+      borderType="1">
+    <sourceConnections
+        id="id-82177adf78d34894a725a74358fed739"
+        source="id-a21bdc9eee94403496abab2f431b3155"
+        target="id-1887f333d42240c9a331a74d515cb914"
+        type="1">
+      <bendpoints
+          startX="18"
+          startY="-54"
+          endX="-54"
+          endY="54"/>
+      <bendpoints
+          startX="66"
+          startY="-54"
+          endX="-6"
+          endY="54"/>
+    </sourceConnections>
+    <bounds
+        x="1044"
+        y="468"
+        width="133"
+        height="61"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-f7aa861371354c9593c65cc44561b997"
+      name="Data from data spaces"
+      targetConnections="id-abe88ade59eb4131abe83ea0ff64a528"
+      fillColor="#759fa2"
+      textPosition="1"
+      borderType="1">
+    <bounds
+        x="1188"
+        y="468"
+        width="133"
+        height="61"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-cae3a6650d9041f8925b1ff63c2fb120"
+      name="Analysis"
+      fillColor="#f3c218"
+      textPosition="1"
+      borderType="1">
+    <sourceConnections
+        id="id-552d9b2f203645d9abdde93d2c3a11dc"
+        source="id-cae3a6650d9041f8925b1ff63c2fb120"
+        target="id-b2a0cd405b284444b3524b2807a7e49a"
+        type="9">
+      <bendpoints
+          startX="6"
+          startY="-54"
+          endX="138"
+          endY="18"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-f1eb5c27f7404d1ea6106880e52f82bd"
+        source="id-cae3a6650d9041f8925b1ff63c2fb120"
+        target="id-95b0fcbc385c408e8decc502a06857ef"
+        type="9">
+      <bendpoints
+          startX="-18"
+          startY="42"
+          endX="138"
+          endY="18"/>
+    </sourceConnections>
+    <bounds
+        x="1272"
+        y="228"
+        width="133"
+        height="61"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-8cfb13b1e28144fa99d71d2880053efc"
+      id="id-e2bc21375e8b46698f43bd4d4d770b99"
       textAlignment="1"
-      content="DSSC Builidng Blocks:&#xD;&#xA;- Data value creation&#xD;&#xA;">
+      content="LDT Base">
     <bounds
-        x="840"
-        y="372"
-        width="313"
-        height="85"/>
+        x="876"
+        y="447"
+        width="77"
+        height="34"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-26581d7554d54d149f74ae3b0ae30033"
+      textAlignment="1"
+      content="LDT Core">
+    <bounds
+        x="876"
+        y="312"
+        width="73"
+        height="37"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-104d9c2aeb4b402693992aecb02d7609"
+      textAlignment="1"
+      content="LDT Surface">
+    <bounds
+        x="876"
+        y="197"
+        width="97"
+        height="32"/>
+    <properties
+        key="eira:definitionSource"
+        value="LDT4SSCC"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c5572e92048a42c69028727261e51a24"
+      textAlignment="1"
+      content="LDT4SSCC use this sketch to illustrate similar concepts as defined in the EDIC LDT CitiVERSE Reference architecture">
+    <bounds
+        x="960"
+        y="60"
+        width="238"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-de10cf2f8f1d4384a1fadcbf9efd19d4"
+      name="DSSC Technical Building Blocks"
+      fillColor="#22b7ff"
+      borderType="1">
+    <bounds
+        x="-312"
+        y="337"
+        width="433"
+        height="253"/>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-4cff47d10ffc4333839d831b3a6d76c1"
+        name="Data Interoperability"
+        textAlignment="1"
+        fillColor="#00ffff"
+        borderType="1">
+      <bounds
+          x="24"
+          y="36"
+          width="121"
+          height="205"/>
+      <properties
+          key="eira:definitionSource"
+          value="dssc.eu"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-98e285b4f76f4e2bb5e85829ccf52175"
+        name="Data Sovereignty &amp; trust"
+        fillColor="#00ffff"
+        borderType="1">
+      <bounds
+          x="156"
+          y="36"
+          width="121"
+          height="205"/>
+      <properties
+          key="eira:definitionSource"
+          value="dssc.eu"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-84f0f3e8d1d343509d5acc581b1d0b70"
+        name="Data Value creation enablers"
+        fillColor="#00ffff"
+        borderType="1">
+      <bounds
+          x="288"
+          y="36"
+          width="121"
+          height="205"/>
+      <properties
+          key="eira:definitionSource"
+          value="dssc.eu"/>
+    </children>
+    <properties
+        key="eira:definitionSource"
+        value="dssc.eu"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Objective O4: Capacity Building"
     id="id-f25a56e45785422dba677836f6301727"
-    documentation="Objective O4: Capacity Building&#xD;&#xA;&#xD;&#xA;• A4.1: Organize training sessions, workshops, and seminars to build skills and capacity among city&#xD;&#xA;agents and stakeholders in the smart city domain.&#xD;&#xA;&#xD;&#xA;• A4.2: Develop educational resources and best practice guidelines to support ongoing learning and&#xD;&#xA;stakeholder development"/>
+    documentation="Objective O4: Capacity Building&#xD;&#xA;&#xD;&#xA;• A4.1: Organize training sessions, workshops, and seminars to build skills and capacity among city&#xD;&#xA;agents and stakeholders in the smart city domain.&#xD;&#xA;&#xD;&#xA;• A4.2: Develop educational resources and best practice guidelines to support ongoing learning and&#xD;&#xA;stakeholder development">
+  <properties
+      key="eira:definitionSource"
+      value="PROPOSAL_101225793-LDT CitiVERSE EDIC-DIGITAL-2024-BESTUSE-07-2.pdf"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="1.1 Objectives and activities"/>
+</archimate:Goal>

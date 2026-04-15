@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Data Object>"
-    id="id-35c0605f98e34186ba3a592cd6920f56"/>
+    id="id-35c0605f98e34186ba3a592cd6920f56"
+    documentation="Data structured for automated processing. A “Data entity”.&#xD;&#xA;Represents e.g. database, database table, message etc"/>

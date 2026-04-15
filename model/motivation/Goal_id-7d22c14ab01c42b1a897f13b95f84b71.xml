@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Objective O2: Technical Roadmap Design"
     id="id-7d22c14ab01c42b1a897f13b95f84b71"
-    documentation="Objective O2: Technical Roadmap Design&#xD;&#xA;&#xD;&#xA;• A2.1: Develop a detailed technical roadmap outlining development phases, milestones, and&#xD;&#xA;deliverables for the next three years&#xD;&#xA;&#xD;&#xA;• A2.2: Integrate advanced technologies such as AI, Data Spaces, and IoT to enhance the&#xD;&#xA;functionality, scalability, and adaptability of the LDT framework"/>
+    documentation="Objective O2: Technical Roadmap Design&#xD;&#xA;&#xD;&#xA;• A2.1: Develop a detailed technical roadmap outlining development phases, milestones, and&#xD;&#xA;deliverables for the next three years&#xD;&#xA;&#xD;&#xA;• A2.2: Integrate advanced technologies such as AI, Data Spaces, and IoT to enhance the&#xD;&#xA;functionality, scalability, and adaptability of the LDT framework">
+  <properties
+      key="eira:definitionSource"
+      value="PROPOSAL_101225793-LDT CitiVERSE EDIC-DIGITAL-2024-BESTUSE-07-2.pdf"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="1.1 Objectives and activities"/>
+</archimate:Goal>

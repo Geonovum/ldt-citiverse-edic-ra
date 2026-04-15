@@ -1,0 +1,8 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM0 - Accessing Data"
+    id="id-ecf4df7386144c3b8a12323917a8809d">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

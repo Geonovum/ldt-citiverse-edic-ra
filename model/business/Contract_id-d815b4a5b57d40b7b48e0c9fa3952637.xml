@@ -1,0 +1,8 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="MIM1 - Interlinking Data"
+    id="id-d815b4a5b57d40b7b48e0c9fa3952637">
+  <properties
+      key="eira:definitionSource"
+      value="https://mims.oascities.org/"/>
+</archimate:Contract>

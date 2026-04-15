@@ -1,7 +1,8 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Standaard>"
-    id="id-f88d3627185c4c8ca18886ed51ef6097">
+    id="id-f88d3627185c4c8ca18886ed51ef6097"
+    documentation="A statement of need that must be met by the architecture - more specific a standard that needs to be followed to adhere to the architecture">
   <properties
       key="Name (en)"
       value="&lt;Standard>"/>

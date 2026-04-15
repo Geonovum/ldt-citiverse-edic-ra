@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Descriptive LDT"
+    id="id-19e44326bfb043789159cdb90c3e9c18"
+    documentation="Dispersed, static data in systems without integration, communication, or automation.">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+</archimate:Capability>

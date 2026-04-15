@@ -1,8 +1,9 @@
 <archimate:Driver
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="&lt;Kernwaarde>"
-    id="id-27c68b4c742f4e90ab3d9afd1f043ac1">
+    name="&lt;Driver>"
+    id="id-27c68b4c742f4e90ab3d9afd1f043ac1"
+    documentation="An external or internal condition that motivates an organization&#xD;&#xA;to define its goals and implement the changes necessary to&#xD;&#xA;achieve them. Defines the WHY a change is important">
   <properties
       key="Name (en)"
-      value="&lt;Core value>"/>
+      value="&lt;Driver>"/>
 </archimate:Driver>

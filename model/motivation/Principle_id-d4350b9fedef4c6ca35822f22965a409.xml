@@ -1,4 +1,12 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1. Federate Technical Assets and Ensure Interoperability"
-    id="id-d4350b9fedef4c6ca35822f22965a409"/>
+    id="id-d4350b9fedef4c6ca35822f22965a409"
+    documentation="LDT CitiVERSE EDIC will develop a unified digital twin infrastructure to connect Local Digital Twins&#xD;&#xA;(LDTs) across Europe, ensuring seamless interoperability through standardized specifications. This&#xD;&#xA;federation of platforms enables cities and regions to share data and resources, advancing a secure,&#xD;&#xA;interconnected digital ecosystem that strengthens the supply chain by eliminating siloed solutions and&#xD;&#xA;promoting shared innovation, leveraging previous DEP projects (e.g., Smart Communities, Data Space,&#xD;&#xA;EU LDT toolbox).">
+  <properties
+      key="eira:definitionSource"
+      value="PROPOSAL_101225793-LDT CitiVERSE EDIC-DIGITAL-2024-BESTUSE-07-2.pdf"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="1.3 Digital technology supply chain"/>
+</archimate:Principle>

@@ -1,4 +1,5 @@
 <archimate:Node
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Node>"
-    id="id-4aea36d76c104bb1bfd31ee028ce45f4"/>
+    id="id-4aea36d76c104bb1bfd31ee028ce45f4"
+    documentation="A computational or physical resource that hosts, manipulates,&#xD;&#xA;or interacts with other computational or physical resources.&#xD;&#xA;Active structure elements that perform technology behavior&#xD;&#xA;and execute, store, and process technology objects such as&#xD;&#xA;artifacts. For instance, nodes are used to model application&#xD;&#xA;platforms, defined by the TOGAF framework as: “a collection&#xD;&#xA;of technology components of hardware and software that&#xD;&#xA;provide the services used to support applications”"/>

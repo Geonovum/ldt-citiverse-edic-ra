@@ -124,7 +124,7 @@
         xsi:type="archimate:DiagramModelNote"
         id="id-655ad217c77a4293a59848d638d1215d"
         textAlignment="1"
-        content="This is the view for the LDT technology building blocks">
+        content="This is the view for the LDT technology building blocks reference architecture">
       <bounds
           x="264"
           y="12"
@@ -223,6 +223,41 @@
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
           href="ArchimateDiagramModel_id-cd279b61d57140409fd4124ff90baee7.xml#id-cd279b61d57140409fd4124ff90baee7"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-e2bfb10e9c6a40728515fe99b46d4f38"
+      name="Technical view - application &amp; infrastructure - solutions LDT"
+      textAlignment="1"
+      borderType="1">
+    <bounds
+        x="1116"
+        y="600"
+        width="433"
+        height="277"/>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-894354e337894307aabfd93a37f79e55"
+        textAlignment="1"
+        content="This is the view for the LDT technology building blocks solution architectures">
+      <bounds
+          x="264"
+          y="24"
+          width="161"
+          height="61"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-a93c3c2d8bfd40718ccbdb9c0242c048">
+      <bounds
+          x="36"
+          y="132"
+          width="289"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-9382bdb8eba94af0bb53d788e811a16d.xml#id-9382bdb8eba94af0bb53d788e811a16d"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>

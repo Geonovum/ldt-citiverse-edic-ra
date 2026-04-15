@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Functionele dienst>"
     id="id-953edfef91c24990978dc0d0082eecf4"
-    documentation="Een bedrijfsservice of dienst is het resultaat dat voorziet in een behoefte en dat door een werkproces van de organisatie of door een partij geleverd wordt aan een (groep) klant(en). (novius definitie)">
+    documentation="An explicitly defined exposed business behavior.">
   <properties
       key="Name (en)"
       value="&lt;Functional Service>"/>

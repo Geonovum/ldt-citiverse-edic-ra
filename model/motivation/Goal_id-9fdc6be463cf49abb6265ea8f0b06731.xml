@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Objective O3: Service Definition and Implementation"
     id="id-9fdc6be463cf49abb6265ea8f0b06731"
-    documentation="Objective O3: Service Definition and Implementation&#xD;&#xA;&#xD;&#xA;• A3.1: Define specific services for cities, focusing on LDT definition, deployment, and management.&#xD;&#xA;• A3.2: Implement user-friendly services to ensure wide-scale adoption of LDTs across European&#xD;&#xA;cities"/>
+    documentation="Objective O3: Service Definition and Implementation&#xD;&#xA;&#xD;&#xA;• A3.1: Define specific services for cities, focusing on LDT definition, deployment, and management.&#xD;&#xA;• A3.2: Implement user-friendly services to ensure wide-scale adoption of LDTs across European&#xD;&#xA;cities">
+  <properties
+      key="eira:definitionSource"
+      value="PROPOSAL_101225793-LDT CitiVERSE EDIC-DIGITAL-2024-BESTUSE-07-2.pdf"/>
+  <properties
+      key="eira:definitionSourceReference"
+      value="1.1 Objectives and activities"/>
+</archimate:Goal>

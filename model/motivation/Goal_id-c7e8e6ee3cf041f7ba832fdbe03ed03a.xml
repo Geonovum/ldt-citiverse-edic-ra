@@ -1,7 +1,8 @@
 <archimate:Goal
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="&lt;Doel>"
-    id="id-c7e8e6ee3cf041f7ba832fdbe03ed03a">
+    id="id-c7e8e6ee3cf041f7ba832fdbe03ed03a"
+    documentation="A high-level statement of intent, direction, or desired end state&#xD;&#xA;for an organization and its stakeholders">
   <properties
       key="Name (en)"
       value="&lt;Goal>"/>
