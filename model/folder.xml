@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EDIC Local Digital Twin - Reference Architecture"
     id="id-ldt-fixed-arch-003"
-    purpose="The EDIC Local Digital Twin - Reference Architecture describes the architectural choices for the LDT Citiverse EDIC.&#xD;&#xA;&#xD;&#xA;It consists of:&#xD;&#xA;- A metamodel, to focus the architectural patterns being used for the reference architecture.&#xD;&#xA;- Level 0, motivational and strategy layers viewpoint.&#xD;&#xA;- Level 1, Strategy, Business layers viewpoint.&#xD;&#xA;- Level 2, Business to Application/Solution viewpoint.&#xD;&#xA;- Level 3, Conceptual Application and technology viewpoint.&#xD;&#xA;"
+    purpose="The EDIC Local Digital Twin - Reference Architecture describes the architectural choices for the LDT CitiVERSE EDIC.&#xD;&#xA;&#xD;&#xA;It consists of:&#xD;&#xA;- A metamodel, to focus the architectural patterns being used for the reference architecture.&#xD;&#xA;- Overall architecture views.&#xD;&#xA;- Architecture views for the EDIC organisation and infrastructure itself&#xD;&#xA;- Architecture views for the LDT patterns and buildingblocks that the EDIC agrees on.&#xD;&#xA;&#xD;&#xA;"
     version="5.0.0">
   <properties
       key="dct:title"
