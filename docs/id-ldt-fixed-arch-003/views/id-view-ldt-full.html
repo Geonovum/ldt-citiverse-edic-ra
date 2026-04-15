@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Consolidated LDT Architecture - level 0 (motivation & strategy)</title>
+	<title>Overall Architecture - motivation</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Consolidated LDT Architecture - level 0 (motivation &amp; strategy)</b>
+               <b>Overall Architecture - motivation</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-viewpoint-"></span>)
@@ -31,119 +31,60 @@
 
 		<div class="panel-body root-panel-body">
 		    <!-- If this is a digram model (has children and no bounds) show the image -->
-			   <img class="diagram" src="../images/id-view-ldt-full.png" alt="Consolidated LDT Architecture - level 0 (motivation & strategy)" usemap="#id-view-ldt-fullmap"/>
+			   <img class="diagram" src="../images/id-view-ldt-full.png" alt="Overall Architecture - motivation" usemap="#id-view-ldt-fullmap"/>
 			   <map name="id-view-ldt-fullmap">
-				  		<area shape="rect" coords="1594,778,2098,833" href="../elements/id-552ba3db02c84b9ba2106f9603c0f9df.html"  target="element">
-				  		<area shape="rect" coords="1594,850,2098,910" href="../elements/id-ca7fd106ea7042199d65620c91b89a58.html"  target="element">
-				  				<area shape="rect" coords="1402,1158,1630,1213" href="../elements/id-8df18c8e56244ef59441f3c905dc74c0.html"  target="element">
-				  				<area shape="rect" coords="1402,1086,1630,1141" href="../elements/id-a6d649e4c2484551b32f1af6528cda8c.html"  target="element">
-				  				<area shape="rect" coords="1402,1014,1630,1069" href="../elements/id-0f8d498750a24fc69b1fc07350c1a8de.html"  target="element">
+				  				<area shape="rect" coords="118,993,368,1068" href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html"  target="element">
 
-				  		<area shape="rect" coords="1366,978,1702,1242" href="../elements/id-43680241487246479a642fc28210a397.html"  target="element">
-				  				<area shape="rect" coords="142,886,262,941" href="../elements/id-1e0a2098bc4949acb5679cd3e4d41394.html"  target="element">
-				  						<area shape="rect" coords="418,886,622,941" href="../elements/id-05b033171af442afa6622a179dbd2947.html"  target="element">
-				  						<area shape="rect" coords="418,826,622,881" href="../elements/id-0ad0a99d92f5473d988608cc57170b96.html"  target="element">
-				  						<area shape="rect" coords="418,766,622,821" href="../elements/id-f6450e415bf449af8a7ba0a1068420c4.html"  target="element">
-				  						<area shape="rect" coords="418,706,622,761" href="../elements/id-5f7bcff70e454cb69dcfdab5019238f8.html"  target="element">
+				  		<area shape="rect" coords="82,957,394,1101" href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html"  target="element">
+				  				<area shape="rect" coords="789,1389,993,1444" href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html"  target="element">
+				  				<area shape="rect" coords="789,1317,993,1372" href="../elements/id-391246a3200d44e489a30abba368acd2.html"  target="element">
+				  				<area shape="rect" coords="789,1245,993,1300" href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html"  target="element">
+				  				<area shape="rect" coords="789,1173,993,1228" href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html"  target="element">
+				  				<area shape="rect" coords="789,1101,993,1156" href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html"  target="element">
+				  				<area shape="rect" coords="789,1029,993,1084" href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html"  target="element">
+				  				<area shape="rect" coords="489,1437,693,1492" href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html"  target="element">
+				  				<area shape="rect" coords="489,1365,693,1420" href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html"  target="element">
+				  				<area shape="rect" coords="489,1293,693,1348" href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html"  target="element">
+				  				<area shape="rect" coords="489,1221,693,1276" href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html"  target="element">
+				  				<area shape="rect" coords="489,1149,693,1204" href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html"  target="element">
+				  				<area shape="rect" coords="489,1077,693,1132" href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html"  target="element">
+				  				<area shape="rect" coords="489,1005,693,1060" href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html"  target="element">
 
-				  				<area shape="rect" coords="382,682,646,958" href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html"  target="element">
-				  						<area shape="rect" coords="70,730,320,805" href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html"  target="element">
+				  		<area shape="rect" coords="417,957,1149,1534" href="../elements/id-35b88eea3c374e1c82bed1c541264483.html"  target="element">
+				  				<area shape="rect" coords="500,117,645,172" href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html"  target="element">
+				  				<area shape="rect" coords="498,46,648,106" href="../elements/id-val-trust.html"  target="element">
+				  				<area shape="rect" coords="681,117,830,172" href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html"  target="element">
+				  				<area shape="rect" coords="681,46,831,106" href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html"  target="element">
+				  				<area shape="rect" coords="873,46,1023,106" href="../elements/id-val-people.html"  target="element">
+				  				<area shape="rect" coords="873,117,1022,172" href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html"  target="element">
 
-				  				<area shape="rect" coords="34,694,346,838" href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html"  target="element">
+				  		<area shape="rect" coords="417,10,1149,214" href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html"  target="element">
+				  				<area shape="rect" coords="813,393,1101,448" href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html"  target="element">
+				  				<area shape="rect" coords="501,393,801,448" href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html"  target="element">
+				  				<area shape="rect" coords="849,321,1101,376" href="../elements/id-5135b9630fef496ea47c6b13068649b3.html"  target="element">
+				  				<area shape="rect" coords="849,261,1101,316" href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html"  target="element">
+				  				<area shape="rect" coords="501,321,753,376" href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html"  target="element">
+				  				<area shape="rect" coords="501,261,753,316" href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html"  target="element">
 
-				  		<area shape="rect" coords="10,658,742,971" href="../elements/id-35b88eea3c374e1c82bed1c541264483.html"  target="element">
-				  		<area shape="rect" coords="790,142,910,197" href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html"  target="element">
-				  				<area shape="rect" coords="93,117,238,172" href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html"  target="element">
-				  				<area shape="rect" coords="91,46,241,106" href="../elements/id-val-trust.html"  target="element">
-				  				<area shape="rect" coords="274,117,423,172" href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html"  target="element">
-				  				<area shape="rect" coords="274,46,424,106" href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html"  target="element">
-				  				<area shape="rect" coords="466,46,616,106" href="../elements/id-val-people.html"  target="element">
-				  				<area shape="rect" coords="466,117,615,172" href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html"  target="element">
+				  		<area shape="rect" coords="417,225,1149,477" href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html"  target="element">
+				  				<area shape="rect" coords="537,872,1005,927" href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html"  target="element">
+				  				<area shape="rect" coords="537,800,1005,855" href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html"  target="element">
+				  				<area shape="rect" coords="537,728,1005,783" href="../elements/id-f25a56e45785422dba677836f6301727.html"  target="element">
+				  				<area shape="rect" coords="537,656,1005,711" href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html"  target="element">
+				  				<area shape="rect" coords="537,584,1005,639" href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html"  target="element">
+				  				<area shape="rect" coords="537,512,1005,567" href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html"  target="element">
 
-				  		<area shape="rect" coords="10,10,742,214" href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html"  target="element">
-				  				<area shape="rect" coords="406,394,694,449" href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html"  target="element">
-				  				<area shape="rect" coords="94,394,394,449" href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html"  target="element">
-				  				<area shape="rect" coords="442,322,694,377" href="../elements/id-5135b9630fef496ea47c6b13068649b3.html"  target="element">
-				  				<area shape="rect" coords="442,262,694,317" href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html"  target="element">
-				  				<area shape="rect" coords="94,322,346,377" href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html"  target="element">
-				  				<area shape="rect" coords="94,262,346,317" href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html"  target="element">
+				  		<area shape="rect" coords="417,488,1149,946" href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html"  target="element">
+				  				<area shape="rect" coords="34,327,291,398" href="../elements/id-499e860521984a108074595914a0152f.html"  target="element">
 
-				  		<area shape="rect" coords="10,226,742,478" href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html"  target="element">
-				  				<area shape="rect" coords="946,562,1066,617" href="../elements/id-7d10dfe5639748cea7948670b396e395.html"  target="element">
-				  				<area shape="rect" coords="946,634,1066,689" href="../elements/id-1f52b230721849c39f3ef5103c0719f4.html"  target="element">
-				  				<area shape="rect" coords="802,634,922,689" href="../elements/id-11fcebe9459a4b91963075cdc016c166.html"  target="element">
-				  				<area shape="rect" coords="802,562,922,617" href="../elements/id-ee73b3607c9443e584a799a021752b8d.html"  target="element">
+				  		<area shape="rect" coords="10,267,334,435" href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html"  target="element">
+				  				<area shape="rect" coords="1222,860,1534,915" href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html"  target="element">
+				  				<area shape="rect" coords="1222,710,1534,762" href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html"  target="element">
+				  				<area shape="rect" coords="1222,560,1534,615" href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html"  target="element">
+				  				<area shape="rect" coords="1222,782,1535,837" href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html"  target="element">
+				  				<area shape="rect" coords="1222,632,1534,687" href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html"  target="element">
 
-				  		<area shape="rect" coords="778,502,1078,814" href="../elements/id-94a142448c284a00b71858f9c7aca79a.html"  target="element">
-				  		        <area shape="rect" coords="274,514,459,594" href="../objects/id-93dd331f3e7843be9fbc9817f5a13ccf.html" target="element" >
-
-				  		<area shape="rect" coords="10,490,742,634" href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html"  target="element">
-				  				<area shape="rect" coords="82,1006,358,1061" href="../elements/id-2cf25d5d4ef64b6bb1ce1afa803b5922.html"  target="element">
-				  				<area shape="rect" coords="82,1078,358,1133" href="../elements/id-4e7ec8beacd942d4b39f905445552777.html"  target="element">
-				  				<area shape="rect" coords="82,1154,358,1209" href="../elements/id-e6ee999d29074706a351b116379b05af.html"  target="element">
-				  				<area shape="rect" coords="82,1234,358,1289" href="../elements/id-77755139bd0b45bc9a06b884050e489d.html"  target="element">
-				  				<area shape="rect" coords="82,1308,358,1363" href="../elements/id-4ec1a8621729403e9a1587b4409f6ac3.html"  target="element">
-
-				  		<area shape="rect" coords="10,982,454,1518" href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html"  target="element">
-				  				<area shape="rect" coords="550,1030,826,1085" href="../elements/id-6edffcbe662f4459a749495f0bed65fd.html"  target="element">
-				  				<area shape="rect" coords="550,1306,826,1361" href="../elements/id-c2a7b4cbb9d54f209c5f0a72a306500e.html"  target="element">
-				  				<area shape="rect" coords="550,1238,826,1293" href="../elements/id-186e4cad7bad48e78c158230894e115d.html"  target="element">
-				  				<area shape="rect" coords="550,1372,826,1427" href="../elements/id-b9cdbd9f8d6d4c51a25257e66695178d.html"  target="element">
-				  				<area shape="rect" coords="550,1438,826,1493" href="../elements/id-c834930338cc4dde887ba02d6305627e.html"  target="element">
-				  				<area shape="rect" coords="550,1096,826,1151" href="../elements/id-85eadc699c7c420990c180013de0c1f6.html"  target="element">
-				  				<area shape="rect" coords="550,1172,826,1227" href="../elements/id-5c44735c8f73437dbd90baeb065f7ec6.html"  target="element">
-
-				  		<area shape="rect" coords="478,982,946,1522" href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html"  target="element">
-				  				<area shape="rect" coords="1018,1218,1282,1273" href="../elements/id-3f0cdd11807846658bf05c1d9460ae66.html"  target="element">
-				  				<area shape="rect" coords="1018,1150,1282,1205" href="../elements/id-88218c0adce344b4b00ffa765edd56e2.html"  target="element">
-				  				<area shape="rect" coords="1018,1284,1282,1339" href="../elements/id-8e49ed2794d449fba030f2e6cf81570c.html"  target="element">
-				  				<area shape="rect" coords="1018,1434,1282,1489" href="../elements/id-c3754ec806414e0cbfd918d6c4936ddc.html"  target="element">
-				  				<area shape="rect" coords="1018,1074,1282,1129" href="../elements/id-77ae3e36c21d401f98376a024739651f.html"  target="element">
-				  				<area shape="rect" coords="1018,1002,1282,1057" href="../elements/id-9bdb7bb9e2ca4316b9b7eb7fa1458f20.html"  target="element">
-				  				<area shape="rect" coords="1018,1362,1282,1417" href="../elements/id-0402b3bed164459e938fc2575959b573.html"  target="element">
-
-				  		<area shape="rect" coords="970,978,1330,1522" href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html"  target="element">
-				  				<area shape="rect" coords="1774,1122,2026,1177" href="../elements/id-a85ccc297eba41de99b76d90902deeb9.html"  target="element">
-				  				<area shape="rect" coords="1774,1050,2026,1105" href="../elements/id-4e345fb4f6474bc2853a1b3a8826e136.html"  target="element">
-				  				<area shape="rect" coords="2062,1122,2314,1177" href="../elements/id-13c96f1cac584bdfaae1543a422b4fee.html"  target="element">
-				  				<area shape="rect" coords="2062,1278,2314,1333" href="../elements/id-072191be8b884bfb927e9b1720b938ed.html"  target="element">
-				  				<area shape="rect" coords="2062,1194,2314,1249" href="../elements/id-7a19d9640f284cf49bfc880fba1d7079.html"  target="element">
-				  				<area shape="rect" coords="1774,1271,2026,1326" href="../elements/id-43144c646a434aec8d1ec1206839d0d0.html"  target="element">
-				  				<area shape="rect" coords="1774,1198,2026,1253" href="../elements/id-8983e4a4a9504f9792401deb53d404db.html"  target="element">
-				  				<area shape="rect" coords="2062,1350,2314,1405" href="../elements/id-99b0ced59e6c4a949765c1ce4e850f51.html"  target="element">
-				  				<area shape="rect" coords="2062,1050,2314,1105" href="../elements/id-1b42f9505bc9439d82ae170a34e39408.html"  target="element">
-				  				<area shape="rect" coords="1774,1352,2026,1407" href="../elements/id-192cc9a722764ecaa34b05ef972f6c75.html"  target="element">
-
-				  		<area shape="rect" coords="1726,978,2338,1518" href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html"  target="element">
-				  				<area shape="rect" coords="1402,1374,1630,1429" href="../elements/id-b0e57b079dcc46f6979f0ff8554e3e64.html"  target="element">
-				  				<area shape="rect" coords="1402,1302,1630,1357" href="../elements/id-a555cb24230e4831896da6e9a8b815e9.html"  target="element">
-				  				<area shape="rect" coords="1402,1446,1630,1501" href="../elements/id-b9eecd03302f47ab8a718e4f151c5e73.html"  target="element">
-
-				  		<area shape="rect" coords="1366,1254,1702,1522" href="../elements/id-d5c9a41883754e548711fad976a3be8c.html"  target="element">
-				  				<area shape="rect" coords="1450,706,1570,761" href="../elements/id-7662396c4bff4906a8306432116ada37.html"  target="element">
-				  				<area shape="rect" coords="1390,646,1510,701" href="../elements/id-3bb3b0d813ce4cb8bb8e9522c90a0ef1.html"  target="element">
-				  				<area shape="rect" coords="1318,706,1438,762" href="../elements/id-95597b44756f442999c3bbbb902c5be7.html"  target="element">
-				  						<area shape="rect" coords="1150,586,1270,653" href="../elements/id-9163afdd5ec24063a819f643aa3a3940.html"  target="element">
-				  						<area shape="rect" coords="1150,665,1270,720" href="../elements/id-c141f83d89744d3ebdc7daf8d746b320.html"  target="element">
-				  						<area shape="rect" coords="1150,737,1270,792" href="../elements/id-76554d2c1648403b8e39fd8b14f566ee.html"  target="element">
-				  						<area shape="rect" coords="1150,809,1270,864" href="../elements/id-994c2ec15d364f6b9d2b6b0c6707d3bf.html"  target="element">
-
-				  				<area shape="rect" coords="1114,550,1306,874" href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html"  target="element">
-
-				  		<area shape="rect" coords="1102,502,1583,910" href="../elements/id-4e98a62f124d4320aab891133a506159.html"  target="element">
-				  				<area shape="rect" coords="778,370,1035,441" href="../elements/id-499e860521984a108074595914a0152f.html"  target="element">
-
-				  		<area shape="rect" coords="754,310,1078,478" href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html"  target="element">
-				  				<area shape="rect" coords="1690,322,1827,453" href="../elements/id-c34ce39b7dfe4666acfd5ff9c7bb7259.html"  target="element">
-				  				<area shape="rect" coords="1858,322,1995,453" href="../elements/id-46d0b8027dc3498882baacce3bf95205.html"  target="element">
-				  				<area shape="rect" coords="1930,470,2067,601" href="../elements/id-c4eddaf7e43b45d8add3a8dde97cd2aa.html"  target="element">
-				  				<area shape="rect" coords="1774,470,1911,601" href="../elements/id-e85bafbf2cd94a6bb2953d38c1458c34.html"  target="element">
-				  				<area shape="rect" coords="1618,470,1755,601" href="../elements/id-1e516b25d48f4eb4b4bc36802ea0bd33.html"  target="element">
-				  				<area shape="rect" coords="1618,616,1755,747" href="../elements/id-f7fad4607ed4476ab7a314d0ddbe166f.html"  target="element">
-				  				<area shape="rect" coords="1774,616,1911,747" href="../elements/id-cba59611b1614f2282e5aa90c40e21e7.html"  target="element">
-				  				<area shape="rect" coords="1930,616,2067,747" href="../elements/id-1279d9cce22649e3804f244e642e4ef5.html"  target="element">
-
-				  		<area shape="rect" coords="1594,298,2098,766" href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html"  target="element">
+				  		<area shape="rect" coords="1162,488,1630,945" href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html"  target="element">
 
 			   </map>
 
@@ -216,56 +157,38 @@
 								</thead>
 								<tbody>
 											<tr>
-											    <td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-											    <td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element" class="i18n-elementtype-ValueStream">
+											    <td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+											    <td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element" class="i18n-elementtype-Grouping">
 											    </a> </td>
 											</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-1279d9cce22649e3804f244e642e4ef5.html" target="element"> Digital participation </a> </td>
-													    <td> <a href="../elements/id-1279d9cce22649e3804f244e642e4ef5.html" target="element" class="i18n-elementtype-ValueStream">
+													    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> Contribution to Digital Europe Programme&#8217;s goals </a> </td>
+													    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element" class="i18n-elementtype-Outcome">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-cba59611b1614f2282e5aa90c40e21e7.html" target="element"> Digital permit procedures </a> </td>
-													    <td> <a href="../elements/id-cba59611b1614f2282e5aa90c40e21e7.html" target="element" class="i18n-elementtype-ValueStream">
+													    <td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element"> Establish LDT CitiVERSE Enablement framework </a> </td>
+													    <td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element" class="i18n-elementtype-CourseOfAction">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-f7fad4607ed4476ab7a314d0ddbe166f.html" target="element"> Integrated neighbourhood / area development </a> </td>
-													    <td> <a href="../elements/id-f7fad4607ed4476ab7a314d0ddbe166f.html" target="element" class="i18n-elementtype-ValueStream">
+													    <td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element"> Operational Model that is market-oriented </a> </td>
+													    <td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element" class="i18n-elementtype-Outcome">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-1e516b25d48f4eb4b4bc36802ea0bd33.html" target="element"> Energy tranisition </a> </td>
-													    <td> <a href="../elements/id-1e516b25d48f4eb4b4bc36802ea0bd33.html" target="element" class="i18n-elementtype-ValueStream">
+													    <td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element"> Establish LDT CitiVERSE Technology framework </a> </td>
+													    <td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element" class="i18n-elementtype-CourseOfAction">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-e85bafbf2cd94a6bb2953d38c1458c34.html" target="element"> Climate-resilience </a> </td>
-													    <td> <a href="../elements/id-e85bafbf2cd94a6bb2953d38c1458c34.html" target="element" class="i18n-elementtype-ValueStream">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-c4eddaf7e43b45d8add3a8dde97cd2aa.html" target="element">  Traffic management / mobility </a> </td>
-													    <td> <a href="../elements/id-c4eddaf7e43b45d8add3a8dde97cd2aa.html" target="element" class="i18n-elementtype-ValueStream">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-46d0b8027dc3498882baacce3bf95205.html" target="element"> Disaster management </a> </td>
-													    <td> <a href="../elements/id-46d0b8027dc3498882baacce3bf95205.html" target="element" class="i18n-elementtype-ValueStream">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-c34ce39b7dfe4666acfd5ff9c7bb7259.html" target="element"> Infrastructure management </a> </td>
-													    <td> <a href="../elements/id-c34ce39b7dfe4666acfd5ff9c7bb7259.html" target="element" class="i18n-elementtype-ValueStream">
+													    <td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element"> Establish EDIC Infrastructure </a> </td>
+													    <td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element" class="i18n-elementtype-CourseOfAction">
 													    </a> </td>
 													</tr>
 
@@ -284,327 +207,44 @@
 
 											
 											<tr>
-											    <td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
-											    <td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-													    <td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element" class="i18n-elementtype-Grouping">
-													    </a> </td>
-													</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-994c2ec15d364f6b9d2b6b0c6707d3bf.html" target="element"> Digital Foundation / Integration </a> </td>
-															    <td> <a href="../elements/id-994c2ec15d364f6b9d2b6b0c6707d3bf.html" target="element" class="i18n-elementtype-Capability">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-76554d2c1648403b8e39fd8b14f566ee.html" target="element"> Generate Knowledge </a> </td>
-															    <td> <a href="../elements/id-76554d2c1648403b8e39fd8b14f566ee.html" target="element" class="i18n-elementtype-Capability">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-c141f83d89744d3ebdc7daf8d746b320.html" target="element"> Decide </a> </td>
-															    <td> <a href="../elements/id-c141f83d89744d3ebdc7daf8d746b320.html" target="element" class="i18n-elementtype-Capability">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-9163afdd5ec24063a819f643aa3a3940.html" target="element"> Intervene </a> </td>
-															    <td> <a href="../elements/id-9163afdd5ec24063a819f643aa3a3940.html" target="element" class="i18n-elementtype-Capability">
-															    </a> </td>
-															</tr>
-
-													
-													<tr>
-													    <td> <a href="../elements/id-95597b44756f442999c3bbbb902c5be7.html" target="element"> Community Enablement </a> </td>
-													    <td> <a href="../elements/id-95597b44756f442999c3bbbb902c5be7.html" target="element" class="i18n-elementtype-Capability">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-3bb3b0d813ce4cb8bb8e9522c90a0ef1.html" target="element"> Enablement </a> </td>
-													    <td> <a href="../elements/id-3bb3b0d813ce4cb8bb8e9522c90a0ef1.html" target="element" class="i18n-elementtype-Capability">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-7662396c4bff4906a8306432116ada37.html" target="element"> Technical Enablement </a> </td>
-													    <td> <a href="../elements/id-7662396c4bff4906a8306432116ada37.html" target="element" class="i18n-elementtype-Capability">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-d5c9a41883754e548711fad976a3be8c.html" target="element"> Requirements - Documentation </a> </td>
-											    <td> <a href="../elements/id-d5c9a41883754e548711fad976a3be8c.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-b9eecd03302f47ab8a718e4f151c5e73.html" target="element"> R35 - Swagger </a> </td>
-													    <td> <a href="../elements/id-b9eecd03302f47ab8a718e4f151c5e73.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-a555cb24230e4831896da6e9a8b815e9.html" target="element"> R33 - manuals </a> </td>
-													    <td> <a href="../elements/id-a555cb24230e4831896da6e9a8b815e9.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-b0e57b079dcc46f6979f0ff8554e3e64.html" target="element"> R34 - C4Model </a> </td>
-													    <td> <a href="../elements/id-b0e57b079dcc46f6979f0ff8554e3e64.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-											    <td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-192cc9a722764ecaa34b05ef972f6c75.html" target="element"> R27 -  fault tolerance </a> </td>
-													    <td> <a href="../elements/id-192cc9a722764ecaa34b05ef972f6c75.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-1b42f9505bc9439d82ae170a34e39408.html" target="element"> R28 -  load balancing </a> </td>
-													    <td> <a href="../elements/id-1b42f9505bc9439d82ae170a34e39408.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-99b0ced59e6c4a949765c1ce4e850f51.html" target="element"> R32 - backup </a> </td>
-													    <td> <a href="../elements/id-99b0ced59e6c4a949765c1ce4e850f51.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-8983e4a4a9504f9792401deb53d404db.html" target="element"> R25 -  monitoring </a> </td>
-													    <td> <a href="../elements/id-8983e4a4a9504f9792401deb53d404db.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-43144c646a434aec8d1ec1206839d0d0.html" target="element"> R26 - logging </a> </td>
-													    <td> <a href="../elements/id-43144c646a434aec8d1ec1206839d0d0.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-7a19d9640f284cf49bfc880fba1d7079.html" target="element"> R30 - scalability </a> </td>
-													    <td> <a href="../elements/id-7a19d9640f284cf49bfc880fba1d7079.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-072191be8b884bfb927e9b1720b938ed.html" target="element"> R31 - auto-scaling </a> </td>
-													    <td> <a href="../elements/id-072191be8b884bfb927e9b1720b938ed.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-13c96f1cac584bdfaae1543a422b4fee.html" target="element"> R29 - resilience </a> </td>
-													    <td> <a href="../elements/id-13c96f1cac584bdfaae1543a422b4fee.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-4e345fb4f6474bc2853a1b3a8826e136.html" target="element"> R23 - user support </a> </td>
-													    <td> <a href="../elements/id-4e345fb4f6474bc2853a1b3a8826e136.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-a85ccc297eba41de99b76d90902deeb9.html" target="element"> R24 - health check endpoints </a> </td>
-													    <td> <a href="../elements/id-a85ccc297eba41de99b76d90902deeb9.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-											    <td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-0402b3bed164459e938fc2575959b573.html" target="element"> R18 -  accessibility </a> </td>
-													    <td> <a href="../elements/id-0402b3bed164459e938fc2575959b573.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-9bdb7bb9e2ca4316b9b7eb7fa1458f20.html" target="element"> R13 - unified UX and UI </a> </td>
-													    <td> <a href="../elements/id-9bdb7bb9e2ca4316b9b7eb7fa1458f20.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-77ae3e36c21d401f98376a024739651f.html" target="element"> R14 - preferences </a> </td>
-													    <td> <a href="../elements/id-77ae3e36c21d401f98376a024739651f.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-c3754ec806414e0cbfd918d6c4936ddc.html" target="element"> R19 - GDPR-compliant </a> </td>
-													    <td> <a href="../elements/id-c3754ec806414e0cbfd918d6c4936ddc.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-8e49ed2794d449fba030f2e6cf81570c.html" target="element"> R17 - responsive design </a> </td>
-													    <td> <a href="../elements/id-8e49ed2794d449fba030f2e6cf81570c.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-88218c0adce344b4b00ffa765edd56e2.html" target="element"> R15 - quality criteria </a> </td>
-													    <td> <a href="../elements/id-88218c0adce344b4b00ffa765edd56e2.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-3f0cdd11807846658bf05c1d9460ae66.html" target="element"> R16 -  multilingual UI's </a> </td>
-													    <td> <a href="../elements/id-3f0cdd11807846658bf05c1d9460ae66.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-											    <td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-5c44735c8f73437dbd90baeb065f7ec6.html" target="element"> R8 - Identity Management </a> </td>
-													    <td> <a href="../elements/id-5c44735c8f73437dbd90baeb065f7ec6.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-85eadc699c7c420990c180013de0c1f6.html" target="element"> R7 - standard authentication, authorisation </a> </td>
-													    <td> <a href="../elements/id-85eadc699c7c420990c180013de0c1f6.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-c834930338cc4dde887ba02d6305627e.html" target="element"> R12 - PII </a> </td>
-													    <td> <a href="../elements/id-c834930338cc4dde887ba02d6305627e.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-b9cdbd9f8d6d4c51a25257e66695178d.html" target="element"> R11 - sandboxed </a> </td>
-													    <td> <a href="../elements/id-b9cdbd9f8d6d4c51a25257e66695178d.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-186e4cad7bad48e78c158230894e115d.html" target="element"> R9 - EU Login </a> </td>
-													    <td> <a href="../elements/id-186e4cad7bad48e78c158230894e115d.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-c2a7b4cbb9d54f209c5f0a72a306500e.html" target="element"> R10 -  secure communication protocols </a> </td>
-													    <td> <a href="../elements/id-c2a7b4cbb9d54f209c5f0a72a306500e.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-6edffcbe662f4459a749495f0bed65fd.html" target="element"> R6 - data protection guidelines </a> </td>
-													    <td> <a href="../elements/id-6edffcbe662f4459a749495f0bed65fd.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-											    <td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-4ec1a8621729403e9a1587b4409f6ac3.html" target="element"> R5 - cross-platform </a> </td>
-													    <td> <a href="../elements/id-4ec1a8621729403e9a1587b4409f6ac3.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-77755139bd0b45bc9a06b884050e489d.html" target="element"> R4 - standard data formats </a> </td>
-													    <td> <a href="../elements/id-77755139bd0b45bc9a06b884050e489d.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-e6ee999d29074706a351b116379b05af.html" target="element"> R3 - substitutable </a> </td>
-													    <td> <a href="../elements/id-e6ee999d29074706a351b116379b05af.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-4e7ec8beacd942d4b39f905445552777.html" target="element"> R2 - interoperable </a> </td>
-													    <td> <a href="../elements/id-4e7ec8beacd942d4b39f905445552777.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-2cf25d5d4ef64b6bb1ce1afa803b5922.html" target="element"> R1 - infrastructure-agnostic </a> </td>
-													    <td> <a href="../elements/id-2cf25d5d4ef64b6bb1ce1afa803b5922.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-											
-											<tr>
 											    <td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
 											    <td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element" class="i18n-elementtype-Grouping">
 											    </a> </td>
 											</tr>
 
-											        <tr>
-											           <td> <a href="../objects/id-93dd331f3e7843be9fbc9817f5a13ccf.html" target="element">  </a> </td>
-											           <td> <a href="../objects/id-93dd331f3e7843be9fbc9817f5a13ccf.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
-											        </tr>
-
-											
-											<tr>
-											    <td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-											    <td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element" class="i18n-elementtype-Grouping">
-											    </a> </td>
-											</tr>
-
 													<tr>
-													    <td> <a href="../elements/id-ee73b3607c9443e584a799a021752b8d.html" target="element"> Digital Twin </a> </td>
-													    <td> <a href="../elements/id-ee73b3607c9443e584a799a021752b8d.html" target="element" class="i18n-elementtype-Capability">
+													    <td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element"> Objective O1: Infrastructure Development </a> </td>
+													    <td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element" class="i18n-elementtype-Goal">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-11fcebe9459a4b91963075cdc016c166.html" target="element"> Knowledge Management </a> </td>
-													    <td> <a href="../elements/id-11fcebe9459a4b91963075cdc016c166.html" target="element" class="i18n-elementtype-Capability">
+													    <td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element"> Objective O2: Technical Roadmap Design </a> </td>
+													    <td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element" class="i18n-elementtype-Goal">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-1f52b230721849c39f3ef5103c0719f4.html" target="element"> Data Management </a> </td>
-													    <td> <a href="../elements/id-1f52b230721849c39f3ef5103c0719f4.html" target="element" class="i18n-elementtype-Capability">
+													    <td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element"> Objective O3: Service Definition and Implementation </a> </td>
+													    <td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element" class="i18n-elementtype-Goal">
 													    </a> </td>
 													</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-7d10dfe5639748cea7948670b396e395.html" target="element"> Artificial Intelligence </a> </td>
-													    <td> <a href="../elements/id-7d10dfe5639748cea7948670b396e395.html" target="element" class="i18n-elementtype-Capability">
+													    <td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element"> Objective O4: Capacity Building </a> </td>
+													    <td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element"> Objective O5: Operational Model Definition </a> </td>
+													    <td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element"> Objective O6: Strategic Development </a> </td>
+													    <td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element" class="i18n-elementtype-Goal">
 													    </a> </td>
 													</tr>
 
@@ -696,105 +336,103 @@
 
 											
 											<tr>
-											    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> EDIC LDT Citiverse </a> </td>
-											    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element" class="i18n-elementtype-Outcome">
-											    </a> </td>
-											</tr>
-
-											<tr>
 											    <td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
 											    <td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element" class="i18n-elementtype-Grouping">
 											    </a> </td>
 											</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
-													    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element" class="i18n-elementtype-Grouping">
+													    <td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element"> 1. Federate Technical Assets and Ensure Interoperability </a> </td>
+													    <td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element" class="i18n-elementtype-Principle">
 													    </a> </td>
 													</tr>
 
-															<tr>
-															    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
-															    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element" class="i18n-elementtype-Principle">
-															    </a> </td>
-															</tr>
-
-													
 													<tr>
-													    <td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
-													    <td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element" class="i18n-elementtype-Grouping">
+													    <td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element"> 2. Promote Reusability and Avoid Redundancy </a> </td>
+													    <td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element" class="i18n-elementtype-Principle">
 													    </a> </td>
 													</tr>
 
-															<tr>
-															    <td> <a href="../elements/id-5f7bcff70e454cb69dcfdab5019238f8.html" target="element"> Federated </a> </td>
-															    <td> <a href="../elements/id-5f7bcff70e454cb69dcfdab5019238f8.html" target="element" class="i18n-elementtype-Principle">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-f6450e415bf449af8a7ba0a1068420c4.html" target="element"> API Abstraction </a> </td>
-															    <td> <a href="../elements/id-f6450e415bf449af8a7ba0a1068420c4.html" target="element" class="i18n-elementtype-Principle">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-0ad0a99d92f5473d988608cc57170b96.html" target="element"> Interoperability by design </a> </td>
-															    <td> <a href="../elements/id-0ad0a99d92f5473d988608cc57170b96.html" target="element" class="i18n-elementtype-Principle">
-															    </a> </td>
-															</tr>
-
-															<tr>
-															    <td> <a href="../elements/id-05b033171af442afa6622a179dbd2947.html" target="element"> Shared Data </a> </td>
-															    <td> <a href="../elements/id-05b033171af442afa6622a179dbd2947.html" target="element" class="i18n-elementtype-Principle">
-															    </a> </td>
-															</tr>
-
-													
 													<tr>
-													    <td> <a href="../elements/id-1e0a2098bc4949acb5679cd3e4d41394.html" target="element"> OASC MIM's </a> </td>
-													    <td> <a href="../elements/id-1e0a2098bc4949acb5679cd3e4d41394.html" target="element" class="i18n-elementtype-Requirement">
+													    <td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element"> 3. Support the EU CitiVERSE Vision </a> </td>
+													    <td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element"> 4. Develop a 4-Helix Ecosystem </a> </td>
+													    <td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element"> 5. Strengthen European Strategic Autonomy </a> </td>
+													    <td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element"> 6. Ensure Sustainable Investment and Deployment </a> </td>
+													    <td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element"> 7. Fill Market Gaps with Sovereign Digital Twin Solutions </a> </td>
+													    <td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element"> 8. Contribute to the Digital Decade Objectives </a> </td>
+													    <td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element"> 9. Enhance Data-Driven Decision-Making on Local Priorities </a> </td>
+													    <td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element"> 10. Implement Robust Governance at Data and Algorithmic Levels </a> </td>
+													    <td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element"> 11. Increase Trust Between Cities and Solution Providers </a> </td>
+													    <td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element"> 12. Focus on Knowledge Building and Academic Engagement </a> </td>
+													    <td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element"> 13. Move Beyond Research with EDIC-Driven Deployment </a> </td>
+													    <td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element" class="i18n-elementtype-Principle">
 													    </a> </td>
 													</tr>
 
 											
 											<tr>
-											    <td> <a href="../elements/id-43680241487246479a642fc28210a397.html" target="element"> Requirements - Deployment </a> </td>
-											    <td> <a href="../elements/id-43680241487246479a642fc28210a397.html" target="element" class="i18n-elementtype-Grouping">
+											    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
+											    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element" class="i18n-elementtype-Grouping">
 											    </a> </td>
 											</tr>
 
 													<tr>
-													    <td> <a href="../elements/id-0f8d498750a24fc69b1fc07350c1a8de.html" target="element"> R20 - deployable </a> </td>
-													    <td> <a href="../elements/id-0f8d498750a24fc69b1fc07350c1a8de.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-a6d649e4c2484551b32f1af6528cda8c.html" target="element"> R21 - containerized </a> </td>
-													    <td> <a href="../elements/id-a6d649e4c2484551b32f1af6528cda8c.html" target="element" class="i18n-elementtype-Requirement">
-													    </a> </td>
-													</tr>
-
-													<tr>
-													    <td> <a href="../elements/id-8df18c8e56244ef59441f3c905dc74c0.html" target="element"> R22 - distributed infrastructure </a> </td>
-													    <td> <a href="../elements/id-8df18c8e56244ef59441f3c905dc74c0.html" target="element" class="i18n-elementtype-Requirement">
+													    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
+													    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element" class="i18n-elementtype-Principle">
 													    </a> </td>
 													</tr>
 
 											
-											<tr>
-											    <td> <a href="../elements/id-ca7fd106ea7042199d65620c91b89a58.html" target="element"> CDE / OUP </a> </td>
-											    <td> <a href="../elements/id-ca7fd106ea7042199d65620c91b89a58.html" target="element" class="i18n-elementtype-ValueStream">
-											    </a> </td>
-											</tr>
-
-											<tr>
-											    <td> <a href="../elements/id-552ba3db02c84b9ba2106f9603c0f9df.html" target="element"> Base twin </a> </td>
-											    <td> <a href="../elements/id-552ba3db02c84b9ba2106f9603c0f9df.html" target="element" class="i18n-elementtype-ValueStream">
-											    </a> </td>
-											</tr>
-
 
 								</tbody>
 							</table>
@@ -810,69 +448,41 @@
 									</tr>
 								</thead>
 								<tbody>
-																			<tr>
-																				<td> <a href="../elements/id-f8d6ca67164447c4a3aa8bc11a5107b4.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-f8d6ca67164447c4a3aa8bc11a5107b4.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1279d9cce22649e3804f244e642e4ef5.html" target="element"> Digital participation </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-98ebd4802c154eb194d988f5ebf98fca.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-98ebd4802c154eb194d988f5ebf98fca.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-cba59611b1614f2282e5aa90c40e21e7.html" target="element"> Digital permit procedures </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-e0e34cc60f21433fb02f217b29d09f08.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-e0e34cc60f21433fb02f217b29d09f08.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-f7fad4607ed4476ab7a314d0ddbe166f.html" target="element"> Integrated neighbourhood / area development </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-6dedf776bbd1468ca94f8bedf21f5a6e.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-6dedf776bbd1468ca94f8bedf21f5a6e.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1e516b25d48f4eb4b4bc36802ea0bd33.html" target="element"> Energy tranisition </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-497e62bca3114ba3be81b7b4eb7f3628.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-497e62bca3114ba3be81b7b4eb7f3628.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-e85bafbf2cd94a6bb2953d38c1458c34.html" target="element"> Climate-resilience </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-2256a23d466f41f2be868e3dd282e94f.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-2256a23d466f41f2be868e3dd282e94f.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-c4eddaf7e43b45d8add3a8dde97cd2aa.html" target="element">  Traffic management / mobility </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-6cfe39c673f24d5d9018b51c16acd62e.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-6cfe39c673f24d5d9018b51c16acd62e.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-46d0b8027dc3498882baacce3bf95205.html" target="element"> Disaster management </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-f9d42de0fdc34df384e9766bd595e025.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-f9d42de0fdc34df384e9766bd595e025.html" target="element" class="i18n-elementtype-SpecializationRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-c34ce39b7dfe4666acfd5ff9c7bb7259.html" target="element"> Infrastructure management </a> </td>
-																				<td> <a href="../elements/id-00ec614714cb41af90c83fedb2fbb860.html" target="element"> Thematic UDT/LDT </a> </td>
-																			</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5e065755543f4bceac2b2fafd7fc431f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5e065755543f4bceac2b2fafd7fc431f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> Contribution to Digital Europe Programme&#8217;s goals </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-23b830ba472f4886b373e6a52286e76c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-23b830ba472f4886b373e6a52286e76c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element"> Establish LDT CitiVERSE Enablement framework </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ec7b22f8de614773a9430ded32a23446.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ec7b22f8de614773a9430ded32a23446.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element"> Operational Model that is market-oriented </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-acabf984063048e68fd2f986f6898de0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-acabf984063048e68fd2f986f6898de0.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element"> Establish LDT CitiVERSE Technology framework </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6ffd0ddce0344b5996de55c2a5eaad15.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ffd0ddce0344b5996de55c2a5eaad15.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element"> Establish EDIC Infrastructure </a> </td>
+																	</tr>
 
 											
 																	<tr>
@@ -885,328 +495,46 @@
 
 											
 																	<tr>
-																		<td> <a href="../elements/id-86823950223246eaa45e12806a062411.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-86823950223246eaa45e12806a062411.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		<td> <a href="../elements/id-fb398facb70f4cd388907ca79f04326d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fb398facb70f4cd388907ca79f04326d.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
 																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element"> Objective O1: Infrastructure Development </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-7fad741beb8e47ed8b7d450369808041.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-7fad741beb8e47ed8b7d450369808041.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-f4e155fad2ac435dbfbd81a6273d0e38.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f4e155fad2ac435dbfbd81a6273d0e38.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
-																		<td> <a href="../elements/id-7662396c4bff4906a8306432116ada37.html" target="element"> Technical Enablement </a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element"> Objective O2: Technical Roadmap Design </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-9bc2868abc204603adad2503b340da1c.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-9bc2868abc204603adad2503b340da1c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-c318b223417e40f8b62437a7748aacb7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c318b223417e40f8b62437a7748aacb7.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
-																		<td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-																	</tr>
-
-																			<tr>
-																				<td> <a href="../elements/id-5b4584fc493d49ff8b501a75c7e17a64.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-5b4584fc493d49ff8b501a75c7e17a64.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-																				<td> <a href="../elements/id-994c2ec15d364f6b9d2b6b0c6707d3bf.html" target="element"> Digital Foundation / Integration </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-866ce8a4793b44a7962bd258e864be10.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-866ce8a4793b44a7962bd258e864be10.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-																				<td> <a href="../elements/id-76554d2c1648403b8e39fd8b14f566ee.html" target="element"> Generate Knowledge </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-35e439eb289046ac8ae25299565f45d9.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-35e439eb289046ac8ae25299565f45d9.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-																				<td> <a href="../elements/id-c141f83d89744d3ebdc7daf8d746b320.html" target="element"> Decide </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-a7b4b73f6bee493aa7ee4bf49533048d.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-a7b4b73f6bee493aa7ee4bf49533048d.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-cd17d72ca5f946a5a7a1cdb5a4a4527f.html" target="element"> LDT </a> </td>
-																				<td> <a href="../elements/id-9163afdd5ec24063a819f643aa3a3940.html" target="element"> Intervene </a> </td>
-																			</tr>
-
-													
-											
-																	<tr>
-																		<td> <a href="../elements/id-77aeb7b59e3647b1a4ea475b5102a011.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-77aeb7b59e3647b1a4ea475b5102a011.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d5c9a41883754e548711fad976a3be8c.html" target="element"> Requirements - Documentation </a> </td>
-																		<td> <a href="../elements/id-b9eecd03302f47ab8a718e4f151c5e73.html" target="element"> R35 - Swagger </a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element"> Objective O3: Service Definition and Implementation </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-e96b805919f0479fb8e853f122ec4736.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-e96b805919f0479fb8e853f122ec4736.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-85b98e121fff4e5fb5a08407703e0875.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-85b98e121fff4e5fb5a08407703e0875.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-d5c9a41883754e548711fad976a3be8c.html" target="element"> Requirements - Documentation </a> </td>
-																		<td> <a href="../elements/id-a555cb24230e4831896da6e9a8b815e9.html" target="element"> R33 - manuals </a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element"> Objective O4: Capacity Building </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-54c47f8290bf4d70b1918b1185ab92ca.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-54c47f8290bf4d70b1918b1185ab92ca.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-c1b7023a4f4f4b479bc40321467a50f3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c1b7023a4f4f4b479bc40321467a50f3.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-d5c9a41883754e548711fad976a3be8c.html" target="element"> Requirements - Documentation </a> </td>
-																		<td> <a href="../elements/id-b0e57b079dcc46f6979f0ff8554e3e64.html" target="element"> R34 - C4Model </a> </td>
-																	</tr>
-
-											
-																	<tr>
-																		<td> <a href="../elements/id-88648f4b5d9c457280a5c1da7e563ddb.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-88648f4b5d9c457280a5c1da7e563ddb.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-192cc9a722764ecaa34b05ef972f6c75.html" target="element"> R27 -  fault tolerance </a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element"> Objective O5: Operational Model Definition </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-4721be7318a54f28bc194c6bf24e97f8.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-4721be7318a54f28bc194c6bf24e97f8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-429c82126d3246b3bff5329a8a695dea.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-429c82126d3246b3bff5329a8a695dea.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-1b42f9505bc9439d82ae170a34e39408.html" target="element"> R28 -  load balancing </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-5b6b8b181a5c47bebbf82a37670c4d18.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-5b6b8b181a5c47bebbf82a37670c4d18.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-99b0ced59e6c4a949765c1ce4e850f51.html" target="element"> R32 - backup </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-b98edd9039c34f0cb37f5683c91cf14c.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-b98edd9039c34f0cb37f5683c91cf14c.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-8983e4a4a9504f9792401deb53d404db.html" target="element"> R25 -  monitoring </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-4b6e2c3f11d34035a53b17e4d3769db7.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-4b6e2c3f11d34035a53b17e4d3769db7.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-43144c646a434aec8d1ec1206839d0d0.html" target="element"> R26 - logging </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-b72df0b987e743af8d2b9f62e694ccdb.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-b72df0b987e743af8d2b9f62e694ccdb.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-7a19d9640f284cf49bfc880fba1d7079.html" target="element"> R30 - scalability </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-a493e9c372d94e6eadd13e48c85e89ad.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-a493e9c372d94e6eadd13e48c85e89ad.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-072191be8b884bfb927e9b1720b938ed.html" target="element"> R31 - auto-scaling </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-ec2a4f3f1f5f4e1992feb62a3e2a0c8a.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-ec2a4f3f1f5f4e1992feb62a3e2a0c8a.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-13c96f1cac584bdfaae1543a422b4fee.html" target="element"> R29 - resilience </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-cbc3bc4ffcb24d7ab61b8680e85cd0d2.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-cbc3bc4ffcb24d7ab61b8680e85cd0d2.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-4e345fb4f6474bc2853a1b3a8826e136.html" target="element"> R23 - user support </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-da111218f9184ae6908993cc4a135cce.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-da111218f9184ae6908993cc4a135cce.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-d87e183eb4cf4d50b593415b4dd1ac49.html" target="element"> Requirements - Operations </a> </td>
-																		<td> <a href="../elements/id-a85ccc297eba41de99b76d90902deeb9.html" target="element"> R24 - health check endpoints </a> </td>
-																	</tr>
-
-											
-																	<tr>
-																		<td> <a href="../elements/id-c0af77055960411195f23905a0e91732.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-c0af77055960411195f23905a0e91732.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-0402b3bed164459e938fc2575959b573.html" target="element"> R18 -  accessibility </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-1b14ebad530744d28565830a882192a8.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-1b14ebad530744d28565830a882192a8.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-9bdb7bb9e2ca4316b9b7eb7fa1458f20.html" target="element"> R13 - unified UX and UI </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-aec4b3377f2744c5937f7df9e0d700e2.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-aec4b3377f2744c5937f7df9e0d700e2.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-77ae3e36c21d401f98376a024739651f.html" target="element"> R14 - preferences </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-24037c38b30f4cc0a54c5d333abd8f3c.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-24037c38b30f4cc0a54c5d333abd8f3c.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-c3754ec806414e0cbfd918d6c4936ddc.html" target="element"> R19 - GDPR-compliant </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-8ff85e0db2514f72bcc0d3f72a1cf625.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-8ff85e0db2514f72bcc0d3f72a1cf625.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-8e49ed2794d449fba030f2e6cf81570c.html" target="element"> R17 - responsive design </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-2ac57b9c2a1c4827ad63a00ac87d0de5.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-2ac57b9c2a1c4827ad63a00ac87d0de5.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-88218c0adce344b4b00ffa765edd56e2.html" target="element"> R15 - quality criteria </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-1d256fdd8c534c6da5ea104c3e63f9d0.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-1d256fdd8c534c6da5ea104c3e63f9d0.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-1cd37f6b9ea24611a38fcc2d60a060bb.html" target="element"> Requirements - Usability </a> </td>
-																		<td> <a href="../elements/id-3f0cdd11807846658bf05c1d9460ae66.html" target="element"> R16 -  multilingual UI's </a> </td>
-																	</tr>
-
-											
-																	<tr>
-																		<td> <a href="../elements/id-f0df9587caef4b19a280e3d5859b2960.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-f0df9587caef4b19a280e3d5859b2960.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-5c44735c8f73437dbd90baeb065f7ec6.html" target="element"> R8 - Identity Management </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-6d2b68ea8fe74b34a1e3e08131719b55.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-6d2b68ea8fe74b34a1e3e08131719b55.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-85eadc699c7c420990c180013de0c1f6.html" target="element"> R7 - standard authentication, authorisation </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-e0907ec6f8104217946560ba746acb22.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-e0907ec6f8104217946560ba746acb22.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-c834930338cc4dde887ba02d6305627e.html" target="element"> R12 - PII </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-252ee3092bdb4da38f0147d386fe2705.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-252ee3092bdb4da38f0147d386fe2705.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-b9cdbd9f8d6d4c51a25257e66695178d.html" target="element"> R11 - sandboxed </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-29cefdeea5ef4683aadc879f4d0c2d59.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-29cefdeea5ef4683aadc879f4d0c2d59.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-186e4cad7bad48e78c158230894e115d.html" target="element"> R9 - EU Login </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-bda1e6bfbad24187a91109a7295741e5.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-bda1e6bfbad24187a91109a7295741e5.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-c2a7b4cbb9d54f209c5f0a72a306500e.html" target="element"> R10 -  secure communication protocols </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-961e01f93339481b85751e84ce4240b5.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-961e01f93339481b85751e84ce4240b5.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-a64d118b68c34ce5bbfdf7f6ee0a3ae8.html" target="element"> Requirements - Security </a> </td>
-																		<td> <a href="../elements/id-6edffcbe662f4459a749495f0bed65fd.html" target="element"> R6 - data protection guidelines </a> </td>
-																	</tr>
-
-											
-																	<tr>
-																		<td> <a href="../elements/id-44442c0f700342e9bccc77914e1bd680.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-44442c0f700342e9bccc77914e1bd680.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-																		<td> <a href="../elements/id-4ec1a8621729403e9a1587b4409f6ac3.html" target="element"> R5 - cross-platform </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-14a40b86330a4415ad583ba2104ce33c.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-14a40b86330a4415ad583ba2104ce33c.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-																		<td> <a href="../elements/id-77755139bd0b45bc9a06b884050e489d.html" target="element"> R4 - standard data formats </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-5a7b033193c04a7b9e26f3f26022c449.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-5a7b033193c04a7b9e26f3f26022c449.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-																		<td> <a href="../elements/id-e6ee999d29074706a351b116379b05af.html" target="element"> R3 - substitutable </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-fa7a1f840eee46a097162b0872fd4a58.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-fa7a1f840eee46a097162b0872fd4a58.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-																		<td> <a href="../elements/id-4e7ec8beacd942d4b39f905445552777.html" target="element"> R2 - interoperable </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-aa1476d7bb4346a498e72d261439b8ad.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-aa1476d7bb4346a498e72d261439b8ad.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-cd99cf23e35b46f38942877553cbc57a.html" target="element"> Requirements - Architecture </a> </td>
-																		<td> <a href="../elements/id-2cf25d5d4ef64b6bb1ce1afa803b5922.html" target="element"> R1 - infrastructure-agnostic </a> </td>
-																	</tr>
-
-											
-													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
-											
-																	<tr>
-																		<td> <a href="../elements/id-1e270ab2a5524a7c9ef616c7089b3482.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-1e270ab2a5524a7c9ef616c7089b3482.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-																		<td> <a href="../elements/id-ee73b3607c9443e584a799a021752b8d.html" target="element"> Digital Twin </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-a2d57d2a56c246b897cfad2d86194350.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-a2d57d2a56c246b897cfad2d86194350.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-																		<td> <a href="../elements/id-11fcebe9459a4b91963075cdc016c166.html" target="element"> Knowledge Management </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-d95377af8da54a7db4839d4a81b4b15f.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-d95377af8da54a7db4839d4a81b4b15f.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-																		<td> <a href="../elements/id-1f52b230721849c39f3ef5103c0719f4.html" target="element"> Data Management </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-3f374471113642b2b0940e344834408b.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-3f374471113642b2b0940e344834408b.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-																		<td> <a href="../elements/id-7d10dfe5639748cea7948670b396e395.html" target="element"> Artificial Intelligence </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-6c5cf60c4c26489f9f56c7a9f1d24e41.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-6c5cf60c4c26489f9f56c7a9f1d24e41.html" target="element" class="i18n-elementtype-InfluenceRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-94a142448c284a00b71858f9c7aca79a.html" target="element"> eGovERA Capabilities </a> </td>
-																		<td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element"> Objective O6: Strategic Development </a> </td>
 																	</tr>
 
 											
@@ -1237,13 +565,6 @@
 																		</a> </td>
 																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
 																		<td> <a href="../elements/id-5135b9630fef496ea47c6b13068649b3.html" target="element"> Self-Sustainability Models </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-be3122ba0e4b42ffab6d6b318c2c59bb.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-be3122ba0e4b42ffab6d6b318c2c59bb.html" target="element" class="i18n-elementtype-InfluenceRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
-																		<td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> EDIC LDT Citiverse </a> </td>
 																	</tr>
 																	<tr>
 																		<td> <a href="../elements/id-9ab6eae30f2f4a5987cc86ef1f790ec2.html" target="element">  </a> </td>
@@ -1306,95 +627,104 @@
 
 											
 																	<tr>
-																		<td> <a href="../elements/id-ba3e3228e4c848b9afd8cc1f52b34c32.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-ba3e3228e4c848b9afd8cc1f52b34c32.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-27377734f9f248188a9cbf3ca1db783e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-27377734f9f248188a9cbf3ca1db783e.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
 																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
-																		<td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
+																		<td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element"> 1. Federate Technical Assets and Ensure Interoperability </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-909203eaa4114674921b772d679058db.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-909203eaa4114674921b772d679058db.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-3cbcabc8274f42a1ad6d5b095a2266fc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3cbcabc8274f42a1ad6d5b095a2266fc.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
 																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
-																		<td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
+																		<td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element"> 2. Promote Reusability and Avoid Redundancy </a> </td>
 																	</tr>
 																	<tr>
-																		<td> <a href="../elements/id-eb00129df0994334af4c463b1b1454ef.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-eb00129df0994334af4c463b1b1454ef.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		<td> <a href="../elements/id-4d5dca645cc94efdadc8dccf9361a719.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4d5dca645cc94efdadc8dccf9361a719.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
 																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
-																		<td> <a href="../elements/id-4e98a62f124d4320aab891133a506159.html" target="element"> LDT Citiverse Capabilities </a> </td>
+																		<td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element"> 3. Support the EU CitiVERSE Vision </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-819fa86024974b58a0d609fc4a90a4af.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-819fa86024974b58a0d609fc4a90a4af.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element"> 4. Develop a 4-Helix Ecosystem </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3afbd6bfe708478394c9f54ffa46db44.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3afbd6bfe708478394c9f54ffa46db44.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element"> 5. Strengthen European Strategic Autonomy </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-63ab9c5d3458485c8955b82ebd70de92.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-63ab9c5d3458485c8955b82ebd70de92.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element"> 6. Ensure Sustainable Investment and Deployment </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5b18ac4c4aeb4f4284949fdbf590e693.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b18ac4c4aeb4f4284949fdbf590e693.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element"> 7. Fill Market Gaps with Sovereign Digital Twin Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-966ae5e666f3498b834189d166417454.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-966ae5e666f3498b834189d166417454.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element"> 8. Contribute to the Digital Decade Objectives </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b15fe329ac284740ad2229f61a96f85c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b15fe329ac284740ad2229f61a96f85c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element"> 9. Enhance Data-Driven Decision-Making on Local Priorities </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6c9c2d991b134706b30a82c32d7c917a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6c9c2d991b134706b30a82c32d7c917a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element"> 10. Implement Robust Governance at Data and Algorithmic Levels </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-83008435646a4548bce67359a9e32af3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-83008435646a4548bce67359a9e32af3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element"> 11. Increase Trust Between Cities and Solution Providers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7b655f7eb14440178d11b668af2872ca.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7b655f7eb14440178d11b668af2872ca.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element"> 12. Focus on Knowledge Building and Academic Engagement </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a2e4fdf875c44e318fa17a5dec525595.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2e4fdf875c44e318fa17a5dec525595.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element"> 13. Move Beyond Research with EDIC-Driven Deployment </a> </td>
 																	</tr>
 
-																			<tr>
-																				<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
-																				<td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
-																			</tr>
-
-													
-																			<tr>
-																				<td> <a href="../elements/id-58e21ccf348345b194b2c50a476d8b03.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-58e21ccf348345b194b2c50a476d8b03.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
-																				<td> <a href="../elements/id-5f7bcff70e454cb69dcfdab5019238f8.html" target="element"> Federated </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-83363c75ba594ddd81a6be3fccf342f1.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-83363c75ba594ddd81a6be3fccf342f1.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
-																				<td> <a href="../elements/id-f6450e415bf449af8a7ba0a1068420c4.html" target="element"> API Abstraction </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-c7abcfa6e08149b6ab86e567d6fcbb1b.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-c7abcfa6e08149b6ab86e567d6fcbb1b.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
-																				<td> <a href="../elements/id-0ad0a99d92f5473d988608cc57170b96.html" target="element"> Interoperability by design </a> </td>
-																			</tr>
-																			<tr>
-																				<td> <a href="../elements/id-f080d9e66d0c488faf9bea1e33814d61.html" target="element">  </a> </td>
-																				<td> <a href="../elements/id-f080d9e66d0c488faf9bea1e33814d61.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																				</a> </td>
-																				<td> <a href="../elements/id-1b72a648bd144ea2a7034083ac7aa485.html" target="element"> LDT Toolbox </a> </td>
-																				<td> <a href="../elements/id-05b033171af442afa6622a179dbd2947.html" target="element"> Shared Data </a> </td>
-																			</tr>
-
-																					<tr>
-																						<td> <a href="../elements/id-50af6708b46c4d2986f90d2016f21944.html" target="element">  </a> </td>
-																						<td> <a href="../elements/id-50af6708b46c4d2986f90d2016f21944.html" target="element" class="i18n-elementtype-AssociationRelationship">
-																						</a> </td>
-																						<td> <a href="../elements/id-0ad0a99d92f5473d988608cc57170b96.html" target="element"> Interoperability by design </a> </td>
-																						<td> <a href="../elements/id-1e0a2098bc4949acb5679cd3e4d41394.html" target="element"> OASC MIM's </a> </td>
-																					</tr>
-
-													
 											
 																	<tr>
-																		<td> <a href="../elements/id-617af2f52bc74289a3318a1e23b8d8fe.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-617af2f52bc74289a3318a1e23b8d8fe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element" class="i18n-elementtype-CompositionRelationship">
 																		</a> </td>
-																		<td> <a href="../elements/id-43680241487246479a642fc28210a397.html" target="element"> Requirements - Deployment </a> </td>
-																		<td> <a href="../elements/id-0f8d498750a24fc69b1fc07350c1a8de.html" target="element"> R20 - deployable </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-a37808608ac54e3a9e1f98065a883348.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-a37808608ac54e3a9e1f98065a883348.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-43680241487246479a642fc28210a397.html" target="element"> Requirements - Deployment </a> </td>
-																		<td> <a href="../elements/id-a6d649e4c2484551b32f1af6528cda8c.html" target="element"> R21 - containerized </a> </td>
-																	</tr>
-																	<tr>
-																		<td> <a href="../elements/id-1cfbae3f941a42c89fd64f2daf68686a.html" target="element">  </a> </td>
-																		<td> <a href="../elements/id-1cfbae3f941a42c89fd64f2daf68686a.html" target="element" class="i18n-elementtype-CompositionRelationship">
-																		</a> </td>
-																		<td> <a href="../elements/id-43680241487246479a642fc28210a397.html" target="element"> Requirements - Deployment </a> </td>
-																		<td> <a href="../elements/id-8df18c8e56244ef59441f3c905dc74c0.html" target="element"> R22 - distributed infrastructure </a> </td>
+																		<td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
+																		<td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
 																	</tr>
 
 											
