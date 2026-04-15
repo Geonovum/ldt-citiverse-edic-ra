@@ -1,0 +1,30 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="placeholder - Technology framework"
+    id="id-cd279b61d57140409fd4124ff90baee7">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7ed4f200e2214ac190a88e9bf106afc8">
+    <bounds
+        x="372"
+        y="138"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:CourseOfAction"
+        href="CourseOfAction_id-1a68770544e541b5ac92857ec28dbb20.xml#id-1a68770544e541b5ac92857ec28dbb20"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b3db2fae0bec47e5bb67d9a8ad746cfc">
+    <bounds
+        x="456"
+        y="312"
+        width="180"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Node"
+        href="Node_id-46241a4dbbf147259767513349cbc758.xml#id-46241a4dbbf147259767513349cbc758"/>
+  </children>
+</archimate:ArchimateDiagramModel>
