@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="LDT solution architecture - business &amp; application solution"
-    id="id-9382bdb8eba94af0bb53d788e811a16d">
+    id="id-9382bdb8eba94af0bb53d788e811a16d"
+    documentation="This viewpoint is in large parts the same as the 3. LDT reference architecture - business &amp; application viewpoint. &#xD;&#xA;The bottom layer maps the Tools from the LDT Toolbox on the Application services and interfaces of the reference architecture.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d1a1b4fa18c34815a9b75a225cae1def"

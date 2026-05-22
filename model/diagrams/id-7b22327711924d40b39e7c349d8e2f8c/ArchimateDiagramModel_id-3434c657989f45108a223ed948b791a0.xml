@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1. LDT reference architecture -  strategy"
-    id="id-3434c657989f45108a223ed948b791a0">
+    id="id-3434c657989f45108a223ed948b791a0"
+    documentation="This viewpoint provides a high level overview of the core capabilities and Valuestreams that are defined for the LDT CitiVERSE.&#xD;&#xA;&#xD;&#xA;The are two overarching coarses of action defined that orginate from the Overall Architecture - motivation viewpoint (and therefore from the desired outcomes of the EDIC itself)&#xD;&#xA;- Establish a 'technology framework'&#xD;&#xA;- Facilitate communities with the capabilities to implement and use the infrastructure (Enablement Framework)&#xD;&#xA;&#xD;&#xA;The solutions that are realized in accordance with the reference patterns of the EDIC should provide value for the different thematic challenges that communities face. This is visualised by both the 'LDT/Data Value Stream' as well as the 'Thematic UDT/LDT' valuestreams.&#xD;&#xA;&#xD;&#xA;Furthermore we recognize that there are different types of LDT's that cater to different needs and expose different characteristics.&#xD;&#xA;A descriptive LDT can be realized with different components than a Prescriptive or Autonomous LDT.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a8d29072139e4e22a202c8e696dd36ad"

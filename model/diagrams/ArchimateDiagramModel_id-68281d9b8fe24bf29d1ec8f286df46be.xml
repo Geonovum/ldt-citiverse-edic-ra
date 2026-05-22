@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EDIC-LDT-CitiVERSE-overview"
-    id="id-68281d9b8fe24bf29d1ec8f286df46be">
+    id="id-68281d9b8fe24bf29d1ec8f286df46be"
+    documentation="This view functions like a Table of Contents. It provides an overview of the different Viewpoints for both the EDIC itself, as well as for the LDT reference architecture.&#xD;&#xA;The Elements are hyperlinks to the various viewpoints that can also be found via the Model Tree.&#xD;&#xA;&#xD;&#xA;The Viewpoints are also structured according to the LOST (Legal, Organisational, Semantic, Technical) viewpoints as defined by EIRA.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-321acdef56fd4dc093d3e4dab7a27311"
@@ -18,9 +19,9 @@
         xsi:type="archimate:DiagramModelReference"
         id="id-8f7a75c407254ca8b8bc979882568c4e">
       <bounds
-          x="72"
+          x="48"
           y="156"
-          width="325"
+          width="289"
           height="55"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
@@ -66,7 +67,7 @@
       <bounds
           x="48"
           y="168"
-          width="277"
+          width="289"
           height="55"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
@@ -78,6 +79,7 @@
       id="id-9f4371ecb7324988bbbc409003c40cdb"
       name="Technical view - application &amp; infrastructure LDT"
       textAlignment="1"
+      fillColor="#b6b66b"
       borderType="1">
     <bounds
         x="672"
@@ -86,7 +88,11 @@
         height="277"/>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-7f0a560fdf564ec58486b19675997dbf">
+        id="id-7f0a560fdf564ec58486b19675997dbf"
+        fillColor="#ffa042">
+      <features
+          name="gradient"
+          value="1"/>
       <bounds
           x="24"
           y="84"
@@ -98,7 +104,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-f4c68cacbb7545da8646e65241e4ec97">
+        id="id-f4c68cacbb7545da8646e65241e4ec97"
+        fillColor="#f3e74b">
+      <features
+          name="gradient"
+          value="1"/>
       <bounds
           x="24"
           y="144"
@@ -110,7 +120,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-ff1c480c31114b57b0b326b00113c80f">
+        id="id-ff1c480c31114b57b0b326b00113c80f"
+        fillColor="#00a9fb">
+      <features
+          name="gradient"
+          value="1"/>
       <bounds
           x="24"
           y="204"
@@ -137,6 +151,7 @@
       id="id-896339e44f794ca7b5fcc75fc9c327b1"
       name="Organisational View LDT"
       textAlignment="1"
+      fillColor="#b6b66b"
       borderType="1">
     <bounds
         x="672"
@@ -156,7 +171,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-72654135614a46b1a7782aa9cfe1494a">
+        id="id-72654135614a46b1a7782aa9cfe1494a"
+        fillColor="#ffa042">
       <bounds
           x="48"
           y="168"
@@ -214,7 +230,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-1077c72f51c54c7eb17acfa4de210d1e">
+        id="id-1077c72f51c54c7eb17acfa4de210d1e"
+        fillColor="#00b900">
+      <features
+          name="gradient"
+          value="1"/>
       <bounds
           x="48"
           y="120"
@@ -230,6 +250,7 @@
       id="id-e2bfb10e9c6a40728515fe99b46d4f38"
       name="Technical view - application &amp; infrastructure - solutions LDT"
       textAlignment="1"
+      fillColor="#aae3ff"
       borderType="1">
     <bounds
         x="1116"
@@ -249,7 +270,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-a93c3c2d8bfd40718ccbdb9c0242c048">
+        id="id-a93c3c2d8bfd40718ccbdb9c0242c048"
+        fillColor="#f3e74b">
+      <features
+          name="gradient"
+          value="1"/>
       <bounds
           x="36"
           y="132"

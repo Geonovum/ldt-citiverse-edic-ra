@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="3. LDT reference architecture - business &amp; application"
-    id="id-76c566b2fa004be3b811b360cc1142c1">
+    id="id-76c566b2fa004be3b811b360cc1142c1"
+    documentation="This viewpoint aims to bridge the gap between the business or functional approach to prospective solutions and the applications services or components that can fulfill those requirements.&#xD;&#xA;&#xD;&#xA;These Application services and interfaces are still on a generic level. They are focussing on standards and interoperability arrangements that can be implemented by different solutions.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d43377f15a6546bf9510e2bfdbf5771b"

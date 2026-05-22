@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2. LDT reference architecture - strategy &amp; business"
-    id="id-b11dfbe262554939b4af21baa957b2e7">
+    id="id-b11dfbe262554939b4af21baa957b2e7"
+    documentation="Based on the high level capabilities as depicted in the 'strategy' viewpoint, more detailed capabilities are described in this viewpoint.&#xD;&#xA;&#xD;&#xA;The 'subcapabalities' are intended as clarification for non-technical people (policy makers) to help explain that there are different capabilities (or functionalities) that an LDT can implement. &#xD;&#xA;This is to underline the fact that not every LDT is composed out of the same 'building blocks', depending on the type of intended use. &#xD;&#xA;However, re-use of common building blocks (like a visualisation capability) is very much encouraged.&#xD;&#xA;&#xD;&#xA;Furthermore this viewpoint maps the Capabilities to business services that realize such a capability, as an overview and link to a business process based approach to determine which building blocks to adopt or implement.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3d71e8f176ad46a7801cfe4148b7e8c5"

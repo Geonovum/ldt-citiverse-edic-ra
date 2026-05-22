@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="4. LDT reference architecture - application &amp; technology"
-    id="id-0e5ecc2b02604341a6b81e9a0a540a3d">
+    id="id-0e5ecc2b02604341a6b81e9a0a540a3d"
+    documentation="This viewpoint aims to describe how the patterns from the EDIC LDT align with both the DSSC Dataspace building blocks as well as the LDT4SSCC patterns.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fd3770361a4a401498146ba386c107f7"
@@ -552,9 +553,9 @@
       fillColor="#22b7ff"
       borderType="1">
     <bounds
-        x="-312"
-        y="337"
-        width="433"
+        x="180"
+        y="624"
+        width="553"
         height="253"/>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -564,7 +565,7 @@
         fillColor="#00ffff"
         borderType="1">
       <bounds
-          x="24"
+          x="60"
           y="36"
           width="121"
           height="205"/>
@@ -579,7 +580,7 @@
         fillColor="#00ffff"
         borderType="1">
       <bounds
-          x="156"
+          x="228"
           y="36"
           width="121"
           height="205"/>
@@ -594,7 +595,7 @@
         fillColor="#00ffff"
         borderType="1">
       <bounds
-          x="288"
+          x="384"
           y="36"
           width="121"
           height="205"/>

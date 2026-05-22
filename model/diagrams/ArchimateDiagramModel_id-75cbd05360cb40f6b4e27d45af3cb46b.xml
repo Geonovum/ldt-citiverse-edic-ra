@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="EDIC-LDT-Metamodel"
-    id="id-75cbd05360cb40f6b4e27d45af3cb46b">
+    id="id-75cbd05360cb40f6b4e27d45af3cb46b"
+    documentation="The Metamodel describes the Archimate elements and relationships that are used in the architecture viewpoints.&#xD;&#xA;The &lt;> notation borrows its meaning from UML and denotes abstract elements&#xD;&#xA;&#xD;&#xA;In this view the alignment with eGovERA is also depicted.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9af90fd7388f44c0b54ff76cdd80151f"

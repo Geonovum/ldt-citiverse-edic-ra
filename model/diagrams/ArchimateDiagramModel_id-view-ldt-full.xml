@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Overall Architecture - motivation"
-    id="id-view-ldt-full">
+    id="id-view-ldt-full"
+    documentation="The motivation viewpoint draws from the LDT CitiVERSE EDIC Proposal document in which drivers, goals and outcomes are described, as well as a number of statemtents that are translated into Architecture principles in this view.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9af7b402522c425b91055e6e4491a4c8"
