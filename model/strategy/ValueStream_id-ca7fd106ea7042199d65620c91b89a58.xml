@@ -1,4 +1,5 @@
 <archimate:ValueStream
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="CDE / OUP"
-    id="id-ca7fd106ea7042199d65620c91b89a58"/>
+    name="CDE / Dataspaces"
+    id="id-ca7fd106ea7042199d65620c91b89a58"
+    documentation="CDE = Common Data Environment.&#xD;&#xA;The CDE includes both local and federated (dataspace) data sources."/>
