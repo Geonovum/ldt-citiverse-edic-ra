@@ -1,7 +1,8 @@
 <archimate:ValueStream
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Base twin"
-    id="id-552ba3db02c84b9ba2106f9603c0f9df">
+    id="id-552ba3db02c84b9ba2106f9603c0f9df"
+    documentation="Compilation of all basic digital resources of municipal information as a starting point for thematic UDT's / LDT's">
   <properties
       key="eira:definitionSource"
       value="DIN SPEC 91607:2024-11"/>
