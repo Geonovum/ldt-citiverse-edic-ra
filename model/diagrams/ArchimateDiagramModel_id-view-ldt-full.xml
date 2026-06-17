@@ -146,7 +146,7 @@
         x="72"
         y="258"
         width="324"
-        height="168"/>
+        height="210"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a608e9a604ea4eb3a246756a52401048"
@@ -346,15 +346,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0544fb83f559417e8713d4a04ee1e6e4"
-        source="id-64a8a352191940bbac9cfd5bd5ab9d7f"
-        target="id-5b52df0b127648ad99cd92033dc2d47c">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-f32aa7e2880741c094a4ef1ff7fabc57.xml#id-f32aa7e2880741c094a4ef1ff7fabc57"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-357d83ed73d94ab9b32a8eaf231b40a6"
         source="id-64a8a352191940bbac9cfd5bd5ab9d7f"
         target="id-c2521f1bf7b148bdba8fe19f00c85c94">
@@ -417,20 +408,6 @@
       <archimateElement
           xsi:type="archimate:Driver"
           href="Driver_id-ff6aeb8dcc184042ad84bf074ac66afa.xml#id-ff6aeb8dcc184042ad84bf074ac66afa"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-5b52df0b127648ad99cd92033dc2d47c"
-        targetConnections="id-0544fb83f559417e8713d4a04ee1e6e4"
-        font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI">
-      <bounds
-          x="432"
-          y="96"
-          width="252"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Driver"
-          href="Driver_id-5135b9630fef496ea47c6b13068649b3.xml#id-5135b9630fef496ea47c6b13068649b3"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -934,7 +911,7 @@
         x="144"
         y="948"
         width="312"
-        height="144"/>
+        height="193"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ba0081c705c047f5a148d2c5d3d89823"

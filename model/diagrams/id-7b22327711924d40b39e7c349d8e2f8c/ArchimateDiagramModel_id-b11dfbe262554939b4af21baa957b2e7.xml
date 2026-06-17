@@ -1316,15 +1316,15 @@
           source="id-5a6e7fa10f764c19b1ae957cc8449649"
           target="id-809236b8175946688890ae87a2956443">
         <bendpoints
-            startX="15"
-            startY="-130"
+            startX="14"
+            startY="-143"
             endX="48"
-            endY="160"/>
+            endY="174"/>
         <bendpoints
-            startX="-69"
-            startY="-130"
+            startX="-70"
+            startY="-143"
             endX="-36"
-            endY="160"/>
+            endY="174"/>
         <archimateRelationship
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_id-a9ebd95e536d46bd8ba14463740f64ab.xml#id-a9ebd95e536d46bd8ba14463740f64ab"/>
@@ -1335,14 +1335,14 @@
           source="id-5a6e7fa10f764c19b1ae957cc8449649"
           target="id-084548081ab642d6824396b06483d581">
         <bendpoints
-            startX="15"
-            startY="-130"
+            startX="14"
+            startY="-143"
             endX="-108"
-            endY="160"/>
+            endY="174"/>
         <bendpoints
-            startX="123"
-            startY="-130"
-            endY="160"/>
+            startX="122"
+            startY="-143"
+            endY="174"/>
         <archimateRelationship
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_id-af7dcb0a050a4248a06d7eadefc6318c.xml#id-af7dcb0a050a4248a06d7eadefc6318c"/>
@@ -2250,7 +2250,7 @@
       </sourceConnections>
       <bounds
           x="3756"
-          y="57"
+          y="63"
           width="120"
           height="55"/>
       <archimateElement
@@ -2282,7 +2282,7 @@
       </sourceConnections>
       <bounds
           x="3317"
-          y="57"
+          y="61"
           width="140"
           height="60"/>
       <archimateElement
@@ -2314,7 +2314,7 @@
       </sourceConnections>
       <bounds
           x="3167"
-          y="57"
+          y="61"
           width="140"
           height="60"/>
       <archimateElement
@@ -2346,7 +2346,7 @@
       </sourceConnections>
       <bounds
           x="3017"
-          y="57"
+          y="61"
           width="140"
           height="60"/>
       <archimateElement
@@ -2378,7 +2378,7 @@
       </sourceConnections>
       <bounds
           x="2867"
-          y="57"
+          y="61"
           width="140"
           height="60"/>
       <archimateElement
@@ -2427,12 +2427,12 @@
           source="id-084548081ab642d6824396b06483d581"
           target="id-5004f870734547fa8b67896ca3494e3e">
         <bendpoints
-            startY="-164"
+            startY="-138"
             endX="144"
             endY="72"/>
         <bendpoints
             startX="-144"
-            startY="-164"
+            startY="-138"
             endY="72"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
@@ -2440,7 +2440,7 @@
       </sourceConnections>
       <bounds
           x="4176"
-          y="90"
+          y="63"
           width="120"
           height="55"/>
       <archimateElement
@@ -2466,7 +2466,7 @@
       </sourceConnections>
       <bounds
           x="4020"
-          y="90"
+          y="63"
           width="120"
           height="55"/>
       <archimateElement
