@@ -2,11 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Prescriptive LDT  "
     id="id-9cda5148e99048e89812a5e4a5950b5d"
-    documentation="Real-time data from integrated systems, situational awareness, recommendations.">
+    documentation="Real-time data from integrated systems, situational awareness, recommendations.&#xD;&#xA;&#xD;&#xA;[a prescriptive twin] aims at identifying actions to be taken over the real asset for it to reach a&#xD;&#xA;target state. Identified actions could be simply provided to the user or directly actuated on the real asset, thus&#xD;&#xA;implementing an autonomous behaviour of the asset. ">
   <properties
       key="eira:definitionSource"
       value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
   <properties
       key="eira:definitionSourceReference"
       value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+  <properties
+      key="eira:definitionSource"
+      value="https://www.etsi.org/deliver/etsi_gr/CIM/001_099/017/01.01.01_60/gr_CIM017v010101p.pdf"/>
 </archimate:Capability>

@@ -2,11 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Diagnostic LDT "
     id="id-aeda45c873584057bb0913d29b7c90c6"
-    documentation="Operational data and sensor data. Dashboard with operational insights.">
+    documentation="Operational data and sensor data. Dashboard with operational insights.&#xD;&#xA;&#xD;&#xA;The diagnosis twin is a particular capability which is meant to understand what happened in case of real asset&#xD;&#xA;malfunction or what is happening in case of a real asset deviating from its expected working trajectory. It builds on a&#xD;&#xA;diagnostic model that collects additional data related to the real asset evolution (e.g. log files). ">
   <properties
       key="eira:definitionSource"
       value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
   <properties
       key="eira:definitionSourceReference"
       value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+  <properties
+      key="eira:definitionSource"
+      value="https://www.etsi.org/deliver/etsi_gr/CIM/001_099/017/01.01.01_60/gr_CIM017v010101p.pdf"/>
 </archimate:Capability>

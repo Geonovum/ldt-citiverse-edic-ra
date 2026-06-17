@@ -2,11 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Descriptive LDT"
     id="id-19e44326bfb043789159cdb90c3e9c18"
-    documentation="Dispersed, static data in systems without integration, communication, or automation.">
+    documentation="Dispersed, static data in systems without integration, communication, or automation.&#xD;&#xA;&#xD;&#xA;The descriptive twin informs about the current state of the real-world asset. The descriptive twin presents past and&#xD;&#xA;current values of some of the real-world asset characteristics. These characteristics can be static (e.g. a building&#xD;&#xA;geometry) or dynamic (e.g. sensor measurements). The connection between the real-world asset and the Digital Twin is&#xD;&#xA;bidirectional: a change made in the descriptive twin is reflected (in real-time or not) on the real world asset (actuation).&#xD;&#xA;The descriptive twin capability does not restrict to metrics collected from the real-world asset and can be augmented&#xD;&#xA;with computed functions (e.g. distance to a fix point of a moving real world asset; deviation from normal of a room&#xD;&#xA;temperature). ">
   <properties
       key="eira:definitionSource"
       value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
   <properties
       key="eira:definitionSourceReference"
       value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+  <properties
+      key="eira:definitionSource"
+      value="https://www.etsi.org/deliver/etsi_gr/CIM/001_099/017/01.01.01_60/gr_CIM017v010101p.pdf"/>
 </archimate:Capability>

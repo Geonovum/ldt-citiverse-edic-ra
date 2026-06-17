@@ -1,0 +1,10 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Prospective LDT"
+    id="id-fa2d2e4c50d345edacfe6e354cc805ab"
+    documentation="The prospective twin builds upon the predictive capabilities. It is meant to help the Digital Twin's user to evaluate the&#xD;&#xA;impact that actions would have on the real-asset, if applied. This allows running &quot;what-if&quot; analysis made by executing&#xD;&#xA;the prediction model over the current description of the asset, which is altered to represent the intended action. ">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.etsi.org/deliver/etsi_gr/CIM/001_099/017/01.01.01_60/gr_CIM017v010101p.pdf"/>
+  <properties/>
+</archimate:Capability>

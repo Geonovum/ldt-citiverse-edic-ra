@@ -2,11 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Predictive LDT "
     id="id-317044f3075a408f9a05233e481336f6"
-    documentation="Contextual data, machine learning, partial automation, connected data and systems.">
+    documentation="Contextual data, machine learning, partial automation, connected data and systems.&#xD;&#xA;&#xD;&#xA;The predictive twin extends the descriptive twin capability by providing predictions on the way the real asset could&#xD;&#xA;evolve in the future. The predicted future values can be computed on demand or stored within properties of the Digital&#xD;&#xA;Twin entity(ies)">
   <properties
       key="eira:definitionSource"
       value="https://www.rijksoverheid.nl/documenten/rapporten/2024/02/12/meerjarenvisie-zicht-op-nederland"/>
   <properties
       key="eira:definitionSourceReference"
       value="https://geonovum.github.io/NLDT-Architectuur/en/#H5"/>
+  <properties
+      key="eira:definitionSource"
+      value="https://www.etsi.org/deliver/etsi_gr/CIM/001_099/017/01.01.01_60/gr_CIM017v010101p.pdf"/>
 </archimate:Capability>
