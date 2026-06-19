@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="x. Appendix A - Mapping DTC Capabilities"
-    id="id-d55867bdd3314e8fa0f80562eaa70e83">
+    id="id-d55867bdd3314e8fa0f80562eaa70e83"
+    documentation="This viewpoint shows the mapping between the Full Digital Twin Consortium Periodic Table of Digital Twin Capabilities and the simplified framework that expresses these capabilities in a way that is easier to understand for policy makers.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8185a6d22b664b3bb7f8edbb70e268c7"

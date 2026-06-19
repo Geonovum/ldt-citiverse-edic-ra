@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="x. Appendix B - Semantic Interoperability Framework"
-    id="id-2a1de67b12df4357a6042df7f6ee9290">
+    id="id-2a1de67b12df4357a6042df7f6ee9290"
+    documentation="This viewpoint expresses a framework with principles, capabilities, business services and application elements to show how Semantic Interoperability can be organised in a federated, composable manner.&#xD;&#xA;Structuring a solution using these patterns helps Semantic Interoperability between Local Digital Twins which in turn facilitates a Networked approach of LDT's because the become (technically) interoperable.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4a8901f917054a3ea4f5cd45eda0660a"
