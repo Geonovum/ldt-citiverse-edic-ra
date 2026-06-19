@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Integration</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Integration</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Grouping"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Grouping" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-d55867bdd3314e8fa0f80562eaa70e83">
+																	<td><a href="../views/id-d55867bdd3314e8fa0f80562eaa70e83.html" target="view" title="x. Appendix A - Mapping DTC Capabilities"> x. Appendix A - Mapping DTC Capabilities </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-d55867bdd3314e8fa0f80562eaa70e83">
+																	<td><a href="../views/id-d55867bdd3314e8fa0f80562eaa70e83.html" target="view" title="x. Appendix A - Mapping DTC Capabilities"> x. Appendix A - Mapping DTC Capabilities </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-8796da02dada4ff8a72d437b2c450f3b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-df8d200b9a9c4568bceed7cc27b29734.html" target="element"> IR.AS API Services</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e5e33d1537e64902bb0513c1f00ce37b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-62e9eaebf5d64e5eab1c18e565ca196c.html" target="element"> IR.EG Eng. System Integration</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7ade837778084691b58af605a3d50ee2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-96aa9c1d60af41a394ae8a3d91f54ac9.html" target="element"> IR.IO OT/IoT System Integration</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dd419309a5ef438db6a52903027fb1e6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-ee9b04084c074c089a3a5a0dec480cf0.html" target="element"> IR.ET Enterprise System Integration</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-79ca58060a814cdd8fbe1e62f2f07f35.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-74690914d5f749fd87ada025c10a28bd.html" target="element"> IR.CL Collab Platform Integration</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-fcf7a8b30b3946c3bd20327ec4c856c5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-43d4cae76057485da03cb239ddabb1b4.html" target="element"> IR.DT Digital Twin Integration</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-af21087bac8940718b594989a0b7e811.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-1ddc4190882a4222b3f11f4458392e9b.html" target="element"> Reproduction</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d9ce3a7f2edd4a79ac283bd6065563fa.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-46240847c8ec45c99977cfc73ca2c795.html" target="element"> Sense &amp; Actuate</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-89b29b8c78484d27a97b0acb9366ea79.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01fe1fec30e145318dfe8702d9d70487.html" target="element"> Integration</a></td>
+											<td><a href="../elements/id-c2a7d1fc618b44e6ae26e66b28ce70ec.html" target="element"> Integration</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
