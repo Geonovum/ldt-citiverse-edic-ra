@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Register Federation"
+    id="id-38bc6b3381dc471e917fd634592f57a3"
+    documentation="Management of registers and transparent federation across repositories."/>

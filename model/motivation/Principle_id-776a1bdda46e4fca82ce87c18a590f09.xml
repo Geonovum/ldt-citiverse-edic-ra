@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Technology-Agnostic Design"
+    id="id-776a1bdda46e4fca82ce87c18a590f09"
+    documentation="The framework supports various types and avoids vendor lock-in, emphasizing JSON schemas and JSON-LD."/>

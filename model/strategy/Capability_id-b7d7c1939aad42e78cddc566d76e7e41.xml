@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Automated Validation &amp; Testing"
+    id="id-b7d7c1939aad42e78cddc566d76e7e41"
+    documentation="Validation of examples, test cases, and unit testing of rules."/>

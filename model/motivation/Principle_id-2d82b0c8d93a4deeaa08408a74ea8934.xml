@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Test-Driven Assembly"
+    id="id-2d82b0c8d93a4deeaa08408a74ea8934"
+    documentation="Designing and assembling components using validation of examples and test cases."/>
