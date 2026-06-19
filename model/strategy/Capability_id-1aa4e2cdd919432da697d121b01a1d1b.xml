@@ -1,0 +1,14 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UX.BP BPM &amp; Workflow"
+    id="id-1aa4e2cdd919432da697d121b01a1d1b">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.digitaltwinconsortium.org/initiatives/capabilities-periodic-table/"/>
+  <properties
+      key="dct:modified"
+      value="2026-06-19"/>
+  <properties
+      key="skos:note"
+      value="v1.2"/>
+</archimate:Capability>

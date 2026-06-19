@@ -1,0 +1,14 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IC.CS Composition"
+    id="id-35f7b5634f624168a6708538cf1ce2f0">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.digitaltwinconsortium.org/initiatives/capabilities-periodic-table/"/>
+  <properties
+      key="dct:modified"
+      value="2026-06-19"/>
+  <properties
+      key="skos:note"
+      value="v1.2"/>
+</archimate:Capability>

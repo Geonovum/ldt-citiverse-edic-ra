@@ -1,0 +1,14 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IC.PR Prediction"
+    id="id-ced5b1fd5c4644d5b999efc3887d4ab3">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.digitaltwinconsortium.org/initiatives/capabilities-periodic-table/"/>
+  <properties
+      key="dct:modified"
+      value="2026-06-19"/>
+  <properties
+      key="skos:note"
+      value="v1.2"/>
+</archimate:Capability>

@@ -1,0 +1,14 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DS.BP Batch Processing"
+    id="id-94fd8795204842ed8244fc767b313031">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.digitaltwinconsortium.org/initiatives/capabilities-periodic-table/"/>
+  <properties
+      key="dct:modified"
+      value="2026-06-19"/>
+  <properties
+      key="skos:note"
+      value="v1.2"/>
+</archimate:Capability>

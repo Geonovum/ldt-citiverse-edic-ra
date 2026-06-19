@@ -1,0 +1,14 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UX.AV Advanced Visualization"
+    id="id-e5fe1c119ad0453eaef3ebfb42e67e24">
+  <properties
+      key="eira:definitionSource"
+      value="https://www.digitaltwinconsortium.org/initiatives/capabilities-periodic-table/"/>
+  <properties
+      key="dct:modified"
+      value="2026-06-19"/>
+  <properties
+      key="skos:note"
+      value="v1.2"/>
+</archimate:Capability>
