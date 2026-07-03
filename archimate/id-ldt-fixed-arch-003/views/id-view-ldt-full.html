@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Overall Architecture - motivation</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Overall Architecture - motivation</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-view-ldt-full.png" alt="Overall Architecture - motivation" usemap="#id-view-ldt-fullmap"/>
+			   <map name="id-view-ldt-fullmap">
+				  				<area shape="rect" coords="118,993,368,1068" href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html"  target="element">
+
+				  		<area shape="rect" coords="82,957,394,1150" href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html"  target="element">
+				  				<area shape="rect" coords="789,1389,993,1444" href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html"  target="element">
+				  				<area shape="rect" coords="789,1317,993,1372" href="../elements/id-391246a3200d44e489a30abba368acd2.html"  target="element">
+				  				<area shape="rect" coords="789,1245,993,1300" href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html"  target="element">
+				  				<area shape="rect" coords="789,1173,993,1228" href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html"  target="element">
+				  				<area shape="rect" coords="789,1101,993,1156" href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html"  target="element">
+				  				<area shape="rect" coords="789,1029,993,1084" href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html"  target="element">
+				  				<area shape="rect" coords="489,1437,693,1492" href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html"  target="element">
+				  				<area shape="rect" coords="489,1365,693,1420" href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html"  target="element">
+				  				<area shape="rect" coords="489,1293,693,1348" href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html"  target="element">
+				  				<area shape="rect" coords="489,1221,693,1276" href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html"  target="element">
+				  				<area shape="rect" coords="489,1149,693,1204" href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html"  target="element">
+				  				<area shape="rect" coords="489,1077,693,1132" href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html"  target="element">
+				  				<area shape="rect" coords="489,1005,693,1060" href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html"  target="element">
+
+				  		<area shape="rect" coords="417,957,1149,1534" href="../elements/id-35b88eea3c374e1c82bed1c541264483.html"  target="element">
+				  				<area shape="rect" coords="500,117,645,172" href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html"  target="element">
+				  				<area shape="rect" coords="498,46,648,106" href="../elements/id-val-trust.html"  target="element">
+				  				<area shape="rect" coords="681,117,830,172" href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html"  target="element">
+				  				<area shape="rect" coords="681,46,831,106" href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html"  target="element">
+				  				<area shape="rect" coords="873,46,1023,106" href="../elements/id-val-people.html"  target="element">
+				  				<area shape="rect" coords="873,117,1022,172" href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html"  target="element">
+
+				  		<area shape="rect" coords="417,10,1149,214" href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html"  target="element">
+				  				<area shape="rect" coords="813,393,1101,448" href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html"  target="element">
+				  				<area shape="rect" coords="501,393,801,448" href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html"  target="element">
+				  				<area shape="rect" coords="849,261,1101,316" href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html"  target="element">
+				  				<area shape="rect" coords="501,321,753,376" href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html"  target="element">
+				  				<area shape="rect" coords="501,261,753,316" href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html"  target="element">
+
+				  		<area shape="rect" coords="417,225,1149,477" href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html"  target="element">
+				  				<area shape="rect" coords="537,872,1005,927" href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html"  target="element">
+				  				<area shape="rect" coords="537,800,1005,855" href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html"  target="element">
+				  				<area shape="rect" coords="537,728,1005,783" href="../elements/id-f25a56e45785422dba677836f6301727.html"  target="element">
+				  				<area shape="rect" coords="537,656,1005,711" href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html"  target="element">
+				  				<area shape="rect" coords="537,584,1005,639" href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html"  target="element">
+				  				<area shape="rect" coords="537,512,1005,567" href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html"  target="element">
+
+				  		<area shape="rect" coords="417,488,1149,946" href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html"  target="element">
+				  				<area shape="rect" coords="34,327,291,398" href="../elements/id-499e860521984a108074595914a0152f.html"  target="element">
+
+				  		<area shape="rect" coords="10,267,334,477" href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html"  target="element">
+				  				<area shape="rect" coords="1222,860,1534,915" href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html"  target="element">
+				  				<area shape="rect" coords="1222,710,1534,762" href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html"  target="element">
+				  				<area shape="rect" coords="1222,560,1534,615" href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html"  target="element">
+				  				<area shape="rect" coords="1222,782,1535,837" href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html"  target="element">
+				  				<area shape="rect" coords="1222,632,1534,687" href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html"  target="element">
+
+				  		<area shape="rect" coords="1162,488,1630,945" href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">The motivation viewpoint draws from the LDT CitiVERSE EDIC Proposal document in which drivers, goals and outcomes are described, as well as a number of statemtents that are translated into Architecture principles in this view.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+											    <td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> Contribution to Digital Europe Programme&#8217;s goals </a> </td>
+													    <td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element"> Establish LDT CitiVERSE Enablement framework </a> </td>
+													    <td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element" class="i18n-elementtype-CourseOfAction">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element"> Operational Model that is market-oriented </a> </td>
+													    <td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element"> Establish LDT CitiVERSE Technology framework </a> </td>
+													    <td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element" class="i18n-elementtype-CourseOfAction">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element"> Establish EDIC Infrastructure </a> </td>
+													    <td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element" class="i18n-elementtype-CourseOfAction">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html" target="element"> eGovERA Driver </a> </td>
+											    <td> <a href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-499e860521984a108074595914a0152f.html" target="element"> Creation of Interoperable European Solutions </a> </td>
+													    <td> <a href="../elements/id-499e860521984a108074595914a0152f.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+											    <td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element"> Objective O1: Infrastructure Development </a> </td>
+													    <td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element"> Objective O2: Technical Roadmap Design </a> </td>
+													    <td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element"> Objective O3: Service Definition and Implementation </a> </td>
+													    <td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element"> Objective O4: Capacity Building </a> </td>
+													    <td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element"> Objective O5: Operational Model Definition </a> </td>
+													    <td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element"> Objective O6: Strategic Development </a> </td>
+													    <td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+											    <td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html" target="element"> Citizen-centric approach </a> </td>
+													    <td> <a href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html" target="element"> Intellectual Property Management </a> </td>
+													    <td> <a href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html" target="element"> Multi-layer Governance </a> </td>
+													    <td> <a href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html" target="element"> Public report on the LDT Toolbox detailed specifications requirements </a> </td>
+													    <td> <a href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html" target="element"> Harmonised Standards for the European AI Act </a> </td>
+													    <td> <a href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+											    <td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html" target="element"> Solidarity and inclusion </a> </td>
+													    <td> <a href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-val-people.html" target="element"> People at the Centre  </a> </td>
+													    <td> <a href="../elements/id-val-people.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html" target="element"> Sustainability </a> </td>
+													    <td> <a href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html" target="element"> Safety and Security </a> </td>
+													    <td> <a href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-val-trust.html" target="element"> Participation </a> </td>
+													    <td> <a href="../elements/id-val-trust.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html" target="element"> Freedom of Choice </a> </td>
+													    <td> <a href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html" target="element" class="i18n-elementtype-Value">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+											    <td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element"> 1. Federate Technical Assets and Ensure Interoperability </a> </td>
+													    <td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element"> 2. Promote Reusability and Avoid Redundancy </a> </td>
+													    <td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element"> 3. Support the EU CitiVERSE Vision </a> </td>
+													    <td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element"> 4. Develop a 4-Helix Ecosystem </a> </td>
+													    <td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element"> 5. Strengthen European Strategic Autonomy </a> </td>
+													    <td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element"> 6. Ensure Sustainable Investment and Deployment </a> </td>
+													    <td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element"> 7. Fill Market Gaps with Sovereign Digital Twin Solutions </a> </td>
+													    <td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element"> 8. Contribute to the Digital Decade Objectives </a> </td>
+													    <td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element"> 9. Enhance Data-Driven Decision-Making on Local Priorities </a> </td>
+													    <td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element"> 10. Implement Robust Governance at Data and Algorithmic Levels </a> </td>
+													    <td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element"> 11. Increase Trust Between Cities and Solution Providers </a> </td>
+													    <td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element"> 12. Focus on Knowledge Building and Academic Engagement </a> </td>
+													    <td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element"> 13. Move Beyond Research with EDIC-Driven Deployment </a> </td>
+													    <td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
+											    <td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
+													    <td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element" class="i18n-elementtype-Principle">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-5e065755543f4bceac2b2fafd7fc431f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5e065755543f4bceac2b2fafd7fc431f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-b884fb5f26ab46c3888e740e4002bdc9.html" target="element"> Contribution to Digital Europe Programme&#8217;s goals </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-23b830ba472f4886b373e6a52286e76c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-23b830ba472f4886b373e6a52286e76c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-9455f9abf07b4346a304f226dcd5c88f.html" target="element"> Establish LDT CitiVERSE Enablement framework </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ec7b22f8de614773a9430ded32a23446.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ec7b22f8de614773a9430ded32a23446.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-54ef792d50c241c5b6b97366bbbc273d.html" target="element"> Operational Model that is market-oriented </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-acabf984063048e68fd2f986f6898de0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-acabf984063048e68fd2f986f6898de0.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-aa6aaa616c104e50b2d2f2a2643aa63e.html" target="element"> Establish LDT CitiVERSE Technology framework </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6ffd0ddce0344b5996de55c2a5eaad15.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ffd0ddce0344b5996de55c2a5eaad15.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-391cca57b12943c2adfb8d70eae86ae0.html" target="element"> Outcomes / Courses of Action </a> </td>
+																		<td> <a href="../elements/id-1a68770544e541b5ac92857ec28dbb20.html" target="element"> Establish EDIC Infrastructure </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-04119527d797430c9c915c6e430783b1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-04119527d797430c9c915c6e430783b1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e5e2e8424fca4899b9a0cf2b63a90254.html" target="element"> eGovERA Driver </a> </td>
+																		<td> <a href="../elements/id-499e860521984a108074595914a0152f.html" target="element"> Creation of Interoperable European Solutions </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-fb398facb70f4cd388907ca79f04326d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fb398facb70f4cd388907ca79f04326d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-1cb4cf8397dd474693c5f368717077e2.html" target="element"> Objective O1: Infrastructure Development </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f4e155fad2ac435dbfbd81a6273d0e38.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f4e155fad2ac435dbfbd81a6273d0e38.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-7d22c14ab01c42b1a897f13b95f84b71.html" target="element"> Objective O2: Technical Roadmap Design </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c318b223417e40f8b62437a7748aacb7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c318b223417e40f8b62437a7748aacb7.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-9fdc6be463cf49abb6265ea8f0b06731.html" target="element"> Objective O3: Service Definition and Implementation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-85b98e121fff4e5fb5a08407703e0875.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-85b98e121fff4e5fb5a08407703e0875.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-f25a56e45785422dba677836f6301727.html" target="element"> Objective O4: Capacity Building </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c1b7023a4f4f4b479bc40321467a50f3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c1b7023a4f4f4b479bc40321467a50f3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-80afe2ed58f84e55a7ba5286fc6906da.html" target="element"> Objective O5: Operational Model Definition </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-429c82126d3246b3bff5329a8a695dea.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-429c82126d3246b3bff5329a8a695dea.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36a0f721431043d9a9b9832e4bd72db7.html" target="element"> Goals </a> </td>
+																		<td> <a href="../elements/id-73a72e1b5c6b404291899c1456c537ad.html" target="element"> Objective O6: Strategic Development </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-906e9810854f49fab96e9842c336edce.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-906e9810854f49fab96e9842c336edce.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+																		<td> <a href="../elements/id-1b610d62bec641b79e8dbe5c70314674.html" target="element"> Citizen-centric approach </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-31dabdd377544dd1804b5c906eab1a32.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-31dabdd377544dd1804b5c906eab1a32.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+																		<td> <a href="../elements/id-57438ff1cc7143b2918a8524b5ab3173.html" target="element"> Intellectual Property Management </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7adf652c603c4ced9c2b08330e03c765.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7adf652c603c4ced9c2b08330e03c765.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+																		<td> <a href="../elements/id-ff6aeb8dcc184042ad84bf074ac66afa.html" target="element"> Multi-layer Governance </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9ab6eae30f2f4a5987cc86ef1f790ec2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9ab6eae30f2f4a5987cc86ef1f790ec2.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+																		<td> <a href="../elements/id-db5962724c3846d4bc8a7e9f30210adf.html" target="element"> Public report on the LDT Toolbox detailed specifications requirements </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-03ffa972717c4c149b2ade7dae3f8144.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-03ffa972717c4c149b2ade7dae3f8144.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2db03e5af853449d96c6930bd9b9128b.html" target="element"> EDIC Drivers </a> </td>
+																		<td> <a href="../elements/id-8d3542d94e614498ba3fd77fba92f068.html" target="element"> Harmonised Standards for the European AI Act </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-6b109458a10f4dfe92e36d2ce337cdef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6b109458a10f4dfe92e36d2ce337cdef.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-a3bcc26ece134306b81d9741a11f3290.html" target="element"> Solidarity and inclusion </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2bf7c0391b3c4febbb57c41a18cad58e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2bf7c0391b3c4febbb57c41a18cad58e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-val-people.html" target="element"> People at the Centre  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-99381dfdf2e54f3784316670f17e446b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-99381dfdf2e54f3784316670f17e446b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-c86641ef0c19444facf7190ca454d3ee.html" target="element"> Sustainability </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-27e8953c0ef44850b11444a5d259fc2b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-27e8953c0ef44850b11444a5d259fc2b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-13ef6b4291b046ebae6d071e71c11997.html" target="element"> Safety and Security </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1533506bac554729b7c514c6c166a35a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1533506bac554729b7c514c6c166a35a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-val-trust.html" target="element"> Participation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6929689116704ed9934f1f48f6d1980d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6929689116704ed9934f1f48f6d1980d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6a0b11aa7e164344bc5aab4ff02483c7.html" target="element"> Core Values Digital Decade 2030 </a> </td>
+																		<td> <a href="../elements/id-6da95fbd99324dbeb5d03ad8e47b7a48.html" target="element"> Freedom of Choice </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-27377734f9f248188a9cbf3ca1db783e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-27377734f9f248188a9cbf3ca1db783e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-d4350b9fedef4c6ca35822f22965a409.html" target="element"> 1. Federate Technical Assets and Ensure Interoperability </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3cbcabc8274f42a1ad6d5b095a2266fc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3cbcabc8274f42a1ad6d5b095a2266fc.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-9a0d21b0116648588bff787ccfbe6ced.html" target="element"> 2. Promote Reusability and Avoid Redundancy </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4d5dca645cc94efdadc8dccf9361a719.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4d5dca645cc94efdadc8dccf9361a719.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-1868e0a91f8341ab8aa7330106e87593.html" target="element"> 3. Support the EU CitiVERSE Vision </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-819fa86024974b58a0d609fc4a90a4af.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-819fa86024974b58a0d609fc4a90a4af.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-a2e828da542e4dbebce9a4df4fae9015.html" target="element"> 4. Develop a 4-Helix Ecosystem </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3afbd6bfe708478394c9f54ffa46db44.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3afbd6bfe708478394c9f54ffa46db44.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-241fcb52b4f5463e8dd6e785973b1b7b.html" target="element"> 5. Strengthen European Strategic Autonomy </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-63ab9c5d3458485c8955b82ebd70de92.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-63ab9c5d3458485c8955b82ebd70de92.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-c2b52a0d101843ad8774c6ab42d5d0f9.html" target="element"> 6. Ensure Sustainable Investment and Deployment </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5b18ac4c4aeb4f4284949fdbf590e693.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b18ac4c4aeb4f4284949fdbf590e693.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-7f8c60b96c98499f934c7db7d6034395.html" target="element"> 7. Fill Market Gaps with Sovereign Digital Twin Solutions </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-966ae5e666f3498b834189d166417454.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-966ae5e666f3498b834189d166417454.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-0fe69ff5d05549be86b04cc1bb9c62d6.html" target="element"> 8. Contribute to the Digital Decade Objectives </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b15fe329ac284740ad2229f61a96f85c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b15fe329ac284740ad2229f61a96f85c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-bc2b3e92c8d44984be13c2bfb9ed0211.html" target="element"> 9. Enhance Data-Driven Decision-Making on Local Priorities </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6c9c2d991b134706b30a82c32d7c917a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6c9c2d991b134706b30a82c32d7c917a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-e9060ef3b2cc4fd0823440d37c779d06.html" target="element"> 10. Implement Robust Governance at Data and Algorithmic Levels </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-83008435646a4548bce67359a9e32af3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-83008435646a4548bce67359a9e32af3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-6b2b8e6d1af449cfa80077c6673605ed.html" target="element"> 11. Increase Trust Between Cities and Solution Providers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7b655f7eb14440178d11b668af2872ca.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7b655f7eb14440178d11b668af2872ca.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-391246a3200d44e489a30abba368acd2.html" target="element"> 12. Focus on Knowledge Building and Academic Engagement </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a2e4fdf875c44e318fa17a5dec525595.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2e4fdf875c44e318fa17a5dec525595.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-35b88eea3c374e1c82bed1c541264483.html" target="element"> Architecture Principles </a> </td>
+																		<td> <a href="../elements/id-306c7c54eb784a5bb04d8e11a37bbd3e.html" target="element"> 13. Move Beyond Research with EDIC-Driven Deployment </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3bafe5d14a2542b899e4e72635d56f54.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c9c30e620bc34d7bb3d6f091a9e2393f.html" target="element"> eGovERA </a> </td>
+																		<td> <a href="../elements/id-5037c768559c48f5bc47ebc95555abd8.html" target="element"> European Library of Architecture Principles </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

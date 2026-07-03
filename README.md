@@ -4,8 +4,9 @@ __NOTE: Temporary repository for LDT Citiverse EDIC Reference Architecture__
 
 A more permanent repository will be established within the EDIC Infrastructure within due time.
 
-The reference architecture can be viewed here: https://geonovum.github.io/ldt-citiverse-edic-ra/
+The respec version of the architecture document can be viewed here: https://geonovum.github.io/ldt-citiverse-edic-ra/
 
+The Archimate views of the architecture can be viewer here: https://geonovum.github.io/ldt-citiverse-edic-ra/archimate
 
 The Reference Architecture in built up in 3 parts:
 - Overall: Metamodel, Overview and Motivation
