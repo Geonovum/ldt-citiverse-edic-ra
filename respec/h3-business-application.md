@@ -2,9 +2,7 @@
 
 ## Overview
 
-The Business & Application view defines how Local Digital Twin capabilities are realised through reusable application services and open standards. It organises the architecture around data services, processing services, visualisation services, participation services and integration services. These services support business domains such as context awareness, citizen participation and collaborative decision-making. By relying on open APIs, common information models and interoperable data formats, the architecture enables cities and regions to build federated, reusable and scalable Local Digital Twin solutions within the LDT CitiVERSE ecosystem.
-
-This view describes how Local Digital Twin (LDT) business capabilities are realised through reusable application services, information services and open interfaces.
+The Business & Application layer defines how Local Digital Twin capabilities are realised through reusable application services and open standards. It organises the architecture around data services, processing services, visualisation services, participation services and integration services. These services support business domains such as context awareness, citizen participation and collaborative decision-making. By relying on open APIs, common information models and interoperable data formats, the architecture enables cities and regions to build federated, reusable and scalable Local Digital Twin solutions within the LDT CitiVERSE ecosystem.
 
 It bridges the strategic capabilities described in the previous architecture level with the technology-oriented building blocks described in the subsequent application and technology views. The focus is on interoperable and reusable services that can be deployed across cities, regions and domains.
 
@@ -24,7 +22,7 @@ The architecture is based on three key principles:
 
 ## Business Service Domains
 
-The view identifies a set of recurring business service domains that can be supported by Local Digital Twins.
+There are a set of recurring business service domains that can be supported by Local Digital Twins.
 
 ### Context Awareness
 
@@ -210,37 +208,4 @@ Examples include:
 
 These assets ensure semantic interoperability across Local Digital Twins and related European initiatives.
 
----
-
-## Architectural Layers
-
-The view can be interpreted in three logical layers.
-
-### Business Layer
-
-Contains the services delivered to cities, communities and stakeholders, such as participation, visualisation and decision support.
-
-### Application Layer
-
-Contains reusable application services that realise the business services, including data services, processing services, visualisation services and integration services.
-
-### Interoperability Layer
-
-Contains standards, interfaces, information models and exchange mechanisms that enable interoperability between implementations.
-
----
-
-## Relationship to Other Views
-
-This view acts as the bridge between the strategic and technical parts of the reference architecture.
-
-It connects:
-
-- **2. LDT Reference Architecture – Strategy & Business**
-- **4. LDT Reference Architecture – Application & Technology**
-- **LDT Solution Architectures**
-
-The view therefore provides the functional blueprint for implementing interoperable Local Digital Twin capabilities within the LDT CitiVERSE ecosystem.
-
----
 
