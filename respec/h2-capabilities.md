@@ -46,23 +46,317 @@ These capabilities together define what the LDT CitiVERSE ecosystem must provide
 
 Local Digital Twins are categorised by their level of analytical and decision-support maturity. Each type builds on the capabilities of the preceding type. The main premise is that not all implementations need the same type of LDT, depending on the requirements the right type of LDT should be implemented. Also an organisation will likely have multiple LDT's for different projects in different lifecycle stages. While they should be based on the same common core components, the specific type needs to be tailored to the needed requirements.
 
-### Descriptive LDT
-A Descriptive LDT provides a real-time or near-real-time representation of the current state of an asset or environment. It answers the question: what is happening?
+### Conformance Profiles
 
-### Diagnostic LDT
-A Diagnostic LDT uses operational and sensor data to explain the causes of observed conditions. It provides dashboards with operational insights, answering the question: why is it happening?
+Not every Local Digital Twin requires the same capabilities, level of sophistication, or operational complexity.
 
-### Predictive LDT
-A Predictive LDT uses historical and real-time data to forecast future states. It answers the question: what is likely to happen?
+The LDT CitiVERSE Reference Architecture therefore defines a series of **Conformance Profiles**. These profiles establish a common understanding of the minimum capabilities that an implementation must provide in order to be considered a specific type of Local Digital Twin.
 
-### Prospective LDT
-A Prospective LDT builds on predictive capabilities and supports the evaluation of potential interventions before they are applied. By executing a prediction model over a modified description of an asset, it enables what-if analysis: what would happen if we acted?
+The profiles serve several purposes:
 
-### Prescriptive LDT
-A Prescriptive LDT uses real-time data from integrated systems to generate situational awareness and concrete recommendations. It answers the question: what should we do?
+- Provide guidance for communities implementing Local Digital Twins.
+- Support procurement and solution selection.
+- Enable interoperability testing and validation.
+- Support future EDIC certification schemes.
+- Provide a roadmap for the gradual evolution of Local Digital Twin implementations.
 
-### Autonomous LDT
-An Autonomous LDT continuously supports or performs decision-making using adaptive and generative AI. It is self-sustaining and continuously learns from new data. It answers the question: what is the right action, and how do I take it?
+The profiles are cumulative: each profile builds upon the capabilities of the previous profile.
+
+#### Common Foundation Requirements
+
+All Local Digital Twins participating in the LDT CitiVERSE ecosystem must provide a common foundation that supports interoperability and collaboration.
+
+#### Mandatory Capabilities
+
+- Digital Foundation / Integration
+- Technical Enablement
+- Community Enablement
+
+#### Mandatory Characteristics
+
+- Standards-based APIs
+- Metadata publication and discovery
+- Identity and access management
+- Open interoperability interfaces
+- Conformance to the architectural guardrails
+- Participation in federated discovery mechanisms
+
+These requirements represent the minimum baseline for participation in the LDT CitiVERSE ecosystem.
+
+### Profile 1 – Descriptive LDT
+
+#### Purpose
+
+A Descriptive LDT provides a real-time or near-real-time representation of the current state of an asset, area, system or environment.
+
+#### Primary Question
+
+> What is happening?
+
+#### Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Digital Foundation / Integration | Required |
+| Data Ingestion | Required |
+| Visualisation | Required |
+| Metadata Management | Required |
+| Discovery Services | Required |
+
+#### Typical Building Blocks
+
+- Data Catalogue
+- Data Store
+- Context Management Services
+- Dashboard Services
+- Map Viewers
+- Sensor Integration Services
+
+#### Typical Outputs
+
+- Operational dashboards
+- Current status views
+- Situation awareness
+- Shared operational picture
+
+---
+
+### Profile 2 – Diagnostic LDT
+
+#### Purpose
+
+A Diagnostic LDT explains observed conditions and identifies underlying causes.
+
+#### Primary Question
+
+> Why is it happening?
+
+#### Additional Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Descriptive Profile | Required |
+| Knowledge Generation | Required |
+| Analytics Services | Required |
+| Correlation Analysis | Required |
+
+#### Typical Building Blocks
+
+- Analytics Services
+- Monitoring Services
+- Data Quality Services
+- Event Processing Services
+- Knowledge Graph Services
+
+#### Typical Outputs
+
+- Root-cause analysis
+- Performance diagnostics
+- Explanatory insights
+- Operational intelligence
+
+---
+
+### Profile 3 – Predictive LDT
+
+#### Purpose
+
+A Predictive LDT forecasts future conditions using historical and real-time information.
+
+#### Primary Question
+
+> What is likely to happen?
+
+#### Additional Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Diagnostic Profile | Required |
+| Predictive Analytics | Required |
+| Forecasting | Required |
+| Simulation | Required |
+
+#### Typical Building Blocks
+
+- Forecasting Services
+- Machine Learning Models
+- Simulation Engines
+- Scenario Data Services
+
+#### Typical Outputs
+
+- Forecasts
+- Trend predictions
+- Early-warning indicators
+- Impact forecasts
+
+---
+
+### Profile 4 – Prospective LDT
+
+#### Purpose
+
+A Prospective LDT evaluates alternative futures by exploring the consequences of potential interventions before they are applied.
+
+#### Primary Question
+
+> What would happen if we acted?
+
+#### Additional Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Predictive Profile | Required |
+| Scenario Management | Required |
+| What-if Analysis | Required |
+| Model Composition | Required |
+
+#### Typical Building Blocks
+
+- Computational Models
+- Scenario Engines
+- Model Orchestration Services
+- Intervention Analysis Services
+
+#### Typical Outputs
+
+- Scenario comparisons
+- Impact assessments
+- Alternative futures
+- Policy evaluation
+
+---
+
+### Profile 5 – Prescriptive LDT
+
+#### Purpose
+
+A Prescriptive LDT recommends actions based on data, models and simulated outcomes.
+
+#### Primary Question
+
+> What should we do?
+
+#### Additional Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Prospective Profile | Required |
+| Decision Support | Required |
+| Recommendation Services | Required |
+| Optimisation | Required |
+
+#### Typical Building Blocks
+
+- Decision Support Systems
+- Optimisation Engines
+- Recommendation Services
+- Policy Evaluation Services
+
+#### Typical Outputs
+
+- Ranked interventions
+- Action recommendations
+- Resource optimisation
+- Decision support products
+
+---
+
+### Profile 6 – Autonomous LDT
+
+#### Purpose
+
+An Autonomous LDT continuously evaluates situations and can automatically execute or propose interventions within agreed governance constraints.
+
+#### Primary Question
+
+> What is the right action and how can it be implemented?
+
+#### Additional Required Capabilities
+
+| Capability | Requirement |
+|------------|------------|
+| Prescriptive Profile | Required |
+| Autonomous Decision Support | Required |
+| Adaptive Learning | Required |
+| Automated Orchestration | Required |
+| Governance Controls | Required |
+
+#### Typical Building Blocks
+
+- Agent-based AI Services
+- Workflow Orchestration
+- Adaptive Learning Services
+- Policy Enforcement Services
+- Human Oversight Services
+
+#### Typical Outputs
+
+- Automated interventions
+- Dynamic optimisation
+- Self-learning behaviour
+- Closed-loop operations
+
+---
+
+## Capability Progression
+
+The six conformance profiles represent an increasing level of maturity and capability.
+
+```text
+Observe
+   ↓
+Understand
+   ↓
+Predict
+   ↓
+Explore
+   ↓
+Recommend
+   ↓
+Act
+```
+
+Mapped to the LDT types:
+
+```text
+Descriptive
+      ↓
+Diagnostic
+      ↓
+Predictive
+      ↓
+Prospective
+      ↓
+Prescriptive
+      ↓
+Autonomous
+```
+
+Importantly, higher maturity levels do not replace lower ones. A mature Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities.
+
+---
+
+## Selecting an Appropriate Profile
+
+Not every use case requires an Autonomous Local Digital Twin.
+
+For example:
+
+| Use Case | Typical Profile |
+|-----------|-----------|
+| Shared Operational Picture | Descriptive |
+| Infrastructure Monitoring | Diagnostic |
+| Flood Forecasting | Predictive |
+| Urban Planning Scenarios | Prospective |
+| Traffic Optimisation | Prescriptive |
+| Dynamic Energy Management | Autonomous |
+
+Communities should select the profile that best matches the objectives, risks, governance requirements and operational context of their implementation.
+
+The Reference Architecture therefore supports a diversity of Local Digital Twins while ensuring that implementations remain interoperable and aligned with a common European architectural framework.
+
+---
 
 ## LDT Ecosystem
 
@@ -109,3 +403,44 @@ LDT CitiVERSE capabilities are specialisations of capabilities defined in the eG
 | Artificial Intelligence | Urban Intelligence, ML Inference, Collaborative Training |
 
 This alignment ensures that the LDT CitiVERSE architecture is compatible with the broader European public-sector architecture landscape and can be adopted consistently across member states.
+
+## Conformance Profiles
+
+Not every Local Digital Twin requires the same capabilities, level of sophistication, or operational complexity.
+
+The LDT CitiVERSE Reference Architecture therefore defines a series of **Conformance Profiles**. These profiles establish a common understanding of the minimum capabilities that an implementation must provide in order to be considered a specific type of Local Digital Twin.
+
+The profiles serve several purposes:
+
+- Provide guidance for communities implementing Local Digital Twins.
+- Support procurement and solution selection.
+- Enable interoperability testing and validation.
+- Support future EDIC certification schemes.
+- Provide a roadmap for the gradual evolution of Local Digital Twin implementations.
+
+The profiles are cumulative: each profile builds upon the capabilities of the previous profile.
+
+### Common Foundation Requirements
+
+All Local Digital Twins participating in the LDT CitiVERSE ecosystem must provide a common foundation that supports interoperability and collaboration.
+
+#### Mandatory Capabilities
+
+- Digital Foundation / Integration
+- Technical Enablement
+- Community Enablement
+
+#### Mandatory Characteristics
+
+- Standards-based APIs
+- Metadata publication and discovery
+- Identity and access management
+- Open interoperability interfaces
+- Conformance to the architectural guardrails
+- Participation in federated discovery mechanisms
+
+These requirements represent the minimum baseline for participation in the LDT CitiVERSE ecosystem.
+
+---
+
+

@@ -2,201 +2,403 @@
 
 ## Overview
 
-The Application & Technology layer defines the technical foundation of the LDT CitiVERSE ecosystem. The architecture is based on federated infrastructure, semantic interoperability, orchestration, reusable services and infrastructure-independent deployment. Together these patterns enable Local Digital Twins to be assembled from interoperable building blocks rather than monolithic solutions.
+The Application & Technology layer defines the technical foundation of the LDT CitiVERSE ecosystem.
 
-The architecture positions Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared European infrastructure. This enables cities, regions and member states to reuse both technical capabilities and operational experience while maintaining local autonomy and governance.
+While the Business & Application layer describes the services that realise Local Digital Twin capabilities, this layer describes the technical platform required to implement, operate and scale those services.
 
----
+The architecture is based on five fundamental concepts:
 
-## Pattern 1 – Layered Digital Twin Architecture
+- Federated infrastructure
+- Shared platform services
+- Semantic interoperability
+- Orchestration
+- Infrastructure-independent deployment
 
-The architecture adopts a __layered design__ that separates concerns across multiple abstraction levels:
+Together these concepts enable Local Digital Twins to be assembled from reusable and interoperable building blocks rather than monolithic applications.
 
-1. Business Services
-2. Application Services
-3. Technology Services
-4. Infrastructure
-
-This separation ensures that business functionality remains independent from implementation choices and infrastructure providers.
-
-### Benefits
-
-- Technology independence
-- Reusable building blocks
-- Replaceable components
-- Reduced vendor lock-in
-- Improved maintainability
+The architecture views Local Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared infrastructure. This approach allows cities, regions and Member States to collaborate while maintaining local ownership, governance and technical autonomy.
 
 ---
 
-## Pattern 2 – Federated Infrastructure
+# Technical Architecture Principles
 
-A core principle of the architecture is the use of federated infrastructure rather than a single central platform.
+The technical architecture implements and operationalises the architectural guardrails introduced earlier in this document.
 
-The reference architecture explicitly includes __Shared Infrastructure Content__, defined as reusable infrastructure resources that support interoperable digital public services across multiple stakeholders. Shared infrastructure provides a common environment while maintaining separation of data, operations and governance where required.
+Specifically, this layer demonstrates how:
 
-### Characteristics
+- Interoperability by Design is realised through open interfaces.
+- Federation by Default is realised through distributed infrastructure.
+- Semantic Interoperability is realised through shared information models.
+- Reuse Before Build is realised through common platform services.
+- Technology Independence is realised through portable deployment models.
 
-- Multi-organisational operation
-- Distributed ownership
-- Shared technical services
-- Secure collaboration
-- Infrastructure portability
-
-### Related Initiatives
-
-- European Data Spaces
-- Multi-country Digital Infrastructure Projects
-- EDIC infrastructures
-- Digital Public Services
+The Application & Technology layer can therefore be seen as the infrastructure blueprint for the LDT CitiVERSE ecosystem.
 
 ---
 
-## Pattern 3 – Orchestration over Integration
+# Technology Architecture Stack
 
-The architecture introduces __Orchestration__ as a first-class capability.
+The architecture is organised into four logical layers.
 
-Orchestration is defined as the coordination of sensing, processing, analytics and visualisation functions in the correct sequence. The orchestration layer controls workflows and interactions between components without performing the calculations itself.
+```text
+Business Services
+        ↓
+Application Services
+        ↓
+Technology Services
+        ↓
+Infrastructure
+```
 
-### Responsibilities
+Each layer depends on the services of the layer below while remaining insulated from implementation details.
 
-- Workflow coordination
-- Service chaining
-- Process automation
-- Event handling
-- Dependency management
+## Business Services
 
-This enables complex Digital Twin solutions to be assembled from loosely coupled services.
+The business layer provides the stakeholder-facing services described in the previous chapter.
 
----
+Examples include:
 
-## Pattern 4 – Semantic Interoperability Layer
+- Digital Participation
+- Context Awareness
+- Decision Support
+- Urban Planning
+- Infrastructure Management
 
-The architecture explicitly recognises __Semantic Interoperability__ as a separate architectural concern.
+## Application Services
 
-The purpose of this layer is to ensure that systems exchange not only data, but also meaning. Semantic interoperability allows information originating from different organisations, domains and countries to be understood consistently.
-
-### Typical Technologies
-
-- RDF
-- JSON-LD
-- Knowledge Graphs
-- Ontologies
-- Linked Data
-- DCAT-AP
-- SAREF
-
-### Benefits
-
-- Cross-domain integration
-- Data discoverability
-- Consistent interpretation
-- Reusable information models
-
----
-
-## Pattern 5 – Shared Services Architecture
-
-The reference architecture promotes a __service-based approach__ in which capabilities are realised through reusable shared services.
-
-Instead of implementing a Digital Twin as a monolithic system, the architecture decomposes functionality into specialised services that can be reused across multiple implementations.
+Application services realise business services through reusable functionality.
 
 Examples include:
 
 - Data Management
-- Knowledge Management
-- Artificial Intelligence
-- Processing Services
-- Visualisation Services
-- Identity Services
-- Logging Services
+- Visualisation
+- Simulation
+- Analytics
+- Participation
+- Identity
 
-### Benefits
+## Technology Services
 
-- Scalability
-- Reusability
-- Flexibility
-- Incremental adoption
+Technology services provide reusable platform capabilities.
+
+Examples include:
+
+- API Management
+- Workflow Orchestration
+- Context Management
+- Event Processing
+- Logging
+- Monitoring
+
+## Infrastructure
+
+Infrastructure provides the execution environment.
+
+Examples include:
+
+- Cloud Infrastructure
+- Edge Infrastructure
+- Data Space Infrastructure
+- Compute Resources
+- Storage Services
+- Networking Services
 
 ---
 
-## Pattern 6 – Infrastructure-Agnostic Deployment
+# Federated Infrastructure Pattern
 
-The architecture is intentionally designed to remain __independent__ of any specific infrastructure provider.
+## Purpose
 
-Components can therefore be deployed across multiple environments, including:
+The LDT CitiVERSE ecosystem is designed as a federation of independent infrastructures rather than a single central platform.
 
-- Public cloud
-- Private cloud
-- Edge environments
-- National platforms
-- Municipal platforms
+This allows communities to maintain control over their data, operations and governance while still participating in a broader European ecosystem.
+
+## Architectural Rationale
+
+A federated approach:
+
+- reduces dependency on central infrastructure;
+- supports national and local governance requirements;
+- enables gradual adoption;
+- aligns with Data Space principles;
+- supports cross-border collaboration.
+
+## Typical Components
+
 - Data Spaces
+- Federated Catalogues
+- Shared Registries
+- Identity Federations
+- Shared Trust Frameworks
 
-This supports portability and interoperability between communities and countries. 
+## Expected Outcomes
+
+- Cross-community interoperability
+- Local autonomy
+- European-scale collaboration
 
 ---
 
-## Pattern 7 – Digital Twin Processing Pipeline
+# Shared Services Architecture
 
-The view reinforces a common __processing pattern__ that is already visible in the strategic value streams.
+## Purpose
 
-A Local Digital Twin can be understood as a continuous information pipeline:
+Many Local Digital Twin implementations require similar technical capabilities.
+
+Rather than implementing these capabilities repeatedly, the architecture promotes the reuse of common services.
+
+Shared services provide common capabilities that can be consumed by multiple applications, organisations or Digital Twins.
+
+## Examples
+
+### Data Services
+
+Provide:
+
+- storage
+- metadata management
+- discovery
+- semantic enrichment
+
+### Identity Services
+
+Provide:
+
+- authentication
+- authorisation
+- trust management
+
+### Knowledge Services
+
+Provide:
+
+- analytics
+- reasoning
+- AI inference
+- simulation
+
+### Observability Services
+
+Provide:
+
+- logging
+- monitoring
+- auditing
+- performance insights
+
+---
+
+# Orchestration Architecture
+
+## Purpose
+
+Orchestration coordinates the interaction between services and building blocks.
+
+Rather than embedding workflow logic within individual applications, orchestration manages the execution sequence between independent components.
+
+## Responsibilities
+
+- Workflow execution
+- Service chaining
+- Event coordination
+- Automation
+- Dependency management
+
+## Architectural Significance
+
+Orchestration allows individual building blocks to remain loosely coupled while participating in complex Digital Twin workflows.
+
+This enables both flexibility and interoperability.
+
+### Example
 
 ```text
-Data Sources
+Sensor Data
       ↓
-Integration
+Data Processing
       ↓
-Semantic Enrichment
+Analytics
       ↓
-Processing
-      ↓
-AI & Analytics
+Simulation
       ↓
 Visualisation
       ↓
 Decision Support
-      ↓
-Action & Intervention
 ```
 
-This pattern reflects the progression from raw data towards operational or policy actions.
-
-### Result
-
-The Digital Twin becomes a knowledge-generation system rather than merely a data repository.
+Each step may be implemented by an independent service operated by a different organisation.
 
 ---
 
-## Pattern 8 – Toolbox-Based Implementation
+# Semantic Interoperability Architecture
 
-An important architectural principle is the separation of:
+## Purpose
 
-- Architecture Building Blocks (ABBs)
-- Solution Building Blocks (SBBs)
+Technical interoperability alone is insufficient for Digital Twin ecosystems.
 
-The reference architecture defines __reusable patterns and interfaces__, while concrete tools can be mapped onto these patterns.
+Systems must also understand the meaning of exchanged information.
 
-This approach is visible in the related solution architecture viewpoint, where tools from the EU LDT Toolbox are mapped onto the application services and interfaces defined by the reference architecture.
+The semantic interoperability layer provides this shared understanding.
 
-### Benefits
+## Responsibilities
 
-- Vendor neutrality
-- Faster adoption
-- Interoperability between implementations
-- Reuse of existing solutions
+- Semantic alignment
+- Context definition
+- Metadata management
+- Knowledge representation
+- Vocabulary management
+
+## Typical Technologies
+
+- RDF
+- JSON-LD
+- OWL
+- Knowledge Graphs
+- Ontologies
+- DCAT-AP
+- SAREF
+
+## Expected Benefits
+
+- Cross-domain integration
+- Cross-border interoperability
+- Reusable information models
+- Improved discoverability
 
 ---
 
-## Pattern 9 – Shared Infrastructure as a European Commons
+# The Digital Twin Processing Pipeline
 
-The Shared Infrastructure Content concept introduces a broader architectural pattern: the creation of common European infrastructure assets.
+A recurring pattern throughout the architecture is the transformation of data into knowledge and action.
 
-Shared infrastructure provides reusable IT resources and common technical environments that support secure and efficient collaboration while preserving operational separation where necessary. 
+This pattern realises the LDT Value Stream introduced in the Strategy chapter.
 
-This pattern aligns closely with the objectives of:
+```text
+Data Sources
+        ↓
+Data Integration
+        ↓
+Semantic Enrichment
+        ↓
+Processing
+        ↓
+Analytics & AI
+        ↓
+Simulation
+        ↓
+Visualisation
+        ↓
+Decision Support
+        ↓
+Intervention
+```
 
-- European interoperability frameworks
+The individual stages may be realised by separate services or organisations while collectively forming a coherent Digital Twin ecosystem.
+
+The result is a Digital Twin that acts as a knowledge-generation system rather than merely a data repository.
+
+---
+
+# Infrastructure-Agnostic Deployment
+
+## Purpose
+
+The reference architecture deliberately avoids dependence on specific infrastructure providers.
+
+Solutions should remain portable across different execution environments.
+
+## Supported Deployment Models
+
+- Public Cloud
+- Private Cloud
+- Sovereign Cloud
+- Edge Computing
+- Data Space Infrastructure
+- National Platforms
+- Municipal Platforms
+
+## Architectural Benefits
+
+- Technology independence
+- Reduced lock-in
+- Greater resilience
+- Increased portability
+
+---
+
+# Architecture Building Blocks and Solution Building Blocks
+
+The architecture distinguishes between:
+
+## Architecture Building Blocks (ABBs)
+
+Architecture Building Blocks describe reusable architectural capabilities and patterns.
+
+Examples include:
+
+- Data Catalogue
+- Simulation Service
+- Identity Service
+- Semantic Broker
+
+ABBs define *what* capability is required.
+
+## Solution Building Blocks (SBBs)
+
+Solution Building Blocks are concrete implementations of ABBs.
+
+Examples include:
+
+- Products
+- Open-source projects
+- Cloud services
+- Components from the EU LDT Toolbox
+
+SBBs define *how* a capability is implemented.
+
+This distinction enables vendor neutrality while supporting practical implementation.
+
+---
+
+# Shared Infrastructure as a European Commons
+
+At the highest level, the architecture introduces the concept of shared infrastructure as a European commons.
+
+The objective is not to create a single Digital Twin platform, but rather a shared ecosystem of infrastructure, services, standards and knowledge that can be reused across Europe.
+
+Examples include:
+
+- Shared catalogues
+- Shared semantic assets
+- Shared trust services
+- Shared testing facilities
+- Shared implementation knowledge
+
+This vision aligns closely with:
+
+- European Data Spaces
 - Digital Public Infrastructure initiatives
-- Data Spaces and federated ecosystems
+- EDIC infrastructures
+- Cross-border Digital Public Services
+
+---
+
+# From Architecture to Implementation
+
+This layer defines the technical patterns required to implement interoperable Local Digital Twins.
+
+The following chapter builds on these patterns by introducing concrete building blocks and implementation guidance.
+
+```text
+Strategy
+      ↓
+Business & Application
+      ↓
+Application & Technology
+      ↓
+Building Blocks
+      ↓
+Implementations
+```
+
+This progression ensures that every technology choice can be traced back to a business objective and ultimately to the strategic goals of the LDT CitiVERSE EDIC.
