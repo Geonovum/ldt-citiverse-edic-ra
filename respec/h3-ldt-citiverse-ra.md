@@ -1,20 +1,26 @@
 # LDT CiTiVERSE Reference Architecture
 
 <aside class="note">
-    This is a first summary of content for this chapter. It has not been reviewed or can be considered stable as of yet...
+    This is a first draft for this chapter. It has not been reviewed or can be considered stable as of yet...
 </aside>
 
 ## Strategy
 
 ### Overview
 
-The LDT CitiVERSE reference architecture is organised as a capability ecosystem. A Local Digital Twin (LDT) is not a single application. It is a composition of interoperable capabilities that together enable cities and regions to integrate data, generate knowledge, support decisions and act on real-world situations.
-The architecture is structured around a central value stream — the LDT / Data Value Stream — which represents the progression from data integration to actionable outcomes. This value stream is supported by both technical and community enablement capabilities.
+The LDT CitiVERSE reference architecture is organised around a number of __capabilities.__ A Local Digital Twin (LDT) is not a single application. It is a composition of interoperable capabilities that together enable cities and regions to integrate data, generate knowledge, support decisions and act on real-world situations.
+The architecture is structured around a central __value stream__ — the LDT / Data Value Stream — which represents the progression from data integration to actionable outcomes. This value stream is supported by both technical and community enablement capabilities.
 LDT CitiVERSE capabilities are grounded in the broader eGovERA capability framework, which provides the European public-sector architecture context for Digital Twin, Knowledge Management, Data Management and Artificial Intelligence.
 
 ### LDT / Data Value Stream
 
-The LDT / Data Value Stream defines how a Local Digital Twin creates value. It consists of four sequential capability stages:
+<img src="./respec/media/ldt-value-stream.png" alt="LDT Value Stream" width="800">
+
+The LDT / Data Value Stream defines how a Local Digital Twin creates value. 
+
+### LDT CitiVERSE Capabilities
+
+The value stream consists of four sequential capability stages:
 
 1. __Digital Foundation / Integration__
 The LDT establishes a technical and data foundation that connects data sources, services and components. This stage provides the interoperability layer on which all subsequent capabilities depend.
@@ -28,24 +34,19 @@ The LDT supports evidence-based decision-making. Decision makers receive insight
 4. __Intervene__
 Decisions are connected to concrete actions or interventions in the physical, organisational or policy environment. This stage closes the loop between digital insight and real-world change.
 
+Furthermore there are two enabling capabilities:
 
-### LDT CitiVERSE Capabilities
+5. __Technical Enablement__
+Reusable technical building blocks and platform services
 
-The following capability areas constitute the LDT CitiVERSE ecosystem:
-
-- LDT — the core Digital Twin capability, encompassing the full value stream
-- Digital Foundation / Integration — data connectivity, interoperability and infrastructure
-- Generate Knowledge — analysis, intelligence, AI inference and insight generation
-- Decide — decision support tools and recommendation systems
-- Intervene — mechanisms for translating decisions into real-world action
-- Technical Enablement — reusable technical building blocks and platform services
-- Community Enablement — adoption support, knowledge sharing and community building
+6. __Community Enablement__
+Adoption support, knowledge sharing and community building
 
 These capabilities together define what the LDT CitiVERSE ecosystem must provide to cities, regions and their partners.
 
 ### Types of Local Digital Twins
 
-Local Digital Twins are categorised by their level of analytical and decision-support maturity. Each type builds on the capabilities of the preceding type.
+Local Digital Twins are categorised by their level of analytical and decision-support maturity. Each type builds on the capabilities of the preceding type. The main premise is that not all implementations need the same type of LDT, depending on the requirements the right type of LDT should be implemented. Also an organisation will likely have multiple LDT's for different projects in different lifecycle stages. While they should be based on the same common core components, the specific type needs to be tailored to the needed requirements.
 
 #### Descriptive LDT
 A Descriptive LDT provides a real-time or near-real-time representation of the current state of an asset or environment. It answers the question: what is happening?
@@ -65,9 +66,18 @@ A Prescriptive LDT uses real-time data from integrated systems to generate situa
 #### Autonomous LDT
 An Autonomous LDT continuously supports or performs decision-making using adaptive and generative AI. It is self-sustaining and continuously learns from new data. It answers the question: what is the right action, and how do I take it?
 
+### LDT Ecosystem
+
+The different types of LDT's can be deployed for different themes within an organisation. This leads to an ecosystem of a common base with shared components with additional capabilities taylored for the specific theme and type of requirements. That is to say, there is not one Digital Twin in an organisation, but a series of connected Local Digital Twins within or even across organisations.
+
+<img src="./respec/media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800">
+
+
+
+
 ### Enablement Frameworks
 
-Scaling LDT adoption across cities, regions and communities requires two complementary frameworks:
+Scaling LDT adoption across cities, regions and communities requires two complementary frameworks realizing the respective enablement capabilities:
 
 - LDT CitiVERSE Technology Framework
 Defines the technical components, platform services, integrations and reusable building blocks that implement the LDT capability ecosystem.
@@ -80,9 +90,14 @@ Defines the organisational, community and adoption capabilities that support the
 Artificial Intelligence is a cross-cutting capability within the LDT CitiVERSE architecture. It contributes primarily to the Generate Knowledge stage of the value stream, through two specialised subcapabilities:
 
 Urban Intelligence & ML Inference — the application of machine learning models to urban data to generate intelligence and predictions
+
 Collaborative Knowledge Training — the shared development and improvement of AI models across communities and organisations
 
 AI is also central to the Autonomous LDT type, where adaptive and generative AI enable continuous, self-sustaining decision support.
+
+<aside class="note">
+    As is already stated earlier, this is an evolving reference architecture. Specifically for a topic like AI there are a lot of innovations happening. A seperate activity of the EDIC LDT CiTiVERSE is the establisment of a Technologies Assesment Framework. Through this assesment framework technology components will be evaluated and potentially added to the reference architecture.
+</aside>
 
 ### Relationship to eGovERA
 
