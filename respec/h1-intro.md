@@ -12,7 +12,7 @@ This reference architecture contains guidelines and principles for a networked s
 
 This document contains an "open" architecture. That is to say: the architecture can be applied by everyone, government and business alike. Application of the guidelines, principles, and standards from this document contributes to establishing an "ecosystem" that consists of many data sources and computational models to be connected. This makes it possible to connect data and models from diverse sectors and knowledge areas, and thereby create two- or three-dimensional images of the physical environment, support policy-making with decision models and simulations, or enable real-time control functionalities for operational processes.
 
-### Scope
+## Scope
 
 The LDT CiTiVERSE EDIC presents both an architecture of the EDIC itself as well as a reference architecture for LDT CiTiVERSE implementations. This is presented in the following overview picture.
 
