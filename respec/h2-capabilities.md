@@ -1,9 +1,5 @@
 # Strategy
 
-<aside class="note">
-    This is a first draft for this chapter. It has not been reviewed or can be considered stable as of yet...
-</aside>
-
 ## Overview
 
 The LDT CitiVERSE reference architecture is organised around a number of __capabilities.__ A Local Digital Twin (LDT) is not a single application. It is a composition of interoperable capabilities that together enable cities and regions to integrate data, generate knowledge, support decisions and act on real-world situations.
@@ -333,7 +329,7 @@ Prescriptive
 Autonomous
 ```
 
-Importantly, higher maturity levels do not replace lower ones. A mature Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities.
+Importantly, higher maturity levels do not replace lower ones. A mature Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities. Not all themes or solutions need to evolve to the higher levels.
 
 ---
 
@@ -404,43 +400,5 @@ LDT CitiVERSE capabilities are specialisations of capabilities defined in the eG
 
 This alignment ensures that the LDT CitiVERSE architecture is compatible with the broader European public-sector architecture landscape and can be adopted consistently across member states.
 
-## Conformance Profiles
-
-Not every Local Digital Twin requires the same capabilities, level of sophistication, or operational complexity.
-
-The LDT CitiVERSE Reference Architecture therefore defines a series of **Conformance Profiles**. These profiles establish a common understanding of the minimum capabilities that an implementation must provide in order to be considered a specific type of Local Digital Twin.
-
-The profiles serve several purposes:
-
-- Provide guidance for communities implementing Local Digital Twins.
-- Support procurement and solution selection.
-- Enable interoperability testing and validation.
-- Support future EDIC certification schemes.
-- Provide a roadmap for the gradual evolution of Local Digital Twin implementations.
-
-The profiles are cumulative: each profile builds upon the capabilities of the previous profile.
-
-### Common Foundation Requirements
-
-All Local Digital Twins participating in the LDT CitiVERSE ecosystem must provide a common foundation that supports interoperability and collaboration.
-
-#### Mandatory Capabilities
-
-- Digital Foundation / Integration
-- Technical Enablement
-- Community Enablement
-
-#### Mandatory Characteristics
-
-- Standards-based APIs
-- Metadata publication and discovery
-- Identity and access management
-- Open interoperability interfaces
-- Conformance to the architectural guardrails
-- Participation in federated discovery mechanisms
-
-These requirements represent the minimum baseline for participation in the LDT CitiVERSE ecosystem.
-
----
 
 

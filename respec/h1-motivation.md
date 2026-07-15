@@ -52,6 +52,10 @@ Interoperability must be considered a primary design objective rather than an af
 
 Solutions should be designed from the outset to interact with external systems, organisations and communities through open interfaces and agreed standards.
 
+### Rationale
+
+Interoperability is the foundation upon which a network of Local Digital Twins can emerge.
+
 ### Implications
 
 - Open APIs are preferred over proprietary interfaces.
@@ -59,9 +63,6 @@ Solutions should be designed from the outset to interact with external systems, 
 - Data and services should be discoverable and reusable.
 - Components should be usable beyond their original implementation context.
 
-### Rationale
-
-Interoperability is the foundation upon which a network of Local Digital Twins can emerge.
 
 ---
 
@@ -71,6 +72,10 @@ The architecture assumes a distributed ecosystem rather than a centralised platf
 
 Data, services and governance responsibilities should remain as close as possible to their source while still participating in a wider network.
 
+### Rationale
+
+Federation preserves autonomy while enabling collaboration at European scale.
+
 ### Implications
 
 - Data remains under local governance wherever possible.
@@ -78,15 +83,15 @@ Data, services and governance responsibilities should remain as close as possibl
 - Multiple implementations can coexist.
 - Shared infrastructure complements local infrastructure rather than replacing it.
 
-### Rationale
-
-Federation preserves autonomy while enabling collaboration at European scale.
-
 ---
 
 ## G3 – API First
 
 Capabilities should be exposed through well-defined APIs before user interfaces are considered.
+
+### Rationale
+
+The architecture emphasises service ecosystems rather than monolithic applications.
 
 ### Implications
 
@@ -95,15 +100,15 @@ Capabilities should be exposed through well-defined APIs before user interfaces 
 - Tool interoperability is improved.
 - Integration costs are reduced.
 
-### Rationale
-
-The architecture emphasises service ecosystems rather than monolithic applications.
-
 ---
 
 ## G4 – Reuse Before Build
 
 Before creating a new component, architects and implementers should determine whether an existing capability, service, standard or building block can be reused.
+
+### Rationale
+
+The EDIC exists to create economies of scale and scope through reuse.
 
 ### Implications
 
@@ -111,10 +116,6 @@ Before creating a new component, architects and implementers should determine wh
 - Preference for common building blocks.
 - Preference for existing European assets.
 - Avoidance of unnecessary duplication.
-
-### Rationale
-
-The EDIC exists to create economies of scale and scope through reuse.
 
 ---
 
@@ -124,6 +125,10 @@ Systems should exchange meaningful information rather than simply exchanging dat
 
 A shared understanding of concepts, relationships and context is required to support collaboration across domains and countries.
 
+### Rationale
+
+Without semantic interoperability, technical interoperability alone provides limited value.
+
 ### Implications
 
 - Use of shared vocabularies.
@@ -131,15 +136,15 @@ A shared understanding of concepts, relationships and context is required to sup
 - Explicit metadata.
 - Traceable information models.
 
-### Rationale
-
-Without semantic interoperability, technical interoperability alone provides limited value.
-
 ---
 
 ## G6 – Open Standards Before Proprietary Solutions
 
 The architecture promotes the adoption of open and internationally recognised standards.
+
+### Rationale
+
+Open standards reduce barriers to participation and strengthen long-term sustainability.
 
 ### Implications
 
@@ -148,15 +153,15 @@ The architecture promotes the adoption of open and internationally recognised st
 - Vendor-neutral implementations.
 - Easier integration between solutions.
 
-### Rationale
-
-Open standards reduce barriers to participation and strengthen long-term sustainability.
-
 ---
 
 ## G7 – Data as a Shared Asset
 
 Data should be treated as a strategic asset that can be reused across multiple use cases while respecting governance, privacy and intellectual property constraints.
+
+### Rationale
+
+The value of Local Digital Twins depends on the quality and availability of the data they use.
 
 ### Implications
 
@@ -164,10 +169,6 @@ Data should be treated as a strategic asset that can be reused across multiple u
 - Metadata should be published.
 - Provenance should be traceable.
 - Data should follow FAIR principles where possible.
-
-### Rationale
-
-The value of Local Digital Twins depends on the quality and availability of the data they use.
 
 ---
 
@@ -177,16 +178,16 @@ Technology exists to support people, communities and decision-makers.
 
 The success of a Local Digital Twin should not be measured solely by technical sophistication but by its contribution to better decisions and outcomes.
 
+### Rationale
+
+Digital Twins are tools for people, not ends in themselves.
+
 ### Implications
 
 - Focus on user needs.
 - Support transparency and explainability.
 - Enable participation.
 - Promote accessibility and inclusiveness.
-
-### Rationale
-
-Digital Twins are tools for people, not ends in themselves.
 
 ---
 
@@ -196,6 +197,10 @@ Trust is essential for collaboration across organisations and borders.
 
 Security and privacy considerations must therefore be integrated into every layer of the architecture.
 
+### Rationale
+
+Trust is a prerequisite for sharing data, services and infrastructure.
+
 ### Implications
 
 - Secure-by-design implementations.
@@ -203,15 +208,15 @@ Security and privacy considerations must therefore be integrated into every laye
 - Data protection compliance.
 - Transparent governance arrangements.
 
-### Rationale
-
-Trust is a prerequisite for sharing data, services and infrastructure.
-
 ---
 
 ## G10 – Technology Independence
 
 The architecture should avoid prescribing specific vendors, products or deployment environments.
+
+### Rationale
+
+The architecture should remain relevant despite changing technologies.
 
 ### Implications
 
@@ -219,10 +224,6 @@ The architecture should avoid prescribing specific vendors, products or deployme
 - Cloud neutrality.
 - Support for hybrid deployments.
 - Support for future technological evolution.
-
-### Rationale
-
-The architecture should remain relevant despite changing technologies.
 
 ---
 
