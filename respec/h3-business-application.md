@@ -383,6 +383,4 @@ The architecture therefore promotes the use of common vocabularies, ontologies a
 - PROV-O
 - SAREF
 - IFC
-- JSON-LD Contexts
 - Linked Open Vocabularies
-- Verifiable

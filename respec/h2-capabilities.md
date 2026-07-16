@@ -367,10 +367,10 @@ The different types of LDT's can be deployed for different themes within an orga
 
 Scaling LDT adoption across cities, regions and communities requires two complementary frameworks realizing the respective enablement capabilities:
 
-- LDT CitiVERSE Technology Framework
+- LDT CitiVERSE __Technology Framework__
 Defines the technical components, platform services, integrations and reusable building blocks that implement the LDT capability ecosystem.
 
-- LDT CitiVERSE Enablement Framework
+- LDT CitiVERSE __Enablement Framework__
 Defines the organisational, community and adoption capabilities that support the uptake, operation and governance of Local Digital Twins across participating organisations.
 
 ## Artificial Intelligence
