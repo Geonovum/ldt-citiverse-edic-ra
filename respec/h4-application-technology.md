@@ -16,7 +16,7 @@ The architecture is based on five fundamental concepts:
 
 Together these concepts enable Local Digital Twins to be assembled from reusable and interoperable building blocks rather than monolithic applications.
 
-The architecture views Local Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared infrastructure. This approach allows cities, regions and Member States to collaborate while maintaining local ownership, governance and technical autonomy.
+The architecture promotes Local Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared infrastructure. This approach allows cities, regions and Member States to collaborate while maintaining local ownership, governance and technical autonomy.
 
 ---
 
@@ -32,7 +32,7 @@ Specifically, this layer demonstrates how:
 - Reuse Before Build is realised through common platform services.
 - Technology Independence is realised through portable deployment models.
 
-The Application & Technology layer can therefore be seen as the infrastructure blueprint for the LDT CitiVERSE ecosystem.
+The Application & Technology layer defines the infrastructure blueprint for the LDT CitiVERSE ecosystem.
 
 ---
 
@@ -269,7 +269,7 @@ The semantic interoperability layer provides this shared understanding.
 
 # The Digital Twin Processing Pipeline
 
-A recurring pattern throughout the architecture is the transformation of data into knowledge and action.
+A recurring pattern is the transformation of data into knowledge and action.
 
 This pattern realises the LDT Value Stream introduced in the Strategy chapter.
 
@@ -387,7 +387,7 @@ This vision aligns closely with:
 
 This layer defines the technical patterns required to implement interoperable Local Digital Twins.
 
-The following chapter builds on these patterns by introducing concrete building blocks and implementation guidance.
+Actual Implementations are out of scope for the reference architecture, but should be following the guardrails and patterns as described in the reference architecture.
 
 ```text
 Strategy
@@ -398,6 +398,7 @@ Application & Technology
       ↓
 Building Blocks
       ↓
+      -
 Implementations
 ```
 
