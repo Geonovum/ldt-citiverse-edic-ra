@@ -62,7 +62,7 @@ Interoperability is the foundation upon which a network of Local Digital Twins c
 - Information exchange should rely on recognised standards.
 - Data and services should be discoverable and reusable.
 - Components should be usable beyond their original implementation context.
-
+- Although local implementations may opt for less interoperable options, the EDIC will only offer components that comply with this guardrails.
 
 ---
 

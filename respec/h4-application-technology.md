@@ -316,6 +316,7 @@ Solutions should remain portable across different execution environments.
 - Data Space Infrastructure
 - National Platforms
 - Municipal Platforms
+- and all hybrid combinations of the above
 
 ## Architectural Benefits
 

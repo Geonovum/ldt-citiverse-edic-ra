@@ -339,7 +339,9 @@ This pattern allows services to be reused across domains while maintaining a con
 
 # Open Interfaces and Standards
 
-To enable interoperability, all application services should expose their functionality through open interfaces.
+To enable interoperability, all application services MUST expose their functionality through open interfaces. 
+The EDIC will not offer components that do not comply to this. 
+Local implementations in cities and regions can deviate from this standard, being aware that this will limit the interoperability and the option to offer their building block for reuse.
 
 ## API Standards
 
