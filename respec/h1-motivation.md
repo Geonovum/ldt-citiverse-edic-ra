@@ -45,6 +45,9 @@ Unlike detailed technical specifications, guardrails provide direction while lea
 These guardrails should be considered mandatory design objectives for all future reference patterns, building blocks and implementations.
 
 ---
+## G0 - Preamble
+The Guardrails include the principles mentioned in the ELAP: https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elap/elap-310-online-documentation
+Those will not be fully replicated here, but are fully applicable and included in the mandatory design objectives.
 
 ## G1 – Interoperability by Design
 
@@ -68,9 +71,9 @@ Interoperability is the foundation upon which a network of Local Digital Twins c
 
 ## G2 – Federation by Default
 
-The architecture assumes a distributed ecosystem rather than a centralised platform.
-
-Data, services and governance responsibilities should remain as close as possible to their source while still participating in a wider network.
+The architecture assumes a federated ecosystem rather than a centralised platform.
+This means that technical components can reside _anywhere_ and can be of any kind of implementation technology. 
+Data, services and governance responsibilities should remain to their source while still participating in a wider network.
 
 ### Rationale
 
@@ -82,23 +85,22 @@ Federation preserves autonomy while enabling collaboration at European scale.
 - Services may be distributed across organisations.
 - Multiple implementations can coexist.
 - Shared infrastructure complements local infrastructure rather than replacing it.
+- Data published by a _producer_ is accompanied by its metadata, including semantics (which is the governance responsibility of that producer).
 
 ---
 
-## G3 – API First
+# G3 - Separation of concerns
 
-Capabilities should be exposed through well-defined APIs before user interfaces are considered.
+Each building block of a Digital Twin hase a specific scope, avoiding the replication of functionalities across different components.
+Where applicable, a building block makes use of another building block by interfacing, not by inclusion.
 
 ### Rationale
-
-The architecture emphasises service ecosystems rather than monolithic applications.
+Implementing the principle of Separation of concerns in solutions and service development and provision is crucial for enhancing clarity, maintainability, and scalability. By clearly defining the scope and responsibilities of each component, this principle helps to reduce complexity and improve the manageability of the system. It ensures that each building block can be developed, tested, and maintained independently, leading to more modular and flexible solutions. This approach also facilitates better collaboration among partners, as responsibilities and interfaces are clearly defined, reducing the risk of overlapping functionalities and dependencies.
 
 ### Implications
-
-- Services are reusable across multiple applications.
-- Automation becomes easier.
-- Tool interoperability is improved.
-- Integration costs are reduced.
+- Adopt to modular design and development approaches, both in business processes and technical
+- Continuous monitoring and evaluation to be implemented to ensure compliance throughout the lifecycle
+- Fostering a culture of collaboration and communication is essential
 
 ---
 
@@ -155,20 +157,19 @@ Open standards reduce barriers to participation and strengthen long-term sustain
 
 ---
 
-## G7 – Data as a Shared Asset
+## G7 – Building blocks as a Shared Assets
 
-Data should be treated as a strategic asset that can be reused across multiple use cases while respecting governance, privacy and intellectual property constraints.
+Data, data-models, calculation-models, AI-models, visualisation components and all other building blocks should be treated as a strategic asset that can be reused across multiple use cases while respecting governance, privacy and intellectual property constraints.
 
 ### Rationale
 
-The value of Local Digital Twins depends on the quality and availability of the data they use.
+The value of Local Digital Twins depends on the quality and availability of the building blocks they use.
 
 ### Implications
 
-- Data should be discoverable.
+- Building blocks should be discoverable.
 - Metadata should be published.
 - Provenance should be traceable.
-- Data should follow FAIR principles where possible.
 
 ---
 
