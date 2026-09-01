@@ -6,7 +6,7 @@ Europe already has many of these twins. Most were built separately: different so
 
 This reference architecture is not a product catalogue and not a single European mega-twin. It is a shared set of rules and patterns so independently built twins can still work together.
 
-If you only read one chapter, read this one.
+If you only read one chapter, read this summary.
 
 ## Why standards? Interoperability is the point
 
