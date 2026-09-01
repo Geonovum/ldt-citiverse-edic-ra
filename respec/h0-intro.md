@@ -6,12 +6,6 @@
     The Archimate models of the EDIC <b>Business architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ba/archimate/html/index.html" target="_blank_">here.</a>
 </aside>
 
-<aside class="note">
-    This is a first draft of this document. Parts are created with assistance of AI. The core content reflects the Archimate Views that were created earlier.
-</aside>
-
-More information about the LDT CiTiVERSE EDIC can be found on the <a href="https://ldtcitiverse-edic.eu/" target="_blank_">website.</a>
-
 # Introduction
 
 This reference architecture contains guidelines and principles for a networked system of digital twins for the physical environment. This reference architecture is intended for everyone who plays a role in establishing a digital twin for the physical environment. The guidelines, starting points, principles, and standards presented in this document contribute to establishing a system consisting of many applications that form together a network of digital twins.
@@ -79,7 +73,9 @@ Typical readers include:
 - City and regional authorities
 - European Digital Infrastructure initiatives
 
-Different chapters can be read independently depending on the interests of the reader. Strategic audiences may focus on the principles, capabilities and governance aspects, while implementation teams may focus on the reference patterns, standards and building blocks.
+If you are only occasionally involved with Digital Twins, start with [The architecture in two pages](#the-architecture-in-two-pages). It states the main principles, why standards matter for interoperability, and which design patterns reduce vendor lock-in.
+
+Different chapters can then be read independently depending on the interests of the reader. Strategic audiences may focus on the principles, capabilities and governance aspects, while implementation teams may focus on the reference patterns, standards and building blocks.
 
 ## Relationship to Other Initiatives
 
