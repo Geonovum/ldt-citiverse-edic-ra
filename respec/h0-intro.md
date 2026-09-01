@@ -73,7 +73,7 @@ Typical readers include:
 - City and regional authorities
 - European Digital Infrastructure initiatives
 
-If you are only occasionally involved with Digital Twins, start with [the summary](#summary). It states the main principles, why standards matter for interoperability, and which design patterns reduce vendor lock-in.
+If you are only occasionally involved with Digital Twins, start with [the summary](#abstract). It states the main principles, why standards matter for interoperability, and which design patterns reduce vendor lock-in.
 
 Different chapters can then be read independently depending on the interests of the reader. Strategic audiences may focus on the principles, capabilities and governance aspects, while implementation teams may focus on the reference patterns, standards and building blocks.
 
