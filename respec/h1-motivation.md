@@ -89,9 +89,11 @@ Federation preserves autonomy while enabling collaboration at European scale.
 
 Capabilities should be exposed through well-defined APIs before user interfaces are considered.
 
+An API is not only a convenience for developers. It is the contract that decouples how information is stored from how it is exchanged. Clients should depend on that contract, not on the native language of the store, the query engine, or a particular vendor's platform.
+
 ### Rationale
 
-The architecture emphasises service ecosystems rather than monolithic applications.
+The architecture emphasises service ecosystems rather than monolithic applications. Practical interoperability across a network of Local Digital Twins is higher when partners share a stable, documented interface than when they must all adopt the same storage format or query language.
 
 ### Implications
 
@@ -99,6 +101,8 @@ The architecture emphasises service ecosystems rather than monolithic applicatio
 - Automation becomes easier.
 - Tool interoperability is improved.
 - Integration costs are reduced.
+- Storage format, transport format and query language are allowed to differ.
+- The public interface of a building block is a documented API, not a direct handle on the database or triple store.
 
 ---
 
@@ -135,6 +139,7 @@ Without semantic interoperability, technical interoperability alone provides lim
 - Use of semantic technologies where appropriate.
 - Explicit metadata.
 - Traceable information models.
+- Semantic assets (vocabularies, ontologies, profiles) travel with the API contract. They do not require every client to query a knowledge graph in its native language.
 
 ---
 
@@ -224,6 +229,7 @@ The architecture should remain relevant despite changing technologies.
 - Cloud neutrality.
 - Support for hybrid deployments.
 - Support for future technological evolution.
+- Public interfaces specified as API contracts, so storage engines and query languages can be replaced without rewriting clients.
 
 ---
 

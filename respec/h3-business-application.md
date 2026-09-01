@@ -343,14 +343,25 @@ To enable interoperability, all application services MUST expose their functiona
 The EDIC will not offer components that do not comply to this. 
 Local implementations in cities and regions can deviate from this standard, being aware that this will limit the interoperability and the option to offer their building block for reuse.
 
+The public interface of a building block is a documented API. It is not a direct handle on the storage engine. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the store. The Application & Technology chapter develops this as the distinction between design-time contracts and run-time queries.
+
 ## API Standards
+
+Default public interfaces (design-time contracts):
 
 - OGC API Features
 - OGC API Processes
 - OGC API Records
 - OGC API Tiles
 - NGSI-LD
+
+Optional or internal interfaces (run-time queries, expert access, or capabilities behind the API):
+
 - SPARQL
+
+SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) SHOULD also be available through one of the design-time APIs above. EDIC-offered components MUST provide that design-time API.
+
+NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
 
 ## Trust and Identity
 
@@ -378,6 +389,8 @@ Local implementations in cities and regions can deviate from this standard, bein
 Information interoperability depends on the use of shared information models and semantic assets.
 
 The architecture therefore promotes the use of common vocabularies, ontologies and information models that can be reused across Local Digital Twin implementations.
+
+These assets travel with the API contract — as metadata, profiles, JSON-LD contexts or declared conformance — so that meaning is shared without forcing every client onto the same storage or query stack.
 
 ### Examples
 
