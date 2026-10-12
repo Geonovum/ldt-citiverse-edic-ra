@@ -1,12 +1,8 @@
-
 # Motivation and Architectural Guardrails
 
 ## Why a European Reference Architecture for Local Digital Twins?
-
 Europe is witnessing rapid growth in the number of Local Digital Twin (LDT) initiatives. Cities, regions and public authorities increasingly use digital twins to support spatial planning, mobility management, climate adaptation, energy transition, infrastructure management and citizen engagement.
-
 While these initiatives share many common goals, they are often developed independently using different technologies, information models, governance arrangements and operational practices. This fragmentation limits the ability to reuse solutions, exchange information, collaborate across borders and create economies of scale.
-
 The LDT CitiVERSE EDIC was established to create a common European framework that enables Local Digital Twins to interoperate and evolve into a networked ecosystem. Rather than promoting a single platform or technology stack, the EDIC aims to establish a shared architectural foundation that allows independently developed solutions to work together, exchange services and build on common assets.
 
 The Reference Architecture therefore serves two complementary purposes:
@@ -16,13 +12,10 @@ The Reference Architecture therefore serves two complementary purposes:
 
 The architecture recognises that innovation often occurs locally, while interoperability must be achieved globally.
 
----
-
 ## From Digital Twins to a Network of Digital Twins
-
 Traditional digital twins are often designed as standalone solutions tailored to a specific domain or organisation. The LDT CitiVERSE vision moves beyond this approach.
-
 The long-term objective is to create a federated ecosystem of interoperable Local Digital Twins that can:
+
 
 - Exchange data and services.
 - Reuse common capabilities.
@@ -34,37 +27,21 @@ This vision requires a common architectural approach that balances local autonom
 
 The architectural guardrails described in this chapter provide that balance.
 
----
-
-# Architectural Guardrails
-
-Architectural guardrails are a set of design principles that guide all architecture and implementation decisions within the LDT CitiVERSE ecosystem.
-
-Unlike detailed technical specifications, guardrails provide direction while leaving room for local implementation choices and innovation.
-
-These guardrails should be considered mandatory design objectives for all future reference patterns, building blocks and implementations.
-
----
+#  Architectural Guardrails
+Architectural guardrails are a set of design principles that guide all architecture and implementation decisions within the LDT CitiVERSE ecosystem. Unlike detailed technical specifications, guardrails provide direction while leaving room for local implementation choices and innovation. These guardrails should be considered mandatory design objectives for all future reference patterns, building blocks and implementations.
 
 ## G1 – Interoperability by Design
-
-Interoperability must be considered a primary design objective rather than an afterthought.
-
-Solutions should be designed from the outset to interact with external systems, organisations and communities through open interfaces and agreed standards.
+Interoperability must be considered a primary design objective rather than an afterthought. Solutions should be designed from the outset to interact with external systems, organisations and communities through open interfaces and agreed standards.
 
 ### Rationale
-
 Interoperability is the foundation upon which a network of Local Digital Twins can emerge.
 
 ### Implications
-
 - Open APIs are preferred over proprietary interfaces.
 - Information exchange should rely on recognised standards.
 - Data and services should be discoverable and reusable.
 - Components should be usable beyond their original implementation context.
 - Although local implementations may opt for less interoperable options, the EDIC will only offer components that comply with this guardrails.
-
----
 
 ## G2 – Federation by Default
 
@@ -82,8 +59,6 @@ Federation preserves autonomy while enabling collaboration at European scale.
 - Services may be distributed across organisations.
 - Multiple implementations can coexist.
 - Shared infrastructure complements local infrastructure rather than replacing it.
-
----
 
 ## G3 – API First
 
@@ -104,8 +79,6 @@ The architecture emphasises service ecosystems rather than monolithic applicatio
 - Storage format, transport format and query language are allowed to differ.
 - The public interface of a building block is a documented API, not a direct handle on the database or triple store.
 
----
-
 ## G4 – Reuse Before Build
 
 Before creating a new component, architects and implementers should determine whether an existing capability, service, standard or building block can be reused.
@@ -120,8 +93,6 @@ The EDIC exists to create economies of scale and scope through reuse.
 - Preference for common building blocks.
 - Preference for existing European assets.
 - Avoidance of unnecessary duplication.
-
----
 
 ## G5 – Semantic Interoperability First
 
@@ -175,8 +146,6 @@ The value of Local Digital Twins depends on the quality and availability of the 
 - Provenance should be traceable.
 - Data should follow FAIR principles where possible.
 
----
-
 ## G8 – Human-Centred Digital Twins
 
 Technology exists to support people, communities and decision-makers.
@@ -193,8 +162,6 @@ Digital Twins are tools for people, not ends in themselves.
 - Support transparency and explainability.
 - Enable participation.
 - Promote accessibility and inclusiveness.
-
----
 
 ## G9 – Trust, Privacy and Security by Design
 
@@ -213,8 +180,6 @@ Trust is a prerequisite for sharing data, services and infrastructure.
 - Data protection compliance.
 - Transparent governance arrangements.
 
----
-
 ## G10 – Technology Independence
 
 The architecture should avoid prescribing specific vendors, products or deployment environments.
@@ -230,6 +195,3 @@ The architecture should remain relevant despite changing technologies.
 - Support for hybrid deployments.
 - Support for future technological evolution.
 - Public interfaces specified as API contracts, so storage engines and query languages can be replaced without rewriting clients.
-
----
-

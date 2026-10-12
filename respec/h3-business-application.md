@@ -10,27 +10,17 @@ The architecture promotes a modular and federated approach in which Local Digita
 
 The Business & Application layer therefore acts as the bridge between strategic objectives and technology implementation.
 
----
-
 ## Architectural Intent
 
 The primary objective of this layer is to translate LDT capabilities into reusable services that can be shared across multiple implementations.
 
 Three architectural principles drive this layer:
 
-### Interoperability by Design
-
-Services expose capabilities through standard interfaces and information models, allowing independent implementations to collaborate and exchange information.
-
-### Reuse Before Build
-
-Capabilities should be realised using reusable application services and building blocks wherever possible. Solutions should avoid creating bespoke services that duplicate existing functionality.
-
-### Federation by Default
-
-Services may be deployed by different organisations while remaining discoverable and interoperable within a shared ecosystem.
-
----
+| Principle | Description |
+|---|---|
+| Interoperability by Design | Services expose capabilities through standard interfaces and information models, allowing independent implementations to collaborate and exchange information. |
+| Reuse Before Build | Capabilities should be realised using reusable application services and building blocks wherever possible. Solutions should avoid creating bespoke services that duplicate existing functionality. |
+| Federation by Default | Services may be deployed by different organisations while remaining discoverable and interoperable within a shared ecosystem. |
 
 # Business Service Architecture
 
@@ -43,8 +33,6 @@ Rather than focusing on individual software products, the reference architecture
 A single business service may be realised by multiple application services, and a single application service may contribute to multiple business services.
 
 This separation allows implementations to evolve without changing the business capabilities they support.
-
----
 
 ## Context Awareness
 
@@ -69,8 +57,6 @@ Provide operational situational awareness across organisational and domain bound
 - Diagnostic
 - Predictive
 
----
-
 ## Co-Creation and Participation
 
 Participation services support collaborative planning and stakeholder engagement.
@@ -93,8 +79,6 @@ Enable communities, governments and stakeholders to collectively explore informa
 - Prospective
 - Prescriptive
 
----
-
 ## Digital Twin Visualisation
 
 Visualisation services provide a human-centred representation of information, models and simulations.
@@ -115,8 +99,6 @@ Transform complex information into understandable insights.
 ### Supported LDT Profiles
 
 - All Profiles
-
----
 
 ## Data Exchange and Collaboration
 
@@ -139,8 +121,6 @@ Enable discovery, sharing and controlled access to information resources.
 
 - All Profiles
 
----
-
 ## Capability Development and Knowledge Sharing
 
 Capability Development services support organisational maturity and community enablement.
@@ -158,15 +138,11 @@ Accelerate LDT adoption and knowledge exchange across communities.
 - Training
 - Best-practice dissemination
 
----
-
 # Application Service Architecture
 
 Business services are realised through a collection of reusable application services.
 
 Application services are intentionally technology-neutral. Different products may implement the same service as long as they conform to the agreed interfaces and information contracts.
-
----
 
 ## Data Services
 
@@ -202,8 +178,6 @@ Provide the foundation for storing, exchanging and managing information.
 - Zarr
 - DCAT-AP
 
----
-
 ## Processing Services
 
 ### Purpose
@@ -230,8 +204,6 @@ Processing services sit at the heart of the Generate Knowledge capability and pr
 - Computational Models
 - Workflow Engines
 
----
-
 ## Visualisation Services
 
 ### Purpose
@@ -253,8 +225,6 @@ Provide meaningful and accessible views of information.
 - Digital Twin Viewers
 - XR Platforms
 
----
-
 ## Participation Services
 
 ### Purpose
@@ -274,8 +244,6 @@ Enable interaction between people and digital twin systems.
 - Participation Platforms
 - Collaboration Portals
 - Consultation Services
-
----
 
 ## Integration Services
 
@@ -298,8 +266,6 @@ Connect independent systems and services into a coherent ecosystem.
 - Service Registries
 - Federation Services
 - Observability Platforms
-
----
 
 # Service Realisation Pattern
 
@@ -335,8 +301,6 @@ Citizen Participation
 
 This pattern allows services to be reused across domains while maintaining a consistent user experience.
 
----
-
 # Open Interfaces and Standards
 
 To enable interoperability, all application services MUST expose their functionality through open interfaces. 
@@ -346,14 +310,18 @@ Local implementations in cities and regions can deviate from this standard, bein
 The public interface of a building block is a documented API. It is not a direct handle on the storage engine. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the store. The Application & Technology chapter develops this as the distinction between design-time contracts and run-time queries.
 
 ## API Standards
+Below you find a first list of standards that will be part of the EDIC interoperability requirements. This list will continuously be maintained by the EDIC and will change over time. Selection is based on 2 criteria:
+- Standards should be open.
+- Standards should be official or in the process of becoming official through a recognised institute (CEN/CENELEC, ETSI, ISO), or should result from recognised industry standardisation such as OGC.
 
-Default public interfaces (design-time contracts):
-
-- OGC API Features
-- OGC API Processes
-- OGC API Records
-- OGC API Tiles
-- NGSI-LD
+| API Standards | Trust and Identity | Observability | Data Sharing |
+|---|---|---|---|
+| OGC API Features | OpenID Connect | OpenTelemetry | Dataspace Protocol |
+| OGC API Processes | OIDC Federation | Structured Logging | IDS Catalog Protocol |
+| OGC API Records | OID4VC | Monitoring Services | Federated Discovery Mechanisms |
+| OGC API Tiles | Verifiable Credentials |  |  |
+| NGSI-LD |  |  |  |
+| SPARQL |  |  |  |
 
 Optional or internal interfaces (run-time queries, expert access, or capabilities behind the API):
 
@@ -362,27 +330,6 @@ Optional or internal interfaces (run-time queries, expert access, or capabilitie
 SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) SHOULD also be available through one of the design-time APIs above. EDIC-offered components MUST provide that design-time API.
 
 NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
-
-## Trust and Identity
-
-- OpenID Connect
-- OIDC Federation
-- OID4VC
-- Verifiable Credentials
-
-## Observability
-
-- OpenTelemetry
-- Structured Logging
-- Monitoring Services
-
-## Data Sharing
-
-- Dataspace Protocol
-- IDS Catalog Protocol
-- Federated Discovery Mechanisms
-
----
 
 # Information Models and Semantic Assets
 

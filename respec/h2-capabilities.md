@@ -115,8 +115,6 @@ A Descriptive LDT provides a real-time or near-real-time representation of the c
 - Situation awareness
 - Shared operational picture
 
----
-
 ### Profile 2 – Diagnostic LDT
 
 #### Purpose
@@ -151,8 +149,6 @@ A Diagnostic LDT explains observed conditions and identifies underlying causes.
 - Explanatory insights
 - Operational intelligence
 
----
-
 ### Profile 3 – Predictive LDT
 
 #### Purpose
@@ -185,8 +181,6 @@ A Predictive LDT forecasts future conditions using historical and real-time info
 - Trend predictions
 - Early-warning indicators
 - Impact forecasts
-
----
 
 ### Profile 4 – Prospective LDT
 
@@ -221,8 +215,6 @@ A Prospective LDT evaluates alternative futures by exploring the consequences of
 - Alternative futures
 - Policy evaluation
 
----
-
 ### Profile 5 – Prescriptive LDT
 
 #### Purpose
@@ -255,8 +247,6 @@ A Prescriptive LDT recommends actions based on data, models and simulated outcom
 - Action recommendations
 - Resource optimisation
 - Decision support products
-
----
 
 ### Profile 6 – Autonomous LDT
 
@@ -293,8 +283,6 @@ An Autonomous LDT continuously evaluates situations and can automatically execut
 - Self-learning behaviour
 - Closed-loop operations
 
----
-
 ## Capability Progression
 
 The six conformance profiles represent an increasing level of maturity and capability.
@@ -329,9 +317,7 @@ Prescriptive
 Autonomous
 ```
 
-Importantly, higher maturity levels do not replace lower ones. A mature Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities. Not all themes or solutions need to evolve to the higher levels.
-
----
+Importantly, higher maturity levels do not replace lower ones. A Prospective Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities. Not all themes or solutions need to evolve to the higher levels.
 
 ## Selecting an Appropriate Profile
 
@@ -352,16 +338,11 @@ Communities should select the profile that best matches the objectives, risks, g
 
 The Reference Architecture therefore supports a diversity of Local Digital Twins while ensuring that implementations remain interoperable and aligned with a common European architectural framework.
 
----
-
 ## LDT Ecosystem
 
 The different types of LDT's can be deployed for different themes within an organisation. This leads to an ecosystem of a common base with shared components with additional capabilities taylored for the specific theme and type of requirements. That is to say, there is not one Digital Twin in an organisation, but a series of connected Local Digital Twins within or even across organisations.
 
 <img src="./respec/media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800">
-
-
-
 
 ## Enablement Frameworks
 
