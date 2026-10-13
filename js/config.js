@@ -1,10 +1,14 @@
-var documentConfig =
+let respecConfig =
 {
+  useLogo: true,
+  useLabel: true,
   title: "LDT CiTiVERSE EDIC Reference Architecture",
   subtitle: "",
   specStatus: "vv",
   specType: "hr",
   license: "cc-by",
+  pubDomain: "edic",
+  shortName: "edic-ldt-ra",
   maxTocLevel: 3,
   publishDate: "2026-10-13",
   publishVersion: "0.9.0",
