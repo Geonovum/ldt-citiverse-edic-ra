@@ -156,9 +156,156 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 .hljs-strong{font-weight:700}
 .hljs-link{text-decoration:underline}
 </style>
+<style>
+
+  .sidelabel {
+    position: fixed;
+    -webkit-transform-origin: top right;
+    right: 100%;
+    top: 0;
+    -webkit-transform: rotate(-90deg);
+    padding: 4px 50px 4px 10px;
+    color: white;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: #045D9F;
+  }
+</style>
+<script type="text/javascript">
+   /* Any custom mermaid.js scripts will go here. */
+  </script>
+<style>
+
+  /* Any custom mermaid.js scripts will go here. */
+  }
+</style>
 <script id="initialUserConfig" type="application/json">{
+  "nl_organisationName": "LDT CiTiVERSE EDIC ",
+  "nl_organisationStylesURL": "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+  "nl_organisationPublishURL": "https://ldtcitiverse-edic.eu",
+  "logos": [
+    {
+      "src": "./media/logo-ldtcitiverseedic-whitecolour.png",
+      "alt": "ldtcitiverse",
+      "id": "ldtcitiverse",
+      "height": 80,
+      "width": 369,
+      "url": "https://ldtcitiverse-edic.eu/"
+    }
+  ],
+  "postProcess": [
+    null
+  ],
+  "latestVersion": [
+    "nl_organisationPublishURL",
+    "pubDomain",
+    "/",
+    "shortName",
+    "/"
+  ],
+  "thisVersion": [
+    "https://geonovum.github.io/ldt-citiverse-edic-ra/"
+  ],
+  "prevVersion": [
+    "nl_organisationPublishURL",
+    "pubDomain",
+    "/",
+    "previousMaturity",
+    "-",
+    "specType",
+    "-",
+    "shortName",
+    "-",
+    "previousPublishDate"
+  ],
   "useLogo": true,
   "useLabel": true,
+  "licenses": {
+    "cc0": {
+      "name": "Creative Commons 0 Public Domain Dedication",
+      "short": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg"
+    },
+    "cc-by": {
+      "name": "Creative Commons Attribution 4.0 International Public License",
+      "short": "CC-BY",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg"
+    },
+    "cc-by-nd": {
+      "name": "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
+      "short": "CC-BY-ND",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by-nd.svg"
+    }
+  },
+  "addSectionLinks": true,
+  "localizationStrings": {
+    "en": {
+      "wv": "Editor's draft",
+      "cv": "Candidate recommendation",
+      "vv": "Proposed recommendation",
+      "def": "Recommendation",
+      "ld": "Living document",
+      "basis": "Document",
+      "no": "Norm",
+      "st": "Standard",
+      "im": "Information model",
+      "pr": "Practical guideline",
+      "hr": "Guide",
+      "wa": "Work process agreement",
+      "al": "General",
+      "bd": "Governance documentation",
+      "bp": "Best practice"
+    },
+    "nl": {
+      "wv": "Werkversie",
+      "cv": "Consultatieversie",
+      "vv": "Versie ter vaststelling",
+      "def": "Vastgestelde versie",
+      "ld": "Levend document",
+      "basis": "Document",
+      "no": "Norm",
+      "st": "Standaard",
+      "im": "Informatiemodel",
+      "pr": "Praktijkrichtlijn",
+      "hr": "Handreiking",
+      "wa": "Werkafspraak",
+      "al": "Algemeen",
+      "bd": "Beheerdocumentatie",
+      "bp": "Best practice"
+    }
+  },
+  "sotdText": {
+    "nl": {
+      "sotd": "Status van dit document",
+      "def": "Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
+      "cv": "Dit is een consultatieversie. ",
+      "vv": "Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "basis": "Dit is een document zonder officiÃ«le status.",
+      "ld": "Dit is een levend document dat regelmatig gewijzigd wordt."
+    },
+    "en": {
+      "sotd": "Status of this document",
+      "def": "This is the definitive version of this document. Edits resulting from consultations have been applied.",
+      "wv": "This is a working draft that can be changed, removed or replaced by other documents at any time. It is not a stable document.",
+      "cv": "This is a stable draft, published for public comment. ",
+      "vv": "This is the final draft of this document. Edits resulting from consultations have been applied.",
+      "basis": "This document has no official standing.",
+      "ld": "This is a living document, which is updated regularly."
+    }
+  },
+  "labelColor": {
+    "def": "#045D9F",
+    "cv": "#045D9F",
+    "vv": "#045D9F",
+    "basis": "#80CC28",
+    "ld": "#80CC28",
+    "wv": "#39870c"
+  },
+  "localBiblio": {},
   "title": "LDT CiTiVERSE EDIC Reference Architecture",
   "subtitle": "",
   "specStatus": "vv",
@@ -169,9 +316,6 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
   "maxTocLevel": 3,
   "publishDate": "2026-10-13",
   "publishVersion": "0.9.0",
-  "thisVersion": [
-    "https://geonovum.github.io/ldt-citiverse-edic-ra/"
-  ],
   "github": "https://github.com/Geonovum/ldt-citiverse-edic-ra",
   "issueBase": "https://github.com/Geonovum/ldt-citiverse-edic-ra/issues/",
   "edDraftURI": "https://geonovum.github.io/ldt-citiverse-edic-ra/",
@@ -187,19 +331,68 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl/"
     }
-  ],
-  "localBiblio": {}
+  ]
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/base.css"></head>
+<link rel="stylesheet" href="https://gitdocumentatie.logius.nl/publicatie/respec/style/base.css"></head>
 
-<body class="informative"><h1 id="title" class="title">LDT CiTiVERSE EDIC Reference Architecture 0.9.0</h1>
+<body class="h-entry informative"><div class="head">
+    <a class="logo" href="https://ldtcitiverse-edic.eu/"><img alt="ldtcitiverse" height="80" id="ldtcitiverse" src="./media/logo-ldtcitiverseedic-whitecolour.png" width="369">
+  </a> <h1 id="title" class="title">LDT CiTiVERSE EDIC Reference Architecture 0.9.0</h1>
+    
+    <h2>
+      LDT CiTiVERSE EDIC  Guide<br>
+      Proposed recommendation
+      <time class="dt-published" datetime="2026-10-13">October 13, 2026</time>
+    </h2>
+    <dl>
+      <dt>This version:</dt><dd class="status">
+              <a class="u-url status" href="https://geonovum.github.io/ldt-citiverse-edic-ra/">https://geonovum.github.io/ldt-citiverse-edic-ra/</a>
+            </dd>
+      <dt>Latest published version:</dt><dd>
+              <a href="https://ldtcitiverse-edic.eu/edic/edic-ldt-ra/">https://ldtcitiverse-edic.eu/edic/edic-ldt-ra/</a>
+            </dd>
+      <dt>Latest editor's draft:</dt><dd><a href="https://geonovum.github.io/ldt-citiverse-edic-ra/">https://geonovum.github.io/ldt-citiverse-edic-ra/</a></dd>
+      
+      
+      
+      
+      
+      <dt>Editors:</dt>
+      <dd class="editor p-author h-card vcard">
+    <span class="p-name fn">Niels Hoffmann</span> (<a class="p-org org h-org" href="https://www.geonovum.nl/">Geonovum</a>)
+  </dd><dd class="editor p-author h-card vcard">
+    <span class="p-name fn">Klaas van Veelen</span> (<a class="p-org org h-org" href="https://www.geonovum.nl/">Geonovum</a>)
+  </dd>
+      
+      <dt>Author:</dt>
+      <dt>Participate:</dt><dd>
+    <a href="https://github.com/Geonovum/ldt-citiverse-edic-ra/">GitHub Geonovum/ldt-citiverse-edic-ra</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/ldt-citiverse-edic-ra/issues/">All issues</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/ldt-citiverse-edic-ra/issues/new/choose">File an issue</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/ldt-citiverse-edic-ra/commits/">Commit history</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/ldt-citiverse-edic-ra/pulls/">Pull requests</a>
+  </dd>
+    </dl>
+    
+    
+    
+    <p class="copyright">
+            This document is licensed under 
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
+          </p>
+    <hr title="Separator for header">
+  </div>
    
    <section id="abstract" class="introductory"><h2>Summary</h2>
 <p>A Local Digital Twin (LDT) is a living digital picture of a city, neighbourhood or region. It combines data, models and views so people can see what is happening, understand why, try "what if" questions, and decide what to do.</p>
 <p>Europe already has many of these twins. Most were built separately: different software, different data formats, different ways of talking to other systems. That is fine for a single project. It becomes a problem when cities want to reuse each other's work, connect twins across borders, or switch suppliers without starting over.</p>
 <p>This reference architecture is not a product catalogue and not a single European mega-twin. It is a shared set of rules and patterns so independently built twins can still work together.</p>
 <p>If you only read one chapter, read this summary.</p>
-<section id="why-standards-interoperability-is-the-point"><h3 id="why-standards-interoperability-is-the-point-0">Why standards? Interoperability is the point</h3>
+<section id="why-standards-interoperability-is-the-point"><div class="header-wrapper"><h3 id="why-standards-interoperability-is-the-point-0">Why standards? Interoperability is the point</h3><a class="self-link" href="#why-standards-interoperability-is-the-point" aria-label="Permalink for this Section"></a></div>
 <p>If every twin speaks a private language, connecting them is expensive and fragile. Standards are the common language.</p>
 <p>There are three kinds of "speaking the same language":</p>
 <ol>
@@ -215,7 +408,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 <li>They make procurement and replacement possible, because you buy a capability behind a known interface, not a closed stack.</li>
 </ul>
 <p>A Digital Twin that cannot talk to the next Digital Twin is a silo with a 3D view. The network of twins is the actual product.</p>
-</section><section id="patterns-that-keep-you-out-of-vendor-lock-in"><h3 id="patterns-that-keep-you-out-of-vendor-lock-in-0">Patterns that keep you out of vendor lock-in</h3>
+</section><section id="patterns-that-keep-you-out-of-vendor-lock-in"><div class="header-wrapper"><h3 id="patterns-that-keep-you-out-of-vendor-lock-in-0">Patterns that keep you out of vendor lock-in</h3><a class="self-link" href="#patterns-that-keep-you-out-of-vendor-lock-in" aria-label="Permalink for this Section"></a></div>
 <p>Lock-in happens when the way you <em>store</em> data, the way you <em>send</em> data, and the way you <em>ask questions</em> are all tied to one product — or even to one technology family.</p>
 <p>These patterns break that knot:</p>
 <ol>
@@ -226,7 +419,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 <li><strong>Reuse before you build.</strong> Prefer a shared European or national component over a custom one-off.</li>
 <li><strong>Decouple storage from exchange.</strong> How data is stored internally (files, a database, a knowledge graph) must not dictate how partners consume it. Partners talk to an API, not to the store.</li>
 </ol>
-</section><section id="design-time-versus-run-time-two-worlds-one-ticket-office"><h3 id="design-time-versus-run-time-two-worlds-one-ticket-office-0">Design time versus run time — two worlds, one ticket office</h3>
+</section><section id="design-time-versus-run-time-two-worlds-one-ticket-office"><div class="header-wrapper"><h3 id="design-time-versus-run-time-two-worlds-one-ticket-office-0">Design time versus run time — two worlds, one ticket office</h3><a class="self-link" href="#design-time-versus-run-time-two-worlds-one-ticket-office" aria-label="Permalink for this Section"></a></div>
 <p>This last pattern is easy to miss, and expensive when it is missed.</p>
 <p><strong>Design time</strong> is when you agree the shape of information <em>before</em> anyone asks a question. A REST API with an OpenAPI description, or an OGC API with a known feature schema, is design-time: clients know the contract in advance. Storage and transport can differ. You can keep data in PostgreSQL and still serve GeoJSON over HTTP.</p>
 <p><strong>Run time</strong> is when the shape of the answer is defined <em>when you ask the question</em>. SPARQL against RDF is the classic example: the query creates the schema of the result. That is powerful. It is also tightly coupled. The store, the query language and the payload belong to the same technology family. If the public interface is SPARQL, every client must speak RDF. That tends to spread: once one part of the chain is RDF-only, the rest is pressured to become RDF-only too. That is the viral aspect of RDF — not a moral judgement, a network effect.</p>
@@ -238,7 +431,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 <li>If someone needs an ad-hoc SPARQL-style question, the <em>result</em> of that query can still be published through the same API, with a schema the next client can rely on.</li>
 </ul>
 <p>For a network of twins, <strong>practical interoperability is usually higher with a REST-style API</strong> than with exposing the store's native language. REST does not forbid RDF internally. It forbids making RDF — or any other store format — the only way in.</p>
-</section><section id="what-to-remember"><h3 id="what-to-remember-0">What to remember</h3>
+</section><section id="what-to-remember"><div class="header-wrapper"><h3 id="what-to-remember-0">What to remember</h3><a class="self-link" href="#what-to-remember" aria-label="Permalink for this Section"></a></div>
 <ul>
 <li>Many twins, one network — not one European mega-twin.</li>
 <li>Open APIs and open standards are how twins collaborate without becoming the same product.</li>
@@ -247,21 +440,21 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 </ul>
 <p>The chapters that follow are the detailed architecture: capabilities, services and technology patterns that put these ideas into practice. The expanded argument on design-time versus run-time contracts is in the Application &amp; Technology chapter.</p>
 </section></section>
-   <section id="sotd"></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Summary</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#why-standards-interoperability-is-the-point">Why standards? Interoperability is the point</a></li><li class="tocline"><a class="tocxref" href="#patterns-that-keep-you-out-of-vendor-lock-in">Patterns that keep you out of vendor lock-in</a></li><li class="tocline"><a class="tocxref" href="#design-time-versus-run-time-two-worlds-one-ticket-office">Design time versus run time — two worlds, one ticket office</a></li><li class="tocline"><a class="tocxref" href="#what-to-remember">What to remember</a></li></ol></li><li class="tocline"><a class="tocxref" href="#H1"><bdi class="secno">1. </bdi>Motivation and Architectural Guardrails</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#why-a-european-reference-architecture-for-local-digital-twins"><bdi class="secno">1.1 </bdi>Why a European Reference Architecture for Local Digital Twins?</a></li><li class="tocline"><a class="tocxref" href="#from-digital-twins-to-a-network-of-digital-twins"><bdi class="secno">1.2 </bdi>From Digital Twins to a Network of Digital Twins</a></li><li class="tocline"><a class="tocxref" href="#architectural-guardrails"><bdi class="secno">1.3 </bdi>Architectural Guardrails</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#g1-interoperability-by-design"><bdi class="secno">1.3.1 </bdi>G1 – Interoperability by Design</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g2-federation-by-default"><bdi class="secno">1.3.2 </bdi>G2 – Federation by Default</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g3-api-first"><bdi class="secno">1.3.3 </bdi>G3 – API First</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g4-reuse-before-build"><bdi class="secno">1.3.4 </bdi>G4 – Reuse Before Build</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g5-semantic-interoperability-first"><bdi class="secno">1.3.5 </bdi>G5 – Semantic Interoperability First</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g6-open-standards-before-proprietary-solutions"><bdi class="secno">1.3.6 </bdi>G6 – Open Standards Before Proprietary Solutions</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g7-data-as-a-shared-asset"><bdi class="secno">1.3.7 </bdi>G7 – Data as a Shared Asset</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g8-human-centred-digital-twins"><bdi class="secno">1.3.8 </bdi>G8 – Human-Centred Digital Twins</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g9-trust-privacy-and-security-by-design"><bdi class="secno">1.3.9 </bdi>G9 – Trust, Privacy and Security by Design</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g10-technology-independence"><bdi class="secno">1.3.10 </bdi>G10 – Technology Independence</a><ol class="toc"></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#H2"><bdi class="secno">2. </bdi>Strategy</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview"><bdi class="secno">2.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#ldt-data-value-stream"><bdi class="secno">2.2 </bdi>LDT / Data Value Stream</a></li><li class="tocline"><a class="tocxref" href="#ldt-citiverse-capabilities"><bdi class="secno">2.3 </bdi>LDT CitiVERSE Capabilities</a></li><li class="tocline"><a class="tocxref" href="#types-of-local-digital-twins"><bdi class="secno">2.4 </bdi>Types of Local Digital Twins</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#conformance-profiles"><bdi class="secno">2.4.1 </bdi>Conformance Profiles</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-1-descriptive-ldt"><bdi class="secno">2.4.2 </bdi>Profile 1 – Descriptive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-2-diagnostic-ldt"><bdi class="secno">2.4.3 </bdi>Profile 2 – Diagnostic LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-3-predictive-ldt"><bdi class="secno">2.4.4 </bdi>Profile 3 – Predictive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-4-prospective-ldt"><bdi class="secno">2.4.5 </bdi>Profile 4 – Prospective LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-5-prescriptive-ldt"><bdi class="secno">2.4.6 </bdi>Profile 5 – Prescriptive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-6-autonomous-ldt"><bdi class="secno">2.4.7 </bdi>Profile 6 – Autonomous LDT</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#capability-progression"><bdi class="secno">2.5 </bdi>Capability Progression</a></li><li class="tocline"><a class="tocxref" href="#selecting-an-appropriate-profile"><bdi class="secno">2.6 </bdi>Selecting an Appropriate Profile</a></li><li class="tocline"><a class="tocxref" href="#ldt-ecosystem"><bdi class="secno">2.7 </bdi>LDT Ecosystem</a></li><li class="tocline"><a class="tocxref" href="#enablement-frameworks"><bdi class="secno">2.8 </bdi>Enablement Frameworks</a></li><li class="tocline"><a class="tocxref" href="#artificial-intelligence"><bdi class="secno">2.9 </bdi>Artificial Intelligence</a></li><li class="tocline"><a class="tocxref" href="#relationship-to-egovera"><bdi class="secno">2.10 </bdi>Relationship to eGovERA</a></li></ol></li><li class="tocline"><a class="tocxref" href="#H3"><bdi class="secno">3. </bdi>Business &amp; Application</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview-0"><bdi class="secno">3.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#architectural-intent"><bdi class="secno">3.2 </bdi>Architectural Intent</a></li><li class="tocline"><a class="tocxref" href="#business-service-architecture"><bdi class="secno">3.3 </bdi>Business Service Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#business-services-as-public-capabilities"><bdi class="secno">3.3.1 </bdi>Business Services as Public Capabilities</a></li><li class="tocline"><a class="tocxref" href="#context-awareness"><bdi class="secno">3.3.2 </bdi>Context Awareness</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#co-creation-and-participation"><bdi class="secno">3.3.3 </bdi>Co-Creation and Participation</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#digital-twin-visualisation"><bdi class="secno">3.3.4 </bdi>Digital Twin Visualisation</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#data-exchange-and-collaboration"><bdi class="secno">3.3.5 </bdi>Data Exchange and Collaboration</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#capability-development-and-knowledge-sharing"><bdi class="secno">3.3.6 </bdi>Capability Development and Knowledge Sharing</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#application-service-architecture"><bdi class="secno">3.4 </bdi>Application Service Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#data-services"><bdi class="secno">3.4.1 </bdi>Data Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#processing-services"><bdi class="secno">3.4.2 </bdi>Processing Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#visualisation-services"><bdi class="secno">3.4.3 </bdi>Visualisation Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#participation-services"><bdi class="secno">3.4.4 </bdi>Participation Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#integration-services"><bdi class="secno">3.4.5 </bdi>Integration Services</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#service-realisation-pattern"><bdi class="secno">3.5 </bdi>Service Realisation Pattern</a></li><li class="tocline"><a class="tocxref" href="#open-interfaces-and-standards"><bdi class="secno">3.6 </bdi>Open Interfaces and Standards</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#api-standards"><bdi class="secno">3.6.1 </bdi>API Standards</a></li><li class="tocline"><a class="tocxref" href="#trust-and-identity"><bdi class="secno">3.6.2 </bdi>Trust and Identity</a></li><li class="tocline"><a class="tocxref" href="#observability"><bdi class="secno">3.6.3 </bdi>Observability</a></li><li class="tocline"><a class="tocxref" href="#data-sharing"><bdi class="secno">3.6.4 </bdi>Data Sharing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#information-models-and-semantic-assets"><bdi class="secno">3.7 </bdi>Information Models and Semantic Assets</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#examples"><bdi class="secno">3.7.1 </bdi>Examples</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#H4"><bdi class="secno">4. </bdi>Application &amp; Technology</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview-1"><bdi class="secno">4.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#technical-architecture-principles"><bdi class="secno">4.2 </bdi>Technical Architecture Principles</a></li><li class="tocline"><a class="tocxref" href="#technology-architecture-stack"><bdi class="secno">4.3 </bdi>Technology Architecture Stack</a></li><li class="tocline"><a class="tocxref" href="#federated-infrastructure-pattern"><bdi class="secno">4.4 </bdi>Federated Infrastructure Pattern</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-15"><bdi class="secno">4.4.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#architectural-rationale"><bdi class="secno">4.4.2 </bdi>Architectural Rationale</a></li><li class="tocline"><a class="tocxref" href="#typical-components"><bdi class="secno">4.4.3 </bdi>Typical Components</a></li><li class="tocline"><a class="tocxref" href="#expected-outcomes"><bdi class="secno">4.4.4 </bdi>Expected Outcomes</a></li></ol></li><li class="tocline"><a class="tocxref" href="#shared-services-architecture"><bdi class="secno">4.5 </bdi>Shared Services Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-16"><bdi class="secno">4.5.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#examples-0"><bdi class="secno">4.5.2 </bdi>Examples</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#orchestration-architecture"><bdi class="secno">4.6 </bdi>Orchestration Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-17"><bdi class="secno">4.6.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#responsibilities-4"><bdi class="secno">4.6.2 </bdi>Responsibilities</a></li><li class="tocline"><a class="tocxref" href="#architectural-significance"><bdi class="secno">4.6.3 </bdi>Architectural Significance</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#semantic-interoperability-architecture"><bdi class="secno">4.7 </bdi>Semantic Interoperability Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-18"><bdi class="secno">4.7.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#responsibilities-5"><bdi class="secno">4.7.2 </bdi>Responsibilities</a></li><li class="tocline"><a class="tocxref" href="#typical-technologies"><bdi class="secno">4.7.3 </bdi>Typical Technologies</a></li><li class="tocline"><a class="tocxref" href="#expected-benefits"><bdi class="secno">4.7.4 </bdi>Expected Benefits</a></li></ol></li><li class="tocline"><a class="tocxref" href="#design-time-contracts-run-time-queries-and-the-api-abstraction"><bdi class="secno">4.8 </bdi>Design-time Contracts, Run-time Queries, and the API Abstraction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#the-two-worlds"><bdi class="secno">4.8.1 </bdi>The two worlds</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#why-practical-interoperability-is-usually-higher-with-a-rest-api"><bdi class="secno">4.8.2 </bdi>Why practical interoperability is usually higher with a REST API</a></li><li class="tocline"><a class="tocxref" href="#the-collision"><bdi class="secno">4.8.3 </bdi>The collision</a></li><li class="tocline"><a class="tocxref" href="#the-pattern-an-api-as-abstraction-layer"><bdi class="secno">4.8.4 </bdi>The pattern: an API as abstraction layer</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#implications-for-building-blocks"><bdi class="secno">4.8.5 </bdi>Implications for building blocks</a></li><li class="tocline"><a class="tocxref" href="#expected-outcomes-0"><bdi class="secno">4.8.6 </bdi>Expected outcomes</a></li></ol></li><li class="tocline"><a class="tocxref" href="#the-digital-twin-processing-pipeline"><bdi class="secno">4.9 </bdi>The Digital Twin Processing Pipeline</a></li><li class="tocline"><a class="tocxref" href="#infrastructure-agnostic-deployment"><bdi class="secno">4.10 </bdi>Infrastructure-Agnostic Deployment</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-19"><bdi class="secno">4.10.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#supported-deployment-models"><bdi class="secno">4.10.2 </bdi>Supported Deployment Models</a></li><li class="tocline"><a class="tocxref" href="#architectural-benefits"><bdi class="secno">4.10.3 </bdi>Architectural Benefits</a></li></ol></li><li class="tocline"><a class="tocxref" href="#architecture-building-blocks-and-solution-building-blocks"><bdi class="secno">4.11 </bdi>Architecture Building Blocks and Solution Building Blocks</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#architecture-building-blocks-abbs"><bdi class="secno">4.11.1 </bdi>Architecture Building Blocks (ABBs)</a></li><li class="tocline"><a class="tocxref" href="#solution-building-blocks-sbbs"><bdi class="secno">4.11.2 </bdi>Solution Building Blocks (SBBs)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#shared-infrastructure-as-a-european-commons"><bdi class="secno">4.12 </bdi>Shared Infrastructure as a European Commons</a></li><li class="tocline"><a class="tocxref" href="#from-architecture-to-implementation"><bdi class="secno">4.13 </bdi>From Architecture to Implementation</a></li></ol></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">A. </bdi>Glossary</a></li></ol></nav>
+   <section id="sotd" class="introductory"><h2>Status of this document</h2><p>This is the final draft of this document. Edits resulting from consultations have been applied.</p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Summary</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#why-standards-interoperability-is-the-point">Why standards? Interoperability is the point</a></li><li class="tocline"><a class="tocxref" href="#patterns-that-keep-you-out-of-vendor-lock-in">Patterns that keep you out of vendor lock-in</a></li><li class="tocline"><a class="tocxref" href="#design-time-versus-run-time-two-worlds-one-ticket-office">Design time versus run time — two worlds, one ticket office</a></li><li class="tocline"><a class="tocxref" href="#what-to-remember">What to remember</a></li></ol></li><li class="tocline"><a class="tocxref" href="#sotd">Status of this document</a></li><li class="tocline"><a class="tocxref" href="#H1"><bdi class="secno">1. </bdi>Motivation and Architectural Guardrails</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#why-a-european-reference-architecture-for-local-digital-twins"><bdi class="secno">1.1 </bdi>Why a European Reference Architecture for Local Digital Twins?</a></li><li class="tocline"><a class="tocxref" href="#from-digital-twins-to-a-network-of-digital-twins"><bdi class="secno">1.2 </bdi>From Digital Twins to a Network of Digital Twins</a></li><li class="tocline"><a class="tocxref" href="#architectural-guardrails"><bdi class="secno">1.3 </bdi>Architectural Guardrails</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#g1-interoperability-by-design"><bdi class="secno">1.3.1 </bdi>G1 – Interoperability by Design</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g2-federation-by-default"><bdi class="secno">1.3.2 </bdi>G2 – Federation by Default</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g3-api-first"><bdi class="secno">1.3.3 </bdi>G3 – API First</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g4-reuse-before-build"><bdi class="secno">1.3.4 </bdi>G4 – Reuse Before Build</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g5-semantic-interoperability-first"><bdi class="secno">1.3.5 </bdi>G5 – Semantic Interoperability First</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g6-open-standards-before-proprietary-solutions"><bdi class="secno">1.3.6 </bdi>G6 – Open Standards Before Proprietary Solutions</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g7-data-as-a-shared-asset"><bdi class="secno">1.3.7 </bdi>G7 – Data as a Shared Asset</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g8-human-centred-digital-twins"><bdi class="secno">1.3.8 </bdi>G8 – Human-Centred Digital Twins</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g9-trust-privacy-and-security-by-design"><bdi class="secno">1.3.9 </bdi>G9 – Trust, Privacy and Security by Design</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#g10-technology-independence"><bdi class="secno">1.3.10 </bdi>G10 – Technology Independence</a><ol class="toc"></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#H2"><bdi class="secno">2. </bdi>Strategy</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview"><bdi class="secno">2.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#ldt-data-value-stream"><bdi class="secno">2.2 </bdi>LDT / Data Value Stream</a></li><li class="tocline"><a class="tocxref" href="#ldt-citiverse-capabilities"><bdi class="secno">2.3 </bdi>LDT CitiVERSE Capabilities</a></li><li class="tocline"><a class="tocxref" href="#types-of-local-digital-twins"><bdi class="secno">2.4 </bdi>Types of Local Digital Twins</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#conformance-profiles"><bdi class="secno">2.4.1 </bdi>Conformance Profiles</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-1-descriptive-ldt"><bdi class="secno">2.4.2 </bdi>Profile 1 – Descriptive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-2-diagnostic-ldt"><bdi class="secno">2.4.3 </bdi>Profile 2 – Diagnostic LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-3-predictive-ldt"><bdi class="secno">2.4.4 </bdi>Profile 3 – Predictive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-4-prospective-ldt"><bdi class="secno">2.4.5 </bdi>Profile 4 – Prospective LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-5-prescriptive-ldt"><bdi class="secno">2.4.6 </bdi>Profile 5 – Prescriptive LDT</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#profile-6-autonomous-ldt"><bdi class="secno">2.4.7 </bdi>Profile 6 – Autonomous LDT</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#capability-progression"><bdi class="secno">2.5 </bdi>Capability Progression</a></li><li class="tocline"><a class="tocxref" href="#selecting-an-appropriate-profile"><bdi class="secno">2.6 </bdi>Selecting an Appropriate Profile</a></li><li class="tocline"><a class="tocxref" href="#ldt-ecosystem"><bdi class="secno">2.7 </bdi>LDT Ecosystem</a></li><li class="tocline"><a class="tocxref" href="#enablement-frameworks"><bdi class="secno">2.8 </bdi>Enablement Frameworks</a></li><li class="tocline"><a class="tocxref" href="#artificial-intelligence"><bdi class="secno">2.9 </bdi>Artificial Intelligence</a></li><li class="tocline"><a class="tocxref" href="#relationship-to-egovera"><bdi class="secno">2.10 </bdi>Relationship to eGovERA</a></li></ol></li><li class="tocline"><a class="tocxref" href="#H3"><bdi class="secno">3. </bdi>Business &amp; Application</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview-0"><bdi class="secno">3.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#architectural-intent"><bdi class="secno">3.2 </bdi>Architectural Intent</a></li><li class="tocline"><a class="tocxref" href="#business-service-architecture"><bdi class="secno">3.3 </bdi>Business Service Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#business-services-as-public-capabilities"><bdi class="secno">3.3.1 </bdi>Business Services as Public Capabilities</a></li><li class="tocline"><a class="tocxref" href="#context-awareness"><bdi class="secno">3.3.2 </bdi>Context Awareness</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#co-creation-and-participation"><bdi class="secno">3.3.3 </bdi>Co-Creation and Participation</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#digital-twin-visualisation"><bdi class="secno">3.3.4 </bdi>Digital Twin Visualisation</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#data-exchange-and-collaboration"><bdi class="secno">3.3.5 </bdi>Data Exchange and Collaboration</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#capability-development-and-knowledge-sharing"><bdi class="secno">3.3.6 </bdi>Capability Development and Knowledge Sharing</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#application-service-architecture"><bdi class="secno">3.4 </bdi>Application Service Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#data-services"><bdi class="secno">3.4.1 </bdi>Data Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#processing-services"><bdi class="secno">3.4.2 </bdi>Processing Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#visualisation-services"><bdi class="secno">3.4.3 </bdi>Visualisation Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#participation-services"><bdi class="secno">3.4.4 </bdi>Participation Services</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#integration-services"><bdi class="secno">3.4.5 </bdi>Integration Services</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#service-realisation-pattern"><bdi class="secno">3.5 </bdi>Service Realisation Pattern</a></li><li class="tocline"><a class="tocxref" href="#open-interfaces-and-standards"><bdi class="secno">3.6 </bdi>Open Interfaces and Standards</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#api-standards"><bdi class="secno">3.6.1 </bdi>API Standards</a></li><li class="tocline"><a class="tocxref" href="#trust-and-identity"><bdi class="secno">3.6.2 </bdi>Trust and Identity</a></li><li class="tocline"><a class="tocxref" href="#observability"><bdi class="secno">3.6.3 </bdi>Observability</a></li><li class="tocline"><a class="tocxref" href="#data-sharing"><bdi class="secno">3.6.4 </bdi>Data Sharing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#information-models-and-semantic-assets"><bdi class="secno">3.7 </bdi>Information Models and Semantic Assets</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#examples"><bdi class="secno">3.7.1 </bdi>Examples</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#H4"><bdi class="secno">4. </bdi>Application &amp; Technology</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overview-1"><bdi class="secno">4.1 </bdi>Overview</a></li><li class="tocline"><a class="tocxref" href="#technical-architecture-principles"><bdi class="secno">4.2 </bdi>Technical Architecture Principles</a></li><li class="tocline"><a class="tocxref" href="#technology-architecture-stack"><bdi class="secno">4.3 </bdi>Technology Architecture Stack</a></li><li class="tocline"><a class="tocxref" href="#federated-infrastructure-pattern"><bdi class="secno">4.4 </bdi>Federated Infrastructure Pattern</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-15"><bdi class="secno">4.4.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#architectural-rationale"><bdi class="secno">4.4.2 </bdi>Architectural Rationale</a></li><li class="tocline"><a class="tocxref" href="#typical-components"><bdi class="secno">4.4.3 </bdi>Typical Components</a></li><li class="tocline"><a class="tocxref" href="#expected-outcomes"><bdi class="secno">4.4.4 </bdi>Expected Outcomes</a></li></ol></li><li class="tocline"><a class="tocxref" href="#shared-services-architecture"><bdi class="secno">4.5 </bdi>Shared Services Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-16"><bdi class="secno">4.5.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#examples-0"><bdi class="secno">4.5.2 </bdi>Examples</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#orchestration-architecture"><bdi class="secno">4.6 </bdi>Orchestration Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-17"><bdi class="secno">4.6.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#responsibilities-4"><bdi class="secno">4.6.2 </bdi>Responsibilities</a></li><li class="tocline"><a class="tocxref" href="#architectural-significance"><bdi class="secno">4.6.3 </bdi>Architectural Significance</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#semantic-interoperability-architecture"><bdi class="secno">4.7 </bdi>Semantic Interoperability Architecture</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-18"><bdi class="secno">4.7.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#responsibilities-5"><bdi class="secno">4.7.2 </bdi>Responsibilities</a></li><li class="tocline"><a class="tocxref" href="#typical-technologies"><bdi class="secno">4.7.3 </bdi>Typical Technologies</a></li><li class="tocline"><a class="tocxref" href="#expected-benefits"><bdi class="secno">4.7.4 </bdi>Expected Benefits</a></li></ol></li><li class="tocline"><a class="tocxref" href="#design-time-contracts-run-time-queries-and-the-api-abstraction"><bdi class="secno">4.8 </bdi>Design-time Contracts, Run-time Queries, and the API Abstraction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#the-two-worlds"><bdi class="secno">4.8.1 </bdi>The two worlds</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#why-practical-interoperability-is-usually-higher-with-a-rest-api"><bdi class="secno">4.8.2 </bdi>Why practical interoperability is usually higher with a REST API</a></li><li class="tocline"><a class="tocxref" href="#the-collision"><bdi class="secno">4.8.3 </bdi>The collision</a></li><li class="tocline"><a class="tocxref" href="#the-pattern-an-api-as-abstraction-layer"><bdi class="secno">4.8.4 </bdi>The pattern: an API as abstraction layer</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#implications-for-building-blocks"><bdi class="secno">4.8.5 </bdi>Implications for building blocks</a></li><li class="tocline"><a class="tocxref" href="#expected-outcomes-0"><bdi class="secno">4.8.6 </bdi>Expected outcomes</a></li></ol></li><li class="tocline"><a class="tocxref" href="#the-digital-twin-processing-pipeline"><bdi class="secno">4.9 </bdi>The Digital Twin Processing Pipeline</a></li><li class="tocline"><a class="tocxref" href="#infrastructure-agnostic-deployment"><bdi class="secno">4.10 </bdi>Infrastructure-Agnostic Deployment</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#purpose-19"><bdi class="secno">4.10.1 </bdi>Purpose</a></li><li class="tocline"><a class="tocxref" href="#supported-deployment-models"><bdi class="secno">4.10.2 </bdi>Supported Deployment Models</a></li><li class="tocline"><a class="tocxref" href="#architectural-benefits"><bdi class="secno">4.10.3 </bdi>Architectural Benefits</a></li></ol></li><li class="tocline"><a class="tocxref" href="#architecture-building-blocks-and-solution-building-blocks"><bdi class="secno">4.11 </bdi>Architecture Building Blocks and Solution Building Blocks</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#architecture-building-blocks-abbs"><bdi class="secno">4.11.1 </bdi>Architecture Building Blocks (ABBs)</a></li><li class="tocline"><a class="tocxref" href="#solution-building-blocks-sbbs"><bdi class="secno">4.11.2 </bdi>Solution Building Blocks (SBBs)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#shared-infrastructure-as-a-european-commons"><bdi class="secno">4.12 </bdi>Shared Infrastructure as a European Commons</a></li><li class="tocline"><a class="tocxref" href="#from-architecture-to-implementation"><bdi class="secno">4.13 </bdi>From Architecture to Implementation</a></li></ol></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">A. </bdi>Glossary</a></li></ol></nav>
    <section id="H0"><div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="3"><span>Note</span></div><aside class="">
     The Archimate models of the <b>reference architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank">here.</a>
 </aside></div><div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="3"><span>Note</span></div><aside class="">
     The Archimate models of the EDIC <b>Business architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ba/archimate/html/index.html" target="_blank">here.</a>
-</aside></div><section><h3 id="overview-2">Overview</h3>
+</aside></div><section><div class="header-wrapper"><h3 id="overview-2">Overview</h3><a class="self-link" href="#overview-2" aria-label="Permalink for this Section"></a></div>
 <p>This chapter describes the Reference architecture for LDT Citiverse implementation patterns. More information about the LDT CiTiVERSE EDIC can be found on the <a href="https://ldtcitiverse-edic.eu/" target="_blank">website.</a></p>
-<section><h4 id="introduction">Introduction</h4>
+<section><div class="header-wrapper"><h4 id="introduction">Introduction</h4><a class="self-link" href="#introduction" aria-label="Permalink for this Section"></a></div>
 <p>This reference architecture contains guidelines and principles for a networked system of digital twins for the physical environment. This reference architecture is intended for everyone who plays a role in establishing a digital twin for the physical environment. The guidelines, starting points, principles, and standards presented in this document contribute to establishing a system consisting of many applications that form together a network of digital twins.
 This document contains an "open" architecture. That is to say: the architecture can be applied by everyone, government and business alike. Application of the guidelines, principles, and standards from this document contributes to establishing an "ecosystem" that consists of many data sources and computational models to be connected. This makes it possible to connect data and models from diverse sectors and knowledge areas, and thereby create two- or three-dimensional images of the physical environment, support policy-making with decision models and simulations, or enable real-time control functionalities for operational processes.</p>
-</section><section><h4 id="why-this-architecture-exists">Why this Architecture Exists</h4>
+</section><section><div class="header-wrapper"><h4 id="why-this-architecture-exists">Why this Architecture Exists</h4><a class="self-link" href="#why-this-architecture-exists" aria-label="Permalink for this Section"></a></div>
 <p>Cities and regions across Europe are increasingly using Local Digital Twins (LDTs) to support urban planning, service delivery, sustainability transitions and public participation. These digital twins combine data, simulation models, analytics and visualisation capabilities to create a shared understanding of the physical and social environment.
 Many Local Digital Twin initiatives have emerged independently, often tailored to local needs and implemented using different technologies, data models and governance arrangements. While this diversity stimulates innovation, it also creates challenges for interoperability, reuse and collaboration across cities, regions and Member States.
 The LDT CitiVERSE EDIC has been established to address these challenges. Its mission is to create a common European infrastructure that enables Local Digital Twins to exchange information, share services and collaborate across organisational and geographical boundaries. The long-term ambition is to support a network of interoperable Local Digital Twins that together form the foundation of the European CitiVERSE. This Reference Architecture provides a common architectural framework for achieving that ambition.</p>
-</section><section><h4 id="purpose-of-this-reference-architecture">Purpose of this Reference Architecture</h4>
+</section><section><div class="header-wrapper"><h4 id="purpose-of-this-reference-architecture">Purpose of this Reference Architecture</h4><a class="self-link" href="#purpose-of-this-reference-architecture" aria-label="Permalink for this Section"></a></div>
 <p>The purpose of this document is to describe the architectural principles, capabilities, building blocks and interoperability mechanisms required to realise a federated ecosystem of Local Digital Twins.
 The architecture does not prescribe a single platform, technology stack or implementation approach. Instead, it defines a set of common patterns and architectural guardrails that enable independent implementations to work together.
 Specifically, the Reference Architecture aims to:</p>
@@ -275,7 +468,7 @@ Specifically, the Reference Architecture aims to:</p>
 <li>Enable alignment with related European and national initiatives.</li>
 </ul>
 <p>The architecture should therefore be understood as a framework for convergence rather than a specification for uniformity.</p>
-</section><section><h4 id="scope">Scope</h4>
+</section><section><div class="header-wrapper"><h4 id="scope">Scope</h4><a class="self-link" href="#scope" aria-label="Permalink for this Section"></a></div>
 <p>The LDT CiTiVERSE EDIC presents both an architecture of the EDIC itself as well as a reference architecture for LDT CiTiVERSE implementations. This is presented in the following overview picture.</p>
 <p>This document is focussed on the Reference architecture for LDT's. The business architecture is documented here: <a href="https://geonovum.github.io/ldt-citiverse-edic-ba">https://geonovum.github.io/ldt-citiverse-edic-ba</a></p>
 <img src="./media/architecture-overview.png" alt="Architecture Overview" width="800"><p>This document describes the architecture in written form, a more formal definition of the architecture is described using <a data-link-type="dfn|abstract-op" href="#dfn-archimate" class="internalDFN" id="ref-for-dfn-archimate-1">Archimate</a>, which can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank">here.</a></p>
@@ -292,7 +485,7 @@ The architecture covers:</p>
 </ul>
 <p>The architecture intentionally spans multiple organisational levels, from individual Local Digital Twin implementations to European-scale infrastructure and collaboration mechanisms.
 This document does not prescribe detailed implementation choices, procurement strategies or vendor-specific solutions.</p>
-</section><section><h4 id="intended-audience">Intended Audience</h4>
+</section><section><div class="header-wrapper"><h4 id="intended-audience">Intended Audience</h4><a class="self-link" href="#intended-audience" aria-label="Permalink for this Section"></a></div>
 <p>This document is intended for a broad audience involved in the development, governance and adoption of Local Digital Twins.
 Typical readers include:</p>
 <ul>
@@ -308,7 +501,7 @@ Typical readers include:</p>
 </ul>
 <p>If you are only occasionally involved with Digital Twins, start with <a href="#abstract">the summary</a>. It states the main principles, why standards matter for interoperability, and which design patterns reduce vendor lock-in.</p>
 <p>Different chapters can then be read independently depending on the interests of the reader. Strategic audiences may focus on the principles, capabilities and governance aspects, while implementation teams may focus on the reference patterns, standards and building blocks.</p>
-</section><section><h4 id="relationship-to-other-initiatives">Relationship to Other Initiatives</h4>
+</section><section><div class="header-wrapper"><h4 id="relationship-to-other-initiatives">Relationship to Other Initiatives</h4><a class="self-link" href="#relationship-to-other-initiatives" aria-label="Permalink for this Section"></a></div>
 <p>The Reference Architecture does not exist in isolation. It builds on existing work from a variety of European, national and community initiatives.
 Particularly relevant are:</p>
 <ul>
@@ -321,8 +514,8 @@ Particularly relevant are:</p>
 </ul>
 <p>The architecture should therefore be seen as part of a broader ecosystem of interoperable digital infrastructure initiatives.</p>
 </section></section></section>
-   <section id="H1"><h2 id="x1-motivation-and-architectural-guardrails"><bdi class="secno">1. </bdi>Motivation and Architectural Guardrails</h2>
-<section id="why-a-european-reference-architecture-for-local-digital-twins"><h3 id="x1-1-why-a-european-reference-architecture-for-local-digital-twins"><bdi class="secno">1.1 </bdi>Why a European Reference Architecture for Local Digital Twins?</h3>
+   <section id="H1"><div class="header-wrapper"><h2 id="x1-motivation-and-architectural-guardrails"><bdi class="secno">1. </bdi>Motivation and Architectural Guardrails</h2><a class="self-link" href="#H1" aria-label="Permalink for Section 1."></a></div>
+<section id="why-a-european-reference-architecture-for-local-digital-twins"><div class="header-wrapper"><h3 id="x1-1-why-a-european-reference-architecture-for-local-digital-twins"><bdi class="secno">1.1 </bdi>Why a European Reference Architecture for Local Digital Twins?</h3><a class="self-link" href="#why-a-european-reference-architecture-for-local-digital-twins" aria-label="Permalink for Section 1.1"></a></div>
 <p>Europe is witnessing rapid growth in the number of Local Digital Twin (LDT) initiatives. Cities, regions and public authorities increasingly use digital twins to support spatial planning, mobility management, climate adaptation, energy transition, infrastructure management and citizen engagement.
 While these initiatives share many common goals, they are often developed independently using different technologies, information models, governance arrangements and operational practices. This fragmentation limits the ability to reuse solutions, exchange information, collaborate across borders and create economies of scale.
 The LDT CitiVERSE EDIC was established to create a common European framework that enables Local Digital Twins to interoperate and evolve into a networked ecosystem. Rather than promoting a single platform or technology stack, the EDIC aims to establish a shared architectural foundation that allows independently developed solutions to work together, exchange services and build on common assets.</p>
@@ -332,7 +525,7 @@ The LDT CitiVERSE EDIC was established to create a common European framework tha
 <li>To support the creation of shared European infrastructure, services and knowledge that can be reused across Member States.</li>
 </ol>
 <p>The architecture recognises that innovation often occurs locally, while interoperability must be achieved globally.</p>
-</section><section id="from-digital-twins-to-a-network-of-digital-twins"><h3 id="x1-2-from-digital-twins-to-a-network-of-digital-twins"><bdi class="secno">1.2 </bdi>From Digital Twins to a Network of Digital Twins</h3>
+</section><section id="from-digital-twins-to-a-network-of-digital-twins"><div class="header-wrapper"><h3 id="x1-2-from-digital-twins-to-a-network-of-digital-twins"><bdi class="secno">1.2 </bdi>From Digital Twins to a Network of Digital Twins</h3><a class="self-link" href="#from-digital-twins-to-a-network-of-digital-twins" aria-label="Permalink for Section 1.2"></a></div>
 <p>Traditional digital twins are often designed as standalone solutions tailored to a specific domain or organisation. The LDT CitiVERSE vision moves beyond this approach.
 The long-term objective is to create a federated ecosystem of interoperable Local Digital Twins that can:</p>
 <ul>
@@ -344,13 +537,13 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 </ul>
 <p>This vision requires a common architectural approach that balances local autonomy with European interoperability.</p>
 <p>The architectural guardrails described in this chapter provide that balance.</p>
-</section><section id="architectural-guardrails"><h3 id="x1-3-architectural-guardrails"><bdi class="secno">1.3 </bdi>Architectural Guardrails</h3>
+</section><section id="architectural-guardrails"><div class="header-wrapper"><h3 id="x1-3-architectural-guardrails"><bdi class="secno">1.3 </bdi>Architectural Guardrails</h3><a class="self-link" href="#architectural-guardrails" aria-label="Permalink for Section 1.3"></a></div>
 <p>Architectural guardrails are a set of design principles that guide all architecture and implementation decisions within the LDT CitiVERSE ecosystem. Unlike detailed technical specifications, guardrails provide direction while leaving room for local implementation choices and innovation. These guardrails should be considered mandatory design objectives for all future reference patterns, building blocks and implementations.</p>
-<section id="g1-interoperability-by-design"><h4 id="x1-3-1-g1-interoperability-by-design"><bdi class="secno">1.3.1 </bdi>G1 – Interoperability by Design</h4>
+<section id="g1-interoperability-by-design"><div class="header-wrapper"><h4 id="x1-3-1-g1-interoperability-by-design"><bdi class="secno">1.3.1 </bdi>G1 – Interoperability by Design</h4><a class="self-link" href="#g1-interoperability-by-design" aria-label="Permalink for Section 1.3.1"></a></div>
 <p>Interoperability must be considered a primary design objective rather than an afterthought. Solutions should be designed from the outset to interact with external systems, organisations and communities through open interfaces and agreed standards.</p>
-<section id="rationale"><h5 id="x1-3-1-1-rationale"><bdi class="secno">1.3.1.1 </bdi>Rationale</h5>
+<section id="rationale"><div class="header-wrapper"><h5 id="x1-3-1-1-rationale"><bdi class="secno">1.3.1.1 </bdi>Rationale</h5><a class="self-link" href="#rationale" aria-label="Permalink for Section 1.3.1.1"></a></div>
 <p>Interoperability is the foundation upon which a network of Local Digital Twins can emerge.</p>
-</section><section id="implications"><h5 id="x1-3-1-2-implications"><bdi class="secno">1.3.1.2 </bdi>Implications</h5>
+</section><section id="implications"><div class="header-wrapper"><h5 id="x1-3-1-2-implications"><bdi class="secno">1.3.1.2 </bdi>Implications</h5><a class="self-link" href="#implications" aria-label="Permalink for Section 1.3.1.2"></a></div>
 <ul>
 <li>Open APIs are preferred over proprietary interfaces.</li>
 <li>Information exchange should rely on recognised standards.</li>
@@ -358,24 +551,24 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 <li>Components should be usable beyond their original implementation context.</li>
 <li>Although local implementations may opt for less interoperable options, the EDIC will only offer components that comply with this guardrails.</li>
 </ul>
-</section></section><section id="g2-federation-by-default"><h4 id="x1-3-2-g2-federation-by-default"><bdi class="secno">1.3.2 </bdi>G2 – Federation by Default</h4>
+</section></section><section id="g2-federation-by-default"><div class="header-wrapper"><h4 id="x1-3-2-g2-federation-by-default"><bdi class="secno">1.3.2 </bdi>G2 – Federation by Default</h4><a class="self-link" href="#g2-federation-by-default" aria-label="Permalink for Section 1.3.2"></a></div>
 <p>The architecture assumes a distributed ecosystem rather than a centralised platform.</p>
 <p>Data, services and governance responsibilities should remain as close as possible to their source while still participating in a wider network.</p>
-<section id="rationale-0"><h5 id="x1-3-2-1-rationale"><bdi class="secno">1.3.2.1 </bdi>Rationale</h5>
+<section id="rationale-0"><div class="header-wrapper"><h5 id="x1-3-2-1-rationale"><bdi class="secno">1.3.2.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-0" aria-label="Permalink for Section 1.3.2.1"></a></div>
 <p>Federation preserves autonomy while enabling collaboration at European scale.</p>
-</section><section id="implications-0"><h5 id="x1-3-2-2-implications"><bdi class="secno">1.3.2.2 </bdi>Implications</h5>
+</section><section id="implications-0"><div class="header-wrapper"><h5 id="x1-3-2-2-implications"><bdi class="secno">1.3.2.2 </bdi>Implications</h5><a class="self-link" href="#implications-0" aria-label="Permalink for Section 1.3.2.2"></a></div>
 <ul>
 <li>Data remains under local governance wherever possible.</li>
 <li>Services may be distributed across organisations.</li>
 <li>Multiple implementations can coexist.</li>
 <li>Shared infrastructure complements local infrastructure rather than replacing it.</li>
 </ul>
-</section></section><section id="g3-api-first"><h4 id="x1-3-3-g3-api-first"><bdi class="secno">1.3.3 </bdi>G3 – API First</h4>
+</section></section><section id="g3-api-first"><div class="header-wrapper"><h4 id="x1-3-3-g3-api-first"><bdi class="secno">1.3.3 </bdi>G3 – API First</h4><a class="self-link" href="#g3-api-first" aria-label="Permalink for Section 1.3.3"></a></div>
 <p>Capabilities should be exposed through well-defined APIs before user interfaces are considered.</p>
 <p>An API is not only a convenience for developers. It is the contract that decouples how information is stored from how it is exchanged. Clients should depend on that contract, not on the native language of the store, the query engine, or a particular vendor's platform.</p>
-<section id="rationale-1"><h5 id="x1-3-3-1-rationale"><bdi class="secno">1.3.3.1 </bdi>Rationale</h5>
+<section id="rationale-1"><div class="header-wrapper"><h5 id="x1-3-3-1-rationale"><bdi class="secno">1.3.3.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-1" aria-label="Permalink for Section 1.3.3.1"></a></div>
 <p>The architecture emphasises service ecosystems rather than monolithic applications. Practical interoperability across a network of Local Digital Twins is higher when partners share a stable, documented interface than when they must all adopt the same storage format or query language.</p>
-</section><section id="implications-1"><h5 id="x1-3-3-2-implications"><bdi class="secno">1.3.3.2 </bdi>Implications</h5>
+</section><section id="implications-1"><div class="header-wrapper"><h5 id="x1-3-3-2-implications"><bdi class="secno">1.3.3.2 </bdi>Implications</h5><a class="self-link" href="#implications-1" aria-label="Permalink for Section 1.3.3.2"></a></div>
 <ul>
 <li>Services are reusable across multiple applications.</li>
 <li>Automation becomes easier.</li>
@@ -384,23 +577,23 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 <li>Storage format, transport format and query language are allowed to differ.</li>
 <li>The public interface of a building block is a documented API, not a direct handle on the database or triple store.</li>
 </ul>
-</section></section><section id="g4-reuse-before-build"><h4 id="x1-3-4-g4-reuse-before-build"><bdi class="secno">1.3.4 </bdi>G4 – Reuse Before Build</h4>
+</section></section><section id="g4-reuse-before-build"><div class="header-wrapper"><h4 id="x1-3-4-g4-reuse-before-build"><bdi class="secno">1.3.4 </bdi>G4 – Reuse Before Build</h4><a class="self-link" href="#g4-reuse-before-build" aria-label="Permalink for Section 1.3.4"></a></div>
 <p>Before creating a new component, architects and implementers should determine whether an existing capability, service, standard or building block can be reused.</p>
-<section id="rationale-2"><h5 id="x1-3-4-1-rationale"><bdi class="secno">1.3.4.1 </bdi>Rationale</h5>
+<section id="rationale-2"><div class="header-wrapper"><h5 id="x1-3-4-1-rationale"><bdi class="secno">1.3.4.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-2" aria-label="Permalink for Section 1.3.4.1"></a></div>
 <p>The EDIC exists to create economies of scale and scope through reuse.</p>
-</section><section id="implications-2"><h5 id="x1-3-4-2-implications"><bdi class="secno">1.3.4.2 </bdi>Implications</h5>
+</section><section id="implications-2"><div class="header-wrapper"><h5 id="x1-3-4-2-implications"><bdi class="secno">1.3.4.2 </bdi>Implications</h5><a class="self-link" href="#implications-2" aria-label="Permalink for Section 1.3.4.2"></a></div>
 <ul>
 <li>Preference for shared services.</li>
 <li>Preference for common building blocks.</li>
 <li>Preference for existing European assets.</li>
 <li>Avoidance of unnecessary duplication.</li>
 </ul>
-</section></section><section id="g5-semantic-interoperability-first"><h4 id="x1-3-5-g5-semantic-interoperability-first"><bdi class="secno">1.3.5 </bdi>G5 – Semantic Interoperability First</h4>
+</section></section><section id="g5-semantic-interoperability-first"><div class="header-wrapper"><h4 id="x1-3-5-g5-semantic-interoperability-first"><bdi class="secno">1.3.5 </bdi>G5 – Semantic Interoperability First</h4><a class="self-link" href="#g5-semantic-interoperability-first" aria-label="Permalink for Section 1.3.5"></a></div>
 <p>Systems should exchange meaningful information rather than simply exchanging data.</p>
 <p>A shared understanding of concepts, relationships and context is required to support collaboration across domains and countries.</p>
-<section id="rationale-3"><h5 id="x1-3-5-1-rationale"><bdi class="secno">1.3.5.1 </bdi>Rationale</h5>
+<section id="rationale-3"><div class="header-wrapper"><h5 id="x1-3-5-1-rationale"><bdi class="secno">1.3.5.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-3" aria-label="Permalink for Section 1.3.5.1"></a></div>
 <p>Without semantic interoperability, technical interoperability alone provides limited value.</p>
-</section><section id="implications-3"><h5 id="x1-3-5-2-implications"><bdi class="secno">1.3.5.2 </bdi>Implications</h5>
+</section><section id="implications-3"><div class="header-wrapper"><h5 id="x1-3-5-2-implications"><bdi class="secno">1.3.5.2 </bdi>Implications</h5><a class="self-link" href="#implications-3" aria-label="Permalink for Section 1.3.5.2"></a></div>
 <ul>
 <li>Use of shared vocabularies.</li>
 <li>Use of semantic technologies where appropriate.</li>
@@ -409,11 +602,11 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 <li>Semantic assets (vocabularies, ontologies, profiles) travel with the API contract. They do not require every client to query a knowledge graph in its native language.</li>
 </ul>
 <hr>
-</section></section><section id="g6-open-standards-before-proprietary-solutions"><h4 id="x1-3-6-g6-open-standards-before-proprietary-solutions"><bdi class="secno">1.3.6 </bdi>G6 – Open Standards Before Proprietary Solutions</h4>
+</section></section><section id="g6-open-standards-before-proprietary-solutions"><div class="header-wrapper"><h4 id="x1-3-6-g6-open-standards-before-proprietary-solutions"><bdi class="secno">1.3.6 </bdi>G6 – Open Standards Before Proprietary Solutions</h4><a class="self-link" href="#g6-open-standards-before-proprietary-solutions" aria-label="Permalink for Section 1.3.6"></a></div>
 <p>The architecture promotes the adoption of open and internationally recognised standards.</p>
-<section id="rationale-4"><h5 id="x1-3-6-1-rationale"><bdi class="secno">1.3.6.1 </bdi>Rationale</h5>
+<section id="rationale-4"><div class="header-wrapper"><h5 id="x1-3-6-1-rationale"><bdi class="secno">1.3.6.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-4" aria-label="Permalink for Section 1.3.6.1"></a></div>
 <p>Open standards reduce barriers to participation and strengthen long-term sustainability.</p>
-</section><section id="implications-4"><h5 id="x1-3-6-2-implications"><bdi class="secno">1.3.6.2 </bdi>Implications</h5>
+</section><section id="implications-4"><div class="header-wrapper"><h5 id="x1-3-6-2-implications"><bdi class="secno">1.3.6.2 </bdi>Implications</h5><a class="self-link" href="#implications-4" aria-label="Permalink for Section 1.3.6.2"></a></div>
 <ul>
 <li>Preference for standards-based interfaces.</li>
 <li>Preference for open information models.</li>
@@ -421,46 +614,46 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 <li>Easier integration between solutions.</li>
 </ul>
 <hr>
-</section></section><section id="g7-data-as-a-shared-asset"><h4 id="x1-3-7-g7-data-as-a-shared-asset"><bdi class="secno">1.3.7 </bdi>G7 – Data as a Shared Asset</h4>
+</section></section><section id="g7-data-as-a-shared-asset"><div class="header-wrapper"><h4 id="x1-3-7-g7-data-as-a-shared-asset"><bdi class="secno">1.3.7 </bdi>G7 – Data as a Shared Asset</h4><a class="self-link" href="#g7-data-as-a-shared-asset" aria-label="Permalink for Section 1.3.7"></a></div>
 <p>Data should be treated as a strategic asset that can be reused across multiple use cases while respecting governance, privacy and intellectual property constraints.</p>
-<section id="rationale-5"><h5 id="x1-3-7-1-rationale"><bdi class="secno">1.3.7.1 </bdi>Rationale</h5>
+<section id="rationale-5"><div class="header-wrapper"><h5 id="x1-3-7-1-rationale"><bdi class="secno">1.3.7.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-5" aria-label="Permalink for Section 1.3.7.1"></a></div>
 <p>The value of Local Digital Twins depends on the quality and availability of the data they use.</p>
-</section><section id="implications-5"><h5 id="x1-3-7-2-implications"><bdi class="secno">1.3.7.2 </bdi>Implications</h5>
+</section><section id="implications-5"><div class="header-wrapper"><h5 id="x1-3-7-2-implications"><bdi class="secno">1.3.7.2 </bdi>Implications</h5><a class="self-link" href="#implications-5" aria-label="Permalink for Section 1.3.7.2"></a></div>
 <ul>
 <li>Data should be discoverable.</li>
 <li>Metadata should be published.</li>
 <li>Provenance should be traceable.</li>
 <li>Data should follow FAIR principles where possible.</li>
 </ul>
-</section></section><section id="g8-human-centred-digital-twins"><h4 id="x1-3-8-g8-human-centred-digital-twins"><bdi class="secno">1.3.8 </bdi>G8 – Human-Centred Digital Twins</h4>
+</section></section><section id="g8-human-centred-digital-twins"><div class="header-wrapper"><h4 id="x1-3-8-g8-human-centred-digital-twins"><bdi class="secno">1.3.8 </bdi>G8 – Human-Centred Digital Twins</h4><a class="self-link" href="#g8-human-centred-digital-twins" aria-label="Permalink for Section 1.3.8"></a></div>
 <p>Technology exists to support people, communities and decision-makers.</p>
 <p>The success of a Local Digital Twin should not be measured solely by technical sophistication but by its contribution to better decisions and outcomes.</p>
-<section id="rationale-6"><h5 id="x1-3-8-1-rationale"><bdi class="secno">1.3.8.1 </bdi>Rationale</h5>
+<section id="rationale-6"><div class="header-wrapper"><h5 id="x1-3-8-1-rationale"><bdi class="secno">1.3.8.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-6" aria-label="Permalink for Section 1.3.8.1"></a></div>
 <p>Digital Twins are tools for people, not ends in themselves.</p>
-</section><section id="implications-6"><h5 id="x1-3-8-2-implications"><bdi class="secno">1.3.8.2 </bdi>Implications</h5>
+</section><section id="implications-6"><div class="header-wrapper"><h5 id="x1-3-8-2-implications"><bdi class="secno">1.3.8.2 </bdi>Implications</h5><a class="self-link" href="#implications-6" aria-label="Permalink for Section 1.3.8.2"></a></div>
 <ul>
 <li>Focus on user needs.</li>
 <li>Support transparency and explainability.</li>
 <li>Enable participation.</li>
 <li>Promote accessibility and inclusiveness.</li>
 </ul>
-</section></section><section id="g9-trust-privacy-and-security-by-design"><h4 id="x1-3-9-g9-trust-privacy-and-security-by-design"><bdi class="secno">1.3.9 </bdi>G9 – Trust, Privacy and Security by Design</h4>
+</section></section><section id="g9-trust-privacy-and-security-by-design"><div class="header-wrapper"><h4 id="x1-3-9-g9-trust-privacy-and-security-by-design"><bdi class="secno">1.3.9 </bdi>G9 – Trust, Privacy and Security by Design</h4><a class="self-link" href="#g9-trust-privacy-and-security-by-design" aria-label="Permalink for Section 1.3.9"></a></div>
 <p>Trust is essential for collaboration across organisations and borders.</p>
 <p>Security and privacy considerations must therefore be integrated into every layer of the architecture.</p>
-<section id="rationale-7"><h5 id="x1-3-9-1-rationale"><bdi class="secno">1.3.9.1 </bdi>Rationale</h5>
+<section id="rationale-7"><div class="header-wrapper"><h5 id="x1-3-9-1-rationale"><bdi class="secno">1.3.9.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-7" aria-label="Permalink for Section 1.3.9.1"></a></div>
 <p>Trust is a prerequisite for sharing data, services and infrastructure.</p>
-</section><section id="implications-7"><h5 id="x1-3-9-2-implications"><bdi class="secno">1.3.9.2 </bdi>Implications</h5>
+</section><section id="implications-7"><div class="header-wrapper"><h5 id="x1-3-9-2-implications"><bdi class="secno">1.3.9.2 </bdi>Implications</h5><a class="self-link" href="#implications-7" aria-label="Permalink for Section 1.3.9.2"></a></div>
 <ul>
 <li>Secure-by-design implementations.</li>
 <li>Strong identity and access management.</li>
 <li>Data protection compliance.</li>
 <li>Transparent governance arrangements.</li>
 </ul>
-</section></section><section id="g10-technology-independence"><h4 id="x1-3-10-g10-technology-independence"><bdi class="secno">1.3.10 </bdi>G10 – Technology Independence</h4>
+</section></section><section id="g10-technology-independence"><div class="header-wrapper"><h4 id="x1-3-10-g10-technology-independence"><bdi class="secno">1.3.10 </bdi>G10 – Technology Independence</h4><a class="self-link" href="#g10-technology-independence" aria-label="Permalink for Section 1.3.10"></a></div>
 <p>The architecture should avoid prescribing specific vendors, products or deployment environments.</p>
-<section id="rationale-8"><h5 id="x1-3-10-1-rationale"><bdi class="secno">1.3.10.1 </bdi>Rationale</h5>
+<section id="rationale-8"><div class="header-wrapper"><h5 id="x1-3-10-1-rationale"><bdi class="secno">1.3.10.1 </bdi>Rationale</h5><a class="self-link" href="#rationale-8" aria-label="Permalink for Section 1.3.10.1"></a></div>
 <p>The architecture should remain relevant despite changing technologies.</p>
-</section><section id="implications-8"><h5 id="x1-3-10-2-implications"><bdi class="secno">1.3.10.2 </bdi>Implications</h5>
+</section><section id="implications-8"><div class="header-wrapper"><h5 id="x1-3-10-2-implications"><bdi class="secno">1.3.10.2 </bdi>Implications</h5><a class="self-link" href="#implications-8" aria-label="Permalink for Section 1.3.10.2"></a></div>
 <ul>
 <li>Infrastructure portability.</li>
 <li>Cloud neutrality.</li>
@@ -469,14 +662,14 @@ The long-term objective is to create a federated ecosystem of interoperable Loca
 <li>Public interfaces specified as API contracts, so storage engines and query languages can be replaced without rewriting clients.</li>
 </ul>
 </section></section></section></section>
-   <section id="H2"><h2 id="x2-strategy"><bdi class="secno">2. </bdi>Strategy</h2>
-<section id="overview"><h3 id="x2-1-overview"><bdi class="secno">2.1 </bdi>Overview</h3>
+   <section id="H2"><div class="header-wrapper"><h2 id="x2-strategy"><bdi class="secno">2. </bdi>Strategy</h2><a class="self-link" href="#H2" aria-label="Permalink for Section 2."></a></div>
+<section id="overview"><div class="header-wrapper"><h3 id="x2-1-overview"><bdi class="secno">2.1 </bdi>Overview</h3><a class="self-link" href="#overview" aria-label="Permalink for Section 2.1"></a></div>
 <p>The LDT CitiVERSE reference architecture is organised around a number of <strong>capabilities.</strong> A Local Digital Twin (LDT) is not a single application. It is a composition of interoperable capabilities that together enable cities and regions to integrate data, generate knowledge, support decisions and act on real-world situations.
 The architecture is structured around a central <strong>value stream</strong> — the LDT / Data Value Stream — which represents the progression from data integration to actionable outcomes. This value stream is supported by both technical and community enablement capabilities.
 LDT CitiVERSE capabilities are grounded in the broader eGovERA capability framework, which provides the European public-sector architecture context for Digital Twin, Knowledge Management, Data Management and Artificial Intelligence.</p>
-</section><section id="ldt-data-value-stream"><h3 id="x2-2-ldt-data-value-stream"><bdi class="secno">2.2 </bdi>LDT / Data Value Stream</h3>
+</section><section id="ldt-data-value-stream"><div class="header-wrapper"><h3 id="x2-2-ldt-data-value-stream"><bdi class="secno">2.2 </bdi>LDT / Data Value Stream</h3><a class="self-link" href="#ldt-data-value-stream" aria-label="Permalink for Section 2.2"></a></div>
 <img src="./media/ldt-value-stream.png" alt="LDT Value Stream" width="800"><p>The LDT / Data Value Stream defines how a Local Digital Twin creates value. </p>
-</section><section id="ldt-citiverse-capabilities"><h3 id="x2-3-ldt-citiverse-capabilities"><bdi class="secno">2.3 </bdi>LDT CitiVERSE Capabilities</h3>
+</section><section id="ldt-citiverse-capabilities"><div class="header-wrapper"><h3 id="x2-3-ldt-citiverse-capabilities"><bdi class="secno">2.3 </bdi>LDT CitiVERSE Capabilities</h3><a class="self-link" href="#ldt-citiverse-capabilities" aria-label="Permalink for Section 2.3"></a></div>
 <p>The value stream consists of four sequential capability stages:</p>
 <ol>
 <li><p><strong>Digital Foundation / Integration</strong>
@@ -502,9 +695,9 @@ Adoption support, knowledge sharing and community building</p>
 </li>
 </ol>
 <p>These capabilities together define what the LDT CitiVERSE ecosystem must provide to cities, regions and their partners.</p>
-</section><section id="types-of-local-digital-twins"><h3 id="x2-4-types-of-local-digital-twins"><bdi class="secno">2.4 </bdi>Types of Local Digital Twins</h3>
+</section><section id="types-of-local-digital-twins"><div class="header-wrapper"><h3 id="x2-4-types-of-local-digital-twins"><bdi class="secno">2.4 </bdi>Types of Local Digital Twins</h3><a class="self-link" href="#types-of-local-digital-twins" aria-label="Permalink for Section 2.4"></a></div>
 <p>Local Digital Twins are categorised by their level of analytical and decision-support maturity. Each type builds on the capabilities of the preceding type. The main premise is that not all implementations need the same type of LDT, depending on the requirements the right type of LDT should be implemented. Also an organisation will likely have multiple LDT's for different projects in different lifecycle stages. While they should be based on the same common core components, the specific type needs to be tailored to the needed requirements.</p>
-<section id="conformance-profiles"><h4 id="x2-4-1-conformance-profiles"><bdi class="secno">2.4.1 </bdi>Conformance Profiles</h4>
+<section id="conformance-profiles"><div class="header-wrapper"><h4 id="x2-4-1-conformance-profiles"><bdi class="secno">2.4.1 </bdi>Conformance Profiles</h4><a class="self-link" href="#conformance-profiles" aria-label="Permalink for Section 2.4.1"></a></div>
 <p>Not every Local Digital Twin requires the same capabilities, level of sophistication, or operational complexity.</p>
 <p>The LDT CitiVERSE Reference Architecture therefore defines a series of <strong>Conformance Profiles</strong>. These profiles establish a common understanding of the minimum capabilities that an implementation must provide in order to be considered a specific type of Local Digital Twin.</p>
 <p>The profiles serve several purposes:</p>
@@ -516,15 +709,15 @@ Adoption support, knowledge sharing and community building</p>
 <li>Provide a roadmap for the gradual evolution of Local Digital Twin implementations.</li>
 </ul>
 <p>The profiles are cumulative: each profile builds upon the capabilities of the previous profile.</p>
-<section id="common-foundation-requirements"><h5 id="x2-4-1-1-common-foundation-requirements"><bdi class="secno">2.4.1.1 </bdi>Common Foundation Requirements</h5>
+<section id="common-foundation-requirements"><div class="header-wrapper"><h5 id="x2-4-1-1-common-foundation-requirements"><bdi class="secno">2.4.1.1 </bdi>Common Foundation Requirements</h5><a class="self-link" href="#common-foundation-requirements" aria-label="Permalink for Section 2.4.1.1"></a></div>
 <p>All Local Digital Twins participating in the LDT CitiVERSE ecosystem must provide a common foundation that supports interoperability and collaboration.</p>
-</section><section id="mandatory-capabilities"><h5 id="x2-4-1-2-mandatory-capabilities"><bdi class="secno">2.4.1.2 </bdi>Mandatory Capabilities</h5>
+</section><section id="mandatory-capabilities"><div class="header-wrapper"><h5 id="x2-4-1-2-mandatory-capabilities"><bdi class="secno">2.4.1.2 </bdi>Mandatory Capabilities</h5><a class="self-link" href="#mandatory-capabilities" aria-label="Permalink for Section 2.4.1.2"></a></div>
 <ul>
 <li>Digital Foundation / Integration</li>
 <li>Technical Enablement</li>
 <li>Community Enablement</li>
 </ul>
-</section><section id="mandatory-characteristics"><h5 id="x2-4-1-3-mandatory-characteristics"><bdi class="secno">2.4.1.3 </bdi>Mandatory Characteristics</h5>
+</section><section id="mandatory-characteristics"><div class="header-wrapper"><h5 id="x2-4-1-3-mandatory-characteristics"><bdi class="secno">2.4.1.3 </bdi>Mandatory Characteristics</h5><a class="self-link" href="#mandatory-characteristics" aria-label="Permalink for Section 2.4.1.3"></a></div>
 <ul>
 <li>Standards-based APIs</li>
 <li>Metadata publication and discovery</li>
@@ -534,14 +727,14 @@ Adoption support, knowledge sharing and community building</p>
 <li>Participation in federated discovery mechanisms</li>
 </ul>
 <p>These requirements represent the minimum baseline for participation in the LDT CitiVERSE ecosystem.</p>
-</section></section><section id="profile-1-descriptive-ldt"><h4 id="x2-4-2-profile-1-descriptive-ldt"><bdi class="secno">2.4.2 </bdi>Profile 1 – Descriptive LDT</h4>
-<section id="purpose"><h5 id="x2-4-2-1-purpose"><bdi class="secno">2.4.2.1 </bdi>Purpose</h5>
+</section></section><section id="profile-1-descriptive-ldt"><div class="header-wrapper"><h4 id="x2-4-2-profile-1-descriptive-ldt"><bdi class="secno">2.4.2 </bdi>Profile 1 – Descriptive LDT</h4><a class="self-link" href="#profile-1-descriptive-ldt" aria-label="Permalink for Section 2.4.2"></a></div>
+<section id="purpose"><div class="header-wrapper"><h5 id="x2-4-2-1-purpose"><bdi class="secno">2.4.2.1 </bdi>Purpose</h5><a class="self-link" href="#purpose" aria-label="Permalink for Section 2.4.2.1"></a></div>
 <p>A Descriptive LDT provides a real-time or near-real-time representation of the current state of an asset, area, system or environment.</p>
-</section><section id="primary-question"><h5 id="x2-4-2-2-primary-question"><bdi class="secno">2.4.2.2 </bdi>Primary Question</h5>
+</section><section id="primary-question"><div class="header-wrapper"><h5 id="x2-4-2-2-primary-question"><bdi class="secno">2.4.2.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question" aria-label="Permalink for Section 2.4.2.2"></a></div>
 <blockquote>
 <p>What is happening?</p>
 </blockquote>
-</section><section id="required-capabilities"><h5 id="x2-4-2-3-required-capabilities"><bdi class="secno">2.4.2.3 </bdi>Required Capabilities</h5>
+</section><section id="required-capabilities"><div class="header-wrapper"><h5 id="x2-4-2-3-required-capabilities"><bdi class="secno">2.4.2.3 </bdi>Required Capabilities</h5><a class="self-link" href="#required-capabilities" aria-label="Permalink for Section 2.4.2.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -570,7 +763,7 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks"><h5 id="x2-4-2-4-typical-building-blocks"><bdi class="secno">2.4.2.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks"><div class="header-wrapper"><h5 id="x2-4-2-4-typical-building-blocks"><bdi class="secno">2.4.2.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks" aria-label="Permalink for Section 2.4.2.4"></a></div>
 <ul>
 <li>Data Catalogue</li>
 <li>Data Store</li>
@@ -579,21 +772,21 @@ Adoption support, knowledge sharing and community building</p>
 <li>Map Viewers</li>
 <li>Sensor Integration Services</li>
 </ul>
-</section><section id="typical-outputs"><h5 id="x2-4-2-5-typical-outputs"><bdi class="secno">2.4.2.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs"><div class="header-wrapper"><h5 id="x2-4-2-5-typical-outputs"><bdi class="secno">2.4.2.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs" aria-label="Permalink for Section 2.4.2.5"></a></div>
 <ul>
 <li>Operational dashboards</li>
 <li>Current status views</li>
 <li>Situation awareness</li>
 <li>Shared operational picture</li>
 </ul>
-</section></section><section id="profile-2-diagnostic-ldt"><h4 id="x2-4-3-profile-2-diagnostic-ldt"><bdi class="secno">2.4.3 </bdi>Profile 2 – Diagnostic LDT</h4>
-<section id="purpose-0"><h5 id="x2-4-3-1-purpose"><bdi class="secno">2.4.3.1 </bdi>Purpose</h5>
+</section></section><section id="profile-2-diagnostic-ldt"><div class="header-wrapper"><h4 id="x2-4-3-profile-2-diagnostic-ldt"><bdi class="secno">2.4.3 </bdi>Profile 2 – Diagnostic LDT</h4><a class="self-link" href="#profile-2-diagnostic-ldt" aria-label="Permalink for Section 2.4.3"></a></div>
+<section id="purpose-0"><div class="header-wrapper"><h5 id="x2-4-3-1-purpose"><bdi class="secno">2.4.3.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-0" aria-label="Permalink for Section 2.4.3.1"></a></div>
 <p>A Diagnostic LDT explains observed conditions and identifies underlying causes.</p>
-</section><section id="primary-question-0"><h5 id="x2-4-3-2-primary-question"><bdi class="secno">2.4.3.2 </bdi>Primary Question</h5>
+</section><section id="primary-question-0"><div class="header-wrapper"><h5 id="x2-4-3-2-primary-question"><bdi class="secno">2.4.3.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question-0" aria-label="Permalink for Section 2.4.3.2"></a></div>
 <blockquote>
 <p>Why is it happening?</p>
 </blockquote>
-</section><section id="additional-required-capabilities"><h5 id="x2-4-3-3-additional-required-capabilities"><bdi class="secno">2.4.3.3 </bdi>Additional Required Capabilities</h5>
+</section><section id="additional-required-capabilities"><div class="header-wrapper"><h5 id="x2-4-3-3-additional-required-capabilities"><bdi class="secno">2.4.3.3 </bdi>Additional Required Capabilities</h5><a class="self-link" href="#additional-required-capabilities" aria-label="Permalink for Section 2.4.3.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -618,7 +811,7 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks-0"><h5 id="x2-4-3-4-typical-building-blocks"><bdi class="secno">2.4.3.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-0"><div class="header-wrapper"><h5 id="x2-4-3-4-typical-building-blocks"><bdi class="secno">2.4.3.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-0" aria-label="Permalink for Section 2.4.3.4"></a></div>
 <ul>
 <li>Analytics Services</li>
 <li>Monitoring Services</li>
@@ -626,21 +819,21 @@ Adoption support, knowledge sharing and community building</p>
 <li>Event Processing Services</li>
 <li>Knowledge Graph Services</li>
 </ul>
-</section><section id="typical-outputs-0"><h5 id="x2-4-3-5-typical-outputs"><bdi class="secno">2.4.3.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs-0"><div class="header-wrapper"><h5 id="x2-4-3-5-typical-outputs"><bdi class="secno">2.4.3.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs-0" aria-label="Permalink for Section 2.4.3.5"></a></div>
 <ul>
 <li>Root-cause analysis</li>
 <li>Performance diagnostics</li>
 <li>Explanatory insights</li>
 <li>Operational intelligence</li>
 </ul>
-</section></section><section id="profile-3-predictive-ldt"><h4 id="x2-4-4-profile-3-predictive-ldt"><bdi class="secno">2.4.4 </bdi>Profile 3 – Predictive LDT</h4>
-<section id="purpose-1"><h5 id="x2-4-4-1-purpose"><bdi class="secno">2.4.4.1 </bdi>Purpose</h5>
+</section></section><section id="profile-3-predictive-ldt"><div class="header-wrapper"><h4 id="x2-4-4-profile-3-predictive-ldt"><bdi class="secno">2.4.4 </bdi>Profile 3 – Predictive LDT</h4><a class="self-link" href="#profile-3-predictive-ldt" aria-label="Permalink for Section 2.4.4"></a></div>
+<section id="purpose-1"><div class="header-wrapper"><h5 id="x2-4-4-1-purpose"><bdi class="secno">2.4.4.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-1" aria-label="Permalink for Section 2.4.4.1"></a></div>
 <p>A Predictive LDT forecasts future conditions using historical and real-time information.</p>
-</section><section id="primary-question-1"><h5 id="x2-4-4-2-primary-question"><bdi class="secno">2.4.4.2 </bdi>Primary Question</h5>
+</section><section id="primary-question-1"><div class="header-wrapper"><h5 id="x2-4-4-2-primary-question"><bdi class="secno">2.4.4.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question-1" aria-label="Permalink for Section 2.4.4.2"></a></div>
 <blockquote>
 <p>What is likely to happen?</p>
 </blockquote>
-</section><section id="additional-required-capabilities-0"><h5 id="x2-4-4-3-additional-required-capabilities"><bdi class="secno">2.4.4.3 </bdi>Additional Required Capabilities</h5>
+</section><section id="additional-required-capabilities-0"><div class="header-wrapper"><h5 id="x2-4-4-3-additional-required-capabilities"><bdi class="secno">2.4.4.3 </bdi>Additional Required Capabilities</h5><a class="self-link" href="#additional-required-capabilities-0" aria-label="Permalink for Section 2.4.4.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -665,28 +858,28 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks-1"><h5 id="x2-4-4-4-typical-building-blocks"><bdi class="secno">2.4.4.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-1"><div class="header-wrapper"><h5 id="x2-4-4-4-typical-building-blocks"><bdi class="secno">2.4.4.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-1" aria-label="Permalink for Section 2.4.4.4"></a></div>
 <ul>
 <li>Forecasting Services</li>
 <li>Machine Learning Models</li>
 <li>Simulation Engines</li>
 <li>Scenario Data Services</li>
 </ul>
-</section><section id="typical-outputs-1"><h5 id="x2-4-4-5-typical-outputs"><bdi class="secno">2.4.4.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs-1"><div class="header-wrapper"><h5 id="x2-4-4-5-typical-outputs"><bdi class="secno">2.4.4.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs-1" aria-label="Permalink for Section 2.4.4.5"></a></div>
 <ul>
 <li>Forecasts</li>
 <li>Trend predictions</li>
 <li>Early-warning indicators</li>
 <li>Impact forecasts</li>
 </ul>
-</section></section><section id="profile-4-prospective-ldt"><h4 id="x2-4-5-profile-4-prospective-ldt"><bdi class="secno">2.4.5 </bdi>Profile 4 – Prospective LDT</h4>
-<section id="purpose-2"><h5 id="x2-4-5-1-purpose"><bdi class="secno">2.4.5.1 </bdi>Purpose</h5>
+</section></section><section id="profile-4-prospective-ldt"><div class="header-wrapper"><h4 id="x2-4-5-profile-4-prospective-ldt"><bdi class="secno">2.4.5 </bdi>Profile 4 – Prospective LDT</h4><a class="self-link" href="#profile-4-prospective-ldt" aria-label="Permalink for Section 2.4.5"></a></div>
+<section id="purpose-2"><div class="header-wrapper"><h5 id="x2-4-5-1-purpose"><bdi class="secno">2.4.5.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-2" aria-label="Permalink for Section 2.4.5.1"></a></div>
 <p>A Prospective LDT evaluates alternative futures by exploring the consequences of potential interventions before they are applied.</p>
-</section><section id="primary-question-2"><h5 id="x2-4-5-2-primary-question"><bdi class="secno">2.4.5.2 </bdi>Primary Question</h5>
+</section><section id="primary-question-2"><div class="header-wrapper"><h5 id="x2-4-5-2-primary-question"><bdi class="secno">2.4.5.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question-2" aria-label="Permalink for Section 2.4.5.2"></a></div>
 <blockquote>
 <p>What would happen if we acted?</p>
 </blockquote>
-</section><section id="additional-required-capabilities-1"><h5 id="x2-4-5-3-additional-required-capabilities"><bdi class="secno">2.4.5.3 </bdi>Additional Required Capabilities</h5>
+</section><section id="additional-required-capabilities-1"><div class="header-wrapper"><h5 id="x2-4-5-3-additional-required-capabilities"><bdi class="secno">2.4.5.3 </bdi>Additional Required Capabilities</h5><a class="self-link" href="#additional-required-capabilities-1" aria-label="Permalink for Section 2.4.5.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -711,28 +904,28 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks-2"><h5 id="x2-4-5-4-typical-building-blocks"><bdi class="secno">2.4.5.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-2"><div class="header-wrapper"><h5 id="x2-4-5-4-typical-building-blocks"><bdi class="secno">2.4.5.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-2" aria-label="Permalink for Section 2.4.5.4"></a></div>
 <ul>
 <li>Computational Models</li>
 <li>Scenario Engines</li>
 <li>Model Orchestration Services</li>
 <li>Intervention Analysis Services</li>
 </ul>
-</section><section id="typical-outputs-2"><h5 id="x2-4-5-5-typical-outputs"><bdi class="secno">2.4.5.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs-2"><div class="header-wrapper"><h5 id="x2-4-5-5-typical-outputs"><bdi class="secno">2.4.5.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs-2" aria-label="Permalink for Section 2.4.5.5"></a></div>
 <ul>
 <li>Scenario comparisons</li>
 <li>Impact assessments</li>
 <li>Alternative futures</li>
 <li>Policy evaluation</li>
 </ul>
-</section></section><section id="profile-5-prescriptive-ldt"><h4 id="x2-4-6-profile-5-prescriptive-ldt"><bdi class="secno">2.4.6 </bdi>Profile 5 – Prescriptive LDT</h4>
-<section id="purpose-3"><h5 id="x2-4-6-1-purpose"><bdi class="secno">2.4.6.1 </bdi>Purpose</h5>
+</section></section><section id="profile-5-prescriptive-ldt"><div class="header-wrapper"><h4 id="x2-4-6-profile-5-prescriptive-ldt"><bdi class="secno">2.4.6 </bdi>Profile 5 – Prescriptive LDT</h4><a class="self-link" href="#profile-5-prescriptive-ldt" aria-label="Permalink for Section 2.4.6"></a></div>
+<section id="purpose-3"><div class="header-wrapper"><h5 id="x2-4-6-1-purpose"><bdi class="secno">2.4.6.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-3" aria-label="Permalink for Section 2.4.6.1"></a></div>
 <p>A Prescriptive LDT recommends actions based on data, models and simulated outcomes.</p>
-</section><section id="primary-question-3"><h5 id="x2-4-6-2-primary-question"><bdi class="secno">2.4.6.2 </bdi>Primary Question</h5>
+</section><section id="primary-question-3"><div class="header-wrapper"><h5 id="x2-4-6-2-primary-question"><bdi class="secno">2.4.6.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question-3" aria-label="Permalink for Section 2.4.6.2"></a></div>
 <blockquote>
 <p>What should we do?</p>
 </blockquote>
-</section><section id="additional-required-capabilities-2"><h5 id="x2-4-6-3-additional-required-capabilities"><bdi class="secno">2.4.6.3 </bdi>Additional Required Capabilities</h5>
+</section><section id="additional-required-capabilities-2"><div class="header-wrapper"><h5 id="x2-4-6-3-additional-required-capabilities"><bdi class="secno">2.4.6.3 </bdi>Additional Required Capabilities</h5><a class="self-link" href="#additional-required-capabilities-2" aria-label="Permalink for Section 2.4.6.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -757,28 +950,28 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks-3"><h5 id="x2-4-6-4-typical-building-blocks"><bdi class="secno">2.4.6.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-3"><div class="header-wrapper"><h5 id="x2-4-6-4-typical-building-blocks"><bdi class="secno">2.4.6.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-3" aria-label="Permalink for Section 2.4.6.4"></a></div>
 <ul>
 <li>Decision Support Systems</li>
 <li>Optimisation Engines</li>
 <li>Recommendation Services</li>
 <li>Policy Evaluation Services</li>
 </ul>
-</section><section id="typical-outputs-3"><h5 id="x2-4-6-5-typical-outputs"><bdi class="secno">2.4.6.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs-3"><div class="header-wrapper"><h5 id="x2-4-6-5-typical-outputs"><bdi class="secno">2.4.6.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs-3" aria-label="Permalink for Section 2.4.6.5"></a></div>
 <ul>
 <li>Ranked interventions</li>
 <li>Action recommendations</li>
 <li>Resource optimisation</li>
 <li>Decision support products</li>
 </ul>
-</section></section><section id="profile-6-autonomous-ldt"><h4 id="x2-4-7-profile-6-autonomous-ldt"><bdi class="secno">2.4.7 </bdi>Profile 6 – Autonomous LDT</h4>
-<section id="purpose-4"><h5 id="x2-4-7-1-purpose"><bdi class="secno">2.4.7.1 </bdi>Purpose</h5>
+</section></section><section id="profile-6-autonomous-ldt"><div class="header-wrapper"><h4 id="x2-4-7-profile-6-autonomous-ldt"><bdi class="secno">2.4.7 </bdi>Profile 6 – Autonomous LDT</h4><a class="self-link" href="#profile-6-autonomous-ldt" aria-label="Permalink for Section 2.4.7"></a></div>
+<section id="purpose-4"><div class="header-wrapper"><h5 id="x2-4-7-1-purpose"><bdi class="secno">2.4.7.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-4" aria-label="Permalink for Section 2.4.7.1"></a></div>
 <p>An Autonomous LDT continuously evaluates situations and can automatically execute or propose interventions within agreed governance constraints.</p>
-</section><section id="primary-question-4"><h5 id="x2-4-7-2-primary-question"><bdi class="secno">2.4.7.2 </bdi>Primary Question</h5>
+</section><section id="primary-question-4"><div class="header-wrapper"><h5 id="x2-4-7-2-primary-question"><bdi class="secno">2.4.7.2 </bdi>Primary Question</h5><a class="self-link" href="#primary-question-4" aria-label="Permalink for Section 2.4.7.2"></a></div>
 <blockquote>
 <p>What is the right action and how can it be implemented?</p>
 </blockquote>
-</section><section id="additional-required-capabilities-3"><h5 id="x2-4-7-3-additional-required-capabilities"><bdi class="secno">2.4.7.3 </bdi>Additional Required Capabilities</h5>
+</section><section id="additional-required-capabilities-3"><div class="header-wrapper"><h5 id="x2-4-7-3-additional-required-capabilities"><bdi class="secno">2.4.7.3 </bdi>Additional Required Capabilities</h5><a class="self-link" href="#additional-required-capabilities-3" aria-label="Permalink for Section 2.4.7.3"></a></div>
 <table>
 <thead>
 <tr>
@@ -807,7 +1000,7 @@ Adoption support, knowledge sharing and community building</p>
 <td>Required</td>
 </tr>
 </tbody></table>
-</section><section id="typical-building-blocks-4"><h5 id="x2-4-7-4-typical-building-blocks"><bdi class="secno">2.4.7.4 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-4"><div class="header-wrapper"><h5 id="x2-4-7-4-typical-building-blocks"><bdi class="secno">2.4.7.4 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-4" aria-label="Permalink for Section 2.4.7.4"></a></div>
 <ul>
 <li>Agent-based AI Services</li>
 <li>Workflow Orchestration</li>
@@ -815,14 +1008,14 @@ Adoption support, knowledge sharing and community building</p>
 <li>Policy Enforcement Services</li>
 <li>Human Oversight Services</li>
 </ul>
-</section><section id="typical-outputs-4"><h5 id="x2-4-7-5-typical-outputs"><bdi class="secno">2.4.7.5 </bdi>Typical Outputs</h5>
+</section><section id="typical-outputs-4"><div class="header-wrapper"><h5 id="x2-4-7-5-typical-outputs"><bdi class="secno">2.4.7.5 </bdi>Typical Outputs</h5><a class="self-link" href="#typical-outputs-4" aria-label="Permalink for Section 2.4.7.5"></a></div>
 <ul>
 <li>Automated interventions</li>
 <li>Dynamic optimisation</li>
 <li>Self-learning behaviour</li>
 <li>Closed-loop operations</li>
 </ul>
-</section></section></section><section id="capability-progression"><h3 id="x2-5-capability-progression"><bdi class="secno">2.5 </bdi>Capability Progression</h3>
+</section></section></section><section id="capability-progression"><div class="header-wrapper"><h3 id="x2-5-capability-progression"><bdi class="secno">2.5 </bdi>Capability Progression</h3><a class="self-link" href="#capability-progression" aria-label="Permalink for Section 2.5"></a></div>
 <p>The six conformance profiles represent an increasing level of maturity and capability.</p>
 <pre><code class="text hljs" aria-busy="false">Observe
    ↓
@@ -850,7 +1043,7 @@ Prescriptive
 Autonomous
 </code></pre>
 <p>Importantly, higher maturity levels do not replace lower ones. A Prospective Local Digital Twin continues to provide descriptive, diagnostic and predictive functionality while adding progressively more advanced analytical and decision-support capabilities. Not all themes or solutions need to evolve to the higher levels.</p>
-</section><section id="selecting-an-appropriate-profile"><h3 id="x2-6-selecting-an-appropriate-profile"><bdi class="secno">2.6 </bdi>Selecting an Appropriate Profile</h3>
+</section><section id="selecting-an-appropriate-profile"><div class="header-wrapper"><h3 id="x2-6-selecting-an-appropriate-profile"><bdi class="secno">2.6 </bdi>Selecting an Appropriate Profile</h3><a class="self-link" href="#selecting-an-appropriate-profile" aria-label="Permalink for Section 2.6"></a></div>
 <p>Not every use case requires an Autonomous Local Digital Twin.</p>
 <p>For example:</p>
 <table>
@@ -887,9 +1080,9 @@ Autonomous
 </tbody></table>
 <p>Communities should select the profile that best matches the objectives, risks, governance requirements and operational context of their implementation.</p>
 <p>The Reference Architecture therefore supports a diversity of Local Digital Twins while ensuring that implementations remain interoperable and aligned with a common European architectural framework.</p>
-</section><section id="ldt-ecosystem"><h3 id="x2-7-ldt-ecosystem"><bdi class="secno">2.7 </bdi>LDT Ecosystem</h3>
+</section><section id="ldt-ecosystem"><div class="header-wrapper"><h3 id="x2-7-ldt-ecosystem"><bdi class="secno">2.7 </bdi>LDT Ecosystem</h3><a class="self-link" href="#ldt-ecosystem" aria-label="Permalink for Section 2.7"></a></div>
 <p>The different types of LDT's can be deployed for different themes within an organisation. This leads to an ecosystem of a common base with shared components with additional capabilities taylored for the specific theme and type of requirements. That is to say, there is not one Digital Twin in an organisation, but a series of connected Local Digital Twins within or even across organisations.</p>
-<img src="./media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800"></section><section id="enablement-frameworks"><h3 id="x2-8-enablement-frameworks"><bdi class="secno">2.8 </bdi>Enablement Frameworks</h3>
+<img src="./media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800"></section><section id="enablement-frameworks"><div class="header-wrapper"><h3 id="x2-8-enablement-frameworks"><bdi class="secno">2.8 </bdi>Enablement Frameworks</h3><a class="self-link" href="#enablement-frameworks" aria-label="Permalink for Section 2.8"></a></div>
 <p>Scaling LDT adoption across cities, regions and communities requires two complementary frameworks realizing the respective enablement capabilities:</p>
 <ul>
 <li><p>LDT CitiVERSE <strong>Technology Framework</strong>
@@ -899,14 +1092,14 @@ Defines the technical components, platform services, integrations and reusable b
 Defines the organisational, community and adoption capabilities that support the uptake, operation and governance of Local Digital Twins across participating organisations.</p>
 </li>
 </ul>
-</section><section id="artificial-intelligence"><h3 id="x2-9-artificial-intelligence"><bdi class="secno">2.9 </bdi>Artificial Intelligence</h3>
+</section><section id="artificial-intelligence"><div class="header-wrapper"><h3 id="x2-9-artificial-intelligence"><bdi class="secno">2.9 </bdi>Artificial Intelligence</h3><a class="self-link" href="#artificial-intelligence" aria-label="Permalink for Section 2.9"></a></div>
 <p>Artificial Intelligence is a cross-cutting capability within the LDT CitiVERSE architecture. It contributes primarily to the Generate Knowledge stage of the value stream, through two specialised subcapabilities:</p>
 <p>Urban Intelligence &amp; ML Inference — the application of machine learning models to urban data to generate intelligence and predictions</p>
 <p>Collaborative Knowledge Training — the shared development and improvement of AI models across communities and organisations</p>
 <p>AI is also central to the Autonomous LDT type, where adaptive and generative AI enable continuous, self-sustaining decision support.</p>
 <div class="note" role="note" id="issue-container-generatedID-1"><div role="heading" class="note-title marker" id="h-note-1" aria-level="4"><span>Note</span></div><aside class="">
     As is already stated earlier, this is an evolving reference architecture. Specifically for a topic like AI there are a lot of innovations happening. A seperate activity of the EDIC LDT CiTiVERSE is the establisment of a Technologies Assesment Framework. Through this assesment framework technology components will be evaluated and potentially added to the reference architecture.
-</aside></div></section><section id="relationship-to-egovera"><h3 id="x2-10-relationship-to-egovera"><bdi class="secno">2.10 </bdi>Relationship to eGovERA</h3>
+</aside></div></section><section id="relationship-to-egovera"><div class="header-wrapper"><h3 id="x2-10-relationship-to-egovera"><bdi class="secno">2.10 </bdi>Relationship to eGovERA</h3><a class="self-link" href="#relationship-to-egovera" aria-label="Permalink for Section 2.10"></a></div>
 <p>LDT CitiVERSE capabilities are specialisations of capabilities defined in the eGovERA European Government Enterprise Reference Architecture. The mapping is as follows:</p>
 <table>
 <thead>
@@ -934,13 +1127,13 @@ Defines the organisational, community and adoption capabilities that support the
 </tbody></table>
 <p>This alignment ensures that the LDT CitiVERSE architecture is compatible with the broader European public-sector architecture landscape and can be adopted consistently across member states.</p>
 </section></section>
-   <section id="H3"><h2 id="x3-business-application"><bdi class="secno">3. </bdi>Business &amp; Application</h2>
-<section id="overview-0"><h3 id="x3-1-overview"><bdi class="secno">3.1 </bdi>Overview</h3>
+   <section id="H3"><div class="header-wrapper"><h2 id="x3-business-application"><bdi class="secno">3. </bdi>Business &amp; Application</h2><a class="self-link" href="#H3" aria-label="Permalink for Section 3."></a></div>
+<section id="overview-0"><div class="header-wrapper"><h3 id="x3-1-overview"><bdi class="secno">3.1 </bdi>Overview</h3><a class="self-link" href="#overview-0" aria-label="Permalink for Section 3.1"></a></div>
 <p>The Business &amp; Application layer describes how Local Digital Twin capabilities are realised through reusable business services, application services and interoperable information flows.</p>
 <p>Where the Strategy layer explains <strong>why</strong> Local Digital Twins are needed and <strong>which capabilities</strong> they provide, this layer explains <strong>how those capabilities are implemented</strong> through a combination of reusable services and architectural building blocks.</p>
 <p>The architecture promotes a modular and federated approach in which Local Digital Twins are assembled from interoperable components rather than implemented as monolithic solutions. Individual implementations may vary in scope and technology choices, but share a common set of service patterns and interfaces that enable interoperability and reuse across cities, regions and Member States.</p>
 <p>The Business &amp; Application layer therefore acts as the bridge between strategic objectives and technology implementation.</p>
-</section><section id="architectural-intent"><h3 id="x3-2-architectural-intent"><bdi class="secno">3.2 </bdi>Architectural Intent</h3>
+</section><section id="architectural-intent"><div class="header-wrapper"><h3 id="x3-2-architectural-intent"><bdi class="secno">3.2 </bdi>Architectural Intent</h3><a class="self-link" href="#architectural-intent" aria-label="Permalink for Section 3.2"></a></div>
 <p>The primary objective of this layer is to translate LDT capabilities into reusable services that can be shared across multiple implementations.</p>
 <p>Three architectural principles drive this layer:</p>
 <table>
@@ -963,17 +1156,17 @@ Defines the organisational, community and adoption capabilities that support the
 <td>Services may be deployed by different organisations while remaining discoverable and interoperable within a shared ecosystem.</td>
 </tr>
 </tbody></table>
-</section><section id="business-service-architecture"><h3 id="x3-3-business-service-architecture"><bdi class="secno">3.3 </bdi>Business Service Architecture</h3>
-<section id="business-services-as-public-capabilities"><h4 id="x3-3-1-business-services-as-public-capabilities"><bdi class="secno">3.3.1 </bdi>Business Services as Public Capabilities</h4>
+</section><section id="business-service-architecture"><div class="header-wrapper"><h3 id="x3-3-business-service-architecture"><bdi class="secno">3.3 </bdi>Business Service Architecture</h3><a class="self-link" href="#business-service-architecture" aria-label="Permalink for Section 3.3"></a></div>
+<section id="business-services-as-public-capabilities"><div class="header-wrapper"><h4 id="x3-3-1-business-services-as-public-capabilities"><bdi class="secno">3.3.1 </bdi>Business Services as Public Capabilities</h4><a class="self-link" href="#business-services-as-public-capabilities" aria-label="Permalink for Section 3.3.1"></a></div>
 <p>Business services provide value directly to communities, public authorities, businesses and citizens.</p>
 <p>Rather than focusing on individual software products, the reference architecture focuses on the outcomes these services provide.</p>
 <p>A single business service may be realised by multiple application services, and a single application service may contribute to multiple business services.</p>
 <p>This separation allows implementations to evolve without changing the business capabilities they support.</p>
-</section><section id="context-awareness"><h4 id="x3-3-2-context-awareness"><bdi class="secno">3.3.2 </bdi>Context Awareness</h4>
+</section><section id="context-awareness"><div class="header-wrapper"><h4 id="x3-3-2-context-awareness"><bdi class="secno">3.3.2 </bdi>Context Awareness</h4><a class="self-link" href="#context-awareness" aria-label="Permalink for Section 3.3.2"></a></div>
 <p>Context Awareness services create a trusted and shared understanding of the current state of an asset, environment or urban system.</p>
-<section id="purpose-5"><h5 id="x3-3-2-1-purpose"><bdi class="secno">3.3.2.1 </bdi>Purpose</h5>
+<section id="purpose-5"><div class="header-wrapper"><h5 id="x3-3-2-1-purpose"><bdi class="secno">3.3.2.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-5" aria-label="Permalink for Section 3.3.2.1"></a></div>
 <p>Provide operational situational awareness across organisational and domain boundaries.</p>
-</section><section id="typical-functions"><h5 id="x3-3-2-2-typical-functions"><bdi class="secno">3.3.2.2 </bdi>Typical Functions</h5>
+</section><section id="typical-functions"><div class="header-wrapper"><h5 id="x3-3-2-2-typical-functions"><bdi class="secno">3.3.2.2 </bdi>Typical Functions</h5><a class="self-link" href="#typical-functions" aria-label="Permalink for Section 3.3.2.2"></a></div>
 <ul>
 <li>Sensor integration</li>
 <li>Context aggregation</li>
@@ -982,17 +1175,17 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Event detection</li>
 <li>Operational awareness</li>
 </ul>
-</section><section id="supported-ldt-profiles"><h5 id="x3-3-2-3-supported-ldt-profiles"><bdi class="secno">3.3.2.3 </bdi>Supported LDT Profiles</h5>
+</section><section id="supported-ldt-profiles"><div class="header-wrapper"><h5 id="x3-3-2-3-supported-ldt-profiles"><bdi class="secno">3.3.2.3 </bdi>Supported LDT Profiles</h5><a class="self-link" href="#supported-ldt-profiles" aria-label="Permalink for Section 3.3.2.3"></a></div>
 <ul>
 <li>Descriptive</li>
 <li>Diagnostic</li>
 <li>Predictive</li>
 </ul>
-</section></section><section id="co-creation-and-participation"><h4 id="x3-3-3-co-creation-and-participation"><bdi class="secno">3.3.3 </bdi>Co-Creation and Participation</h4>
+</section></section><section id="co-creation-and-participation"><div class="header-wrapper"><h4 id="x3-3-3-co-creation-and-participation"><bdi class="secno">3.3.3 </bdi>Co-Creation and Participation</h4><a class="self-link" href="#co-creation-and-participation" aria-label="Permalink for Section 3.3.3"></a></div>
 <p>Participation services support collaborative planning and stakeholder engagement.</p>
-<section id="purpose-6"><h5 id="x3-3-3-1-purpose"><bdi class="secno">3.3.3.1 </bdi>Purpose</h5>
+<section id="purpose-6"><div class="header-wrapper"><h5 id="x3-3-3-1-purpose"><bdi class="secno">3.3.3.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-6" aria-label="Permalink for Section 3.3.3.1"></a></div>
 <p>Enable communities, governments and stakeholders to collectively explore information, evaluate alternatives and support decision-making.</p>
-</section><section id="typical-functions-0"><h5 id="x3-3-3-2-typical-functions"><bdi class="secno">3.3.3.2 </bdi>Typical Functions</h5>
+</section><section id="typical-functions-0"><div class="header-wrapper"><h5 id="x3-3-3-2-typical-functions"><bdi class="secno">3.3.3.2 </bdi>Typical Functions</h5><a class="self-link" href="#typical-functions-0" aria-label="Permalink for Section 3.3.3.2"></a></div>
 <ul>
 <li>Citizen participation</li>
 <li>Collaborative planning</li>
@@ -1001,16 +1194,16 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Public consultation</li>
 <li>Scenario evaluation</li>
 </ul>
-</section><section id="supported-ldt-profiles-0"><h5 id="x3-3-3-3-supported-ldt-profiles"><bdi class="secno">3.3.3.3 </bdi>Supported LDT Profiles</h5>
+</section><section id="supported-ldt-profiles-0"><div class="header-wrapper"><h5 id="x3-3-3-3-supported-ldt-profiles"><bdi class="secno">3.3.3.3 </bdi>Supported LDT Profiles</h5><a class="self-link" href="#supported-ldt-profiles-0" aria-label="Permalink for Section 3.3.3.3"></a></div>
 <ul>
 <li>Prospective</li>
 <li>Prescriptive</li>
 </ul>
-</section></section><section id="digital-twin-visualisation"><h4 id="x3-3-4-digital-twin-visualisation"><bdi class="secno">3.3.4 </bdi>Digital Twin Visualisation</h4>
+</section></section><section id="digital-twin-visualisation"><div class="header-wrapper"><h4 id="x3-3-4-digital-twin-visualisation"><bdi class="secno">3.3.4 </bdi>Digital Twin Visualisation</h4><a class="self-link" href="#digital-twin-visualisation" aria-label="Permalink for Section 3.3.4"></a></div>
 <p>Visualisation services provide a human-centred representation of information, models and simulations.</p>
-<section id="purpose-7"><h5 id="x3-3-4-1-purpose"><bdi class="secno">3.3.4.1 </bdi>Purpose</h5>
+<section id="purpose-7"><div class="header-wrapper"><h5 id="x3-3-4-1-purpose"><bdi class="secno">3.3.4.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-7" aria-label="Permalink for Section 3.3.4.1"></a></div>
 <p>Transform complex information into understandable insights.</p>
-</section><section id="typical-functions-1"><h5 id="x3-3-4-2-typical-functions"><bdi class="secno">3.3.4.2 </bdi>Typical Functions</h5>
+</section><section id="typical-functions-1"><div class="header-wrapper"><h5 id="x3-3-4-2-typical-functions"><bdi class="secno">3.3.4.2 </bdi>Typical Functions</h5><a class="self-link" href="#typical-functions-1" aria-label="Permalink for Section 3.3.4.2"></a></div>
 <ul>
 <li>Map visualisation</li>
 <li>3D city models</li>
@@ -1019,15 +1212,15 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Scenario visualisation</li>
 <li>Reporting</li>
 </ul>
-</section><section id="supported-ldt-profiles-1"><h5 id="x3-3-4-3-supported-ldt-profiles"><bdi class="secno">3.3.4.3 </bdi>Supported LDT Profiles</h5>
+</section><section id="supported-ldt-profiles-1"><div class="header-wrapper"><h5 id="x3-3-4-3-supported-ldt-profiles"><bdi class="secno">3.3.4.3 </bdi>Supported LDT Profiles</h5><a class="self-link" href="#supported-ldt-profiles-1" aria-label="Permalink for Section 3.3.4.3"></a></div>
 <ul>
 <li>All Profiles</li>
 </ul>
-</section></section><section id="data-exchange-and-collaboration"><h4 id="x3-3-5-data-exchange-and-collaboration"><bdi class="secno">3.3.5 </bdi>Data Exchange and Collaboration</h4>
+</section></section><section id="data-exchange-and-collaboration"><div class="header-wrapper"><h4 id="x3-3-5-data-exchange-and-collaboration"><bdi class="secno">3.3.5 </bdi>Data Exchange and Collaboration</h4><a class="self-link" href="#data-exchange-and-collaboration" aria-label="Permalink for Section 3.3.5"></a></div>
 <p>Data Exchange services support trusted collaboration between organisations.</p>
-<section id="purpose-8"><h5 id="x3-3-5-1-purpose"><bdi class="secno">3.3.5.1 </bdi>Purpose</h5>
+<section id="purpose-8"><div class="header-wrapper"><h5 id="x3-3-5-1-purpose"><bdi class="secno">3.3.5.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-8" aria-label="Permalink for Section 3.3.5.1"></a></div>
 <p>Enable discovery, sharing and controlled access to information resources.</p>
-</section><section id="typical-functions-2"><h5 id="x3-3-5-2-typical-functions"><bdi class="secno">3.3.5.2 </bdi>Typical Functions</h5>
+</section><section id="typical-functions-2"><div class="header-wrapper"><h5 id="x3-3-5-2-typical-functions"><bdi class="secno">3.3.5.2 </bdi>Typical Functions</h5><a class="self-link" href="#typical-functions-2" aria-label="Permalink for Section 3.3.5.2"></a></div>
 <ul>
 <li>Data publication</li>
 <li>Data discovery</li>
@@ -1036,15 +1229,15 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Metadata management</li>
 <li>Data Space participation</li>
 </ul>
-</section><section id="supported-ldt-profiles-2"><h5 id="x3-3-5-3-supported-ldt-profiles"><bdi class="secno">3.3.5.3 </bdi>Supported LDT Profiles</h5>
+</section><section id="supported-ldt-profiles-2"><div class="header-wrapper"><h5 id="x3-3-5-3-supported-ldt-profiles"><bdi class="secno">3.3.5.3 </bdi>Supported LDT Profiles</h5><a class="self-link" href="#supported-ldt-profiles-2" aria-label="Permalink for Section 3.3.5.3"></a></div>
 <ul>
 <li>All Profiles</li>
 </ul>
-</section></section><section id="capability-development-and-knowledge-sharing"><h4 id="x3-3-6-capability-development-and-knowledge-sharing"><bdi class="secno">3.3.6 </bdi>Capability Development and Knowledge Sharing</h4>
+</section></section><section id="capability-development-and-knowledge-sharing"><div class="header-wrapper"><h4 id="x3-3-6-capability-development-and-knowledge-sharing"><bdi class="secno">3.3.6 </bdi>Capability Development and Knowledge Sharing</h4><a class="self-link" href="#capability-development-and-knowledge-sharing" aria-label="Permalink for Section 3.3.6"></a></div>
 <p>Capability Development services support organisational maturity and community enablement.</p>
-<section id="purpose-9"><h5 id="x3-3-6-1-purpose"><bdi class="secno">3.3.6.1 </bdi>Purpose</h5>
+<section id="purpose-9"><div class="header-wrapper"><h5 id="x3-3-6-1-purpose"><bdi class="secno">3.3.6.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-9" aria-label="Permalink for Section 3.3.6.1"></a></div>
 <p>Accelerate LDT adoption and knowledge exchange across communities.</p>
-</section><section id="typical-functions-3"><h5 id="x3-3-6-2-typical-functions"><bdi class="secno">3.3.6.2 </bdi>Typical Functions</h5>
+</section><section id="typical-functions-3"><div class="header-wrapper"><h5 id="x3-3-6-2-typical-functions"><bdi class="secno">3.3.6.2 </bdi>Typical Functions</h5><a class="self-link" href="#typical-functions-3" aria-label="Permalink for Section 3.3.6.2"></a></div>
 <ul>
 <li>Maturity assessments</li>
 <li>Capability development</li>
@@ -1053,13 +1246,13 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Training</li>
 <li>Best-practice dissemination</li>
 </ul>
-</section></section></section><section id="application-service-architecture"><h3 id="x3-4-application-service-architecture"><bdi class="secno">3.4 </bdi>Application Service Architecture</h3>
+</section></section></section><section id="application-service-architecture"><div class="header-wrapper"><h3 id="x3-4-application-service-architecture"><bdi class="secno">3.4 </bdi>Application Service Architecture</h3><a class="self-link" href="#application-service-architecture" aria-label="Permalink for Section 3.4"></a></div>
 <p>Business services are realised through a collection of reusable application services.</p>
 <p>Application services are intentionally technology-neutral. Different products may implement the same service as long as they conform to the agreed interfaces and information contracts.</p>
-<section id="data-services"><h4 id="x3-4-1-data-services"><bdi class="secno">3.4.1 </bdi>Data Services</h4>
-<section id="purpose-10"><h5 id="x3-4-1-1-purpose"><bdi class="secno">3.4.1.1 </bdi>Purpose</h5>
+<section id="data-services"><div class="header-wrapper"><h4 id="x3-4-1-data-services"><bdi class="secno">3.4.1 </bdi>Data Services</h4><a class="self-link" href="#data-services" aria-label="Permalink for Section 3.4.1"></a></div>
+<section id="purpose-10"><div class="header-wrapper"><h5 id="x3-4-1-1-purpose"><bdi class="secno">3.4.1.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-10" aria-label="Permalink for Section 3.4.1.1"></a></div>
 <p>Provide the foundation for storing, exchanging and managing information.</p>
-</section><section id="responsibilities"><h5 id="x3-4-1-2-responsibilities"><bdi class="secno">3.4.1.2 </bdi>Responsibilities</h5>
+</section><section id="responsibilities"><div class="header-wrapper"><h5 id="x3-4-1-2-responsibilities"><bdi class="secno">3.4.1.2 </bdi>Responsibilities</h5><a class="self-link" href="#responsibilities" aria-label="Permalink for Section 3.4.1.2"></a></div>
 <ul>
 <li>Data storage</li>
 <li>Metadata management</li>
@@ -1068,7 +1261,7 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Data transformation</li>
 <li>Provenance management</li>
 </ul>
-</section><section id="typical-building-blocks-5"><h5 id="x3-4-1-3-typical-building-blocks"><bdi class="secno">3.4.1.3 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-5"><div class="header-wrapper"><h5 id="x3-4-1-3-typical-building-blocks"><bdi class="secno">3.4.1.3 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-5" aria-label="Permalink for Section 3.4.1.3"></a></div>
 <ul>
 <li>Data Catalogues</li>
 <li>Metadata Repositories</li>
@@ -1076,7 +1269,7 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Context Brokers</li>
 <li>Data Transformation Services</li>
 </ul>
-</section><section id="supported-formats"><h5 id="x3-4-1-4-supported-formats"><bdi class="secno">3.4.1.4 </bdi>Supported Formats</h5>
+</section><section id="supported-formats"><div class="header-wrapper"><h5 id="x3-4-1-4-supported-formats"><bdi class="secno">3.4.1.4 </bdi>Supported Formats</h5><a class="self-link" href="#supported-formats" aria-label="Permalink for Section 3.4.1.4"></a></div>
 <ul>
 <li>JSON</li>
 <li>GeoJSON</li>
@@ -1087,11 +1280,11 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Zarr</li>
 <li>DCAT-AP</li>
 </ul>
-</section></section><section id="processing-services"><h4 id="x3-4-2-processing-services"><bdi class="secno">3.4.2 </bdi>Processing Services</h4>
-<section id="purpose-11"><h5 id="x3-4-2-1-purpose"><bdi class="secno">3.4.2.1 </bdi>Purpose</h5>
+</section></section><section id="processing-services"><div class="header-wrapper"><h4 id="x3-4-2-processing-services"><bdi class="secno">3.4.2 </bdi>Processing Services</h4><a class="self-link" href="#processing-services" aria-label="Permalink for Section 3.4.2"></a></div>
+<section id="purpose-11"><div class="header-wrapper"><h5 id="x3-4-2-1-purpose"><bdi class="secno">3.4.2.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-11" aria-label="Permalink for Section 3.4.2.1"></a></div>
 <p>Transform information into knowledge.</p>
 <p>Processing services sit at the heart of the Generate Knowledge capability and provide analytical and computational functionality.</p>
-</section><section id="responsibilities-0"><h5 id="x3-4-2-2-responsibilities"><bdi class="secno">3.4.2.2 </bdi>Responsibilities</h5>
+</section><section id="responsibilities-0"><div class="header-wrapper"><h5 id="x3-4-2-2-responsibilities"><bdi class="secno">3.4.2.2 </bdi>Responsibilities</h5><a class="self-link" href="#responsibilities-0" aria-label="Permalink for Section 3.4.2.2"></a></div>
 <ul>
 <li>Data processing</li>
 <li>Analytics</li>
@@ -1101,7 +1294,7 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Scenario analysis</li>
 <li>Forecasting</li>
 </ul>
-</section><section id="typical-building-blocks-6"><h5 id="x3-4-2-3-typical-building-blocks"><bdi class="secno">3.4.2.3 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-6"><div class="header-wrapper"><h5 id="x3-4-2-3-typical-building-blocks"><bdi class="secno">3.4.2.3 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-6" aria-label="Permalink for Section 3.4.2.3"></a></div>
 <ul>
 <li>Simulation Engines</li>
 <li>AI Services</li>
@@ -1109,10 +1302,10 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Computational Models</li>
 <li>Workflow Engines</li>
 </ul>
-</section></section><section id="visualisation-services"><h4 id="x3-4-3-visualisation-services"><bdi class="secno">3.4.3 </bdi>Visualisation Services</h4>
-<section id="purpose-12"><h5 id="x3-4-3-1-purpose"><bdi class="secno">3.4.3.1 </bdi>Purpose</h5>
+</section></section><section id="visualisation-services"><div class="header-wrapper"><h4 id="x3-4-3-visualisation-services"><bdi class="secno">3.4.3 </bdi>Visualisation Services</h4><a class="self-link" href="#visualisation-services" aria-label="Permalink for Section 3.4.3"></a></div>
+<section id="purpose-12"><div class="header-wrapper"><h5 id="x3-4-3-1-purpose"><bdi class="secno">3.4.3.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-12" aria-label="Permalink for Section 3.4.3.1"></a></div>
 <p>Provide meaningful and accessible views of information.</p>
-</section><section id="responsibilities-1"><h5 id="x3-4-3-2-responsibilities"><bdi class="secno">3.4.3.2 </bdi>Responsibilities</h5>
+</section><section id="responsibilities-1"><div class="header-wrapper"><h5 id="x3-4-3-2-responsibilities"><bdi class="secno">3.4.3.2 </bdi>Responsibilities</h5><a class="self-link" href="#responsibilities-1" aria-label="Permalink for Section 3.4.3.2"></a></div>
 <ul>
 <li>Interactive dashboards</li>
 <li>Geospatial visualisation</li>
@@ -1120,17 +1313,17 @@ Defines the organisational, community and adoption capabilities that support the
 <li>XR visualisation</li>
 <li>Reporting</li>
 </ul>
-</section><section id="typical-building-blocks-7"><h5 id="x3-4-3-3-typical-building-blocks"><bdi class="secno">3.4.3.3 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-7"><div class="header-wrapper"><h5 id="x3-4-3-3-typical-building-blocks"><bdi class="secno">3.4.3.3 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-7" aria-label="Permalink for Section 3.4.3.3"></a></div>
 <ul>
 <li>Dashboard Services</li>
 <li>Map Services</li>
 <li>Digital Twin Viewers</li>
 <li>XR Platforms</li>
 </ul>
-</section></section><section id="participation-services"><h4 id="x3-4-4-participation-services"><bdi class="secno">3.4.4 </bdi>Participation Services</h4>
-<section id="purpose-13"><h5 id="x3-4-4-1-purpose"><bdi class="secno">3.4.4.1 </bdi>Purpose</h5>
+</section></section><section id="participation-services"><div class="header-wrapper"><h4 id="x3-4-4-participation-services"><bdi class="secno">3.4.4 </bdi>Participation Services</h4><a class="self-link" href="#participation-services" aria-label="Permalink for Section 3.4.4"></a></div>
+<section id="purpose-13"><div class="header-wrapper"><h5 id="x3-4-4-1-purpose"><bdi class="secno">3.4.4.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-13" aria-label="Permalink for Section 3.4.4.1"></a></div>
 <p>Enable interaction between people and digital twin systems.</p>
-</section><section id="responsibilities-2"><h5 id="x3-4-4-2-responsibilities"><bdi class="secno">3.4.4.2 </bdi>Responsibilities</h5>
+</section><section id="responsibilities-2"><div class="header-wrapper"><h5 id="x3-4-4-2-responsibilities"><bdi class="secno">3.4.4.2 </bdi>Responsibilities</h5><a class="self-link" href="#responsibilities-2" aria-label="Permalink for Section 3.4.4.2"></a></div>
 <ul>
 <li>Consultation</li>
 <li>Stakeholder engagement</li>
@@ -1138,16 +1331,16 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Decision support workshops</li>
 <li>Feedback collection</li>
 </ul>
-</section><section id="typical-building-blocks-8"><h5 id="x3-4-4-3-typical-building-blocks"><bdi class="secno">3.4.4.3 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-8"><div class="header-wrapper"><h5 id="x3-4-4-3-typical-building-blocks"><bdi class="secno">3.4.4.3 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-8" aria-label="Permalink for Section 3.4.4.3"></a></div>
 <ul>
 <li>Participation Platforms</li>
 <li>Collaboration Portals</li>
 <li>Consultation Services</li>
 </ul>
-</section></section><section id="integration-services"><h4 id="x3-4-5-integration-services"><bdi class="secno">3.4.5 </bdi>Integration Services</h4>
-<section id="purpose-14"><h5 id="x3-4-5-1-purpose"><bdi class="secno">3.4.5.1 </bdi>Purpose</h5>
+</section></section><section id="integration-services"><div class="header-wrapper"><h4 id="x3-4-5-integration-services"><bdi class="secno">3.4.5 </bdi>Integration Services</h4><a class="self-link" href="#integration-services" aria-label="Permalink for Section 3.4.5"></a></div>
+<section id="purpose-14"><div class="header-wrapper"><h5 id="x3-4-5-1-purpose"><bdi class="secno">3.4.5.1 </bdi>Purpose</h5><a class="self-link" href="#purpose-14" aria-label="Permalink for Section 3.4.5.1"></a></div>
 <p>Connect independent systems and services into a coherent ecosystem.</p>
-</section><section id="responsibilities-3"><h5 id="x3-4-5-2-responsibilities"><bdi class="secno">3.4.5.2 </bdi>Responsibilities</h5>
+</section><section id="responsibilities-3"><div class="header-wrapper"><h5 id="x3-4-5-2-responsibilities"><bdi class="secno">3.4.5.2 </bdi>Responsibilities</h5><a class="self-link" href="#responsibilities-3" aria-label="Permalink for Section 3.4.5.2"></a></div>
 <ul>
 <li>Service federation</li>
 <li>API management</li>
@@ -1155,7 +1348,7 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Information mediation</li>
 <li>Logging and monitoring</li>
 </ul>
-</section><section id="typical-building-blocks-9"><h5 id="x3-4-5-3-typical-building-blocks"><bdi class="secno">3.4.5.3 </bdi>Typical Building Blocks</h5>
+</section><section id="typical-building-blocks-9"><div class="header-wrapper"><h5 id="x3-4-5-3-typical-building-blocks"><bdi class="secno">3.4.5.3 </bdi>Typical Building Blocks</h5><a class="self-link" href="#typical-building-blocks-9" aria-label="Permalink for Section 3.4.5.3"></a></div>
 <ul>
 <li>API Gateways</li>
 <li>Identity Providers</li>
@@ -1163,7 +1356,7 @@ Defines the organisational, community and adoption capabilities that support the
 <li>Federation Services</li>
 <li>Observability Platforms</li>
 </ul>
-</section></section></section><section id="service-realisation-pattern"><h3 id="x3-5-service-realisation-pattern"><bdi class="secno">3.5 </bdi>Service Realisation Pattern</h3>
+</section></section></section><section id="service-realisation-pattern"><div class="header-wrapper"><h3 id="x3-5-service-realisation-pattern"><bdi class="secno">3.5 </bdi>Service Realisation Pattern</h3><a class="self-link" href="#service-realisation-pattern" aria-label="Permalink for Section 3.5"></a></div>
 <p>A recurring pattern throughout the architecture is that business services are realised through multiple application services working together.</p>
 <p>For example:</p>
 <pre><code class="text hljs" aria-busy="false">Context Awareness
@@ -1188,7 +1381,7 @@ Defines the organisational, community and adoption capabilities that support the
         └──────── Identity Services
 </code></pre>
 <p>This pattern allows services to be reused across domains while maintaining a consistent user experience.</p>
-</section><section id="open-interfaces-and-standards"><h3 id="x3-6-open-interfaces-and-standards"><bdi class="secno">3.6 </bdi>Open Interfaces and Standards</h3>
+</section><section id="open-interfaces-and-standards"><div class="header-wrapper"><h3 id="x3-6-open-interfaces-and-standards"><bdi class="secno">3.6 </bdi>Open Interfaces and Standards</h3><a class="self-link" href="#open-interfaces-and-standards" aria-label="Permalink for Section 3.6"></a></div>
 <p>To enable interoperability, all application services <em class="rfc2119">MUST</em> expose their functionality through open interfaces. 
 The EDIC will not offer components that do not comply to this. 
 Local implementations in cities and regions can deviate from this standard, being aware that this will limit the interoperability and the option to offer their building block for reuse.</p>
@@ -1198,7 +1391,7 @@ Local implementations in cities and regions can deviate from this standard, bein
 <li>Standards should be open.</li>
 <li>Standards should be official or in the process of becoming official through a recognised institute (CEN/CENELEC, ETSI, ISO), or should result from recognised industry standardisation such as OGC.</li>
 </ul>
-<section id="api-standards"><h4 id="x3-6-1-api-standards"><bdi class="secno">3.6.1 </bdi>API Standards</h4>
+<section id="api-standards"><div class="header-wrapper"><h4 id="x3-6-1-api-standards"><bdi class="secno">3.6.1 </bdi>API Standards</h4><a class="self-link" href="#api-standards" aria-label="Permalink for Section 3.6.1"></a></div>
 <ul>
 <li>OGC API Features</li>
 <li>OGC API Processes</li>
@@ -1212,30 +1405,30 @@ Local implementations in cities and regions can deviate from this standard, bein
 </ul>
 <p>SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) <em class="rfc2119">SHOULD</em> also be available through one of the design-time APIs above. EDIC-offered components <em class="rfc2119">MUST</em> provide that design-time API.</p>
 <p>*) NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.</p>
-</section><section id="trust-and-identity"><h4 id="x3-6-2-trust-and-identity"><bdi class="secno">3.6.2 </bdi>Trust and Identity</h4>
+</section><section id="trust-and-identity"><div class="header-wrapper"><h4 id="x3-6-2-trust-and-identity"><bdi class="secno">3.6.2 </bdi>Trust and Identity</h4><a class="self-link" href="#trust-and-identity" aria-label="Permalink for Section 3.6.2"></a></div>
 <ul>
 <li>OpenID Connect</li>
 <li>OIDC Federation</li>
 <li>OID4VC</li>
 <li>Verifiable Credentials</li>
 </ul>
-</section><section id="observability"><h4 id="x3-6-3-observability"><bdi class="secno">3.6.3 </bdi>Observability</h4>
+</section><section id="observability"><div class="header-wrapper"><h4 id="x3-6-3-observability"><bdi class="secno">3.6.3 </bdi>Observability</h4><a class="self-link" href="#observability" aria-label="Permalink for Section 3.6.3"></a></div>
 <ul>
 <li>OpenTelemetry</li>
 <li>Structured Logging</li>
 <li>Monitoring Services</li>
 </ul>
-</section><section id="data-sharing"><h4 id="x3-6-4-data-sharing"><bdi class="secno">3.6.4 </bdi>Data Sharing</h4>
+</section><section id="data-sharing"><div class="header-wrapper"><h4 id="x3-6-4-data-sharing"><bdi class="secno">3.6.4 </bdi>Data Sharing</h4><a class="self-link" href="#data-sharing" aria-label="Permalink for Section 3.6.4"></a></div>
 <ul>
 <li>Dataspace Protocol</li>
 <li>IDS Catalog Protocol</li>
 <li>Federated Discovery Mechanisms</li>
 </ul>
-</section></section><section id="information-models-and-semantic-assets"><h3 id="x3-7-information-models-and-semantic-assets"><bdi class="secno">3.7 </bdi>Information Models and Semantic Assets</h3>
+</section></section><section id="information-models-and-semantic-assets"><div class="header-wrapper"><h3 id="x3-7-information-models-and-semantic-assets"><bdi class="secno">3.7 </bdi>Information Models and Semantic Assets</h3><a class="self-link" href="#information-models-and-semantic-assets" aria-label="Permalink for Section 3.7"></a></div>
 <p>Information interoperability depends on the use of shared information models and semantic assets.</p>
 <p>The architecture therefore promotes the use of common vocabularies, ontologies and information models that can be reused across Local Digital Twin implementations.</p>
 <p>These assets travel with the API contract — as metadata, profiles, JSON-LD contexts or declared conformance — so that meaning is shared without forcing every client onto the same storage or query stack.</p>
-<section id="examples"><h4 id="x3-7-1-examples"><bdi class="secno">3.7.1 </bdi>Examples</h4>
+<section id="examples"><div class="header-wrapper"><h4 id="x3-7-1-examples"><bdi class="secno">3.7.1 </bdi>Examples</h4><a class="self-link" href="#examples" aria-label="Permalink for Section 3.7.1"></a></div>
 <ul>
 <li>DCAT-AP</li>
 <li>PROV-O</li>
@@ -1244,8 +1437,8 @@ Local implementations in cities and regions can deviate from this standard, bein
 <li>Linked Open Vocabularies</li>
 </ul>
 </section></section></section>
-   <section id="H4"><h2 id="x4-application-technology"><bdi class="secno">4. </bdi>Application &amp; Technology</h2>
-<section id="overview-1"><h3 id="x4-1-overview"><bdi class="secno">4.1 </bdi>Overview</h3>
+   <section id="H4"><div class="header-wrapper"><h2 id="x4-application-technology"><bdi class="secno">4. </bdi>Application &amp; Technology</h2><a class="self-link" href="#H4" aria-label="Permalink for Section 4."></a></div>
+<section id="overview-1"><div class="header-wrapper"><h3 id="x4-1-overview"><bdi class="secno">4.1 </bdi>Overview</h3><a class="self-link" href="#overview-1" aria-label="Permalink for Section 4.1"></a></div>
 <p>The Application &amp; Technology layer defines the technical foundation of the LDT CitiVERSE ecosystem.</p>
 <p>While the Business &amp; Application layer describes the services that realise Local Digital Twin capabilities, this layer describes the technical platform required to implement, operate and scale those services.</p>
 <p>The architecture is based on five fundamental concepts:</p>
@@ -1258,7 +1451,7 @@ Local implementations in cities and regions can deviate from this standard, bein
 </ul>
 <p>Together these concepts enable Local Digital Twins to be assembled from reusable and interoperable building blocks rather than monolithic applications.</p>
 <p>The architecture promotes Local Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared infrastructure. This approach allows cities, regions and Member States to collaborate while maintaining local ownership, governance and technical autonomy.</p>
-</section><section id="technical-architecture-principles"><h3 id="x4-2-technical-architecture-principles"><bdi class="secno">4.2 </bdi>Technical Architecture Principles</h3>
+</section><section id="technical-architecture-principles"><div class="header-wrapper"><h3 id="x4-2-technical-architecture-principles"><bdi class="secno">4.2 </bdi>Technical Architecture Principles</h3><a class="self-link" href="#technical-architecture-principles" aria-label="Permalink for Section 4.2"></a></div>
 <p>The technical architecture implements and operationalises the architectural guardrails introduced earlier in this document.</p>
 <p>Specifically, this layer demonstrates how:</p>
 <ul>
@@ -1270,7 +1463,7 @@ Local implementations in cities and regions can deviate from this standard, bein
 </ul>
 <p>The Application &amp; Technology layer defines the infrastructure blueprint for the LDT CitiVERSE ecosystem.</p>
 <hr>
-</section><section id="technology-architecture-stack"><h3 id="x4-3-technology-architecture-stack"><bdi class="secno">4.3 </bdi>Technology Architecture Stack</h3>
+</section><section id="technology-architecture-stack"><div class="header-wrapper"><h3 id="x4-3-technology-architecture-stack"><bdi class="secno">4.3 </bdi>Technology Architecture Stack</h3><a class="self-link" href="#technology-architecture-stack" aria-label="Permalink for Section 4.3"></a></div>
 <p>The architecture is organised into four logical layers.</p>
 <pre><code class="text hljs" aria-busy="false">Business Services
         ↓
@@ -1310,11 +1503,11 @@ Infrastructure
 <td>Cloud Infrastructure; Edge Infrastructure; Data Space Infrastructure; Compute Resources; Storage Services; Networking Services</td>
 </tr>
 </tbody></table>
-</section><section id="federated-infrastructure-pattern"><h3 id="x4-4-federated-infrastructure-pattern"><bdi class="secno">4.4 </bdi>Federated Infrastructure Pattern</h3>
-<section id="purpose-15"><h4 id="x4-4-1-purpose"><bdi class="secno">4.4.1 </bdi>Purpose</h4>
+</section><section id="federated-infrastructure-pattern"><div class="header-wrapper"><h3 id="x4-4-federated-infrastructure-pattern"><bdi class="secno">4.4 </bdi>Federated Infrastructure Pattern</h3><a class="self-link" href="#federated-infrastructure-pattern" aria-label="Permalink for Section 4.4"></a></div>
+<section id="purpose-15"><div class="header-wrapper"><h4 id="x4-4-1-purpose"><bdi class="secno">4.4.1 </bdi>Purpose</h4><a class="self-link" href="#purpose-15" aria-label="Permalink for Section 4.4.1"></a></div>
 <p>The LDT CitiVERSE ecosystem is designed as a federation of independent infrastructures rather than a single central platform.</p>
 <p>This allows communities to maintain control over their data, operations and governance while still participating in a broader European ecosystem.</p>
-</section><section id="architectural-rationale"><h4 id="x4-4-2-architectural-rationale"><bdi class="secno">4.4.2 </bdi>Architectural Rationale</h4>
+</section><section id="architectural-rationale"><div class="header-wrapper"><h4 id="x4-4-2-architectural-rationale"><bdi class="secno">4.4.2 </bdi>Architectural Rationale</h4><a class="self-link" href="#architectural-rationale" aria-label="Permalink for Section 4.4.2"></a></div>
 <p>A federated approach:</p>
 <ul>
 <li>reduces dependency on central infrastructure;</li>
@@ -1323,7 +1516,7 @@ Infrastructure
 <li>aligns with Data Space principles;</li>
 <li>supports cross-border collaboration.</li>
 </ul>
-</section><section id="typical-components"><h4 id="x4-4-3-typical-components"><bdi class="secno">4.4.3 </bdi>Typical Components</h4>
+</section><section id="typical-components"><div class="header-wrapper"><h4 id="x4-4-3-typical-components"><bdi class="secno">4.4.3 </bdi>Typical Components</h4><a class="self-link" href="#typical-components" aria-label="Permalink for Section 4.4.3"></a></div>
 <ul>
 <li>Data Spaces</li>
 <li>Federated Catalogues</li>
@@ -1331,19 +1524,19 @@ Infrastructure
 <li>Identity Federations</li>
 <li>Shared Trust Frameworks</li>
 </ul>
-</section><section id="expected-outcomes"><h4 id="x4-4-4-expected-outcomes"><bdi class="secno">4.4.4 </bdi>Expected Outcomes</h4>
+</section><section id="expected-outcomes"><div class="header-wrapper"><h4 id="x4-4-4-expected-outcomes"><bdi class="secno">4.4.4 </bdi>Expected Outcomes</h4><a class="self-link" href="#expected-outcomes" aria-label="Permalink for Section 4.4.4"></a></div>
 <ul>
 <li>Cross-community interoperability</li>
 <li>Local autonomy</li>
 <li>European-scale collaboration</li>
 </ul>
-</section></section><section id="shared-services-architecture"><h3 id="x4-5-shared-services-architecture"><bdi class="secno">4.5 </bdi>Shared Services Architecture</h3>
-<section id="purpose-16"><h4 id="x4-5-1-purpose"><bdi class="secno">4.5.1 </bdi>Purpose</h4>
+</section></section><section id="shared-services-architecture"><div class="header-wrapper"><h3 id="x4-5-shared-services-architecture"><bdi class="secno">4.5 </bdi>Shared Services Architecture</h3><a class="self-link" href="#shared-services-architecture" aria-label="Permalink for Section 4.5"></a></div>
+<section id="purpose-16"><div class="header-wrapper"><h4 id="x4-5-1-purpose"><bdi class="secno">4.5.1 </bdi>Purpose</h4><a class="self-link" href="#purpose-16" aria-label="Permalink for Section 4.5.1"></a></div>
 <p>Many Local Digital Twin implementations require similar technical capabilities.</p>
 <p>Rather than implementing these capabilities repeatedly, the architecture promotes the reuse of common services.</p>
 <p>Shared services provide common capabilities that can be consumed by multiple applications, organisations or Digital Twins.</p>
-</section><section id="examples-0"><h4 id="x4-5-2-examples"><bdi class="secno">4.5.2 </bdi>Examples</h4>
-<section id="data-services-0"><h5 id="x4-5-2-1-data-services"><bdi class="secno">4.5.2.1 </bdi>Data Services</h5>
+</section><section id="examples-0"><div class="header-wrapper"><h4 id="x4-5-2-examples"><bdi class="secno">4.5.2 </bdi>Examples</h4><a class="self-link" href="#examples-0" aria-label="Permalink for Section 4.5.2"></a></div>
+<section id="data-services-0"><div class="header-wrapper"><h5 id="x4-5-2-1-data-services"><bdi class="secno">4.5.2.1 </bdi>Data Services</h5><a class="self-link" href="#data-services-0" aria-label="Permalink for Section 4.5.2.1"></a></div>
 <p>Provide:</p>
 <ul>
 <li>storage</li>
@@ -1351,14 +1544,14 @@ Infrastructure
 <li>discovery</li>
 <li>semantic enrichment</li>
 </ul>
-</section><section id="identity-services"><h5 id="x4-5-2-2-identity-services"><bdi class="secno">4.5.2.2 </bdi>Identity Services</h5>
+</section><section id="identity-services"><div class="header-wrapper"><h5 id="x4-5-2-2-identity-services"><bdi class="secno">4.5.2.2 </bdi>Identity Services</h5><a class="self-link" href="#identity-services" aria-label="Permalink for Section 4.5.2.2"></a></div>
 <p>Provide:</p>
 <ul>
 <li>authentication</li>
 <li>authorisation</li>
 <li>trust management</li>
 </ul>
-</section><section id="knowledge-services"><h5 id="x4-5-2-3-knowledge-services"><bdi class="secno">4.5.2.3 </bdi>Knowledge Services</h5>
+</section><section id="knowledge-services"><div class="header-wrapper"><h5 id="x4-5-2-3-knowledge-services"><bdi class="secno">4.5.2.3 </bdi>Knowledge Services</h5><a class="self-link" href="#knowledge-services" aria-label="Permalink for Section 4.5.2.3"></a></div>
 <p>Provide:</p>
 <ul>
 <li>analytics</li>
@@ -1366,7 +1559,7 @@ Infrastructure
 <li>AI inference</li>
 <li>simulation</li>
 </ul>
-</section><section id="observability-services"><h5 id="x4-5-2-4-observability-services"><bdi class="secno">4.5.2.4 </bdi>Observability Services</h5>
+</section><section id="observability-services"><div class="header-wrapper"><h5 id="x4-5-2-4-observability-services"><bdi class="secno">4.5.2.4 </bdi>Observability Services</h5><a class="self-link" href="#observability-services" aria-label="Permalink for Section 4.5.2.4"></a></div>
 <p>Provide:</p>
 <ul>
 <li>logging</li>
@@ -1374,11 +1567,11 @@ Infrastructure
 <li>auditing</li>
 <li>performance insights</li>
 </ul>
-</section></section></section><section id="orchestration-architecture"><h3 id="x4-6-orchestration-architecture"><bdi class="secno">4.6 </bdi>Orchestration Architecture</h3>
-<section id="purpose-17"><h4 id="x4-6-1-purpose"><bdi class="secno">4.6.1 </bdi>Purpose</h4>
+</section></section></section><section id="orchestration-architecture"><div class="header-wrapper"><h3 id="x4-6-orchestration-architecture"><bdi class="secno">4.6 </bdi>Orchestration Architecture</h3><a class="self-link" href="#orchestration-architecture" aria-label="Permalink for Section 4.6"></a></div>
+<section id="purpose-17"><div class="header-wrapper"><h4 id="x4-6-1-purpose"><bdi class="secno">4.6.1 </bdi>Purpose</h4><a class="self-link" href="#purpose-17" aria-label="Permalink for Section 4.6.1"></a></div>
 <p>Orchestration coordinates the interaction between services and building blocks.</p>
 <p>Rather than embedding workflow logic within individual applications, orchestration manages the execution sequence between independent components.</p>
-</section><section id="responsibilities-4"><h4 id="x4-6-2-responsibilities"><bdi class="secno">4.6.2 </bdi>Responsibilities</h4>
+</section><section id="responsibilities-4"><div class="header-wrapper"><h4 id="x4-6-2-responsibilities"><bdi class="secno">4.6.2 </bdi>Responsibilities</h4><a class="self-link" href="#responsibilities-4" aria-label="Permalink for Section 4.6.2"></a></div>
 <ul>
 <li>Workflow execution</li>
 <li>Service chaining</li>
@@ -1386,10 +1579,10 @@ Infrastructure
 <li>Automation</li>
 <li>Dependency management</li>
 </ul>
-</section><section id="architectural-significance"><h4 id="x4-6-3-architectural-significance"><bdi class="secno">4.6.3 </bdi>Architectural Significance</h4>
+</section><section id="architectural-significance"><div class="header-wrapper"><h4 id="x4-6-3-architectural-significance"><bdi class="secno">4.6.3 </bdi>Architectural Significance</h4><a class="self-link" href="#architectural-significance" aria-label="Permalink for Section 4.6.3"></a></div>
 <p>Orchestration allows individual building blocks to remain loosely coupled while participating in complex Digital Twin workflows.</p>
 <p>This enables both flexibility and interoperability.</p>
-<section id="example"><h5 id="x4-6-3-1-example"><bdi class="secno">4.6.3.1 </bdi>Example</h5>
+<section id="example"><div class="header-wrapper"><h5 id="x4-6-3-1-example"><bdi class="secno">4.6.3.1 </bdi>Example</h5><a class="self-link" href="#example" aria-label="Permalink for Section 4.6.3.1"></a></div>
 <pre><code class="text hljs" aria-busy="false">Sensor Data
       ↓
 Data Processing
@@ -1403,12 +1596,12 @@ Visualisation
 Decision Support
 </code></pre>
 <p>Each step may be implemented by an independent service operated by a different organisation.</p>
-</section></section></section><section id="semantic-interoperability-architecture"><h3 id="x4-7-semantic-interoperability-architecture"><bdi class="secno">4.7 </bdi>Semantic Interoperability Architecture</h3>
-<section id="purpose-18"><h4 id="x4-7-1-purpose"><bdi class="secno">4.7.1 </bdi>Purpose</h4>
+</section></section></section><section id="semantic-interoperability-architecture"><div class="header-wrapper"><h3 id="x4-7-semantic-interoperability-architecture"><bdi class="secno">4.7 </bdi>Semantic Interoperability Architecture</h3><a class="self-link" href="#semantic-interoperability-architecture" aria-label="Permalink for Section 4.7"></a></div>
+<section id="purpose-18"><div class="header-wrapper"><h4 id="x4-7-1-purpose"><bdi class="secno">4.7.1 </bdi>Purpose</h4><a class="self-link" href="#purpose-18" aria-label="Permalink for Section 4.7.1"></a></div>
 <p>Technical interoperability alone is insufficient for Digital Twin ecosystems.</p>
 <p>Systems must also understand the meaning of exchanged information.</p>
 <p>The semantic interoperability layer provides this shared understanding.</p>
-</section><section id="responsibilities-5"><h4 id="x4-7-2-responsibilities"><bdi class="secno">4.7.2 </bdi>Responsibilities</h4>
+</section><section id="responsibilities-5"><div class="header-wrapper"><h4 id="x4-7-2-responsibilities"><bdi class="secno">4.7.2 </bdi>Responsibilities</h4><a class="self-link" href="#responsibilities-5" aria-label="Permalink for Section 4.7.2"></a></div>
 <ul>
 <li>Semantic alignment</li>
 <li>Context definition</li>
@@ -1416,7 +1609,7 @@ Decision Support
 <li>Knowledge representation</li>
 <li>Vocabulary management</li>
 </ul>
-</section><section id="typical-technologies"><h4 id="x4-7-3-typical-technologies"><bdi class="secno">4.7.3 </bdi>Typical Technologies</h4>
+</section><section id="typical-technologies"><div class="header-wrapper"><h4 id="x4-7-3-typical-technologies"><bdi class="secno">4.7.3 </bdi>Typical Technologies</h4><a class="self-link" href="#typical-technologies" aria-label="Permalink for Section 4.7.3"></a></div>
 <ul>
 <li>RDF</li>
 <li>JSON-LD</li>
@@ -1426,7 +1619,7 @@ Decision Support
 <li>DCAT-AP</li>
 <li>SAREF</li>
 </ul>
-</section><section id="expected-benefits"><h4 id="x4-7-4-expected-benefits"><bdi class="secno">4.7.4 </bdi>Expected Benefits</h4>
+</section><section id="expected-benefits"><div class="header-wrapper"><h4 id="x4-7-4-expected-benefits"><bdi class="secno">4.7.4 </bdi>Expected Benefits</h4><a class="self-link" href="#expected-benefits" aria-label="Permalink for Section 4.7.4"></a></div>
 <ul>
 <li>Cross-domain integration</li>
 <li>Cross-border interoperability</li>
@@ -1434,12 +1627,12 @@ Decision Support
 <li>Improved discoverability</li>
 </ul>
 <p>Semantic technologies are a means to shared meaning. They are not, by themselves, a public integration strategy. The next section explains why.</p>
-</section></section><section id="design-time-contracts-run-time-queries-and-the-api-abstraction"><h3 id="x4-8-design-time-contracts-run-time-queries-and-the-api-abstraction"><bdi class="secno">4.8 </bdi>Design-time Contracts, Run-time Queries, and the API Abstraction</h3>
+</section></section><section id="design-time-contracts-run-time-queries-and-the-api-abstraction"><div class="header-wrapper"><h3 id="x4-8-design-time-contracts-run-time-queries-and-the-api-abstraction"><bdi class="secno">4.8 </bdi>Design-time Contracts, Run-time Queries, and the API Abstraction</h3><a class="self-link" href="#design-time-contracts-run-time-queries-and-the-api-abstraction" aria-label="Permalink for Section 4.8"></a></div>
 <p>Two legitimate ways of working with information meet inside a Local Digital Twin. If they are not separated on purpose, they collapse into one stack — and interoperability suffers.</p>
 <p>Call them <strong>design time</strong> and <strong>run time</strong>. They are as distinct as two comic-book universes: each is consistent on its own terms; they do not automatically share a cast. The architecture's job is not to pick a winner. It is to put a common ticket office in front of both.</p>
 <p>This section operationalises guardrails G3 (API First), G5 (Semantic Interoperability First), G6 (Open Standards) and G10 (Technology Independence).</p>
-<section id="the-two-worlds"><h4 id="x4-8-1-the-two-worlds"><bdi class="secno">4.8.1 </bdi>The two worlds</h4>
-<section id="design-time-schema"><h5 id="x4-8-1-1-design-time-schema"><bdi class="secno">4.8.1.1 </bdi>Design-time schema</h5>
+<section id="the-two-worlds"><div class="header-wrapper"><h4 id="x4-8-1-the-two-worlds"><bdi class="secno">4.8.1 </bdi>The two worlds</h4><a class="self-link" href="#the-two-worlds" aria-label="Permalink for Section 4.8.1"></a></div>
+<section id="design-time-schema"><div class="header-wrapper"><h5 id="x4-8-1-1-design-time-schema"><bdi class="secno">4.8.1.1 </bdi>Design-time schema</h5><a class="self-link" href="#design-time-schema" aria-label="Permalink for Section 4.8.1.1"></a></div>
 <p>At design time, producers and consumers agree the shape of information <em>before</em> a question is asked.</p>
 <p>Typical artefacts:</p>
 <ul>
@@ -1454,7 +1647,7 @@ Decision Support
 <li>Ordinary REST resources documented with OpenAPI</li>
 </ul>
 <p>The client can be written against a contract. Storage can be anything that can fulfil that contract: files, a relational store, an object store, or a knowledge graph. Transport is HTTP with a documented payload. The client does not need to know how the data is kept.</p>
-</section><section id="run-time-schema"><h5 id="x4-8-1-2-run-time-schema"><bdi class="secno">4.8.1.2 </bdi>Run-time schema</h5>
+</section><section id="run-time-schema"><div class="header-wrapper"><h5 id="x4-8-1-2-run-time-schema"><bdi class="secno">4.8.1.2 </bdi>Run-time schema</h5><a class="self-link" href="#run-time-schema" aria-label="Permalink for Section 4.8.1.2"></a></div>
 <p>At run time, the shape of the answer is defined <em>when the question is asked</em>.</p>
 <p>The classic case is SPARQL against RDF. A <code>SELECT</code> query invents the columns of the result set. A <code>CONSTRUCT</code> query invents the graph that comes back. The schema is a consequence of the query, not a resource that existed beforehand.</p>
 <p>This is genuinely powerful. Expert users can ask questions the original publisher did not anticipate. Knowledge graphs can grow without a new API version for every new relationship.</p>
@@ -1467,7 +1660,7 @@ Decision Support
 </ul>
 <p>The next system that wants to reuse the result is then pressured to stay in RDF as well. That is the <strong>viral aspect</strong> of RDF: not that RDF is closed — it is an open family of standards — but that exposing the store's native language as the public interface forces every participant to adopt that language. Flexibility at the query prompt becomes rigidity in the ecosystem.</p>
 <p>The same pattern appears with other native-query interfaces (a vendor's SQL dialect exposed on the internet, a proprietary graph API, a product-specific "data lake query"). RDF is the open and important instance of the pattern in Digital Twin practice; it is not the only one.</p>
-</section></section><section id="why-practical-interoperability-is-usually-higher-with-a-rest-api"><h4 id="x4-8-2-why-practical-interoperability-is-usually-higher-with-a-rest-api"><bdi class="secno">4.8.2 </bdi>Why practical interoperability is usually higher with a REST API</h4>
+</section></section><section id="why-practical-interoperability-is-usually-higher-with-a-rest-api"><div class="header-wrapper"><h4 id="x4-8-2-why-practical-interoperability-is-usually-higher-with-a-rest-api"><bdi class="secno">4.8.2 </bdi>Why practical interoperability is usually higher with a REST API</h4><a class="self-link" href="#why-practical-interoperability-is-usually-higher-with-a-rest-api" aria-label="Permalink for Section 4.8.2"></a></div>
 <p>Flexibility of query and interoperability of systems are not the same quality.</p>
 <p>A SPARQL endpoint maximises <em>what one skilled client can ask</em>. A documented REST API maximises <em>how many different clients can participate without sharing a technology stack</em>.</p>
 <p>For a federated network of Local Digital Twins — many organisations, many suppliers, many programming environments, many levels of expertise — the second quality is the scarce one.</p>
@@ -1489,7 +1682,7 @@ Decision Support
 <p>This is why the architecture treats <strong>open REST-style APIs as the default public interface</strong> between Local Digital Twins, and treats native query languages (including SPARQL) as powerful capabilities <em>behind</em> that interface, or as additional expert interfaces, not as a substitute for it.</p>
 <p>Semantic interoperability is not given up. Vocabularies, ontologies and profiles still define meaning. They travel with the API — as JSON-LD contexts, as DCAT metadata, as declared conformance to a profile — rather than requiring every consumer to query a triple store.</p>
 <p>NGSI-LD is a useful illustration of the distinction: it carries a linked-data model, but it is offered as a REST API of entities, not as "the client must speak SPARQL".</p>
-</section><section id="the-collision"><h4 id="x4-8-3-the-collision"><bdi class="secno">4.8.3 </bdi>The collision</h4>
+</section><section id="the-collision"><div class="header-wrapper"><h4 id="x4-8-3-the-collision"><bdi class="secno">4.8.3 </bdi>The collision</h4><a class="self-link" href="#the-collision" aria-label="Permalink for Section 4.8.3"></a></div>
 <p>Problems start when the two worlds are treated as one:</p>
 <ul>
 <li>The storage format is used as the transport format.</li>
@@ -1499,7 +1692,7 @@ Decision Support
 <li>Procurement buys a platform rather than a capability behind a contract.</li>
 </ul>
 <p>That is vendor lock-in in slow motion — even when every piece of the stack is open source. Lock-in is dependence on a stack you cannot peel apart, not only dependence on a commercial licence.</p>
-</section><section id="the-pattern-an-api-as-abstraction-layer"><h4 id="x4-8-4-the-pattern-an-api-as-abstraction-layer"><bdi class="secno">4.8.4 </bdi>The pattern: an API as abstraction layer</h4>
+</section><section id="the-pattern-an-api-as-abstraction-layer"><div class="header-wrapper"><h4 id="x4-8-4-the-pattern-an-api-as-abstraction-layer"><bdi class="secno">4.8.4 </bdi>The pattern: an API as abstraction layer</h4><a class="self-link" href="#the-pattern-an-api-as-abstraction-layer" aria-label="Permalink for Section 4.8.4"></a></div>
 <p>The recommended pattern is an explicit abstraction layer.</p>
 <pre><code class="text hljs" aria-busy="false">  Clients of the twin
   (other twins, apps, tools, Data Spaces)
@@ -1527,7 +1720,7 @@ Decision Support
 <li><strong>Carry meaning.</strong> Metadata, vocabularies and provenance accompany the resource. Meaning is not locked inside a query that only RDF clients can run.</li>
 <li><strong>Allow several encodings.</strong> JSON, GeoJSON, JSON-LD, and where needed RDF serialisations, as <em>options</em> on the same resource — not as a requirement that every client pick RDF.</li>
 </ol>
-<section id="what-this-means-for-sparql-and-rdf"><h5 id="x4-8-4-1-what-this-means-for-sparql-and-rdf"><bdi class="secno">4.8.4.1 </bdi>What this means for SPARQL and RDF</h5>
+<section id="what-this-means-for-sparql-and-rdf"><div class="header-wrapper"><h5 id="x4-8-4-1-what-this-means-for-sparql-and-rdf"><bdi class="secno">4.8.4.1 </bdi>What this means for SPARQL and RDF</h5><a class="self-link" href="#what-this-means-for-sparql-and-rdf" aria-label="Permalink for Section 4.8.4.1"></a></div>
 <p>RDF, OWL, JSON-LD and SPARQL remain first-class tools for:</p>
 <ul>
 <li>semantic alignment and vocabulary management;</li>
@@ -1538,10 +1731,10 @@ Decision Support
 </ul>
 <p>They are not the default handshake of the CitiVERSE federation.</p>
 <p>If an implementation exposes SPARQL, it <em class="rfc2119">SHOULD</em> also expose the same information (or the operational subset that other twins need) through a design-time REST API. EDIC-offered components <em class="rfc2119">MUST</em> do so.</p>
-</section><section id="what-this-means-for-rest"><h5 id="x4-8-4-2-what-this-means-for-rest"><bdi class="secno">4.8.4.2 </bdi>What this means for REST</h5>
+</section><section id="what-this-means-for-rest"><div class="header-wrapper"><h5 id="x4-8-4-2-what-this-means-for-rest"><bdi class="secno">4.8.4.2 </bdi>What this means for REST</h5><a class="self-link" href="#what-this-means-for-rest" aria-label="Permalink for Section 4.8.4.2"></a></div>
 <p>REST-style APIs in this architecture are not "JSON instead of semantics". They are the stable surface on which semantics, data and processes are offered to a heterogeneous network.</p>
 <p>Where a resource has a well-known meaning, declare it: JSON-LD context, DCAT-AP metadata, a profile URI, a conformance class. That is semantic interoperability without viral coupling of the store.</p>
-</section></section><section id="implications-for-building-blocks"><h4 id="x4-8-5-implications-for-building-blocks"><bdi class="secno">4.8.5 </bdi>Implications for building blocks</h4>
+</section></section><section id="implications-for-building-blocks"><div class="header-wrapper"><h4 id="x4-8-5-implications-for-building-blocks"><bdi class="secno">4.8.5 </bdi>Implications for building blocks</h4><a class="self-link" href="#implications-for-building-blocks" aria-label="Permalink for Section 4.8.5"></a></div>
 <table>
 <thead>
 <tr>
@@ -1587,7 +1780,7 @@ Decision Support
 </tr>
 </tbody></table>
 <p>Architecture Building Blocks (catalogues, feature access, process execution, context management) are specified at the API-contract level. Solution Building Blocks may use RDF, relational technology, or both. Substitutability is evaluated against the contract, not against the store.</p>
-</section><section id="expected-outcomes-0"><h4 id="x4-8-6-expected-outcomes"><bdi class="secno">4.8.6 </bdi>Expected outcomes</h4>
+</section><section id="expected-outcomes-0"><div class="header-wrapper"><h4 id="x4-8-6-expected-outcomes"><bdi class="secno">4.8.6 </bdi>Expected outcomes</h4><a class="self-link" href="#expected-outcomes-0" aria-label="Permalink for Section 4.8.6"></a></div>
 <ul>
 <li>Cities can change storage technology without rewriting every client.</li>
 <li>A twin that uses a knowledge graph internally can still participate in a REST-based federation.</li>
@@ -1596,7 +1789,7 @@ Decision Support
 <li>Vendor and stack lock-in are reduced because the public dependency is an open API, not a product and not a single technology family.</li>
 </ul>
 <hr>
-</section></section><section id="the-digital-twin-processing-pipeline"><h3 id="x4-9-the-digital-twin-processing-pipeline"><bdi class="secno">4.9 </bdi>The Digital Twin Processing Pipeline</h3>
+</section></section><section id="the-digital-twin-processing-pipeline"><div class="header-wrapper"><h3 id="x4-9-the-digital-twin-processing-pipeline"><bdi class="secno">4.9 </bdi>The Digital Twin Processing Pipeline</h3><a class="self-link" href="#the-digital-twin-processing-pipeline" aria-label="Permalink for Section 4.9"></a></div>
 <p>A recurring pattern is the transformation of data into knowledge and action.</p>
 <p>This pattern realises the LDT Value Stream introduced in the Strategy chapter.</p>
 <pre><code class="text hljs" aria-busy="false">Data Sources
@@ -1620,11 +1813,11 @@ Intervention
 <p>The individual stages may be realised by separate services or organisations while collectively forming a coherent Digital Twin ecosystem.</p>
 <p>The result is a Digital Twin that acts as a knowledge-generation system rather than merely a data repository.</p>
 <hr>
-</section><section id="infrastructure-agnostic-deployment"><h3 id="x4-10-infrastructure-agnostic-deployment"><bdi class="secno">4.10 </bdi>Infrastructure-Agnostic Deployment</h3>
-<section id="purpose-19"><h4 id="x4-10-1-purpose"><bdi class="secno">4.10.1 </bdi>Purpose</h4>
+</section><section id="infrastructure-agnostic-deployment"><div class="header-wrapper"><h3 id="x4-10-infrastructure-agnostic-deployment"><bdi class="secno">4.10 </bdi>Infrastructure-Agnostic Deployment</h3><a class="self-link" href="#infrastructure-agnostic-deployment" aria-label="Permalink for Section 4.10"></a></div>
+<section id="purpose-19"><div class="header-wrapper"><h4 id="x4-10-1-purpose"><bdi class="secno">4.10.1 </bdi>Purpose</h4><a class="self-link" href="#purpose-19" aria-label="Permalink for Section 4.10.1"></a></div>
 <p>The reference architecture deliberately avoids dependence on specific infrastructure providers.</p>
 <p>Solutions should remain portable across different execution environments.</p>
-</section><section id="supported-deployment-models"><h4 id="x4-10-2-supported-deployment-models"><bdi class="secno">4.10.2 </bdi>Supported Deployment Models</h4>
+</section><section id="supported-deployment-models"><div class="header-wrapper"><h4 id="x4-10-2-supported-deployment-models"><bdi class="secno">4.10.2 </bdi>Supported Deployment Models</h4><a class="self-link" href="#supported-deployment-models" aria-label="Permalink for Section 4.10.2"></a></div>
 <ul>
 <li>Public Cloud</li>
 <li>Private Cloud</li>
@@ -1635,16 +1828,16 @@ Intervention
 <li>Municipal Platforms</li>
 <li>and all hybrid combinations of the above</li>
 </ul>
-</section><section id="architectural-benefits"><h4 id="x4-10-3-architectural-benefits"><bdi class="secno">4.10.3 </bdi>Architectural Benefits</h4>
+</section><section id="architectural-benefits"><div class="header-wrapper"><h4 id="x4-10-3-architectural-benefits"><bdi class="secno">4.10.3 </bdi>Architectural Benefits</h4><a class="self-link" href="#architectural-benefits" aria-label="Permalink for Section 4.10.3"></a></div>
 <ul>
 <li>Technology independence</li>
 <li>Reduced lock-in</li>
 <li>Greater resilience</li>
 <li>Increased portability</li>
 </ul>
-</section></section><section id="architecture-building-blocks-and-solution-building-blocks"><h3 id="x4-11-architecture-building-blocks-and-solution-building-blocks"><bdi class="secno">4.11 </bdi>Architecture Building Blocks and Solution Building Blocks</h3>
+</section></section><section id="architecture-building-blocks-and-solution-building-blocks"><div class="header-wrapper"><h3 id="x4-11-architecture-building-blocks-and-solution-building-blocks"><bdi class="secno">4.11 </bdi>Architecture Building Blocks and Solution Building Blocks</h3><a class="self-link" href="#architecture-building-blocks-and-solution-building-blocks" aria-label="Permalink for Section 4.11"></a></div>
 <p>The architecture distinguishes between:</p>
-<section id="architecture-building-blocks-abbs"><h4 id="x4-11-1-architecture-building-blocks-abbs"><bdi class="secno">4.11.1 </bdi>Architecture Building Blocks (ABBs)</h4>
+<section id="architecture-building-blocks-abbs"><div class="header-wrapper"><h4 id="x4-11-1-architecture-building-blocks-abbs"><bdi class="secno">4.11.1 </bdi>Architecture Building Blocks (ABBs)</h4><a class="self-link" href="#architecture-building-blocks-abbs" aria-label="Permalink for Section 4.11.1"></a></div>
 <p>Architecture Building Blocks describe reusable architectural capabilities and patterns.</p>
 <p>Examples include:</p>
 <ul>
@@ -1654,7 +1847,7 @@ Intervention
 <li>Semantic Broker</li>
 </ul>
 <p>ABBs define <em>which</em> capability is required.</p>
-</section><section id="solution-building-blocks-sbbs"><h4 id="x4-11-2-solution-building-blocks-sbbs"><bdi class="secno">4.11.2 </bdi>Solution Building Blocks (SBBs)</h4>
+</section><section id="solution-building-blocks-sbbs"><div class="header-wrapper"><h4 id="x4-11-2-solution-building-blocks-sbbs"><bdi class="secno">4.11.2 </bdi>Solution Building Blocks (SBBs)</h4><a class="self-link" href="#solution-building-blocks-sbbs" aria-label="Permalink for Section 4.11.2"></a></div>
 <p>Solution Building Blocks are concrete implementations of ABBs.</p>
 <p>Examples include:</p>
 <ul>
@@ -1665,7 +1858,7 @@ Intervention
 </ul>
 <p>SBBs define <em>how</em> a capability is implemented.</p>
 <p>This distinction enables vendor neutrality while supporting practical implementation. Substitutability is judged against the API contract of the Architecture Building Block, not against the storage format or query language of a particular Solution Building Block. See <em>Design-time Contracts, Run-time Queries, and the API Abstraction</em> above.</p>
-</section></section><section id="shared-infrastructure-as-a-european-commons"><h3 id="x4-12-shared-infrastructure-as-a-european-commons"><bdi class="secno">4.12 </bdi>Shared Infrastructure as a European Commons</h3>
+</section></section><section id="shared-infrastructure-as-a-european-commons"><div class="header-wrapper"><h3 id="x4-12-shared-infrastructure-as-a-european-commons"><bdi class="secno">4.12 </bdi>Shared Infrastructure as a European Commons</h3><a class="self-link" href="#shared-infrastructure-as-a-european-commons" aria-label="Permalink for Section 4.12"></a></div>
 <p>At the highest level, the architecture introduces the concept of shared infrastructure as a European commons.</p>
 <p>The objective is not to create a single Digital Twin platform, but rather a shared ecosystem of infrastructure, services, standards and knowledge that can be reused across Europe.</p>
 <p>Examples include:</p>
@@ -1683,7 +1876,7 @@ Intervention
 <li>EDIC infrastructures</li>
 <li>Cross-border Digital Public</li>
 </ul>
-</section><section id="from-architecture-to-implementation"><h3 id="x4-13-from-architecture-to-implementation"><bdi class="secno">4.13 </bdi>From Architecture to Implementation</h3>
+</section><section id="from-architecture-to-implementation"><div class="header-wrapper"><h3 id="x4-13-from-architecture-to-implementation"><bdi class="secno">4.13 </bdi>From Architecture to Implementation</h3><a class="self-link" href="#from-architecture-to-implementation" aria-label="Permalink for Section 4.13"></a></div>
 <p>This layer defines the technical patterns required to implement interoperable Local Digital Twins.</p>
 <p>Actual Implementations are out of scope for the reference architecture, but should be following the guardrails and patterns as described in the reference architecture.</p>
 <pre><code class="text hljs" aria-busy="false">Strategy
@@ -1701,7 +1894,7 @@ Implementations
 </section></section>
    
    
-   <section id="glossary" class="appendix"><h2 id="a-glossary"><bdi class="secno">A. </bdi>Glossary</h2>
+   <section id="glossary" class="appendix"><div class="header-wrapper"><h2 id="a-glossary"><bdi class="secno">A. </bdi>Glossary</h2><a class="self-link" href="#glossary" aria-label="Permalink for Appendix A."></a></div>
 <p><dfn id="dfn-archimate" tabindex="0" aria-haspopup="dialog">Archimate</dfn> Open and independent modeling language for Enterprise Architecture. See: <a href="https://www.opengroup.org/archimate-forum/archimate-overview">Open Group Archimate Overview</a></p>
 <p><dfn id="dfn-api-abstraction-layer" tabindex="0" aria-haspopup="dialog">API abstraction layer</dfn> A documented public interface that sits between clients and storage. It hides how data is kept (files, database, RDF, …) and how ad-hoc queries are executed, and offers resources with a schema that is known before the client is written.</p>
 <p><dfn id="dfn-design-time-schema" tabindex="0" aria-haspopup="dialog">Design-time schema</dfn> An information contract agreed before a question is asked: OpenAPI, JSON Schema, an OGC Features schema, a profile. Clients can be written against it. Storage and transport are allowed to differ.</p>
@@ -2008,4 +2201,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">LDT CiTiVERSE EDIC  Guide - Proposed recommendation</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
