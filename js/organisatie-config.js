@@ -24,7 +24,29 @@ var organisationConfig = {
     useLogo: true,
     useLabel: true,
 
-    license: "cc-by",
+
+  licenses: {
+    cc0: {
+      name: "Creative Commons 0 Public Domain Dedication",
+      short: "CC0",
+      url: "https://creativecommons.org/publicdomain/zero/1.0/",
+      image:
+        "https://docs.geostandaarden.nl/media/CC-Licentie.svg",
+    },
+    "cc-by": {
+      name: "Creative Commons Attribution 4.0 International Public License",
+      short: "CC-BY",
+      url: "https://creativecommons.org/licenses/by/4.0/legalcode",
+      image: "https://docs.geostandaarden.nl/media/cc-by.svg",
+    },
+    "cc-by-nd": {
+      name: "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
+      short: "CC-BY-ND",
+      url: "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
+      image: "https://docs.geostandaarden.nl/media/cc-by-nd.svg",
+    },
+  },
+
     addSectionLinks: true,
 
     localizationStrings: {
@@ -94,8 +116,8 @@ var organisationConfig = {
         // wv: "#FF0000",
          cv: "#045D9F",
          vv: "#045D9F",
-        // basis: "#80CC28",
-        // ld: "#80CC28"
+        basis: "#80CC28",
+        ld: "#80CC28",
         wv: "#39870c"
     },
     
