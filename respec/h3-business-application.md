@@ -309,19 +309,18 @@ Local implementations in cities and regions can deviate from this standard, bein
 
 The public interface of a building block is a documented API. It is not a direct handle on the storage engine. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the store. The Application & Technology chapter develops this as the distinction between design-time contracts and run-time queries.
 
-## API Standards
 Below you find a first list of standards that will be part of the EDIC interoperability requirements. This list will continuously be maintained by the EDIC and will change over time. Selection is based on 2 criteria:
 - Standards should be open.
 - Standards should be official or in the process of becoming official through a recognised institute (CEN/CENELEC, ETSI, ISO), or should result from recognised industry standardisation such as OGC.
 
-| API Standards | Trust and Identity | Observability | Data Sharing |
-|---|---|---|---|
-| OGC API Features | OpenID Connect | OpenTelemetry | Dataspace Protocol |
-| OGC API Processes | OIDC Federation | Structured Logging | IDS Catalog Protocol |
-| OGC API Records | OID4VC | Monitoring Services | Federated Discovery Mechanisms |
-| OGC API Tiles | Verifiable Credentials |  |  |
-| NGSI-LD |  |  |  |
-| SPARQL |  |  |  |
+
+## API Standards
+
+- OGC API Features
+- OGC API Processes
+- OGC API Records
+- OGC API Tiles
+- NGSI-LD *
 
 Optional or internal interfaces (run-time queries, expert access, or capabilities behind the API):
 
@@ -329,7 +328,30 @@ Optional or internal interfaces (run-time queries, expert access, or capabilitie
 
 SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) SHOULD also be available through one of the design-time APIs above. EDIC-offered components MUST provide that design-time API.
 
-NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
+
+*) NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
+
+## Trust and Identity
+
+- OpenID Connect
+- OIDC Federation
+- OID4VC
+- Verifiable Credentials
+
+## Observability
+
+- OpenTelemetry
+- Structured Logging
+- Monitoring Services
+
+
+## Data Sharing
+
+- Dataspace Protocol
+- IDS Catalog Protocol
+- Federated Discovery Mechanisms
+
+
 
 # Information Models and Semantic Assets
 
