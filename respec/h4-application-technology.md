@@ -18,8 +18,6 @@ Together these concepts enable Local Digital Twins to be assembled from reusable
 
 The architecture promotes Local Digital Twins as distributed ecosystems that transform data into knowledge, decisions and interventions through reusable services, common standards and shared infrastructure. This approach allows cities, regions and Member States to collaborate while maintaining local ownership, governance and technical autonomy.
 
----
-
 # Technical Architecture Principles
 
 The technical architecture implements and operationalises the architectural guardrails introduced earlier in this document.
@@ -52,58 +50,12 @@ Infrastructure
 
 Each layer depends on the services of the layer below while remaining insulated from implementation details.
 
-## Business Services
-
-The business layer provides the stakeholder-facing services described in the previous chapter.
-
-Examples include:
-
-- Digital Participation
-- Context Awareness
-- Decision Support
-- Urban Planning
-- Infrastructure Management
-
-## Application Services
-
-Application services realise business services through reusable functionality.
-
-Examples include:
-
-- Data Management
-- Visualisation
-- Simulation
-- Analytics
-- Participation
-- Identity
-
-## Technology Services
-
-Technology services provide reusable platform capabilities.
-
-Examples include:
-
-- API Management
-- Workflow Orchestration
-- Context Management
-- Event Processing
-- Logging
-- Monitoring
-
-## Infrastructure
-
-Infrastructure provides the execution environment.
-
-Examples include:
-
-- Cloud Infrastructure
-- Edge Infrastructure
-- Data Space Infrastructure
-- Compute Resources
-- Storage Services
-- Networking Services
-
----
+| Layer | Description | Examples |
+|---|---|---|
+| Business Services | The business layer provides the stakeholder-facing services described in the previous chapter. | Digital Participation; Context Awareness; Decision Support; Urban Planning; Infrastructure Management |
+| Application Services | Application services realise business services through reusable functionality. | Data Management; Visualisation; Simulation; Analytics; Participation; Identity |
+| Technology Services | Technology services provide reusable platform capabilities. | API Management; Workflow Orchestration; Context Management; Event Processing; Logging; Monitoring |
+| Infrastructure | Infrastructure provides the execution environment. | Cloud Infrastructure; Edge Infrastructure; Data Space Infrastructure; Compute Resources; Storage Services; Networking Services |
 
 # Federated Infrastructure Pattern
 
@@ -136,8 +88,6 @@ A federated approach:
 - Cross-community interoperability
 - Local autonomy
 - European-scale collaboration
-
----
 
 # Shared Services Architecture
 
@@ -186,8 +136,6 @@ Provide:
 - auditing
 - performance insights
 
----
-
 # Orchestration Architecture
 
 ## Purpose
@@ -228,8 +176,6 @@ Decision Support
 
 Each step may be implemented by an independent service operated by a different organisation.
 
----
-
 # Semantic Interoperability Architecture
 
 ## Purpose
@@ -266,8 +212,6 @@ The semantic interoperability layer provides this shared understanding.
 - Improved discoverability
 
 Semantic technologies are a means to shared meaning. They are not, by themselves, a public integration strategy. The next section explains why.
-
----
 
 # Design-time Contracts, Run-time Queries, and the API Abstraction
 
@@ -491,8 +435,6 @@ Solutions should remain portable across different execution environments.
 - Greater resilience
 - Increased portability
 
----
-
 # Architecture Building Blocks and Solution Building Blocks
 
 The architecture distinguishes between:
@@ -508,7 +450,7 @@ Examples include:
 - Identity Service
 - Semantic Broker
 
-ABBs define *what* capability is required.
+ABBs define *which* capability is required.
 
 ## Solution Building Blocks (SBBs)
 
@@ -524,8 +466,6 @@ Examples include:
 SBBs define *how* a capability is implemented.
 
 This distinction enables vendor neutrality while supporting practical implementation. Substitutability is judged against the API contract of the Architecture Building Block, not against the storage format or query language of a particular Solution Building Block. See *Design-time Contracts, Run-time Queries, and the API Abstraction* above.
-
----
 
 # Shared Infrastructure as a European Commons
 
@@ -546,9 +486,7 @@ This vision aligns closely with:
 - European Data Spaces
 - Digital Public Infrastructure initiatives
 - EDIC infrastructures
-- Cross-border Digital Public Services
-
----
+- Cross-border Digital Public 
 
 # From Architecture to Implementation
 
