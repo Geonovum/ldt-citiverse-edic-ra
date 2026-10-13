@@ -1,13 +1,13 @@
 <aside class="note">
-    The Archimate models of the <b>reference architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank_">here.</a>
+    The Archimate models of the <b>reference architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank">here.</a>
 </aside>
 
 <aside class="note">
-    The Archimate models of the EDIC <b>Business architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ba/archimate/html/index.html" target="_blank_">here.</a>
+    The Archimate models of the EDIC <b>Business architecture</b> can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ba/archimate/html/index.html" target="_blank">here.</a>
 </aside>
 
 # Overview
-This chapter describes the Reference architecture for LDT Citiverse implementation patterns. More information about the LDT CiTiVERSE EDIC can be found on the website.
+This chapter describes the Reference architecture for LDT Citiverse implementation patterns. More information about the LDT CiTiVERSE EDIC can be found on the <a href="https://ldtcitiverse-edic.eu/" target="_blank">website.</a>
 
 ## Introduction
 This reference architecture contains guidelines and principles for a networked system of digital twins for the physical environment. This reference architecture is intended for everyone who plays a role in establishing a digital twin for the physical environment. The guidelines, starting points, principles, and standards presented in this document contribute to establishing a system consisting of many applications that form together a network of digital twins.
@@ -41,7 +41,7 @@ This document is focussed on the Reference architecture for LDT's. The business 
 
 <img src="./media/architecture-overview.png" alt="Architecture Overview" width="800">
 
-This document describes the architecture in written form, a more formal definition of the architecture is described using [=Archimate=], which can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank_">here.</a>
+This document describes the architecture in written form, a more formal definition of the architecture is described using [=Archimate=], which can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank">here.</a>
 
 The LDT CitiVERSE EDIC Reference Architecture focuses on the architectural aspects required to create and operate interoperable Local Digital Twins.
 The architecture covers:
