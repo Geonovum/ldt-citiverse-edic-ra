@@ -39,7 +39,7 @@ The LDT CiTiVERSE EDIC presents both an architecture of the EDIC itself as well 
 
 This document is focussed on the Reference architecture for LDT's. The business architecture is documented here: https://geonovum.github.io/ldt-citiverse-edic-ba
 
-<img src="./respec/media/architecture-overview.png" alt="Architecture Overview" width="800">
+<img src="./media/architecture-overview.png" alt="Architecture Overview" width="800">
 
 This document describes the architecture in written form, a more formal definition of the architecture is described using [=Archimate=], which can be found <a href="https://geonovum.github.io/ldt-citiverse-edic-ra/archimate/" target="_blank_">here.</a>
 

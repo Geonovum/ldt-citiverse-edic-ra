@@ -8,7 +8,7 @@ LDT CitiVERSE capabilities are grounded in the broader eGovERA capability framew
 
 ## LDT / Data Value Stream
 
-<img src="./respec/media/ldt-value-stream.png" alt="LDT Value Stream" width="800">
+<img src="./media/ldt-value-stream.png" alt="LDT Value Stream" width="800">
 
 The LDT / Data Value Stream defines how a Local Digital Twin creates value. 
 
@@ -342,7 +342,7 @@ The Reference Architecture therefore supports a diversity of Local Digital Twins
 
 The different types of LDT's can be deployed for different themes within an organisation. This leads to an ecosystem of a common base with shared components with additional capabilities taylored for the specific theme and type of requirements. That is to say, there is not one Digital Twin in an organisation, but a series of connected Local Digital Twins within or even across organisations.
 
-<img src="./respec/media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800">
+<img src="./media/ldt-ecosystem.png" alt="LDT Ecosystem" width="800">
 
 ## Enablement Frameworks
 

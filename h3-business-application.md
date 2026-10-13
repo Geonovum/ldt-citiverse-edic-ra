@@ -2,102 +2,172 @@
 
 ## Overview
 
-The Business & Application layer defines how Local Digital Twin capabilities are realised through reusable application services and open standards. It organises the architecture around data services, processing services, visualisation services, participation services and integration services. These services support business domains such as context awareness, citizen participation and collaborative decision-making. By relying on open APIs, common information models and interoperable data formats, the architecture enables cities and regions to build federated, reusable and scalable Local Digital Twin solutions within the LDT CitiVERSE ecosystem.
+The Business & Application layer describes how Local Digital Twin capabilities are realised through reusable business services, application services and interoperable information flows.
 
-It bridges the strategic capabilities described in the previous architecture level with the technology-oriented building blocks described in the subsequent application and technology views. The focus is on interoperable and reusable services that can be deployed across cities, regions and domains.
+Where the Strategy layer explains **why** Local Digital Twins are needed and **which capabilities** they provide, this layer explains **how those capabilities are implemented** through a combination of reusable services and architectural building blocks.
 
----
+The architecture promotes a modular and federated approach in which Local Digital Twins are assembled from interoperable components rather than implemented as monolithic solutions. Individual implementations may vary in scope and technology choices, but share a common set of service patterns and interfaces that enable interoperability and reuse across cities, regions and Member States.
+
+The Business & Application layer therefore acts as the bridge between strategic objectives and technology implementation.
 
 ## Architectural Intent
 
-The LDT CitiVERSE architecture promotes a modular ecosystem in which common services can be reused across multiple Local Digital Twin implementations.
+The primary objective of this layer is to translate LDT capabilities into reusable services that can be shared across multiple implementations.
 
-The architecture is based on three key principles:
+Three architectural principles drive this layer:
 
-- **Interoperability by design** through open standards and APIs.
-- **Reusability** of common application services and data services.
-- **Federation** of platforms, data spaces and digital twin implementations.
+| Principle | Description |
+|---|---|
+| Interoperability by Design | Services expose capabilities through standard interfaces and information models, allowing independent implementations to collaborate and exchange information. |
+| Reuse Before Build | Capabilities should be realised using reusable application services and building blocks wherever possible. Solutions should avoid creating bespoke services that duplicate existing functionality. |
+| Federation by Default | Services may be deployed by different organisations while remaining discoverable and interoperable within a shared ecosystem. |
 
----
+# Business Service Architecture
 
-## Business Service Domains
+## Business Services as Public Capabilities
 
-There are a set of recurring business service domains that can be supported by Local Digital Twins.
+Business services provide value directly to communities, public authorities, businesses and citizens.
 
-### Context Awareness
+Rather than focusing on individual software products, the reference architecture focuses on the outcomes these services provide.
 
-Provides a shared and trusted operational picture by integrating information from multiple data sources.
+A single business service may be realised by multiple application services, and a single application service may contribute to multiple business services.
 
-Typical functions include:
+This separation allows implementations to evolve without changing the business capabilities they support.
+
+## Context Awareness
+
+Context Awareness services create a trusted and shared understanding of the current state of an asset, environment or urban system.
+
+### Purpose
+
+Provide operational situational awareness across organisational and domain boundaries.
+
+### Typical Functions
 
 - Sensor integration
 - Context aggregation
-- Situational awareness
-- Monitoring of urban systems
+- Environmental monitoring
+- Asset monitoring
+- Event detection
+- Operational awareness
 
-### Co-Creation and Participation
+### Supported LDT Profiles
 
-Supports collaboration between governments, citizens, businesses and other stakeholders.
+- Descriptive
+- Diagnostic
+- Predictive
 
-Typical functions include:
+## Co-Creation and Participation
+
+Participation services support collaborative planning and stakeholder engagement.
+
+### Purpose
+
+Enable communities, governments and stakeholders to collectively explore information, evaluate alternatives and support decision-making.
+
+### Typical Functions
 
 - Citizen participation
-- Stakeholder engagement
 - Collaborative planning
+- Stakeholder engagement
+- Feedback collection
+- Public consultation
 - Scenario evaluation
 
-### Visualisation
+### Supported LDT Profiles
 
-Provides human-centred access to information, simulations and insights.
+- Prospective
+- Prescriptive
 
-Typical functions include:
+## Digital Twin Visualisation
 
-- 2D and 3D visualisation
+Visualisation services provide a human-centred representation of information, models and simulations.
+
+### Purpose
+
+Transform complex information into understandable insights.
+
+### Typical Functions
+
+- Map visualisation
+- 3D city models
 - Digital Twin dashboards
-- XR/Metaverse experiences
+- Immersive environments
 - Scenario visualisation
+- Reporting
 
-### Data Exchange and Collaboration
+### Supported LDT Profiles
 
-Supports secure and interoperable sharing of data between organisations and platforms.
+- All Profiles
 
-Typical functions include:
+## Data Exchange and Collaboration
 
-- Data spaces
-- Data catalogues
-- Federated data exchange
-- Information discovery
+Data Exchange services support trusted collaboration between organisations.
 
-### Maturity and Capability Development
+### Purpose
 
-Supports assessment and improvement of digital twin adoption.
+Enable discovery, sharing and controlled access to information resources.
 
-Typical functions include:
+### Typical Functions
 
-- Capability assessments
-- Maturity measurements
-- Organisational learning
+- Data publication
+- Data discovery
+- Data sharing
+- Federated access
+- Metadata management
+- Data Space participation
+
+### Supported LDT Profiles
+
+- All Profiles
+
+## Capability Development and Knowledge Sharing
+
+Capability Development services support organisational maturity and community enablement.
+
+### Purpose
+
+Accelerate LDT adoption and knowledge exchange across communities.
+
+### Typical Functions
+
+- Maturity assessments
+- Capability development
+- Community support
 - Knowledge sharing
+- Training
+- Best-practice dissemination
 
----
+# Application Service Architecture
 
-## Application Service Layer
+Business services are realised through a collection of reusable application services.
 
-The business services are supported by a collection of reusable application services.
+Application services are intentionally technology-neutral. Different products may implement the same service as long as they conform to the agreed interfaces and information contracts.
 
-### Data Services
+## Data Services
 
-Data services provide storage, access and management of information.
+### Purpose
 
-Examples include:
+Provide the foundation for storing, exchanging and managing information.
 
-- Databases
-- Data catalogues
-- Metadata services
-- Data transformation services
-- Semantics and knowledge graph services
+### Responsibilities
 
-Supported formats include:
+- Data storage
+- Metadata management
+- Data cataloguing
+- Semantic enrichment
+- Data transformation
+- Provenance management
+
+### Typical Building Blocks
+
+- Data Catalogues
+- Metadata Repositories
+- Knowledge Graphs
+- Context Brokers
+- Data Transformation Services
+
+### Supported Formats
 
 - JSON
 - GeoJSON
@@ -108,104 +178,193 @@ Supported formats include:
 - Zarr
 - DCAT-AP
 
-### Processing Services
+## Processing Services
 
-Processing services transform data into actionable information.
+### Purpose
 
-Examples include:
+Transform information into knowledge.
+
+Processing services sit at the heart of the Generate Knowledge capability and provide analytical and computational functionality.
+
+### Responsibilities
 
 - Data processing
 - Analytics
-- Artificial Intelligence
-- Machine Learning
+- Machine learning
+- Artificial intelligence
 - Simulation
 - Scenario analysis
-- Real-time processing
+- Forecasting
 
-### Visualisation Services
+### Typical Building Blocks
 
-Visualisation services make information understandable and accessible.
+- Simulation Engines
+- AI Services
+- Analytics Services
+- Computational Models
+- Workflow Engines
 
-Examples include:
+## Visualisation Services
 
-- Dashboards
-- Map visualisation
-- 3D city models
-- XR environments
-- Reporting services
+### Purpose
 
-### Participation Services
+Provide meaningful and accessible views of information.
 
-Participation services facilitate interaction between stakeholders.
+### Responsibilities
 
-Examples include:
+- Interactive dashboards
+- Geospatial visualisation
+- 3D environments
+- XR visualisation
+- Reporting
 
-- Consultation platforms
-- Feedback mechanisms
-- Collaboration portals
-- Engagement tools
+### Typical Building Blocks
 
-### Integration Services
+- Dashboard Services
+- Map Services
+- Digital Twin Viewers
+- XR Platforms
 
-Integration services connect systems, organisations and platforms.
+## Participation Services
 
-Examples include:
+### Purpose
 
-- API gateways
-- Data mediation services
-- Identity services
-- Logging services
-- Federation services
+Enable interaction between people and digital twin systems.
 
----
+### Responsibilities
 
-## Open Interfaces and Standards
+- Consultation
+- Stakeholder engagement
+- Collaborative planning
+- Decision support workshops
+- Feedback collection
 
-The architecture promotes the use of open and internationally recognised standards.
+### Typical Building Blocks
 
-Examples include:
+- Participation Platforms
+- Collaboration Portals
+- Consultation Services
 
-### APIs
+## Integration Services
+
+### Purpose
+
+Connect independent systems and services into a coherent ecosystem.
+
+### Responsibilities
+
+- Service federation
+- API management
+- Identity federation
+- Information mediation
+- Logging and monitoring
+
+### Typical Building Blocks
+
+- API Gateways
+- Identity Providers
+- Service Registries
+- Federation Services
+- Observability Platforms
+
+# Service Realisation Pattern
+
+A recurring pattern throughout the architecture is that business services are realised through multiple application services working together.
+
+For example:
+
+```text
+Context Awareness
+        │
+        ├──────── Data Services
+        │
+        ├──────── Integration Services
+        │
+        ├──────── Processing Services
+        │
+        └──────── Visualisation Services
+```
+
+Likewise:
+
+```text
+Citizen Participation
+        │
+        ├──────── Participation Services
+        │
+        ├──────── Visualisation Services
+        │
+        ├──────── Data Services
+        │
+        └──────── Identity Services
+```
+
+This pattern allows services to be reused across domains while maintaining a consistent user experience.
+
+# Open Interfaces and Standards
+
+To enable interoperability, all application services MUST expose their functionality through open interfaces. 
+The EDIC will not offer components that do not comply to this. 
+Local implementations in cities and regions can deviate from this standard, being aware that this will limit the interoperability and the option to offer their building block for reuse.
+
+The public interface of a building block is a documented API. It is not a direct handle on the storage engine. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the store. The Application & Technology chapter develops this as the distinction between design-time contracts and run-time queries.
+
+Below you find a first list of standards that will be part of the EDIC interoperability requirements. This list will continuously be maintained by the EDIC and will change over time. Selection is based on 2 criteria:
+- Standards should be open.
+- Standards should be official or in the process of becoming official through a recognised institute (CEN/CENELEC, ETSI, ISO), or should result from recognised industry standardisation such as OGC.
+
+
+## API Standards
 
 - OGC API Features
 - OGC API Processes
 - OGC API Records
 - OGC API Tiles
-- NGSI-LD
-- SPARQL endpoints
+- NGSI-LD *
 
-### Trust and Identity
+Optional or internal interfaces (run-time queries, expert access, or capabilities behind the API):
+
+- SPARQL
+
+SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) SHOULD also be available through one of the design-time APIs above. EDIC-offered components MUST provide that design-time API.
+
+
+*) NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
+
+## Trust and Identity
 
 - OpenID Connect
+- OIDC Federation
 - OID4VC
 - Verifiable Credentials
 
-### Observability
+## Observability
 
 - OpenTelemetry
-- Logging and monitoring services
+- Structured Logging
+- Monitoring Services
 
-### Data Sharing
 
+## Data Sharing
+
+- Dataspace Protocol
 - IDS Catalog Protocol
-- Data Space interoperability specifications
+- Federated Discovery Mechanisms
 
----
 
-## Information Models and Data Assets
 
-The architecture supports a broad range of interoperable information models and data assets.
+# Information Models and Semantic Assets
 
-Examples include:
+Information interoperability depends on the use of shared information models and semantic assets.
+
+The architecture therefore promotes the use of common vocabularies, ontologies and information models that can be reused across Local Digital Twin implementations.
+
+These assets travel with the API contract — as metadata, profiles, JSON-LD contexts or declared conformance — so that meaning is shared without forcing every client onto the same storage or query stack.
+
+### Examples
 
 - DCAT-AP
 - PROV-O
 - SAREF
 - IFC
-- JSON-LD Contexts
 - Linked Open Vocabularies
-- Verifiable Credentials
-
-These assets ensure semantic interoperability across Local Digital Twins and related European initiatives.
-
-

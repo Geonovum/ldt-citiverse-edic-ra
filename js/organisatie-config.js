@@ -8,7 +8,7 @@ var organisationConfig = {
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/bro/style/",
     nl_organisationPublishURL: "https://ldtcitiverse-edic.eu",
     logos: [{
-        src: "./respec/media/logo-ldtcitiverseedic-whitecolour.png",
+        src: "./media/logo-ldtcitiverseedic-whitecolour.png",
         alt: "ldtcitiverse",
         id: "ldtcitiverse",
         height: 80,
