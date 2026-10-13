@@ -12,7 +12,8 @@ var organisationConfig = {
         alt: "ldtcitiverse",
         id: "ldtcitiverse",
         height: 80,
-        width: 369
+        width: 369,
+        url: "https://ldtcitiverse-edic.eu/"
     }],
 	
 	postProcess: [window.respecMermaid.createFigures],
