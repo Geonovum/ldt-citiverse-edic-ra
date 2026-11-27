@@ -358,7 +358,7 @@ Data Spaces provide capabilities for governed federation between autonomous orga
 
 A Local Digital Twin SHOULD support participation in a Data Space where data, models or services are exchanged across organisational trust boundaries and these governance capabilities are required.
 
-Participation in a Data Space does not imply that all interactions within a Local Digital Twin MUST use Data Space protocols or connectors. Within an established trust domain, components MAY interact through other standards-based interfaces, provided that the applicable interoperability, semantic, security and governance requirements are met.
+Participation in a Data Space does not imply that all interactions of a Local Digital Twin MUST use Data Space protocols or connectors. Components MAY interact through other standards-based interfaces where the required identity, access control, interoperability and governance capabilities are already provided. Data Space mechanisms SHOULD be used where interactions between autonomous participants require capabilities such as federated discovery, participant trust, agreement negotiation, usage policies, controlled transfer or data sovereignty.
 
 Publicly accessible or openly licensed resources do not need to be routed through a Data Space solely for architectural uniformity. Conversely, an ordinary open API is not sufficient when an exchange requires contract negotiation, usage-policy enforcement or controlled transfer across organisational trust boundaries.
 
