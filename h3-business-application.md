@@ -303,16 +303,19 @@ This pattern allows services to be reused across domains while maintaining a con
 
 # Open Interfaces and Standards
 
-To enable interoperability, all application services MUST expose their functionality through open interfaces. 
-The EDIC will not offer components that do not comply to this. 
-Local implementations in cities and regions can deviate from this standard, being aware that this will limit the interoperability and the option to offer their building block for reuse.
+To enable interoperability, all application services offered for reuse through the EDIC ecosystem MUST expose their functionality through open and documented interfaces.
+The EDIC will not offer components as reusable building blocks when their functionality can only be accessed through proprietary or implementation-specific interfaces.
+Local implementations in cities and regions MAY use different or additional interfaces, being aware that this can limit interoperability and the ability to offer their building blocks for reuse.
 
-The public interface of a building block is a documented API. It is not a direct handle on the storage engine. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the store. The Application & Technology chapter develops this as the distinction between design-time contracts and run-time queries.
+The public interface of a building block is a documented API. It is not a direct handle on the storage engine, graph store, processing engine or other internal implementation technology. Storage format, transport format and query language MAY differ. Clients MUST be able to participate without speaking the native language of the underlying implementation.
+
+The public API is part of a broader Interoperability Contract. In addition to operations and payloads, such a contract can include semantic, quality, provenance, security, policy and operational characteristics needed by another participant to determine whether the building block can be used. The Application & Technology chapter develops this concept and the distinction between design-time contracts and run-time queries.
 
 Below you find a first list of standards that will be part of the EDIC interoperability requirements. This list will continuously be maintained by the EDIC and will change over time. Selection is based on 2 criteria:
 - Standards should be open.
 - Standards should be official or in the process of becoming official through a recognised institute (CEN/CENELEC, ETSI, ISO), or should result from recognised industry standardisation such as OGC.
 
+A listed standard is not automatically mandatory for every implementation. Its applicability depends on the capability, interaction and Interoperability Profile concerned. An Interoperability Profile selects and, where needed, constrains standards for a defined interoperability purpose.
 
 ## API Standards
 
@@ -328,6 +331,7 @@ Optional or internal interfaces (run-time queries, expert access, or capabilitie
 
 SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is not a substitute for a REST-style public contract. If SPARQL is exposed, the same information (or the operational subset other twins need) SHOULD also be available through one of the design-time APIs above. EDIC-offered components MUST provide that design-time API.
 
+The same principle applies to other native or implementation-specific query interfaces. They MAY provide additional capabilities, but SHOULD NOT be the only means through which an EDIC building block participates in interoperable workflows.
 
 *) NGSI-LD illustrates the intended split: a linked-data information model offered as a REST API of entities, without requiring every client to issue SPARQL.
 
@@ -344,14 +348,21 @@ SPARQL is a first-class tool for knowledge graphs and ad-hoc questions. It is no
 - Structured Logging
 - Monitoring Services
 
-
 ## Data Sharing
 
 - Dataspace Protocol
 - IDS Catalog Protocol
 - Federated Discovery Mechanisms
 
+Data Spaces provide capabilities for governed federation between autonomous organisations, including federated discovery, participant identity and trust, contract negotiation, usage policies, controlled transfer and data sovereignty.
 
+A Local Digital Twin SHOULD support participation in a Data Space where data, models or services are exchanged across organisational trust boundaries and these governance capabilities are required.
+
+Participation in a Data Space does not imply that all interactions within a Local Digital Twin MUST use Data Space protocols or connectors. Within an established trust domain, components MAY interact through other standards-based interfaces, provided that the applicable interoperability, semantic, security and governance requirements are met.
+
+Publicly accessible or openly licensed resources do not need to be routed through a Data Space solely for architectural uniformity. Conversely, an ordinary open API is not sufficient when an exchange requires contract negotiation, usage-policy enforcement or controlled transfer across organisational trust boundaries.
+
+The choice of a Data Space mechanism is therefore driven by the required federation, trust, policy and data-sovereignty capabilities rather than by a requirement to use one integration technology throughout the Local Digital Twin.
 
 # Information Models and Semantic Assets
 

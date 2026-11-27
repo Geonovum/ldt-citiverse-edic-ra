@@ -353,6 +353,140 @@ REST-style APIs in this architecture are not "JSON instead of semantics". They a
 
 Where a resource has a well-known meaning, declare it: JSON-LD context, DCAT-AP metadata, a profile URI, a conformance class. That is semantic interoperability without viral coupling of the store.
 
+## Interoperability Contracts
+
+The API abstraction described above separates the public interoperability surface from the technologies used to implement it. For interoperability between Local Digital Twins, however, an API description alone is not always sufficient.
+
+A consumer may also need to know what a capability means, whether its quality is suitable for the intended purpose, under which conditions it may be used, and whether its operational characteristics fit the workflow.
+
+An **Interoperability Contract** describes the externally observable characteristics of a data product, model, service, process or other reusable capability that another participant needs in order to discover, interpret, assess and use that capability.
+
+The contract is independent from the internal implementation. Technologies such as NGSI-LD, RDF, SPARQL, OGC APIs or Data Space protocols can implement parts of an Interoperability Contract. Their use does not, by itself, constitute the complete contract.
+
+Conversely, implementations that use different internal technologies can be interoperable when they expose compatible Interoperability Contracts.
+
+### Contract dimensions
+
+Depending on the capability and interaction, an Interoperability Contract can address the following dimensions.
+
+#### Identification
+
+Participants need to be able to identify what is being offered and which version they are interacting with. This can include identifiers for resources, assets, models and services; the asset or capability type; the provider and responsible operator; version and lifecycle status; and relationships to predecessor or successor versions.
+
+Identifiers exchanged across organisational boundaries SHOULD be persistent and unambiguous within the applicable interoperability context.
+
+#### Semantics
+
+Participants need to understand the meaning of the information being exchanged. This can include concepts and their definitions, properties and relationships, vocabularies and ontologies, units of measure, code lists, spatial reference systems, temporal semantics, constraints and mappings between information models.
+
+Semantic technologies such as RDF, JSON-LD, OWL and SHACL can support this part of the contract. They do not require every participating system to use the same internal representation or query technology.
+
+Semantic interoperability is achieved when participants can establish a common interpretation of exchanged information, not merely when they use the same serialisation technology.
+
+#### Interaction
+
+Participants need to know how a capability can be used. Relevant interaction patterns include resource retrieval, querying a collection, subscription to events, synchronous invocation of a process or model, asynchronous job execution, asset transfer, contract negotiation and remote execution or compute-to-data.
+
+The interaction part of the contract describes the operations that a consumer can rely on, including relevant inputs, outputs, parameters and behaviour. No single interaction pattern is required for every Architecture Building Block.
+
+#### Representation
+
+Participants need to know which representations can be exchanged. This can include media types, serialisation formats, language, semantic profiles, geometry representations, coverage formats, encoding, compression and content negotiation.
+
+The representation exposed through an interface does not need to be the representation used internally. For example, a service can expose JSON-LD without using an RDF store, or expose GeoJSON while internally storing the same information in a spatial database.
+
+#### Quality and provenance
+
+Technical and semantic compatibility alone do not establish whether an asset is suitable for a particular purpose. Where relevant, an Interoperability Contract SHOULD expose information about fitness for purpose.
+
+This can include provenance and lineage, the responsible publisher, collection or generation method, temporal validity, spatial and temporal resolution, accuracy, precision, completeness, uncertainty, known limitations, model assumptions and calibration or validation information.
+
+Two services can therefore be technically and semantically compatible while still being unsuitable substitutes for each other.
+
+#### Security, trust and policy
+
+Participants need to know whether an interaction is permitted and under which conditions. This can include authentication, participant identity, authorisation, roles and permissions, access policies, licences, permitted purposes, usage restrictions, redistribution conditions, obligations and contractual requirements.
+
+The mechanisms required depend on the trust boundary. Within an established trust domain, conventional identity and access management may be sufficient. Across organisational trust boundaries, participant trust, contract negotiation, usage policies and controlled transfer may be required.
+
+#### Operational characteristics
+
+Interoperability also has an operational dimension. Relevant characteristics can include availability, latency, update frequency, throughput, rate limits, maximum payload size, event-delivery behaviour, timeout and retry behaviour, health and monitoring information, supported versions and deprecation policy.
+
+These characteristics become part of interoperability when they determine whether a capability can participate in a workflow. For example, two services may expose temperature using the same information model and API while still being incompatible with a real-time use case if one updates every ten seconds and the other only once per day.
+
+## Architecture Building Blocks, Contracts and Profiles
+
+Architecture Building Blocks describe architectural capabilities and SHOULD remain independent from the boundaries of specific products or implementations.
+
+An Architecture Building Block can be considered from two complementary perspectives:
+- the capability or responsibility that the architecture requires;
+- the externally observable behaviour and information that other building blocks can rely on.
+
+The Interoperability Contract describes the second perspective.
+
+A Solution Building Block can implement one or more Architecture Building Blocks. Different Solution Building Blocks can provide alternative implementations of the same Architecture Building Block because compatibility is established at the contract boundary rather than through identical internal implementation.
+
+The architecture therefore distinguishes between:
+
+**Architecture Building Block → Interoperability Contract → Interoperability Profile → Implementation**
+
+An **Architecture Building Block** identifies a capability required by the architecture.
+
+An **Interoperability Contract** defines what other participants must be able to observe, understand and rely on.
+
+An **Interoperability Profile** defines how a contract, or a defined part of it, is realised for a particular interaction or interoperability context using selected standards and constraints.
+
+An **Implementation** or Solution Building Block realises one or more profiles using a particular technology stack.
+
+This separation allows the Reference Architecture to be precise about interoperability without unnecessarily prescribing internal technologies.
+
+## Interoperability Profiles
+
+An Interoperability Contract describes externally observable requirements independently from a particular technology stack. Practical implementations require more concrete agreements. Interoperability Profiles provide this bridge.
+
+A profile selects and, where necessary, constrains standards for a defined interoperability purpose. Examples include context information exchange, geospatial resource access, catalogue and asset discovery, model and process execution, event exchange, semantic interoperability, identity and trust, and governed exchange through a Data Space.
+
+A profile can combine several standards. For example, a discovery profile can combine DCAT-AP for metadata, an API specification for catalogue access, controlled vocabularies for semantics and a mechanism for expressing access conditions. A process-execution profile can combine OGC API - Processes with semantic descriptions of inputs and outputs and additional requirements for provenance, uncertainty and operational behaviour.
+
+The architecture does not assume that a single standard covers every dimension of an Interoperability Contract. Multiple profiles MAY realise the same Architecture Building Block where different interaction patterns are justified. Profiles SHOULD make their compatibility conditions explicit.
+
+## Interoperability across trust boundaries
+
+Data Spaces address a specific and important interoperability context: governed exchange between autonomous participants. They provide capabilities such as participant identity and trust, federated discovery, contract negotiation, policy expression, controlled transfer and data sovereignty.
+
+These capabilities become relevant when an Interoperability Contract crosses organisational trust boundaries and requires more than ordinary access control.
+
+Data Space mechanisms are therefore an important part of the EDIC ecosystem, but they are not necessarily the integration mechanism for every interaction inside a Local Digital Twin. Within an established trust domain, an open standards-based API may satisfy the applicable contract without use of a Data Space connector. Across trust boundaries, a Data Space profile may add the trust, policy and contractual dimensions required for the same data product, model or service.
+
+This creates a deliberate distinction between **interoperability of a capability** and **governed federation of that capability across trust boundaries**. The second builds on the first rather than replacing it.
+
+## Relationship with LDT interoperability blueprints
+
+Implementation-oriented interoperability blueprints can complement the EDIC Reference Architecture by defining concrete profiles and patterns.
+
+The LDT4SSC Interoperability Blueprint, for example, describes patterns for composing Local Digital Twin components and evaluating whether additional components can be connected to an existing Local Digital Twin. Such patterns can inform EDIC Interoperability Profiles and provide practical validation scenarios for the contract model, including component discovery, input and output matching, semantic compatibility, policy assessment and operational compatibility.
+
+The EDIC Reference Architecture remains responsible for architectural requirements and externally observable contracts. An implementation blueprint can define one concrete way to satisfy all or part of those requirements.
+
+Conformance with an implementation blueprint does not automatically imply conformance with every aspect of the EDIC Reference Architecture. Conversely, an implementation does not need to use a particular LDT4SSC technology where it can satisfy the same EDIC Interoperability Contract through another applicable profile.
+
+## From documented to computable interoperability
+
+Initially, Interoperability Contracts may be expressed through human-readable specifications and existing machine-readable artefacts such as OpenAPI documents, DCAT-AP metadata, semantic models and policy descriptions.
+
+Over time, the EDIC SHOULD move towards contracts that are sufficiently machine-readable to support automated or machine-assisted compatibility assessment. This does not require defining a new universal metadata language. Where possible, existing standards SHOULD be composed and profiled rather than duplicated.
+
+The objective is that a participant should increasingly be able to determine, before integration:
+- whether a required capability is available;
+- whether its semantics are compatible;
+- whether transformations are required;
+- whether quality is sufficient for the intended purpose;
+- whether access and usage are permitted;
+- whether operational requirements can be met.
+
+This provides a basis for discovery, composition, procurement and conformance testing across the EDIC ecosystem.
+
 ## Implications for building blocks
 
 | Concern | Design-time (default public surface) | Run-time (behind the API, or expert) |
