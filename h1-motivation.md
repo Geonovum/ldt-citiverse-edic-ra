@@ -64,11 +64,11 @@ Federation preserves autonomy while enabling collaboration at European scale.
 
 Capabilities should be exposed through well-defined APIs before user interfaces are considered.
 
-An API is not only a convenience for developers. It is the contract that decouples how information is stored from how it is exchanged. Clients should depend on that contract, not on the native language of the store, the query engine, or a particular vendor's platform.
+An API is not only a convenience for developers. It defines an externally observable contract that decouples how a capability is implemented from how it is discovered, accessed and used. Clients should depend on that contract, not on the native language of the store, the query engine, or a particular vendor's platform.
 
 ### Rationale
 
-The architecture emphasises service ecosystems rather than monolithic applications. Practical interoperability across a network of Local Digital Twins is higher when partners share a stable, documented interface than when they must all adopt the same storage format or query language.
+The architecture emphasises service ecosystems rather than monolithic applications. Practical interoperability across a network of Local Digital Twins is higher when partners share stable, documented external contracts than when they must all adopt the same storage format, query language or technology stack.
 
 ### Implications
 
@@ -77,7 +77,8 @@ The architecture emphasises service ecosystems rather than monolithic applicatio
 - Tool interoperability is improved.
 - Integration costs are reduced.
 - Storage format, transport format and query language are allowed to differ.
-- The public interface of a building block is a documented API, not a direct handle on the database or triple store.
+- The public interface of a building block is a documented API, not a direct handle on the database, triple store or other internal implementation technology.
+- Interoperability requirements focus on externally observable behaviour rather than identical internal implementations.
 
 ## G4 – Reuse Before Build
 
